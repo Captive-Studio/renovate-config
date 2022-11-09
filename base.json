@@ -9,10 +9,10 @@
     ":ignoreModulesAndTests",
     "helpers:disableTypesNodeMajor",
     "github>w5s/renovate-config:preset/base",
-    "github>Captive-Studio/renovate-config:preset/groupAll",
-    "github>Captive-Studio/renovate-config:preset/automergeAll",
-    "github>Captive-Studio/renovate-config:preset/commit",
-    "github>Captive-Studio/renovate-config:preset/schedule"
+    "github>Captive-Studio/renovate-config//preset/groupAll",
+    "github>Captive-Studio/renovate-config//preset/automergeAll",
+    "github>Captive-Studio/renovate-config//preset/commit",
+    "github>Captive-Studio/renovate-config//preset/schedule"
   ],
   "ignoreUnstable": true,
   "lockFileMaintenance": {
