@@ -1,0 +1,50 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default base configuration for all W5s projects.",
+  "assigneesFromCodeOwners": true,
+  "assigneesSampleSize": 1,
+  "automerge": false,
+  "dependencyDashboard": true,
+  "extends": [
+    ":ignoreModulesAndTests",
+    "helpers:disableTypesNodeMajor",
+    "github>w5s/renovate-config:preset/base",
+    "github>Captive-Studio/renovate-config:preset/groupAll",
+    "github>Captive-Studio/renovate-config:preset/automergeAll",
+    "github>Captive-Studio/renovate-config:preset/commit",
+    "github>Captive-Studio/renovate-config:preset/schedule"
+  ],
+  "ignoreUnstable": true,
+  "lockFileMaintenance": {
+    "enabled": true,
+    "prPriority": 1,
+    "labels": ["AUTOMERGE"],
+    "automerge": true
+  },
+  "packageRules": [
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["major"],
+      "stabilityDays": 7
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["minor"],
+      "stabilityDays": 2
+    },
+    {
+      "matchDepTypes": ["dependencies"],
+      "matchUpdateTypes": ["patch"],
+      "stabilityDays": 2
+    }
+  ],
+  "prConcurrentLimit": 20,
+  "prCreation": "not-pending",
+  "prHourlyLimit": 0,
+  "rangeStrategy": "auto",
+  "rebaseWhen": "behind-base-branch",
+  "separateMajorMinor": true,
+  "separateMinorPatch": true,
+  "updateNotScheduled": true,
+  "platformAutomerge": true
+}

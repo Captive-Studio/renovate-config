@@ -1,0 +1,103 @@
+{
+  "name": "@captive/renovate-config",
+  "version": "1.0.0-alpha.0",
+  "private": true,
+  "description": "Renovate configuration presets",
+  "keywords": [
+    "renovate",
+    "config",
+    "dependencies"
+  ],
+  "homepage": "https://github.com/Captive-Studio/renovate-config/blob/main#readme",
+  "bugs": {
+    "url": "https://github.com/Captive-Studio/renovate-config.git/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Captive-Studio/renovate-config.git"
+  },
+  "license": "MIT",
+  "author": "Julien Polo <julien.polo@gmail.com>",
+  "scripts": {
+    "build": "concurrently \"npm:build:*\" \":\"",
+    "clean": ":",
+    "code-analysis": ":",
+    "develop": ":",
+    "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
+    "format": "eslint . --cache --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "eslint . --cache --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "prepare": "concurrently \"npm:prepare:*\" \":\"",
+    "prepare:husky": "is-ci || husky install",
+    "release": ":",
+    "rescue": "git clean -fdx;yarn install",
+    "test": "concurrently \"npm:test:*\"",
+    "test:renovate-config": "test/test.sh",
+    "test:renovate-config-schema": "ajv test -s test/schema.json -d base.json --valid",
+    "validate": "npm run build && npm run lint && npm test"
+  },
+  "commitlint": {
+    "extends": [
+      "@captive/commitlint-config"
+    ]
+  },
+  "lint-staged": {
+    "*.json": [
+      "eslint"
+    ],
+    "*.*": [
+      "cspell --no-must-find-files"
+    ],
+    "*.js?(x)": [
+      "eslint"
+    ],
+    "*.yml": [
+      "eslint"
+    ]
+  },
+  "eslintConfig": {
+    "extends": [
+      "@captive/eslint-config/es",
+      "@captive/eslint-config/json",
+      "@captive/eslint-config/yml"
+    ],
+    "root": true
+  },
+  "eslintIgnore": [
+    "lib/",
+    "node_modules/",
+    "coverage/",
+    "build/",
+    ".cache/",
+    "**/tsconfig.json",
+    ".vscode/**",
+    "public/"
+  ],
+  "devDependencies": {
+    "@babel/core": "7.20.2",
+    "@babel/eslint-parser": "7.19.1",
+    "@captive/commitlint-config": "1.1.0",
+    "@captive/eslint-config": "1.6.0",
+    "@commitlint/cli": "17.2.0",
+    "ajv-cli": "5.0.0",
+    "concurrently": "7.5.0",
+    "cspell": "6.14.0",
+    "eslint": "8.27.0",
+    "husky": "8.0.1",
+    "is-ci": "3.0.1",
+    "lint-staged": "13.0.3",
+    "markdown-magic": "2.6.1",
+    "markdown-magic-package-json": "2.0.2",
+    "markdown-magic-subpackage-list": "1.1.2",
+    "prettier": "2.7.1",
+    "renovate": "34.9.2"
+  },
+  "packageManager": "yarn@3.2.4",
+  "engines": {
+    "node": ">=12.0.0",
+    "npm": ">=6.0.0",
+    "yarn": ">=1.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}

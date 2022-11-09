@@ -1,0 +1,19 @@
+{
+  "version": "0.2",
+  "language": "en",
+  "words": ["automerge", "commitlint", "typedoc"],
+  "flagWords": [],
+  "ignoreWords": ["PKGJSON"],
+  "ignorePaths": [
+    "**/build/**",
+    "**/*.config.*",
+    "**/lib/**",
+    "**/node_modules/**",
+    "**/package.json",
+    "**/package-lock.json",
+    "**/yarn.lock",
+    "**/*.log",
+    "**/CHANGELOG.md",
+    "**/[.]*/**"
+  ]
+}

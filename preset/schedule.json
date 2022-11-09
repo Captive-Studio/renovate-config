@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Schedule out of work",
+  "schedule": [
+    "after 9pm every weekday",
+    "before 6am every weekday",
+    "every weekend"
+  ],
+  "lockFileMaintenance": {
+    "schedule": ["after 2am and before 7am on Monday"]
+  },
+  "timezone": "Europe/Paris"
+}
