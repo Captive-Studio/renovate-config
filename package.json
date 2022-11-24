@@ -75,7 +75,7 @@
   "devDependencies": {
     "@babel/core": "7.20.2",
     "@babel/eslint-parser": "7.19.1",
-    "@captive/commitlint-config": "1.1.0",
+    "@captive/commitlint-config": "1.1.2",
     "@captive/eslint-config": "1.6.0",
     "@commitlint/cli": "17.3.0",
     "ajv-cli": "5.0.0",
