@@ -1637,14 +1637,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/commitlint-config@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@captive/commitlint-config@npm:1.1.0"
+"@captive/commitlint-config@npm:1.1.2":
+  version: 1.1.2
+  resolution: "@captive/commitlint-config@npm:1.1.2"
   dependencies:
-    "@commitlint/config-conventional": ^13.0.0
+    "@w5s/commitlint-config": ^1.0.1
   peerDependencies:
-    "@commitlint/cli": ">=8"
-  checksum: ac628500efe022aad8abcb337917907ca980868267bd8fd9e7691839862e85c2318a2406e431306f88c75538a56043d9888d579045528b1bd1ecd11afbcd9654
+    "@commitlint/cli": ^16.0.0 || ^17.0.0
+  checksum: 1f09ff89b57ce6173b66cb39ce762f9586e054800029d0d1ee895e60b6cb91625fdddd34a39524b97f3fb69ae10156dc7bb1cb4cec16fe279657a361fb707c77
   languageName: node
   linkType: hard
 
@@ -1688,7 +1688,7 @@ __metadata:
   dependencies:
     "@babel/core": 7.20.2
     "@babel/eslint-parser": 7.19.1
-    "@captive/commitlint-config": 1.1.0
+    "@captive/commitlint-config": 1.1.2
     "@captive/eslint-config": 1.6.0
     "@commitlint/cli": 17.3.0
     ajv-cli: 5.0.0
@@ -1744,15 +1744,6 @@ __metadata:
   bin:
     commitlint: cli.js
   checksum: 9f544ea528198bbb8ee00c54dc68a4933c680bd6e995817b7acabe3352835ee77b7c86f522a0bb749684422d469365fdc86c134012c9b1c0af42a2e1ed3b342c
-  languageName: node
-  linkType: hard
-
-"@commitlint/config-conventional@npm:^13.0.0":
-  version: 13.2.0
-  resolution: "@commitlint/config-conventional@npm:13.2.0"
-  dependencies:
-    conventional-changelog-conventionalcommits: ^4.3.1
-  checksum: fd659269fe31df17bf479b90e915e063c7dc61b795396458d403c4154f037e152ad015463c078a881af18456c638ab3b6c1b67966abc42b131e5a900ad3c2753
   languageName: node
   linkType: hard
 
@@ -3592,6 +3583,19 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@w5s/commitlint-config@npm:^1.0.1":
+  version: 1.0.1
+  resolution: "@w5s/commitlint-config@npm:1.0.1"
+  dependencies:
+    "@commitlint/types": ^17.0.0
+    emoji-regex: ^10.2.1
+    gitmojis: ^3.13.0
+  peerDependencies:
+    "@commitlint/cli": ^16.0.0 || ^17.0.0
+  checksum: 55c988caf87bf110a70fde3a91ad1ef870b0af113ea97d8531aea03b5b14261ea6890357d582cddbcaa53ea63f49172bf51a247844e1158bdc3807fa3432b91b
+  languageName: node
+  linkType: hard
+
 "@yarnpkg/core@npm:3.2.5":
   version: 3.2.5
   resolution: "@yarnpkg/core@npm:3.2.5"
@@ -4704,17 +4708,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"conventional-changelog-conventionalcommits@npm:^4.3.1":
-  version: 4.6.3
-  resolution: "conventional-changelog-conventionalcommits@npm:4.6.3"
-  dependencies:
-    compare-func: ^2.0.0
-    lodash: ^4.17.15
-    q: ^1.5.1
-  checksum: 7b8e8a21ebb56f9aaa510e12917b7c609202072c3e71089e0a09630c37c2e8146cdb04364809839b0e3eb55f807fe84d03b2079500b37f6186d505848be5c562
-  languageName: node
-  linkType: hard
-
 "conventional-commits-detector@npm:1.0.3":
   version: 1.0.3
   resolution: "conventional-commits-detector@npm:1.0.3"
@@ -5318,7 +5311,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-regex@npm:10.2.1, emoji-regex@npm:^10.1.0":
+"emoji-regex@npm:10.2.1, emoji-regex@npm:^10.1.0, emoji-regex@npm:^10.2.1":
   version: 10.2.1
   resolution: "emoji-regex@npm:10.2.1"
   checksum: 1aa2d16881c56531fdfc03d0b36f5c2b6221cc4097499a5665b88b711dc3fb4d5b8804f0ca6f00c56e5dcf89bac75f0487eee85da1da77df3a33accc6ecbe426
@@ -6348,6 +6341,13 @@ __metadata:
   version: 1.5.0
   resolution: "github-url-from-git@npm:1.5.0"
   checksum: 928d401865f850e76dec5e604e8aad110c0e7c221362356830e5037332ec3d1c0678b6c0b2dbd6f4df0e8a34a9cd69f85dee1d4c5256bd465b5e61a1c758d23c
+  languageName: node
+  linkType: hard
+
+"gitmojis@npm:^3.13.0":
+  version: 3.13.0
+  resolution: "gitmojis@npm:3.13.0"
+  checksum: 3a40f2491a293c410523266a7de4089efad3e32254d08da4e4446d385d7d6b950aa8367a5d00b064dfe482fcde6cf43a78c173fc7c1b88587ef25f9480a0ed95
   languageName: node
   linkType: hard
 
