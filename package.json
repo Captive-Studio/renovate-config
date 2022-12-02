@@ -80,7 +80,7 @@
     "@commitlint/cli": "17.3.0",
     "ajv-cli": "5.0.0",
     "concurrently": "7.6.0",
-    "cspell": "6.15.1",
+    "cspell": "6.16.0",
     "eslint": "8.28.0",
     "husky": "8.0.2",
     "is-ci": "3.0.1",
