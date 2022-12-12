@@ -1765,7 +1765,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.1
-    renovate: 34.48.4
+    renovate: 34.55.0
   languageName: unknown
   linkType: soft
 
@@ -2963,16 +2963,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/read-project-manifest@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@pnpm/read-project-manifest@npm:4.1.0"
+"@pnpm/read-project-manifest@npm:4.1.1":
+  version: 4.1.1
+  resolution: "@pnpm/read-project-manifest@npm:4.1.1"
   dependencies:
     "@gwhitney/detect-indent": 7.0.1
     "@pnpm/error": 4.0.0
     "@pnpm/graceful-fs": 2.0.0
     "@pnpm/text.comments-parser": 1.0.0
     "@pnpm/types": 8.9.0
-    "@pnpm/write-project-manifest": 4.1.0
+    "@pnpm/write-project-manifest": 4.1.1
     fast-deep-equal: ^3.1.3
     is-windows: ^1.0.2
     json5: ^2.2.1
@@ -2980,7 +2980,7 @@ __metadata:
     read-yaml-file: ^2.1.0
     sort-keys: ^4.2.0
     strip-bom: ^4.0.0
-  checksum: 9388e92a8d6c22b2b2a842128674d5389c24b78dfb7e36c1e4d92eaf0e66a94c0ca94f64c1cb7649a5fd17147004030facd5aa995384d36fb96a7246efbea99a
+  checksum: d583f83f4d5f0f6d98a5367d38e01612fc6ffb85898911a9cb7015bdab0731f9764fafdad8832e560bf6d113bc636d8aa179ac08804ee22f9ee00f8ef84b5974
   languageName: node
   linkType: hard
 
@@ -3007,16 +3007,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/write-project-manifest@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@pnpm/write-project-manifest@npm:4.1.0"
+"@pnpm/write-project-manifest@npm:4.1.1":
+  version: 4.1.1
+  resolution: "@pnpm/write-project-manifest@npm:4.1.1"
   dependencies:
     "@pnpm/text.comments-parser": 1.0.0
     "@pnpm/types": 8.9.0
     json5: ^2.2.1
-    write-file-atomic: ^4.0.2
+    write-file-atomic: ^5.0.0
     write-yaml-file: ^4.2.0
-  checksum: 64a1c4617229d80e9b28aace2b4f56a9d09b17cee202525daca1656c22d750c26f5389d7d4e0ac4737a55e3bac3f0af955a7ec641534cc200285b0defdc4d7da
+  checksum: 97d9ada12ec9f463451e42dab307def3a896234c5099a50ef3d3794fe23fea91e5bf82e0b272f32156a4f6487220595af84fca6d9d487acd02e458dd63713b5e
   languageName: node
   linkType: hard
 
@@ -3085,17 +3085,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.0.6":
-  version: 1.0.6
-  resolution: "@renovatebot/osv-offline@npm:1.0.6"
+"@renovatebot/osv-offline@npm:1.0.7":
+  version: 1.0.7
+  resolution: "@renovatebot/osv-offline@npm:1.0.7"
   dependencies:
     "@octokit/rest": 19.0.5
     "@renovatebot/osv-offline-db": 1.0.1
     adm-zip: 0.5.9
     fs-extra: 10.1.0
     got: 11.8.5
-    luxon: 3.1.0
-  checksum: c697a8b1d6c5f2c0153dd3ad8567ccad7ca65fda5b2c71082675de3fe4e6988edf6e6ba712b5785bc45cd897ab1c310ae5e5dec9e3b9c7ea520877233807d678
+    luxon: 3.1.1
+  checksum: e0316b8ebc95a3833391bba06fbbaa9a40bbe1942b6e6c3958529cad298742fa4142f34df1c083d6acb484cfdc59ef759b9af0ade463e17b0860fc85a34d4455
   languageName: node
   linkType: hard
 
@@ -6211,16 +6211,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"find-packages@npm:10.0.3":
-  version: 10.0.3
-  resolution: "find-packages@npm:10.0.3"
+"find-packages@npm:10.0.4":
+  version: 10.0.4
+  resolution: "find-packages@npm:10.0.4"
   dependencies:
-    "@pnpm/read-project-manifest": 4.1.0
+    "@pnpm/read-project-manifest": 4.1.1
     "@pnpm/types": 8.9.0
     "@pnpm/util.lex-comparator": 1.0.0
     fast-glob: ^3.2.12
     p-filter: ^2.1.0
-  checksum: 81a96309551c9a0bf4d94cc6bbd777a3d6d146080218bd9f9f5b680ea2563762b01a4a8842b8c5c7c869dea73c057e9de1ec6047d8877b0ada7833c4e928fc13
+  checksum: 1ee7c19ce21c2061fa2397d2a0b985e50882b70f509669fa79288b1453a21f18013596bc55232773f3eebdb6c69b0efe43125d278ba4614703f37c5f7803e560
   languageName: node
   linkType: hard
 
@@ -7889,10 +7889,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:3.1.0":
-  version: 3.1.0
-  resolution: "luxon@npm:3.1.0"
-  checksum: f8a850b759ba7a2e009d904c522ed7bc264bf4add57578f8948e52a0ed96b627b025b5aad8032295b570ae19fac41f0ffab91bdb128715fb0cc020798a7ba886
+"luxon@npm:3.1.1":
+  version: 3.1.1
+  resolution: "luxon@npm:3.1.1"
+  checksum: 388fb35d3c51a19d8b305a3338e7e74634b08562e7d2f9ed5c05a7f4bc9ee1c1ab6a2546b6d9c4c104516b24043757d65f5f3fe3d78b206fbf55a9586ab62230
   languageName: node
   linkType: hard
 
@@ -8380,6 +8380,15 @@ __metadata:
   dependencies:
     brace-expansion: ^2.0.1
   checksum: 15ce53d31a06361e8b7a629501b5c75491bc2b59712d53e802b1987121d91b433d73fcc5be92974fde66b2b51d8fb28d75a9ae900d249feb792bb1ba2a4f0a90
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:5.1.1":
+  version: 5.1.1
+  resolution: "minimatch@npm:5.1.1"
+  dependencies:
+    brace-expansion: ^2.0.1
+  checksum: 215edd0978320a3354188f84a537d45841f2449af4df4379f79b9b777e71aa4f5722cc9d1717eabd2a70d38ef76ab7b708d24d83ea6a6c909dfd8833de98b437
   languageName: node
   linkType: hard
 
@@ -9593,9 +9602,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:34.48.4":
-  version: 34.48.4
-  resolution: "renovate@npm:34.48.4"
+"renovate@npm:34.55.0":
+  version: 34.55.0
+  resolution: "renovate@npm:34.55.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.154.0
     "@aws-sdk/client-ec2": 3.155.0
@@ -9616,7 +9625,7 @@ __metadata:
     "@opentelemetry/sdk-trace-base": 1.8.0
     "@opentelemetry/sdk-trace-node": 1.8.0
     "@opentelemetry/semantic-conventions": 1.8.0
-    "@renovatebot/osv-offline": 1.0.6
+    "@renovatebot/osv-offline": 1.0.7
     "@renovatebot/pep440": 2.1.5
     "@renovatebot/ruby-semver": 1.1.7
     "@sindresorhus/is": 4.6.0
@@ -9647,7 +9656,7 @@ __metadata:
     emojibase: 6.1.0
     emojibase-regex: 6.0.1
     extract-zip: 2.0.1
-    find-packages: 10.0.3
+    find-packages: 10.0.4
     find-up: 5.0.0
     fs-extra: 11.1.0
     git-url-parse: 13.1.0
@@ -9664,11 +9673,11 @@ __metadata:
     json-dup-key-validator: 1.0.3
     json-stringify-pretty-compact: 3.0.0
     json5: 2.2.1
-    luxon: 3.1.0
+    luxon: 3.1.1
     markdown-it: 13.0.1
     markdown-table: 2.0.0
     marshal: 0.5.4
-    minimatch: 5.1.0
+    minimatch: 5.1.1
     moo: 0.5.2
     nanoid: 3.3.4
     node-html-parser: 6.1.4
@@ -9689,7 +9698,7 @@ __metadata:
     semver-stable: 3.0.0
     semver-utils: 1.1.4
     shlex: 2.1.2
-    simple-git: 3.15.0
+    simple-git: 3.15.1
     slugify: 1.6.5
     traverse: 0.6.7
     tslib: 2.4.1
@@ -9704,7 +9713,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 18e3645ebd5c22056449d3bff7c6000c3bae09fac0a2db8452bd4a27e7631f8f85ad37fd349deb5e917b26f9b803e54f29f79a635b454a33629bfffcd1932b3c
+  checksum: 6c8e3f3ec4423d5f7bd75fe24bcae9e292c3684f8307f066ceae354a436f774675549b1f5914cdc4ef2f62c6752ef32d9fbb1c5863b48c523f15537ead907260
   languageName: node
   linkType: hard
 
@@ -10112,14 +10121,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.15.0":
-  version: 3.15.0
-  resolution: "simple-git@npm:3.15.0"
+"simple-git@npm:3.15.1":
+  version: 3.15.1
+  resolution: "simple-git@npm:3.15.1"
   dependencies:
     "@kwsites/file-exists": ^1.1.1
     "@kwsites/promise-deferred": ^1.1.1
     debug: ^4.3.4
-  checksum: 4733d1b769965a7608254c3a5b27532e02e60d4369bc9b397ce47159dd153344a3774739fd2602f693947ed64631b30145b970988fb007b5b779459e9abcdee8
+  checksum: 2b97c3ba3c0709eded408013336bf1822be4171d965f3ab45f5bfc05ec690f9e488e11280bec8e2faa05d3039c4769e9d8197040a48dc5cf21cc5c7fa22fe77f
   languageName: node
   linkType: hard
 
@@ -11299,13 +11308,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"write-file-atomic@npm:^4.0.2":
-  version: 4.0.2
-  resolution: "write-file-atomic@npm:4.0.2"
+"write-file-atomic@npm:^5.0.0":
+  version: 5.0.0
+  resolution: "write-file-atomic@npm:5.0.0"
   dependencies:
     imurmurhash: ^0.1.4
     signal-exit: ^3.0.7
-  checksum: 5da60bd4eeeb935eec97ead3df6e28e5917a6bd317478e4a85a5285e8480b8ed96032bbcc6ecd07b236142a24f3ca871c924ec4a6575e623ec1b11bf8c1c253c
+  checksum: 6ee16b195572386cb1c905f9d29808f77f4de2fd063d74a6f1ab6b566363832d8906a493b764ee715e57ab497271d5fc91642a913724960e8e845adf504a9837
   languageName: node
   linkType: hard
 
