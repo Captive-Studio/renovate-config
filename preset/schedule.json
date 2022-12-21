@@ -7,7 +7,7 @@
     "every weekend"
   ],
   "lockFileMaintenance": {
-    "schedule": ["after 2am and before 7am on Monday"]
+    "schedule": ["every weekend"]
   },
   "timezone": "Europe/Paris"
 }
