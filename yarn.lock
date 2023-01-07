@@ -1796,7 +1796,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.1
-    renovate: 34.74.2
+    renovate: 34.92.1
   languageName: unknown
   linkType: soft
 
@@ -3124,17 +3124,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.0.8":
-  version: 1.0.8
-  resolution: "@renovatebot/osv-offline@npm:1.0.8"
+"@renovatebot/osv-offline@npm:1.0.10":
+  version: 1.0.10
+  resolution: "@renovatebot/osv-offline@npm:1.0.10"
   dependencies:
     "@octokit/rest": 19.0.5
     "@renovatebot/osv-offline-db": 1.0.1
-    adm-zip: 0.5.9
+    adm-zip: 0.5.10
     fs-extra: 10.1.0
     got: 11.8.6
-    luxon: 3.1.1
-  checksum: c4aedaaba76800487c503603075af8e3b28cad6f656d8e37d59f425c2683d6fd6956d85c0d98553e217d7e7249a31d930e3c83c0f559528356484c23eb77befa
+    luxon: 3.2.0
+  checksum: a4f34f9383583e2f76913ede1093f5f347a036b7c75875440cb7a5b65af454d75fb1dc6f91a61351d83781b67080eb13fadacfae84f06702649140e10dd476e5
   languageName: node
   linkType: hard
 
@@ -3859,10 +3859,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"adm-zip@npm:0.5.9":
-  version: 0.5.9
-  resolution: "adm-zip@npm:0.5.9"
-  checksum: 4909bc04119fdd5e8f8ba43826e50623e5c427cf0a939c809d4f9456a6a03c6aa0544e82088739de9ba16b7649f71b99ccbbddc7b2c38bd6143f9c4726cc7ed9
+"adm-zip@npm:0.5.10":
+  version: 0.5.10
+  resolution: "adm-zip@npm:0.5.10"
+  checksum: 07ed91cf6423bf5dca4ee63977bc7635e91b8d21829c00829d48dce4c6932e1b19e6cfcbe44f1931c956e68795ae97183fc775913883fa48ce88a1ac11fb2034
   languageName: node
   linkType: hard
 
@@ -6620,15 +6620,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"good-enough-parser@npm:1.1.21":
-  version: 1.1.21
-  resolution: "good-enough-parser@npm:1.1.21"
+"good-enough-parser@npm:1.1.22":
+  version: 1.1.22
+  resolution: "good-enough-parser@npm:1.1.22"
   dependencies:
     "@thi.ng/zipper": 1.0.3
     "@types/moo": 0.5.5
     klona: 2.0.5
     moo: 0.5.2
-  checksum: 916aa7cfdd32fc226a809d59a49450c2c46ecd5858f6bcb3bde61682cc71b53d63dc2538c23a8c961917673e65d26f3b2960ad696a7cb57092c985af3e33935f
+  checksum: e80786e72613a93b638c3e511e70b56f446901843d5b5251a4f1d8c99494b400eba00946b7fba385a9c369d48547b8758476eb0b6c28ba3c98906cb23dd9443e
   languageName: node
   linkType: hard
 
@@ -7540,12 +7540,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:2.2.2, json5@npm:^2.1.3, json5@npm:^2.2.1":
-  version: 2.2.2
-  resolution: "json5@npm:2.2.2"
+"json5@npm:2.2.3, json5@npm:^2.2.2":
+  version: 2.2.3
+  resolution: "json5@npm:2.2.3"
   bin:
     json5: lib/cli.js
-  checksum: 9a878d66b72157b073cf0017f3e5d93ec209fa5943abcb38d37a54b208917c166bd473c26a24695e67a016ce65759aeb89946592991f8f9174fb96c8e2492683
+  checksum: 2a7436a93393830bce797d4626275152e37e877b265e94ca69c99e3d20c2b9dab021279146a39cdb700e71b2dd32a4cebd1514cd57cee102b1af906ce5040349
   languageName: node
   linkType: hard
 
@@ -7560,12 +7560,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json5@npm:^2.2.2":
-  version: 2.2.3
-  resolution: "json5@npm:2.2.3"
+"json5@npm:^2.1.3, json5@npm:^2.2.1":
+  version: 2.2.2
+  resolution: "json5@npm:2.2.2"
   bin:
     json5: lib/cli.js
-  checksum: 2a7436a93393830bce797d4626275152e37e877b265e94ca69c99e3d20c2b9dab021279146a39cdb700e71b2dd32a4cebd1514cd57cee102b1af906ce5040349
+  checksum: 9a878d66b72157b073cf0017f3e5d93ec209fa5943abcb38d37a54b208917c166bd473c26a24695e67a016ce65759aeb89946592991f8f9174fb96c8e2492683
   languageName: node
   linkType: hard
 
@@ -7886,10 +7886,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:3.1.1":
-  version: 3.1.1
-  resolution: "luxon@npm:3.1.1"
-  checksum: 388fb35d3c51a19d8b305a3338e7e74634b08562e7d2f9ed5c05a7f4bc9ee1c1ab6a2546b6d9c4c104516b24043757d65f5f3fe3d78b206fbf55a9586ab62230
+"luxon@npm:3.2.0":
+  version: 3.2.0
+  resolution: "luxon@npm:3.2.0"
+  checksum: 9a54fc68f1735259095299616c7d01967fb52a9c3500c6b31f97c477574122c62dc0f119d13abc04daaf545e1b8f37a63642b45cd04a240ff59987ceb6ec02c0
   languageName: node
   linkType: hard
 
@@ -9577,9 +9577,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:34.74.2":
-  version: 34.74.2
-  resolution: "renovate@npm:34.74.2"
+"renovate@npm:34.92.1":
+  version: 34.92.1
+  resolution: "renovate@npm:34.92.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.226.0
     "@aws-sdk/client-ec2": 3.226.0
@@ -9600,7 +9600,7 @@ __metadata:
     "@opentelemetry/sdk-trace-base": 1.8.0
     "@opentelemetry/sdk-trace-node": 1.8.0
     "@opentelemetry/semantic-conventions": 1.8.0
-    "@renovatebot/osv-offline": 1.0.8
+    "@renovatebot/osv-offline": 1.0.10
     "@renovatebot/pep440": 2.1.6
     "@renovatebot/ruby-semver": 1.1.7
     "@sindresorhus/is": 4.6.0
@@ -9637,7 +9637,7 @@ __metadata:
     git-url-parse: 13.1.0
     github-url-from-git: 1.5.0
     global-agent: 3.0.0
-    good-enough-parser: 1.1.21
+    good-enough-parser: 1.1.22
     got: 11.8.6
     graph-data-structure: 2.0.0
     handlebars: 4.7.7
@@ -9647,8 +9647,8 @@ __metadata:
     js-yaml: 4.1.0
     json-dup-key-validator: 1.0.3
     json-stringify-pretty-compact: 3.0.0
-    json5: 2.2.2
-    luxon: 3.1.1
+    json5: 2.2.3
+    luxon: 3.2.0
     markdown-it: 13.0.1
     markdown-table: 2.0.0
     marshal: 0.5.4
@@ -9668,7 +9668,7 @@ __metadata:
     redis: 4.5.1
     remark: 13.0.0
     remark-github: 10.1.0
-    safe-stable-stringify: 2.4.1
+    safe-stable-stringify: 2.4.2
     semver: 7.3.8
     semver-stable: 3.0.0
     semver-utils: 1.1.4
@@ -9689,7 +9689,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: bd27985a57a4356393ed85bc9ff3a96b9fdac1c177f60a335afcdec0e83739d4a6e86fecef4afdf747081bb5525b5ebde3b36993ffa8b5d031095e9cfee93587
+  checksum: ee3ca649841d117f10c879fbec9378c6ffce8bacf5ce6d7b5cb24c6fbcdefdd75778dede4bb24315c1dec54def961c7132d06d5d176e3fb8c96569f40f23b600
   languageName: node
   linkType: hard
 
@@ -9942,10 +9942,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"safe-stable-stringify@npm:2.4.1":
-  version: 2.4.1
-  resolution: "safe-stable-stringify@npm:2.4.1"
-  checksum: d8e505c462031301040605a4836ca25b52a1744eff01b0939b4d43136638fb8e88e0cec3d3ab6ab8e26f501086e6ba6bf34b228f57bf2ac56cb8d4061355d723
+"safe-stable-stringify@npm:2.4.2":
+  version: 2.4.2
+  resolution: "safe-stable-stringify@npm:2.4.2"
+  checksum: 0324ba2e40f78cae63e31a02b1c9bdf1b786621f9e8760845608eb9e81aef401944ac2078e5c9c1533cf516aea34d08fa8052ca853637ced84b791caaf1e394e
   languageName: node
   linkType: hard
 
