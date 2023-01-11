@@ -20,7 +20,6 @@
   "lockFileMaintenance": {
     "enabled": true,
     "prPriority": 1,
-    "labels": ["AUTOMERGE"],
     "automerge": true
   },
   "packageRules": [
