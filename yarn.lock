@@ -1758,7 +1758,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.2
-    renovate: 34.92.1
+    renovate: 34.100.1
   languageName: unknown
   linkType: soft
 
@@ -2714,7 +2714,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/rest@npm:19.0.5":
+"@octokit/rest@npm:^19.0.5":
   version: 19.0.5
   resolution: "@octokit/rest@npm:19.0.5"
   dependencies:
@@ -3069,26 +3069,26 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline-db@npm:1.0.1":
-  version: 1.0.1
-  resolution: "@renovatebot/osv-offline-db@npm:1.0.1"
+"@renovatebot/osv-offline-db@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@renovatebot/osv-offline-db@npm:1.1.0"
   dependencies:
-    "@seald-io/nedb": 3.1.0
-  checksum: 78cba35f61c9ed38526bd0a9454435f757294cf17d806299fb583b79b0b67a13b5e5f8d708239f42ca460102db53d2e3ac31ee5d8603d4ad6ceb828eed4aebb4
+    "@seald-io/nedb": ^3.1.0
+  checksum: 6b6f2de47bab631e8eaedb65441cc6c4b7c67f6bc7be27219bc90075d4d352fd14fe70d6fa22f17570b7cb45fe62a605ad79e2d6a5d7bfa01cc1d38b43641e39
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.0.10":
-  version: 1.0.10
-  resolution: "@renovatebot/osv-offline@npm:1.0.10"
+"@renovatebot/osv-offline@npm:1.1.0":
+  version: 1.1.0
+  resolution: "@renovatebot/osv-offline@npm:1.1.0"
   dependencies:
-    "@octokit/rest": 19.0.5
-    "@renovatebot/osv-offline-db": 1.0.1
-    adm-zip: 0.5.10
-    fs-extra: 10.1.0
-    got: 11.8.6
-    luxon: 3.2.0
-  checksum: a4f34f9383583e2f76913ede1093f5f347a036b7c75875440cb7a5b65af454d75fb1dc6f91a61351d83781b67080eb13fadacfae84f06702649140e10dd476e5
+    "@octokit/rest": ^19.0.5
+    "@renovatebot/osv-offline-db": 1.1.0
+    adm-zip: ~0.5.10
+    fs-extra: ^10.1.0
+    got: ^11.8.6
+    luxon: ^3.2.1
+  checksum: 9a5ddebe6723433962839e0025f2dc1a52dac79d3ada94327ad747ae6f87af690237c4c68f61cdb2e64d93b08ad7439c14aeaba94f9da223de73526b5674e399
   languageName: node
   linkType: hard
 
@@ -3099,12 +3099,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/ruby-semver@npm:1.1.7":
-  version: 1.1.7
-  resolution: "@renovatebot/ruby-semver@npm:1.1.7"
+"@renovatebot/ruby-semver@npm:1.1.8":
+  version: 1.1.8
+  resolution: "@renovatebot/ruby-semver@npm:1.1.8"
   dependencies:
     tslib: 2.4.1
-  checksum: 46aa5985d234a8d9d5bdf3c9e6f02c8767fcb1928081060c0ce7f6caf9fe90955fe2adc61045e7f711c52ece371ebae40711dd09eecbdbd1a26282ed37a7471b
+  checksum: 9196a247e30bb6ee1a556250411eb879f69ba05c3397ac3cf2bf281a9adbdcff133be9c811248116ba748bd876ef0c95e244fc1d64a82e8afbf6d3f73f5cb4ba
   languageName: node
   linkType: hard
 
@@ -3122,7 +3122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@seald-io/nedb@npm:3.1.0":
+"@seald-io/nedb@npm:^3.1.0":
   version: 3.1.0
   resolution: "@seald-io/nedb@npm:3.1.0"
   dependencies:
@@ -3813,7 +3813,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"adm-zip@npm:0.5.10":
+"adm-zip@npm:~0.5.10":
   version: 0.5.10
   resolution: "adm-zip@npm:0.5.10"
   checksum: 07ed91cf6423bf5dca4ee63977bc7635e91b8d21829c00829d48dce4c6932e1b19e6cfcbe44f1931c956e68795ae97183fc775913883fa48ce88a1ac11fb2034
@@ -6247,17 +6247,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:10.1.0":
-  version: 10.1.0
-  resolution: "fs-extra@npm:10.1.0"
-  dependencies:
-    graceful-fs: ^4.2.0
-    jsonfile: ^6.0.1
-    universalify: ^2.0.0
-  checksum: dc94ab37096f813cc3ca12f0f1b5ad6744dfed9ed21e953d72530d103cea193c2f81584a39e9dee1bea36de5ee66805678c0dddc048e8af1427ac19c00fffc50
-  languageName: node
-  linkType: hard
-
 "fs-extra@npm:11.1.0, fs-extra@npm:^11.0.0, fs-extra@npm:^11.1.0":
   version: 11.1.0
   resolution: "fs-extra@npm:11.1.0"
@@ -6266,6 +6255,17 @@ __metadata:
     jsonfile: ^6.0.1
     universalify: ^2.0.0
   checksum: 5ca476103fa1f5ff4a9b3c4f331548f8a3c1881edaae323a4415d3153b5dc11dc6a981c8d1dd93eec8367ceee27b53f8bd27eecbbf66ffcdd04927510c171e7f
+  languageName: node
+  linkType: hard
+
+"fs-extra@npm:^10.1.0":
+  version: 10.1.0
+  resolution: "fs-extra@npm:10.1.0"
+  dependencies:
+    graceful-fs: ^4.2.0
+    jsonfile: ^6.0.1
+    universalify: ^2.0.0
+  checksum: dc94ab37096f813cc3ca12f0f1b5ad6744dfed9ed21e953d72530d103cea193c2f81584a39e9dee1bea36de5ee66805678c0dddc048e8af1427ac19c00fffc50
   languageName: node
   linkType: hard
 
@@ -6620,7 +6620,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"got@npm:11.8.6, got@npm:^11.7.0":
+"got@npm:11.8.6, got@npm:^11.7.0, got@npm:^11.8.6":
   version: 11.8.6
   resolution: "got@npm:11.8.6"
   dependencies:
@@ -6768,6 +6768,13 @@ __metadata:
     is-stream: ^2.0.0
     type-fest: ^0.8.0
   checksum: 06cc474bed246761ff61c19d629977eb5f53fa817be4313a255a64ae0f433e831a29e83acb6555e3f4592b348497596f1d1653751008dda4f21c9c21ca60ac5a
+  languageName: node
+  linkType: hard
+
+"hcl2-parser@npm:1.0.3":
+  version: 1.0.3
+  resolution: "hcl2-parser@npm:1.0.3"
+  checksum: b87c0a3fe7d1e24f4072c3c4c50d00a40f06e5ae5cc6496a241306223e54159daf953cb19eaff021c51910ca3a9ce17413a473671b48a35d1764728bb403fddc
   languageName: node
   linkType: hard
 
@@ -7874,10 +7881,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:3.2.0":
-  version: 3.2.0
-  resolution: "luxon@npm:3.2.0"
-  checksum: 9a54fc68f1735259095299616c7d01967fb52a9c3500c6b31f97c477574122c62dc0f119d13abc04daaf545e1b8f37a63642b45cd04a240ff59987ceb6ec02c0
+"luxon@npm:3.2.1, luxon@npm:^3.2.1":
+  version: 3.2.1
+  resolution: "luxon@npm:3.2.1"
+  checksum: 3fa3def2c5f5d3032b4c46220c4da8aeb467ac979888fc9d2557adcd22195f93516b4ad5909a75862bec8dc6ddc0953b0f38e6d2f4a8ab8450ddc531a83cf20d
   languageName: node
   linkType: hard
 
@@ -9574,9 +9581,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:34.92.1":
-  version: 34.92.1
-  resolution: "renovate@npm:34.92.1"
+"renovate@npm:34.100.1":
+  version: 34.100.1
+  resolution: "renovate@npm:34.100.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.226.0
     "@aws-sdk/client-ec2": 3.226.0
@@ -9597,9 +9604,9 @@ __metadata:
     "@opentelemetry/sdk-trace-base": 1.8.0
     "@opentelemetry/sdk-trace-node": 1.8.0
     "@opentelemetry/semantic-conventions": 1.8.0
-    "@renovatebot/osv-offline": 1.0.10
+    "@renovatebot/osv-offline": 1.1.0
     "@renovatebot/pep440": 2.1.6
-    "@renovatebot/ruby-semver": 1.1.7
+    "@renovatebot/ruby-semver": 1.1.8
     "@sindresorhus/is": 4.6.0
     "@types/tmp": 0.2.3
     "@yarnpkg/core": 3.3.1
@@ -9639,13 +9646,14 @@ __metadata:
     graph-data-structure: 2.0.0
     handlebars: 4.7.7
     hasha: 5.2.2
+    hcl2-parser: 1.0.3
     ignore: 5.2.4
     ini: 3.0.1
     js-yaml: 4.1.0
     json-dup-key-validator: 1.0.3
     json-stringify-pretty-compact: 3.0.0
     json5: 2.2.3
-    luxon: 3.2.0
+    luxon: 3.2.1
     markdown-it: 13.0.1
     markdown-table: 2.0.0
     marshal: 0.5.4
@@ -9686,7 +9694,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: ee3ca649841d117f10c879fbec9378c6ffce8bacf5ce6d7b5cb24c6fbcdefdd75778dede4bb24315c1dec54def961c7132d06d5d176e3fb8c96569f40f23b600
+  checksum: 0e15d710690f35ca7e83a274907794af9714191d7cbbbb7912e78efa8f926efc92ebe0687f8b6267d481088bb1ab951596bede23e7e003dc53be02a57f871f73
   languageName: node
   linkType: hard
 
