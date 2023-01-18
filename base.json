@@ -1,13 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Default base configuration for all W5s projects.",
-  "assigneesFromCodeOwners": true,
-  "assigneesSampleSize": 1,
-  "automerge": false,
+  "description": "Default base configuration for all Captive projects.",
   "dependencyDashboard": true,
   "extends": [
-    ":ignoreModulesAndTests",
-    "helpers:disableTypesNodeMajor",
     "github>w5s/renovate-config:base",
     "github>Captive-Studio/renovate-config//preset/groupAll",
     "github>Captive-Studio/renovate-config//preset/automergeAll",
@@ -16,12 +11,6 @@
     "workarounds:all"
   ],
   "onboarding": false,
-  "ignoreUnstable": true,
-  "lockFileMaintenance": {
-    "enabled": true,
-    "prPriority": 1,
-    "automerge": true
-  },
   "packageRules": [
     {
       "matchDepTypes": ["dependencies"],
@@ -40,12 +29,6 @@
     }
   ],
   "prConcurrentLimit": 20,
-  "prCreation": "not-pending",
   "prHourlyLimit": 0,
-  "rangeStrategy": "auto",
-  "rebaseWhen": "behind-base-branch",
-  "separateMajorMinor": true,
-  "separateMinorPatch": true,
-  "updateNotScheduled": true,
   "platformAutomerge": true
 }
