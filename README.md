@@ -15,29 +15,86 @@
   * go to [Renovate Dashboard](https://app.renovatebot.com/dashboard) to add your project,
   * accept Renovate Bot PR
 
+## Features
+
+* ✅ Automerge only when safe
+  * When dev dependency that is self validated by CI
+  * When project is following semantic-versionning and well maintained
+* 🚄 Focus on productivity
+  * The configuration should not overburden the team by creating a great amount of PR, it should be a safe way to automate and save time
+* ✓ Main Supported Technologies
+  * Ruby
+  * NodeJS
+  * Docker
+* 🗓️ Scheduled to run outside working hours (night and weekend)
+
 ## Usage
 
-### Renovate Configuration
+### PHASE 1: Onboarding and trial (~ 1 day to 1 week)
 
-`renovate.json`
+1. Extend Shared configuration in your project
 
-**JavaScript application** (dashboard, static website generator):
+    `renovate.json`
 
-```json
+    **Application** (dashboard, static website generator):
+
+    ```jsonc
+    // renovate.json
+    {
+        "extends": [
+            // Dependencies will be pinned
+            "github>Captive-Studio/renovate-config:application"
+        ]
+    }
+    ```
+
+    **Library** :
+
+    ```jsonc
+    // renovate.json
+    {
+        "extends": [
+            // Dependencies will not be pinned
+            "github>Captive-Studio/renovate-config:library"
+        ]
+    }
+    ```
+
+2. Ensure `CODEOWNERS` is setup
+
+    ✓ Prefer email (`xxx.xxx@captive.fr`) or team reference `@TeamName` for owners
+
+3. Limit Pull request per hour (Optional)
+
+    _⚠️ only for old/not maintained projects_
+
+    ```diff
+    {
+    "extends": [
+        "github>Captive-Studio/renovate-config:..."
+    ],
+    -
+    +  "prHourlyLimit": 2
+    }
+    ```
+
+4. After each Pull Request creation
+
+    1. Add checks / tests / end to end tests that would enable `automerge` (if possible)
+    2. For the concerned package, enable `automerge` into the project -OR- into this shared configuration
+    3. Do not merge manually, check that automerge is working
+
+### PHASE 2: Regular maintenance
+
+Ensure that Renovate will update every possible packages.
+
+```diff
 {
   "extends": [
-    "github>Captive-Studio/renovate-config:application"
-  ]
-}
-```
-
-**JavaScript library** :
-
-```json
-{
-  "extends": [
-    "github>Captive-Studio/renovate-config:library"
-  ]
+    "github>Captive-Studio/renovate-config:..."
+  ],
+-  "prHourlyLimit": 2
++
 }
 ```
 
@@ -51,10 +108,8 @@
 <!-- VARIABLES -->
 
 <!-- AUTO-GENERATED-CONTENT:START (PKGJSON:template=[package-version-svg]: https://img.shields.io/npm/v/${name}.svg?style=flat-square) -->
-[package-version-svg]: https://img.shields.io/npm/v/@captive/renovate-config.svg?style=flat-square
 <!-- AUTO-GENERATED-CONTENT:END -->
 <!-- AUTO-GENERATED-CONTENT:START (PKGJSON:template=[package-url]: https://www.npmjs.com/package/${name}) -->
-[package-url]: https://www.npmjs.com/package/@captive/renovate-config
 <!-- AUTO-GENERATED-CONTENT:END -->
 <!-- AUTO-GENERATED-CONTENT:START (PKGJSON:template=[license-image]: https://img.shields.io/badge/license-${license}-green.svg?style=flat-square) -->
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
