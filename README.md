@@ -60,7 +60,8 @@
     }
     ```
 
-2. Ensure `CODEOWNERS` is setup
+2. Ensure `CODEOWNERS` is setup ( [example](./CODEOWNERS) )
+    _⚠️ If not set, pull request will not be automatically assigned. The consequence is often that nobody cares about maintenance_
 
     ✓ Prefer email (`xxx.xxx@captive.fr`) or team reference `@TeamName` for owners
 
