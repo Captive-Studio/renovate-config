@@ -65,19 +65,21 @@
 
     ✓ Prefer email (`xxx.xxx@captive.fr`) or team reference `@TeamName` for owners
 
-3. Limit Pull request per hour (Optional)
+3. Limit Pull request maximum concurrency (Optional)
 
     _⚠️ only for old/not maintained projects_
 
     ```diff
     {
     "extends": [
-        "github>Captive-Studio/renovate-config:..."
-    ],
+        "github>Captive-Studio/renovate-config:...",
     -
-    +  "prHourlyLimit": 2
-    }
+    +  "github>Captive-Studio/renovate-config:temp-limited"
+    ],
+    
     ```
+
+    _This configuration will limit arbitrarily concurrent PR to 6 (to avoid excess of PR)_
 
 4. After each Pull Request creation
 
@@ -92,10 +94,11 @@ Ensure that Renovate will update every possible packages.
 ```diff
 {
   "extends": [
-    "github>Captive-Studio/renovate-config:..."
-  ],
--  "prHourlyLimit": 2
+    "github>Captive-Studio/renovate-config:...",
+-  "github>Captive-Studio/renovate-config:temp-limited"
 +
+  ],
+
 }
 ```
 
