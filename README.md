@@ -41,6 +41,7 @@
     ```jsonc
     // renovate.json
     {
+        "$schema": "https://docs.renovatebot.com/renovate-schema.json",
         "extends": [
             // Dependencies will be pinned
             "github>Captive-Studio/renovate-config:application"
@@ -53,6 +54,7 @@
     ```jsonc
     // renovate.json
     {
+        "$schema": "https://docs.renovatebot.com/renovate-schema.json",
         "extends": [
             // Dependencies will not be pinned
             "github>Captive-Studio/renovate-config:library"
