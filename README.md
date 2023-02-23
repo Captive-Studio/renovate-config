@@ -30,13 +30,25 @@
 
 ## Usage
 
-### PHASE 1: Onboarding and trial (~ 1 day to 1 week)
+### Requirements
+
+* ✓ Renovate bot instance is already configured and has the permissions to access the repository
+
+### PHASE 1: Configuration
+
+_⏱️ ~ 5min - 1 day, depending on the type of Renovate schedule_
+
+> 🎯 Intention
+>
+> * Configure Renovate bot to be able Pull Request on a given repository
+> * Limit Renovate bot to not create more Pull Request that the team can handle
+> * Schedule in the `renovate.json` so that it does not interfere with daily work
 
 1. Extend Shared configuration in your project
 
-    `renovate.json`
+    **Application**
 
-    **Application** (dashboard, static website generator):
+    A repository that will never be used as dependency.
 
     ```jsonc
     // renovate.json
@@ -51,6 +63,8 @@
 
     **Library** :
 
+    A repository that will be reused by others.
+
     ```jsonc
     // renovate.json
     {
@@ -63,6 +77,7 @@
     ```
 
 2. Ensure `CODEOWNERS` is setup ( [example](./CODEOWNERS) )
+
     _⚠️ If not set, pull request will not be automatically assigned. The consequence is often that nobody cares about maintenance_
 
     ✓ Prefer email (`xxx.xxx@captive.fr`) or team reference `@TeamName` for owners
@@ -83,15 +98,38 @@
 
     _This configuration will limit arbitrarily concurrent PR to 6 (to avoid excess of PR)_
 
-4. After each Pull Request creation
+4. Check for "Dependency Dashboard" issue in Github/Gitlab (after few minutes)
 
-    1. Add checks / tests / end to end tests that would enable `automerge` (if possible)
-    2. For the concerned package, enable `automerge` into the project -OR- into this shared configuration
-    3. Do not merge manually, check that automerge is working
+5. 🎉 Renovate bot will create pull requests on the next schedule !
 
-### PHASE 2: Regular maintenance
+### PHASE 2: Automation and Noise reduction
 
-Ensure that Renovate will update every possible packages.
+_⏱️ ~ 1 day to 1 week_
+
+> 🎯 Intention
+>
+> * Automate as much as possible (`automerge: true`)
+> * Ownership : do not let unmerged PR stay more than 24 hours in the repository
+> * Safety first, do not automate if there is a risk of critical regression
+
+After each manual Pull Request creation, improve automation :
+
+1. Add checks / tests / end to end tests that would enable `automerge` (if possible)
+2. Enable `automerge` into the project -OR- into this shared configuration, for the PR package
+3. Trigger a PR rebase from renovate, and check that Automerge is enabled in the updated PR description
+
+### PHASE 3: Regular maintenance
+
+> 🎯 Intention
+>
+> * Keep the number of outdated packages to 0 most of the time
+
+Requirements :
+
+* ✓ The stock of outdated packages was reduced by phase 2 and is low
+* ✓ The team can handle all PR if they were created
+
+Ensure that Renovate will update every possible packages, as soon as possible.
 
 ```diff
 {
