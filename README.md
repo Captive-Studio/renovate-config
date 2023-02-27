@@ -91,7 +91,7 @@ _⏱️ ~ 5min - 1 day, depending on the type of Renovate schedule_
     "extends": [
         "github>Captive-Studio/renovate-config:...",
     -
-    +  "github>Captive-Studio/renovate-config:temp-limited"
+    +  "github>Captive-Studio/renovate-config:rate-limited"
     ],
     
     ```
@@ -135,7 +135,7 @@ Ensure that Renovate will update every possible packages, as soon as possible.
 {
   "extends": [
     "github>Captive-Studio/renovate-config:...",
--  "github>Captive-Studio/renovate-config:temp-limited"
+-  "github>Captive-Studio/renovate-config:rate-limited"
 +
   ],
 
