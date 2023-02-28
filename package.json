@@ -14,21 +14,25 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Captive-Studio/renovate-config.git"
+    "url": "git@github.com:Captive-Studio/renovate-config.git"
   },
   "license": "MIT",
   "author": "Julien Polo <julien.polo@gmail.com>",
+  "type": "module",
   "scripts": {
     "build": "concurrently \"npm:build:*\" \":\"",
-    "clean": ":",
+    "clean": "concurrently \"npm:clean:*\" \":\"",
     "code-analysis": ":",
     "configure": "npm run mrm -- configure",
     "develop": ":",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
-    "format": "eslint . --cache --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
-    "lint": "eslint . --cache --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "format": "concurrently \"npm:format:*\" \":\"",
+    "format:src": "eslint . --cache --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint": "concurrently \"npm:lint:*\" \":\"",
+    "lint:src": "eslint . --cache --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
     "mrm": "npm exec --package=mrm --package=@w5s/mrm-preset@latest -- mrm --preset @w5s/mrm-preset",
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
+    "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
     "prepare:husky": "is-ci || husky install",
     "release": ":",
     "rescue": "git clean -fdx;yarn install",
@@ -43,16 +47,19 @@
     ]
   },
   "lint-staged": {
-    "*.json": [
-      "eslint"
-    ],
     "*.*": [
       "cspell --no-must-find-files"
     ],
     "*.js?(x)": [
       "eslint"
     ],
-    "*.yml": [
+    "*.{json,jsonc,json5}": [
+      "eslint"
+    ],
+    "*.{yml,yaml}": [
+      "eslint"
+    ],
+    "*.ts?(x)": [
       "eslint"
     ]
   },
@@ -77,14 +84,10 @@
   "devDependencies": {
     "@captive/commitlint-config": "1.1.10",
     "@captive/eslint-config": "1.7.18",
-    "@commitlint/cli": "17.4.4",
     "ajv-cli": "5.0.0",
     "concurrently": "7.6.0",
     "cspell": "6.26.3",
     "eslint": "8.34.0",
-    "husky": "8.0.3",
-    "is-ci": "3.0.1",
-    "lint-staged": "13.1.2",
     "markdown-magic": "2.6.1",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
