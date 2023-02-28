@@ -33,7 +33,6 @@
     "mrm": "npm exec --package=mrm --package=@w5s/mrm-preset@latest -- mrm --preset @w5s/mrm-preset",
     "prepare": "concurrently \"npm:prepare:*\" \":\"",
     "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
-    "prepare:husky": "is-ci || husky install",
     "release": ":",
     "rescue": "git clean -fdx;yarn install",
     "test": "concurrently \"npm:test:*\"",
@@ -65,22 +64,10 @@
   },
   "eslintConfig": {
     "extends": [
-      "@captive/eslint-config/es",
-      "@captive/eslint-config/json",
-      "@captive/eslint-config/yml"
+      "@captive/eslint-config"
     ],
     "root": true
   },
-  "eslintIgnore": [
-    "lib/",
-    "node_modules/",
-    "coverage/",
-    "build/",
-    ".cache/",
-    "**/tsconfig.json",
-    ".vscode/**",
-    "public/"
-  ],
   "devDependencies": {
     "@captive/commitlint-config": "1.1.10",
     "@captive/eslint-config": "1.7.18",
@@ -96,7 +83,7 @@
   },
   "packageManager": "yarn@3.4.1",
   "engines": {
-    "node": ">=12.0.0",
+    "node": ">=16.0.0",
     "npm": ">=6.0.0",
     "yarn": ">=1.0.0"
   },
