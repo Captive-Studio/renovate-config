@@ -35,6 +35,7 @@
     "prepare:githooks": "[ -n \"${CI:-}\" ] || npx husky install .githooks",
     "release": ":",
     "rescue": "git clean -fdx;yarn install",
+    "spellcheck": "npx cspell '**/*' --no-progress",
     "test": "concurrently \"npm:test:*\"",
     "test:renovate-config": "test/test.sh",
     "test:renovate-config-schema": "ajv test -s test/schema.json -d base.json --valid",
@@ -70,6 +71,7 @@
   },
   "devDependencies": {
     "@captive/commitlint-config": "1.1.10",
+    "@captive/cspell-config": "1.0.2",
     "@captive/eslint-config": "1.7.18",
     "ajv-cli": "5.0.0",
     "concurrently": "7.6.0",
