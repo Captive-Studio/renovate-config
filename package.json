@@ -76,7 +76,7 @@
     "ajv-cli": "5.0.0",
     "concurrently": "7.6.0",
     "cspell": "6.26.3",
-    "eslint": "8.34.0",
+    "eslint": "8.35.0",
     "markdown-magic": "2.6.1",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
