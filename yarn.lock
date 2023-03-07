@@ -1504,9 +1504,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/commitlint-config@npm:1.1.11":
-  version: 1.1.11
-  resolution: "@captive/commitlint-config@npm:1.1.11"
+"@captive/commitlint-config@npm:1.1.12":
+  version: 1.1.12
+  resolution: "@captive/commitlint-config@npm:1.1.12"
   dependencies:
     "@w5s/commitlint-config": ^1.0.3
   peerDependencies:
@@ -1514,7 +1514,7 @@ __metadata:
   peerDependenciesMeta:
     "@commitlint/cli":
       optional: true
-  checksum: d6089d8fc7c69b8c6f1418869e5e404207572f24f9510353ca36878c69de32fa317f853d7aa11df321b186caa4223e08466c5a7e2b862f608e4dcd6fdc4df820
+  checksum: 3be5155efdf27b665d2b9ade96179efe7754aec395af05d799a8334906a63d272a6b7b6591b92f6c34fca78ba59838b78a13da6e047178f54b09d69608b538b7
   languageName: node
   linkType: hard
 
@@ -1573,7 +1573,7 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "@captive/renovate-config@workspace:."
   dependencies:
-    "@captive/commitlint-config": 1.1.11
+    "@captive/commitlint-config": 1.1.12
     "@captive/cspell-config": 1.0.3
     "@captive/eslint-config": 1.7.19
     ajv-cli: 5.0.0
