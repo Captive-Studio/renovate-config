@@ -47,9 +47,6 @@
     ]
   },
   "lint-staged": {
-    "*.*": [
-      "cspell --no-must-find-files"
-    ],
     "*.js?(x)": [
       "eslint"
     ],
