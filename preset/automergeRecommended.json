@@ -5,7 +5,14 @@
     {
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
-      "matchPackageNames": ["core-js", "date-fns", "ionicons", "pinia"],
+      "matchPackageNames": [
+        "core-js",
+        "date-fns",
+        "ionicons",
+        "pinia",
+        "vue",
+        "vue-router"
+      ],
       "matchPackagePrefixes": ["@capacitor/", "@ionic/", "@vue/"]
     }
   ]
