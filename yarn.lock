@@ -1533,9 +1533,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.7.20":
-  version: 1.7.20
-  resolution: "@captive/eslint-config@npm:1.7.20"
+"@captive/eslint-config@npm:1.7.21":
+  version: 1.7.21
+  resolution: "@captive/eslint-config@npm:1.7.21"
   dependencies:
     "@captive/prettier-config": ^1.1.10
     "@w5s/dev": ^1.0.0-alpha.3
@@ -1551,7 +1551,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: 6f943a422dcf1eb22131d6a1b6f743e6e02409ffe7e5fa7fc796bbf5afff3984561be25513a80a276307cbbcb77d7c66111724feab147ccf8aa70f8e34dd0c28
+  checksum: 7953dedfacf2560536365851f5656d6f3fb8616939bc2992a83be5052f709be45adecf1d2f5c900f80905303e2033dbfe54fb6befd3004e23c0dc4685a0341be
   languageName: node
   linkType: hard
 
@@ -1575,7 +1575,7 @@ __metadata:
   dependencies:
     "@captive/commitlint-config": 1.1.12
     "@captive/cspell-config": 1.0.4
-    "@captive/eslint-config": 1.7.20
+    "@captive/eslint-config": 1.7.21
     ajv-cli: 5.0.0
     concurrently: 7.6.0
     cspell: 6.28.0
