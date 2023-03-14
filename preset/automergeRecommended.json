@@ -11,9 +11,11 @@
         "ionicons",
         "pinia",
         "vue",
-        "vue-router"
+        "vue-router",
+        "@ionic/lab",
+        "@vue/test-utils"
       ],
-      "matchPackagePrefixes": ["@capacitor/", "@ionic/", "@vue/"]
+      "matchPackagePrefixes": ["@capacitor/"]
     }
   ]
 }
