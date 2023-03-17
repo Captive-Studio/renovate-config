@@ -80,7 +80,7 @@ _⏱️ ~ 5min - 1 day, depending on the type of Renovate schedule_
 
     _⚠️ If not set, pull request will not be automatically assigned. The consequence is often that nobody cares about maintenance_
 
-    ✓ Prefer person (`@first_name.last_name`) or team reference `@TeamName` for owners
+    ✓ Use person (`@first_name.last_name`) or team reference `@TeamName` for owners
 
 3. Limit Pull request maximum concurrency (Optional)
 
