@@ -30,5 +30,6 @@
   ],
   "prConcurrentLimit": 20,
   "prHourlyLimit": 0,
-  "platformAutomerge": true
+  "platformAutomerge": true,
+  "updateNotScheduled": false
 }
