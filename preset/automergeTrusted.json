@@ -1,0 +1,21 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Automerge Trusted packages",
+  "packageRules": [
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "matchPackageNames": [
+        "core-js",
+        "date-fns",
+        "ionicons",
+        "pinia",
+        "vue",
+        "vue-router",
+        "@ionic/lab",
+        "@vue/test-utils"
+      ],
+      "matchPackagePrefixes": ["@capacitor/"]
+    }
+  ]
+}
