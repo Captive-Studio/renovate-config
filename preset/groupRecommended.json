@@ -3,6 +3,7 @@
   "extends": [
     "group:capacitorMonorepo",
     "group:ionic-nativeMonorepo",
+    "github>Captive-Studio/renovate-config//preset/groupIonicMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupRailsPlusJs"
   ]
 }
