@@ -3,7 +3,10 @@
   "packageRules": [
     {
       "groupName": "Ionic monorepo",
-      "matchSourceUrls": ["https://github.com/ionic-team/ionic-framework"]
+      "matchSourceUrls": [
+        "https://github.com/ionic-team/ionic-framework",
+        "https://github.com/ionic-team/ionic"
+      ]
     }
   ]
 }
