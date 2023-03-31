@@ -3,6 +3,11 @@
   "description": "Automerge Ruby packages",
   "packageRules": [
     {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "matchPackageNames": ["puma"]
+    },
+    {
       "matchUpdateTypes": ["patch"],
       "automerge": true,
       "matchPackageNames": ["pg", "rails", "redis", "sidekiq"]
