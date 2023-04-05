@@ -11,6 +11,11 @@
       "matchUpdateTypes": ["patch"],
       "automerge": true,
       "matchPackageNames": ["pg", "rails", "redis", "sidekiq"]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
+      "matchPackageNames": ["foreman"]
     }
   ]
 }
