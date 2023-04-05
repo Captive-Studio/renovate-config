@@ -4,18 +4,21 @@
   "packageRules": [
     {
       "matchUpdateTypes": ["minor", "patch"],
+      "matchManagers": ["bundler"],
       "automerge": true,
-      "matchPackageNames": ["puma"]
+      "matchPackageNames": [
+        "foreman",
+        "pg",
+        "puma",
+        "rails",
+        "redis",
+        "sidekiq"
+      ]
     },
     {
       "matchUpdateTypes": ["patch"],
       "automerge": true,
-      "matchPackageNames": ["pg", "rails", "redis", "sidekiq"]
-    },
-    {
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "matchPackageNames": ["foreman"]
+      "matchManagers": ["bundler"]
     }
   ]
 }
