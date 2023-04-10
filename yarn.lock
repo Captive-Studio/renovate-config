@@ -1556,7 +1556,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.7
-    renovate: 35.40.2
+    renovate: 35.40.3
   languageName: unknown
   linkType: soft
 
@@ -5995,10 +5995,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"graph-data-structure@npm:3.2.0":
-  version: 3.2.0
-  resolution: "graph-data-structure@npm:3.2.0"
-  checksum: 0312e7854eba1679cb42a0696bbf9686c3f80618975828edd3c5aed2b69987dcd4cfa549db0cada63e57c798a714b2322f596a42dcf5b228946897863a1740cd
+"graph-data-structure@npm:3.3.0":
+  version: 3.3.0
+  resolution: "graph-data-structure@npm:3.3.0"
+  checksum: b6721b7a53a673c1d839427b2336ab6ef85db582cf8ed2099e2a7ab3650a6d64530d502f06fa3fd0cbd2e19412ba6043650411e89d0e817b64490e224c2c5e15
   languageName: node
   linkType: hard
 
@@ -8546,9 +8546,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.40.2":
-  version: 35.40.2
-  resolution: "renovate@npm:35.40.2"
+"renovate@npm:35.40.3":
+  version: 35.40.3
+  resolution: "renovate@npm:35.40.3"
   dependencies:
     "@aws-sdk/client-codecommit": 3.290.0
     "@aws-sdk/client-ec2": 3.291.0
@@ -8610,7 +8610,7 @@ __metadata:
     global-agent: 3.0.0
     good-enough-parser: 1.1.22
     got: 11.8.6
-    graph-data-structure: 3.2.0
+    graph-data-structure: 3.3.0
     handlebars: 4.7.7
     hasha: 5.2.2
     hcl2-parser: 1.0.3
@@ -8662,7 +8662,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 50eee7866cdcd3547f8357abbeb49afded625d9e595d325e51fcb33752bae6bdc5d35ed36a685c32eb696ce411bec691711db591c916f8c7ede1c69db93e9c6e
+  checksum: 645f75388d633722038f2b3eb777d81223bed2c7684a29f5a308a14aafd4a762a189f7b163201d06004a8fec5ef02b9314512a18d3282496386352d094e78a1a
   languageName: node
   linkType: hard
 
