@@ -12,6 +12,7 @@
         "puma",
         "rails",
         "redis",
+        "shoulda-matchers",
         "sidekiq"
       ]
     },
