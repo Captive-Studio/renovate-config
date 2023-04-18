@@ -13,7 +13,8 @@
         "rails",
         "redis",
         "shoulda-matchers",
-        "sidekiq"
+        "sidekiq",
+        "tzinfo-data"
       ]
     },
     {
