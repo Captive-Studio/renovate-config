@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Sentry Ruby monorepo",
+      "matchSourceUrls": ["https://github.com/getsentry/sentry-ruby"]
+    }
+  ]
+}
