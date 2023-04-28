@@ -5,6 +5,7 @@
     "group:ionic-nativeMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupIonicMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupRailsPlusJs",
+    "github>Captive-Studio/renovate-config//preset/groupRswagMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupSentryRubyMonorepo"
   ]
 }
