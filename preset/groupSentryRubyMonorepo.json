@@ -3,7 +3,8 @@
   "packageRules": [
     {
       "groupName": "Sentry Ruby monorepo",
-      "matchSourceUrls": ["https://github.com/getsentry/sentry-ruby"]
+      "matchManagers": ["bundler"],
+      "matchPackagePatterns": ["^sentry-"]
     }
   ]
 }
