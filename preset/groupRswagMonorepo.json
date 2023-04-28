@@ -3,7 +3,8 @@
   "packageRules": [
     {
       "groupName": "rswag monorepo",
-      "matchSourceUrls": ["https://github.com/rswag/rswag"]
+      "matchManagers": ["bundler"],
+      "matchPackagePatterns": ["^rswag-"]
     }
   ]
 }
