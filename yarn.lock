@@ -8443,11 +8443,11 @@ __metadata:
   linkType: hard
 
 "regexp-tree@npm:^0.1.24, regexp-tree@npm:~0.1.1":
-  version: 0.1.26
-  resolution: "regexp-tree@npm:0.1.26"
+  version: 0.1.27
+  resolution: "regexp-tree@npm:0.1.27"
   bin:
     regexp-tree: bin/regexp-tree
-  checksum: 04b788e2cc871e67d68a2eea4dd4c1a29fe248bf2d87556d5e5b50f6ee4d3e04d6245477351a33819d5dcf7a930a6fda9518feacaa4fea7d5b4aad1e58ac496a
+  checksum: 129aebb34dae22d6694ab2ac328be3f99105143737528ab072ef624d599afecbcfae1f5c96a166fa9e5f64fa1ecf30b411c4691e7924c3e11bbaf1712c260c54
   languageName: node
   linkType: hard
 
