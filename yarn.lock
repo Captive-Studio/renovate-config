@@ -2007,9 +2007,9 @@ __metadata:
   linkType: hard
 
 "@eslint-community/regexpp@npm:^4.4.0":
-  version: 4.5.0
-  resolution: "@eslint-community/regexpp@npm:4.5.0"
-  checksum: 99c01335947dbd7f2129e954413067e217ccaa4e219fe0917b7d2bd96135789384b8fedbfb8eb09584d5130b27a7b876a7150ab7376f51b3a0c377d5ce026a10
+  version: 4.5.1
+  resolution: "@eslint-community/regexpp@npm:4.5.1"
+  checksum: 6d901166d64998d591fab4db1c2f872981ccd5f6fe066a1ad0a93d4e11855ecae6bfb76660869a469563e8882d4307228cebd41142adb409d182f2966771e57e
   languageName: node
   linkType: hard
 
@@ -8443,11 +8443,11 @@ __metadata:
   linkType: hard
 
 "regexp-tree@npm:^0.1.24, regexp-tree@npm:~0.1.1":
-  version: 0.1.25
-  resolution: "regexp-tree@npm:0.1.25"
+  version: 0.1.26
+  resolution: "regexp-tree@npm:0.1.26"
   bin:
     regexp-tree: bin/regexp-tree
-  checksum: 7117d2378376c4ea0d088f19cb68b210daffe23d5b7c1c604e9d4576470ea5f07624727fc88de969dd71abdb720bd32205407f954c6dcc4a4320cb599651e2f6
+  checksum: 04b788e2cc871e67d68a2eea4dd4c1a29fe248bf2d87556d5e5b50f6ee4d3e04d6245477351a33819d5dcf7a930a6fda9518feacaa4fea7d5b4aad1e58ac496a
   languageName: node
   linkType: hard
 
