@@ -1539,7 +1539,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.66.3
+    renovate: 35.69.2
   languageName: unknown
   linkType: soft
 
@@ -2344,15 +2344,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation-bunyan@npm:0.31.1":
-  version: 0.31.1
-  resolution: "@opentelemetry/instrumentation-bunyan@npm:0.31.1"
+"@opentelemetry/instrumentation-bunyan@npm:0.31.2":
+  version: 0.31.2
+  resolution: "@opentelemetry/instrumentation-bunyan@npm:0.31.2"
   dependencies:
-    "@opentelemetry/instrumentation": ^0.35.1
+    "@opentelemetry/instrumentation": ^0.38.0
     "@types/bunyan": 1.8.7
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
-  checksum: 4ae4dd6004a082138672a7c43e8871e69e998886b8aca52075727342ffab9f0813c4395323a5522e5d37b98b02c959a42179c8367e7b76d16df68047c7ce6add
+  checksum: 6316a1d21e4b21ded1569d438daa6f366aff1447450327b24814e610d4561c4a5975a0bc6070af9b57692ec149645fadbb677a98cc685e200e1d445b3978dc01
   languageName: node
   linkType: hard
 
@@ -2370,7 +2370,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation@npm:0.38.0":
+"@opentelemetry/instrumentation@npm:0.38.0, @opentelemetry/instrumentation@npm:^0.38.0":
   version: 0.38.0
   resolution: "@opentelemetry/instrumentation@npm:0.38.0"
   dependencies:
@@ -2380,19 +2380,6 @@ __metadata:
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
   checksum: 34c240fe8e37761eda1c55f43c94b7cfd5958b66fe5c176c69a41ee61e49cf4f3e595ae6320eb2fe0e310cac632a51794150165523f9bc4a0c33913cf0ea573d
-  languageName: node
-  linkType: hard
-
-"@opentelemetry/instrumentation@npm:^0.35.1":
-  version: 0.35.1
-  resolution: "@opentelemetry/instrumentation@npm:0.35.1"
-  dependencies:
-    require-in-the-middle: ^5.0.3
-    semver: ^7.3.2
-    shimmer: ^1.2.1
-  peerDependencies:
-    "@opentelemetry/api": ^1.3.0
-  checksum: 67a6efa878b39962f92924610546883f8535192e9c7638fd36a9493dee49e42c0349fe57291158d55b7ea1ec0a5d74bfe0d94eb2b781cc2a7804c7c5026064ee
   languageName: node
   linkType: hard
 
@@ -2675,19 +2662,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:2.1.13":
-  version: 2.1.13
-  resolution: "@renovatebot/pep440@npm:2.1.13"
-  checksum: 89f7f4d99c5a0b32c117c2c0b748294d12a78177666fe3ebcd5c22b7a323b538c3804c2e2412f0780a752e494ce46d29c7a78fd3cef434446ec1525ed2c300f6
+"@renovatebot/pep440@npm:2.1.14":
+  version: 2.1.14
+  resolution: "@renovatebot/pep440@npm:2.1.14"
+  checksum: bab5f1f1ba80d46b5af2aa8240448244f426155fc4cb2f3adb9b7167ace77416d659167d96e807991c52e6c367b4bf4f299f90c4835b74815e48cb259c36ce0c
   languageName: node
   linkType: hard
 
-"@renovatebot/ruby-semver@npm:2.1.11":
-  version: 2.1.11
-  resolution: "@renovatebot/ruby-semver@npm:2.1.11"
+"@renovatebot/ruby-semver@npm:2.1.12":
+  version: 2.1.12
+  resolution: "@renovatebot/ruby-semver@npm:2.1.12"
   dependencies:
     tslib: ^2.5.0
-  checksum: 5ef9c9c5da2272ec66fe676149f7c3d471625eec0417b2950352c5774d871d308a63d015c8e5d72e1b660b4ffa77707aa7204228b96dfa776e4598933b60c579
+  checksum: d17cfcc25dfbd73c7a76051f7cefb7d6bba3fca9b3e37661f823091537f0a06cb9deddae7f978cb9524dff59f4a787a9cae866c24bbf90856473948cad7fd4bd
   languageName: node
   linkType: hard
 
@@ -7448,21 +7435,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:5.1.6, minimatch@npm:^5.0.1":
-  version: 5.1.6
-  resolution: "minimatch@npm:5.1.6"
-  dependencies:
-    brace-expansion: ^2.0.1
-  checksum: 7564208ef81d7065a370f788d337cd80a689e981042cb9a1d0e6580b6c6a8c9279eba80010516e258835a988363f99f54a6f711a315089b8b42694f5da9d0d77
-  languageName: node
-  linkType: hard
-
 "minimatch@npm:6.1.6":
   version: 6.1.6
   resolution: "minimatch@npm:6.1.6"
   dependencies:
     brace-expansion: ^2.0.1
   checksum: 707b026e0adc610be6c02f24173d84811e5b8cc2e434881e47ef00a72be5fbea9323b7158d7bf065782b1e1d5c50d7d80cd72f2602255f2fddfb1d2f02e9092c
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:9.0.0":
+  version: 9.0.0
+  resolution: "minimatch@npm:9.0.0"
+  dependencies:
+    brace-expansion: ^2.0.1
+  checksum: 7bd57899edd1d1b0560f50b5b2d1ea4ad2a366c5a2c8e0a943372cf2f200b64c256bae45a87a80915adbce27fa36526264296ace0da57b600481fe5ea3e372e5
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^5.0.1":
+  version: 5.1.6
+  resolution: "minimatch@npm:5.1.6"
+  dependencies:
+    brace-expansion: ^2.0.1
+  checksum: 7564208ef81d7065a370f788d337cd80a689e981042cb9a1d0e6580b6c6a8c9279eba80010516e258835a988363f99f54a6f711a315089b8b42694f5da9d0d77
   languageName: node
   linkType: hard
 
@@ -8545,9 +8541,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.66.3":
-  version: 35.66.3
-  resolution: "renovate@npm:35.66.3"
+"renovate@npm:35.69.2":
+  version: 35.69.2
+  resolution: "renovate@npm:35.69.2"
   dependencies:
     "@aws-sdk/client-codecommit": 3.312.0
     "@aws-sdk/client-ec2": 3.312.0
@@ -8562,7 +8558,7 @@ __metadata:
     "@opentelemetry/context-async-hooks": 1.12.0
     "@opentelemetry/exporter-trace-otlp-http": 0.38.0
     "@opentelemetry/instrumentation": 0.38.0
-    "@opentelemetry/instrumentation-bunyan": 0.31.1
+    "@opentelemetry/instrumentation-bunyan": 0.31.2
     "@opentelemetry/instrumentation-http": 0.38.0
     "@opentelemetry/resources": 1.12.0
     "@opentelemetry/sdk-trace-base": 1.12.0
@@ -8570,8 +8566,8 @@ __metadata:
     "@opentelemetry/semantic-conventions": 1.12.0
     "@qnighy/marshal": 0.1.3
     "@renovatebot/osv-offline": 1.2.4
-    "@renovatebot/pep440": 2.1.13
-    "@renovatebot/ruby-semver": 2.1.11
+    "@renovatebot/pep440": 2.1.14
+    "@renovatebot/ruby-semver": 2.1.12
     "@sindresorhus/is": 4.6.0
     "@types/ms": 0.7.31
     "@types/tmp": 0.2.3
@@ -8622,7 +8618,7 @@ __metadata:
     luxon: 3.3.0
     markdown-it: 13.0.1
     markdown-table: 2.0.0
-    minimatch: 5.1.6
+    minimatch: 9.0.0
     moo: 0.5.2
     ms: 2.1.3
     nanoid: 3.3.6
@@ -8661,7 +8657,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 806d8fd3f8e68ed7c5eabbd1743047ecce011eff8fac537bc6ca4a26ce55a9f379ea972888befe90378035701668c035a6ac9b79539892c39966767fa105762b
+  checksum: 5e392f59a8d173dda4d8fc4b6f5c6f514bb9d7b4424715d65196ab8e9df1d8eed13034ff7b441d8f2cfaa37b70aabfd59bffd1b7b4f39b318daeff9e0eafb5d3
   languageName: node
   linkType: hard
 
@@ -8683,17 +8679,6 @@ __metadata:
   version: 2.0.2
   resolution: "require-from-string@npm:2.0.2"
   checksum: a03ef6895445f33a4015300c426699bc66b2b044ba7b670aa238610381b56d3f07c686251740d575e22f4c87531ba662d06937508f0f3c0f1ddc04db3130560b
-  languageName: node
-  linkType: hard
-
-"require-in-the-middle@npm:^5.0.3":
-  version: 5.2.0
-  resolution: "require-in-the-middle@npm:5.2.0"
-  dependencies:
-    debug: ^4.1.1
-    module-details-from-path: ^1.0.3
-    resolve: ^1.22.1
-  checksum: 20bfdc0e9794ba10891867b2a7696bd4d189ef9dfd58196c06353ea57408f8cd29baa56a962ce4512de01aa679491f814d73e8d17cfe756cb294ebb4a16c64e0
   languageName: node
   linkType: hard
 
