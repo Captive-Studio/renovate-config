@@ -4335,9 +4335,9 @@ __metadata:
   linkType: hard
 
 "core-js-pure@npm:^3.25.1":
-  version: 3.30.1
-  resolution: "core-js-pure@npm:3.30.1"
-  checksum: ea64c72cd68ddde43eddb250033af784cc00251195faaee665163e7d6a69df964c9eba9e931f3adf4cc1e1be0fabc1b59aa54de1c847811583c09bf1737911f9
+  version: 3.30.2
+  resolution: "core-js-pure@npm:3.30.2"
+  checksum: e0e012fe94e38663d837410baac62efe05d0c7431e3fbaa70c65f51eb980da9c3add225eca04208d576bc0d92cefeca9a4f7671a65fd84fd7dfc92d8618dddfd
   languageName: node
   linkType: hard
 
