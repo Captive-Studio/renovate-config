@@ -1539,7 +1539,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.74.0
+    renovate: 35.74.1
   languageName: unknown
   linkType: soft
 
@@ -3325,18 +3325,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:3.4.0":
-  version: 3.4.0
-  resolution: "@yarnpkg/core@npm:3.4.0"
+"@yarnpkg/core@npm:3.5.1":
+  version: 3.5.1
+  resolution: "@yarnpkg/core@npm:3.5.1"
   dependencies:
     "@arcanis/slice-ansi": ^1.1.1
     "@types/semver": ^7.1.0
     "@types/treeify": ^1.0.0
-    "@yarnpkg/fslib": ^2.10.1
+    "@yarnpkg/fslib": ^2.10.3
     "@yarnpkg/json-proxy": ^2.1.1
-    "@yarnpkg/libzip": ^2.2.4
+    "@yarnpkg/libzip": ^2.3.0
     "@yarnpkg/parsers": ^2.5.1
-    "@yarnpkg/pnp": ^3.3.0
+    "@yarnpkg/pnp": ^3.3.2
     "@yarnpkg/shell": ^3.2.5
     camelcase: ^5.3.1
     chalk: ^3.0.0
@@ -3361,11 +3361,11 @@ __metadata:
     treeify: ^1.1.0
     tslib: ^1.13.0
     tunnel: ^0.0.6
-  checksum: 024fc0ffc5b971b31e742df979aa011b12c4f46b5031fd8fba6d037184abe2f55b082b96f6938c700295e52e588f4241fcdcc4ea75dfaa5ced6ea1ce146ed039
+  checksum: 3a22d04678545913aa8765865bd1d4c9f4ffdd355168b9014e895e640d396144f75e20dcce4780f11ebfadd6b979746c0a83575a6b5d44dba66948851d5248c3
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^2.10.1, @yarnpkg/fslib@npm:^2.10.3, @yarnpkg/fslib@npm:^2.5.0, @yarnpkg/fslib@npm:^2.9.0":
+"@yarnpkg/fslib@npm:^2.10.3, @yarnpkg/fslib@npm:^2.5.0, @yarnpkg/fslib@npm:^2.9.0":
   version: 2.10.3
   resolution: "@yarnpkg/fslib@npm:2.10.3"
   dependencies:
@@ -3385,7 +3385,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^2.2.4, @yarnpkg/libzip@npm:^2.3.0":
+"@yarnpkg/libzip@npm:^2.3.0":
   version: 2.3.0
   resolution: "@yarnpkg/libzip@npm:2.3.0"
   dependencies:
@@ -3405,7 +3405,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnp@npm:^3.3.0":
+"@yarnpkg/pnp@npm:^3.3.2":
   version: 3.3.2
   resolution: "@yarnpkg/pnp@npm:3.3.2"
   dependencies:
@@ -8599,9 +8599,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.74.0":
-  version: 35.74.0
-  resolution: "renovate@npm:35.74.0"
+"renovate@npm:35.74.1":
+  version: 35.74.1
+  resolution: "renovate@npm:35.74.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.312.0
     "@aws-sdk/client-ec2": 3.312.0
@@ -8630,7 +8630,7 @@ __metadata:
     "@sindresorhus/is": 4.6.0
     "@types/ms": 0.7.31
     "@types/tmp": 0.2.3
-    "@yarnpkg/core": 3.4.0
+    "@yarnpkg/core": 3.5.1
     "@yarnpkg/parsers": 2.5.1
     agentkeepalive: 4.3.0
     aggregate-error: 3.1.0
@@ -8715,7 +8715,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 55e202d17862ab68ed75b13a3cb66775d89a1c8e731955ed407770f8cb5d7cbcbfe07474edf8775c17ed7f9333329a349910903d595671530ab35c19cea60850
+  checksum: c2ac68995f68e54ae8294f09dad63a87877a47a428a6391b5c55c6447163955684a5b0c424ce8a6e09d894227ef6afa043bda31d355b4cb2c80b239ae630f7ce
   languageName: node
   linkType: hard
 
