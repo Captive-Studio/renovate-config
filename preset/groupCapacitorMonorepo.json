@@ -3,7 +3,10 @@
   "packageRules": [
     {
       "groupName": "Capacitor monorepo",
-      "matchSourceUrls": ["https://github.com/ionic-team/capacitor-plugins"]
+      "matchSourceUrls": [
+        "https://github.com/ionic-team/capacitor",
+        "https://github.com/ionic-team/capacitor-plugins"
+      ]
     }
   ]
 }
