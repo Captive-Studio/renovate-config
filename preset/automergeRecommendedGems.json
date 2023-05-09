@@ -16,7 +16,10 @@
         "redis",
         "shoulda-matchers",
         "sidekiq",
-        "tzinfo-data"
+        "tzinfo-data",
+        "sentry-rails",
+        "sentry-ruby",
+        "sentry-sidekiq"
       ]
     },
     {
