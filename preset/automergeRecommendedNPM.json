@@ -15,7 +15,7 @@
         "@ionic/lab",
         "@vue/test-utils"
       ],
-      "matchPackagePrefixes": ["@capacitor/"]
+      "matchPackagePrefixes": ["@capacitor/", "@sentry/"]
     }
   ]
 }
