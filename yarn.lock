@@ -1539,7 +1539,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.75.0
+    renovate: 35.78.0
   languageName: unknown
   linkType: soft
 
@@ -5875,7 +5875,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:^10.2.2":
+"glob@npm:10.2.2, glob@npm:^10.2.2":
   version: 10.2.2
   resolution: "glob@npm:10.2.2"
   dependencies:
@@ -8619,9 +8619,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.75.0":
-  version: 35.75.0
-  resolution: "renovate@npm:35.75.0"
+"renovate@npm:35.78.0":
+  version: 35.78.0
+  resolution: "renovate@npm:35.78.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.312.0
     "@aws-sdk/client-ec2": 3.312.0
@@ -8681,6 +8681,7 @@ __metadata:
     fs-extra: 11.1.1
     git-url-parse: 13.1.0
     github-url-from-git: 1.5.0
+    glob: 10.2.2
     global-agent: 3.0.0
     good-enough-parser: 1.1.22
     got: 11.8.6
@@ -8735,7 +8736,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 950c7f471542efeadfc0bbf2a220e27a4d9b76cb75fb768be33ae156874dcdaf2cbd3e527df37b011cfd650c57511bf0fc9dfa5681698ad4763a95404c3d1ca9
+  checksum: a4811601963f4f1224e97d32db3392af11e48f20858ae3dbcbac07e529c0ba1109a91b8ec2b079acc7ef2e7e5275b6282c0a27fb4572321c04096a18c7207402
   languageName: node
   linkType: hard
 
