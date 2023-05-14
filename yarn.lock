@@ -2249,7 +2249,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-paginate-rest@npm:^6.0.0":
+"@octokit/plugin-paginate-rest@npm:^6.1.0":
   version: 6.1.0
   resolution: "@octokit/plugin-paginate-rest@npm:6.1.0"
   dependencies:
@@ -2269,7 +2269,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/plugin-rest-endpoint-methods@npm:^7.0.0":
+"@octokit/plugin-rest-endpoint-methods@npm:^7.1.0":
   version: 7.1.0
   resolution: "@octokit/plugin-rest-endpoint-methods@npm:7.1.0"
   dependencies:
@@ -2307,14 +2307,14 @@ __metadata:
   linkType: hard
 
 "@octokit/rest@npm:^19.0.7":
-  version: 19.0.7
-  resolution: "@octokit/rest@npm:19.0.7"
+  version: 19.0.8
+  resolution: "@octokit/rest@npm:19.0.8"
   dependencies:
     "@octokit/core": ^4.1.0
-    "@octokit/plugin-paginate-rest": ^6.0.0
+    "@octokit/plugin-paginate-rest": ^6.1.0
     "@octokit/plugin-request-log": ^1.0.4
-    "@octokit/plugin-rest-endpoint-methods": ^7.0.0
-  checksum: 1f970c4de2cf3d1691d3cf5dd4bfa5ac205629e76417b5c51561e1beb5b4a7e6c65ba647f368727e67e5243418e06ca9cdafd9e733173e1529385d4f4d053d3d
+    "@octokit/plugin-rest-endpoint-methods": ^7.1.0
+  checksum: 86276924a2458cb1cb672d496dee45752ea14c57ca146f148cc51160179600c4071e1d8c4fd593bb20a6b5ca51cc94451d6cb4457865c174090e3e3f9bae597c
   languageName: node
   linkType: hard
 
@@ -10020,8 +10020,8 @@ __metadata:
   linkType: hard
 
 "vue-eslint-parser@npm:^9.0.1":
-  version: 9.2.1
-  resolution: "vue-eslint-parser@npm:9.2.1"
+  version: 9.3.0
+  resolution: "vue-eslint-parser@npm:9.3.0"
   dependencies:
     debug: ^4.3.4
     eslint-scope: ^7.1.1
@@ -10032,7 +10032,7 @@ __metadata:
     semver: ^7.3.6
   peerDependencies:
     eslint: ">=6.0.0"
-  checksum: f643ec4029c9420817854f1bcd49cd35f7bcdcc293ad75d2619af873067768fa5887ce4665093fa6071ab1935a421afb541f1c1a29d27952bc35d55811f51fb1
+  checksum: 9bdf375655c405f49a6e46e20127e42e2cb03ec63e811baf9798da7b881769653bb56aba7007d7e6584b8b22c14f0ffbdaf8fa3a902bd52ce9ff947b78e55188
   languageName: node
   linkType: hard
 
