@@ -1548,7 +1548,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.86.0
+    renovate: 35.86.2
   languageName: unknown
   linkType: soft
 
@@ -6021,15 +6021,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"good-enough-parser@npm:1.1.22":
-  version: 1.1.22
-  resolution: "good-enough-parser@npm:1.1.22"
+"good-enough-parser@npm:1.1.23":
+  version: 1.1.23
+  resolution: "good-enough-parser@npm:1.1.23"
   dependencies:
     "@thi.ng/zipper": 1.0.3
     "@types/moo": 0.5.5
-    klona: 2.0.5
+    klona: 2.0.6
     moo: 0.5.2
-  checksum: e80786e72613a93b638c3e511e70b56f446901843d5b5251a4f1d8c99494b400eba00946b7fba385a9c369d48547b8758476eb0b6c28ba3c98906cb23dd9443e
+  checksum: d06b17eb523c3eefe744d11e48f954f304dfea9cd9919e0252199f0a4dabc8769a309f0f6f470d2b30e7736d963edb107a7956100f931c017c0ca5904de75250
   languageName: node
   linkType: hard
 
@@ -6974,10 +6974,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"klona@npm:2.0.5":
-  version: 2.0.5
-  resolution: "klona@npm:2.0.5"
-  checksum: 8c976126ea252b766e648a4866e1bccff9d3b08432474ad80c559f6c7265cf7caede2498d463754d8c88c4759895edd8210c85c0d3155e6aae4968362889466f
+"klona@npm:2.0.6":
+  version: 2.0.6
+  resolution: "klona@npm:2.0.6"
+  checksum: ac9ee3732e42b96feb67faae4d27cf49494e8a3bf3fa7115ce242fe04786788e0aff4741a07a45a2462e2079aa983d73d38519c85d65b70ef11447bbc3c58ce7
   languageName: node
   linkType: hard
 
@@ -8632,9 +8632,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.86.0":
-  version: 35.86.0
-  resolution: "renovate@npm:35.86.0"
+"renovate@npm:35.86.2":
+  version: 35.86.2
+  resolution: "renovate@npm:35.86.2"
   dependencies:
     "@aws-sdk/client-codecommit": 3.312.0
     "@aws-sdk/client-ec2": 3.312.0
@@ -8696,7 +8696,7 @@ __metadata:
     github-url-from-git: 1.5.0
     glob: 10.2.2
     global-agent: 3.0.0
-    good-enough-parser: 1.1.22
+    good-enough-parser: 1.1.23
     got: 11.8.6
     graph-data-structure: 3.3.0
     handlebars: 4.7.7
@@ -8728,7 +8728,7 @@ __metadata:
     remark: 13.0.0
     remark-github: 10.1.0
     safe-stable-stringify: 2.4.3
-    semver: 7.5.0
+    semver: 7.5.1
     semver-stable: 3.0.0
     semver-utils: 1.1.4
     shlex: 2.1.2
@@ -8749,7 +8749,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 8b8b2eb14f1397c277eeeee1dab7a22016956cc2bed7d7bc97b01c38d34dbe1b4276170651dd63f43016dd366025058e51eaede11e1507367ed52c20ac972dde
+  checksum: b67044719c9e60de7789042e4cd03add787b9f4fa24865a9ef6fe4103a4785d61b227de616bacbc5d9375e10fc4dbc1c951c5f3c798da6518b170715c8555f4f
   languageName: node
   linkType: hard
 
@@ -9012,14 +9012,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.5.0":
-  version: 7.5.0
-  resolution: "semver@npm:7.5.0"
+"semver@npm:7.5.1, semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.0":
+  version: 7.5.1
+  resolution: "semver@npm:7.5.1"
   dependencies:
     lru-cache: ^6.0.0
   bin:
     semver: bin/semver.js
-  checksum: 2d266937756689a76f124ffb4c1ea3e1bbb2b263219f90ada8a11aebebe1280b13bb76cca2ca96bdee3dbc554cbc0b24752eb895b2a51577aa644427e9229f2b
+  checksum: d16dbedad53c65b086f79524b9ef766bf38670b2395bdad5c957f824dcc566b624988013564f4812bcace3f9d405355c3635e2007396a39d1bffc71cfec4a2fc
   languageName: node
   linkType: hard
 
@@ -9029,17 +9029,6 @@ __metadata:
   bin:
     semver: ./bin/semver.js
   checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.0":
-  version: 7.5.1
-  resolution: "semver@npm:7.5.1"
-  dependencies:
-    lru-cache: ^6.0.0
-  bin:
-    semver: bin/semver.js
-  checksum: d16dbedad53c65b086f79524b9ef766bf38670b2395bdad5c957f824dcc566b624988013564f4812bcace3f9d405355c3635e2007396a39d1bffc71cfec4a2fc
   languageName: node
   linkType: hard
 
