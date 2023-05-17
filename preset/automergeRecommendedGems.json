@@ -7,6 +7,7 @@
       "matchManagers": ["bundler"],
       "automerge": true,
       "matchPackageNames": [
+        "aws-sdk-s3",
         "capybara",
         "cuprite",
         "foreman",
