@@ -1539,7 +1539,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.93.0
+    renovate: 35.95.1
   languageName: unknown
   linkType: soft
 
@@ -5864,7 +5864,22 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.2.3, glob@npm:^10.2.2":
+"glob@npm:10.2.5":
+  version: 10.2.5
+  resolution: "glob@npm:10.2.5"
+  dependencies:
+    foreground-child: ^3.1.0
+    jackspeak: ^2.0.3
+    minimatch: ^9.0.0
+    minipass: ^5.0.0 || ^6.0.2
+    path-scurry: ^1.7.0
+  bin:
+    glob: dist/cjs/src/bin.js
+  checksum: 54d2b629c467953317c175903a049819577bcce679d437ff1ad43bf654091d3564e796351d705463b26a0194234acdea7f4de64993b0544ea86275c000498026
+  languageName: node
+  linkType: hard
+
+"glob@npm:^10.2.2":
   version: 10.2.3
   resolution: "glob@npm:10.2.3"
   dependencies:
@@ -7630,6 +7645,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"minipass@npm:^5.0.0 || ^6.0.2":
+  version: 6.0.2
+  resolution: "minipass@npm:6.0.2"
+  checksum: d140b91f4ab2e5ce5a9b6c468c0e82223504acc89114c1a120d4495188b81fedf8cade72a9f4793642b4e66672f990f1e0d902dd858485216a07cd3c8a62fac9
+  languageName: node
+  linkType: hard
+
 "minizlib@npm:^2.1.1, minizlib@npm:^2.1.2":
   version: 2.1.2
   resolution: "minizlib@npm:2.1.2"
@@ -8608,9 +8630,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.93.0":
-  version: 35.93.0
-  resolution: "renovate@npm:35.93.0"
+"renovate@npm:35.95.1":
+  version: 35.95.1
+  resolution: "renovate@npm:35.95.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.332.0
     "@aws-sdk/client-ec2": 3.332.0
@@ -8670,7 +8692,7 @@ __metadata:
     fs-extra: 11.1.1
     git-url-parse: 13.1.0
     github-url-from-git: 1.5.0
-    glob: 10.2.3
+    glob: 10.2.5
     global-agent: 3.0.0
     good-enough-parser: 1.1.23
     got: 11.8.6
@@ -8725,7 +8747,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: ec921bbf24c24d9fbdd2f6d5bb813cc7deabda7b06e49c3aa88a2cc574c2cf4d97f2ba38dd1f08658ccf390c54ae61b7c098c4dd8d6510c73d8ef91579626a5e
+  checksum: 3d33e144d38c0c519d2d19e75a5ea3759d1d393c781834bc45489fc8caa60c2e80964c4e457e6cab3c873ba75e2a4c687510b08bb71947cd37f8c7d7d2cb2e4b
   languageName: node
   linkType: hard
 
