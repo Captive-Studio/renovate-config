@@ -15,13 +15,12 @@
         "puma",
         "rails",
         "redis",
+        "rubocop",
         "shoulda-matchers",
         "sidekiq",
-        "tzinfo-data",
-        "sentry-rails",
-        "sentry-ruby",
-        "sentry-sidekiq"
-      ]
+        "tzinfo-data"
+      ],
+      "matchPackagePatterns": ["^rubocop-", "^sentry-"]
     },
     {
       "matchUpdateTypes": ["patch"],
