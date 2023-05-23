@@ -10,6 +10,7 @@
         "aws-sdk-s3",
         "capybara",
         "cuprite",
+        "debug",
         "foreman",
         "pg",
         "puma",
