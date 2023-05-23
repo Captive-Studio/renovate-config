@@ -17,12 +17,13 @@
         "puma",
         "rails",
         "redis",
+        "rspec",
         "rubocop",
         "shoulda-matchers",
         "sidekiq",
         "tzinfo-data"
       ],
-      "matchPackagePatterns": ["^rubocop-", "^sentry-"]
+      "matchPackagePatterns": ["^rspec-", "^rubocop-", "^sentry-"]
     },
     {
       "matchUpdateTypes": ["patch"],
