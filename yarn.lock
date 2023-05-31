@@ -1496,12 +1496,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/eslint-config@npm:1.7.32":
-  version: 1.7.32
-  resolution: "@captive/eslint-config@npm:1.7.32"
+"@captive/eslint-config@npm:1.7.33":
+  version: 1.7.33
+  resolution: "@captive/eslint-config@npm:1.7.33"
   dependencies:
     "@captive/prettier-config": ^1.1.13
-    "@w5s/dev": ^1.0.4
+    "@w5s/dev": ^1.0.5
     "@w5s/eslint-config": 1.0.10
     eslint-plugin-cypress: ^2.12.1
     eslint-plugin-vue: ^9.9.0
@@ -1515,7 +1515,7 @@ __metadata:
       optional: true
     typescript:
       optional: true
-  checksum: fd3f34f49eccac99b74694a4f5560d22f2c65405ed1de34d8b427ab8e29f6b8e2635725eadb864b06b91a0d3b8b200a1709249c765f2acdb08d05f9377d60411
+  checksum: c600022af22a7bd0bbd935714fc669a546fe97f60341cc659ac582fcf62024593e5654b23759addb7eb2b485874288a467d544622b69b9a2c756364e899e84f3
   languageName: node
   linkType: hard
 
@@ -1539,7 +1539,7 @@ __metadata:
   dependencies:
     "@captive/commitlint-config": 1.1.18
     "@captive/cspell-config": 1.0.7
-    "@captive/eslint-config": 1.7.32
+    "@captive/eslint-config": 1.7.33
     ajv-cli: 5.0.0
     concurrently: 8.0.1
     cspell: 6.31.1
@@ -3317,6 +3317,15 @@ __metadata:
   dependencies:
     "@types/eslint": ^8.4.10
   checksum: 8517e8cfaf300ca75cd428c93c1969ac3c3b1601ae1e046eb56098a145dfa3361026a661425dcefc48909b0a3a68f703a5656a5504eae6b5fba98bdccd6543dc
+  languageName: node
+  linkType: hard
+
+"@w5s/dev@npm:^1.0.5":
+  version: 1.0.5
+  resolution: "@w5s/dev@npm:1.0.5"
+  dependencies:
+    "@types/eslint": ^8.4.10
+  checksum: 76414dd8d027d64fd764a78dea454a55d70457054db6a8af07d3391699ff86d16fd34b5f12dfdb0d1ad16adc97741fa180a91503a45cac5e12bccea40bad22f8
   languageName: node
   linkType: hard
 
