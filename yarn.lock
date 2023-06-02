@@ -1548,7 +1548,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.108.0
+    renovate: 35.110.0
   languageName: unknown
   linkType: soft
 
@@ -6422,7 +6422,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"install-artifact-from-github@npm:^1.3.1":
+"install-artifact-from-github@npm:^1.3.3":
   version: 1.3.3
   resolution: "install-artifact-from-github@npm:1.3.3"
   bin:
@@ -7831,7 +7831,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^9.3.0, node-gyp@npm:latest":
+"node-gyp@npm:^9.3.1, node-gyp@npm:latest":
   version: 9.3.1
   resolution: "node-gyp@npm:9.3.1"
   dependencies:
@@ -8455,14 +8455,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.18.0":
-  version: 1.18.0
-  resolution: "re2@npm:1.18.0"
+"re2@npm:1.19.0":
+  version: 1.19.0
+  resolution: "re2@npm:1.19.0"
   dependencies:
-    install-artifact-from-github: ^1.3.1
+    install-artifact-from-github: ^1.3.3
     nan: ^2.17.0
-    node-gyp: ^9.3.0
-  checksum: ab823701b0de03fb9f5702e617bb624df000ba22040d22c3a83c368504e4ed52adf9565915e27e9b82af86352d03705901b4bc05da0421d2909c0ff482efb923
+    node-gyp: ^9.3.1
+  checksum: 93d1be6c6cfc015b793591b482e737d41ece7d3191650e472b6d549c7e35f1e97e8030cba70ddcbd9ca5df61deeb31f937f6ab51d7729ad7970017d0925ef885
   languageName: node
   linkType: hard
 
@@ -8664,9 +8664,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.108.0":
-  version: 35.108.0
-  resolution: "renovate@npm:35.108.0"
+"renovate@npm:35.110.0":
+  version: 35.110.0
+  resolution: "renovate@npm:35.110.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.332.0
     "@aws-sdk/client-ec2": 3.332.0
@@ -8755,7 +8755,7 @@ __metadata:
     parse-link-header: 2.0.0
     prettier: 2.8.8
     quick-lru: 5.1.1
-    re2: 1.18.0
+    re2: 1.19.0
     redis: 4.6.6
     remark: 13.0.0
     remark-github: 10.1.0
@@ -8781,7 +8781,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 3d45ba70ce9511ecf04c7bea99e0f8c49576593834499471e34673c80f53f4e0b348389d5b8c81a2cce2bef4abf71af9747ba47d264b0acab36eb4c0d7a55b2d
+  checksum: bf51d2f66591e5be889ebe7a3708525bdf09b26de836ad19175deff2c25816335c4314be8c295ac171a007e38d80d5c913a2635584daf6c359d863c002e416dc
   languageName: node
   linkType: hard
 
