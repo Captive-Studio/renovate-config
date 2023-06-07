@@ -12,6 +12,7 @@
         "capybara",
         "cuprite",
         "debug",
+        "faker",
         "foreman",
         "pg",
         "puma",
