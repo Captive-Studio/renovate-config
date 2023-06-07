@@ -126,13 +126,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-codecommit@npm:3.347.0":
-  version: 3.347.0
-  resolution: "@aws-sdk/client-codecommit@npm:3.347.0"
+"@aws-sdk/client-codecommit@npm:3.347.1":
+  version: 3.347.1
+  resolution: "@aws-sdk/client-codecommit@npm:3.347.1"
   dependencies:
     "@aws-crypto/sha256-browser": 3.0.0
     "@aws-crypto/sha256-js": 3.0.0
-    "@aws-sdk/client-sts": 3.347.0
+    "@aws-sdk/client-sts": 3.347.1
     "@aws-sdk/config-resolver": 3.347.0
     "@aws-sdk/credential-provider-node": 3.347.0
     "@aws-sdk/fetch-http-handler": 3.347.0
@@ -167,17 +167,17 @@ __metadata:
     "@smithy/types": ^1.0.0
     tslib: ^2.5.0
     uuid: ^8.3.2
-  checksum: a16f8b8c4ca4aa80bcffe3e2d545498c76cedb08ff555f923ad4f6377465087920a4284079b0e132761bff1ea2edd939f7135b97b844b63548cd9b6e94a5a9b8
+  checksum: 3cf523c38a16e29b9f4c6df0eee9da733aa5ad044ba605ffa7739db7009a6ea0fc3636ea5283ff253a2b8674743deca75d522efdc6e7be4f4bb8d14695b078e6
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-ec2@npm:3.347.0":
-  version: 3.347.0
-  resolution: "@aws-sdk/client-ec2@npm:3.347.0"
+"@aws-sdk/client-ec2@npm:3.347.1":
+  version: 3.347.1
+  resolution: "@aws-sdk/client-ec2@npm:3.347.1"
   dependencies:
     "@aws-crypto/sha256-browser": 3.0.0
     "@aws-crypto/sha256-js": 3.0.0
-    "@aws-sdk/client-sts": 3.347.0
+    "@aws-sdk/client-sts": 3.347.1
     "@aws-sdk/config-resolver": 3.347.0
     "@aws-sdk/credential-provider-node": 3.347.0
     "@aws-sdk/fetch-http-handler": 3.347.0
@@ -212,20 +212,20 @@ __metadata:
     "@aws-sdk/util-waiter": 3.347.0
     "@smithy/protocol-http": ^1.0.1
     "@smithy/types": ^1.0.0
-    fast-xml-parser: 4.1.2
+    fast-xml-parser: 4.2.4
     tslib: ^2.5.0
     uuid: ^8.3.2
-  checksum: 13d472fc70c7aee29ee4c5e5bcccfe05c5d9b05a52dd0b6661031e48b199f95e1577725811ca9f5685f42a54c304a6e0ea6a4c5762f41b596a8f4978ba54ac90
+  checksum: f9571e16a73af361dd81f69881cd7bc61e40dd94c704cf2939d61438bca964fbbf90636064be4362194231dae554b4123e6ebfc89b9b4659d16a9cd7eeb3f699
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-ecr@npm:3.347.0":
-  version: 3.347.0
-  resolution: "@aws-sdk/client-ecr@npm:3.347.0"
+"@aws-sdk/client-ecr@npm:3.347.1":
+  version: 3.347.1
+  resolution: "@aws-sdk/client-ecr@npm:3.347.1"
   dependencies:
     "@aws-crypto/sha256-browser": 3.0.0
     "@aws-crypto/sha256-js": 3.0.0
-    "@aws-sdk/client-sts": 3.347.0
+    "@aws-sdk/client-sts": 3.347.1
     "@aws-sdk/config-resolver": 3.347.0
     "@aws-sdk/credential-provider-node": 3.347.0
     "@aws-sdk/fetch-http-handler": 3.347.0
@@ -260,17 +260,17 @@ __metadata:
     "@smithy/protocol-http": ^1.0.1
     "@smithy/types": ^1.0.0
     tslib: ^2.5.0
-  checksum: 9acb13849632c6b901b7944288702bfeeaa5c9f488e5b4ac5f1dffe039779caf7d36242ff5bef375ab4746ec5c8c2683c4d592b6b1d909ce5c94640728b975c3
+  checksum: eea9c1509da4cbe706ce59fdff49295eb7f59d9955e44d1f69e86146188ac94364c6a758abd55acf1cfaa6d14e41f25c3446651807c391cffbadcbc9c9686838
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-iam@npm:3.347.0":
-  version: 3.347.0
-  resolution: "@aws-sdk/client-iam@npm:3.347.0"
+"@aws-sdk/client-iam@npm:3.347.1":
+  version: 3.347.1
+  resolution: "@aws-sdk/client-iam@npm:3.347.1"
   dependencies:
     "@aws-crypto/sha256-browser": 3.0.0
     "@aws-crypto/sha256-js": 3.0.0
-    "@aws-sdk/client-sts": 3.347.0
+    "@aws-sdk/client-sts": 3.347.1
     "@aws-sdk/config-resolver": 3.347.0
     "@aws-sdk/credential-provider-node": 3.347.0
     "@aws-sdk/fetch-http-handler": 3.347.0
@@ -304,19 +304,19 @@ __metadata:
     "@aws-sdk/util-waiter": 3.347.0
     "@smithy/protocol-http": ^1.0.1
     "@smithy/types": ^1.0.0
-    fast-xml-parser: 4.1.2
+    fast-xml-parser: 4.2.4
     tslib: ^2.5.0
-  checksum: 58da74f53eb2729b9314e3cffdb4efa1b2528c9d56c0adf4cb112f6adc12791499b3256eb9c6a879cf4218cc8735f0bb957e9e5f43a4b189ded0314ebae9ef2e
+  checksum: 3ff8d49829f92742efa09249f90172b684ef4e67d71e1c9def29edd83d62af70074ecfb4bda6a48d3b57ee63a2a40cfa9962827edd9265cb00f2507e1bf6004b
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-rds@npm:3.347.0":
-  version: 3.347.0
-  resolution: "@aws-sdk/client-rds@npm:3.347.0"
+"@aws-sdk/client-rds@npm:3.347.1":
+  version: 3.347.1
+  resolution: "@aws-sdk/client-rds@npm:3.347.1"
   dependencies:
     "@aws-crypto/sha256-browser": 3.0.0
     "@aws-crypto/sha256-js": 3.0.0
-    "@aws-sdk/client-sts": 3.347.0
+    "@aws-sdk/client-sts": 3.347.1
     "@aws-sdk/config-resolver": 3.347.0
     "@aws-sdk/credential-provider-node": 3.347.0
     "@aws-sdk/fetch-http-handler": 3.347.0
@@ -351,20 +351,20 @@ __metadata:
     "@aws-sdk/util-waiter": 3.347.0
     "@smithy/protocol-http": ^1.0.1
     "@smithy/types": ^1.0.0
-    fast-xml-parser: 4.1.2
+    fast-xml-parser: 4.2.4
     tslib: ^2.5.0
-  checksum: f389c20bdd4066c329bd55f4db17a071d8fdb29403b86c8fa71a10637ec91e5c01e6a8414cefac146a43e5faeb4500ad5018f558f799639463068a10f88f5494
+  checksum: 71e743871ff645c7b15455f97740a4e546a5b166355e0918b08a9f3a521841885667d7ee777366f02fb6d5688a904e8201ab39770176a0fe1d8ff7e59f29e35a
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-s3@npm:3.347.0":
-  version: 3.347.0
-  resolution: "@aws-sdk/client-s3@npm:3.347.0"
+"@aws-sdk/client-s3@npm:3.347.1":
+  version: 3.347.1
+  resolution: "@aws-sdk/client-s3@npm:3.347.1"
   dependencies:
     "@aws-crypto/sha1-browser": 3.0.0
     "@aws-crypto/sha256-browser": 3.0.0
     "@aws-crypto/sha256-js": 3.0.0
-    "@aws-sdk/client-sts": 3.347.0
+    "@aws-sdk/client-sts": 3.347.1
     "@aws-sdk/config-resolver": 3.347.0
     "@aws-sdk/credential-provider-node": 3.347.0
     "@aws-sdk/eventstream-serde-browser": 3.347.0
@@ -414,9 +414,9 @@ __metadata:
     "@aws-sdk/xml-builder": 3.310.0
     "@smithy/protocol-http": ^1.0.1
     "@smithy/types": ^1.0.0
-    fast-xml-parser: 4.1.2
+    fast-xml-parser: 4.2.4
     tslib: ^2.5.0
-  checksum: c7df6e86db2034e411ab96148e07cbb09a7b23ccba591221a390346c0425c68c70ffe528eb31bf6e00b15702a0de9b7c38b88e6f469282e9fc317803ce8b27ed
+  checksum: e885952f97ea8afb4df713c4eb2c098b88b738d4929f19ef693c6dbdf35a2c74aabd16c414e778e04ff30463b53b406c9d753a4a52b394123369f671eb1bf9ce
   languageName: node
   linkType: hard
 
@@ -502,9 +502,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@aws-sdk/client-sts@npm:3.347.0":
-  version: 3.347.0
-  resolution: "@aws-sdk/client-sts@npm:3.347.0"
+"@aws-sdk/client-sts@npm:3.347.1":
+  version: 3.347.1
+  resolution: "@aws-sdk/client-sts@npm:3.347.1"
   dependencies:
     "@aws-crypto/sha256-browser": 3.0.0
     "@aws-crypto/sha256-js": 3.0.0
@@ -541,9 +541,9 @@ __metadata:
     "@aws-sdk/util-utf8": 3.310.0
     "@smithy/protocol-http": ^1.0.1
     "@smithy/types": ^1.0.0
-    fast-xml-parser: 4.1.2
+    fast-xml-parser: 4.2.4
     tslib: ^2.5.0
-  checksum: 3697787c4efa56fdb990cfed683d18d964ee4029191c0fbb8353198794c6be339f480c0ec698f0863bc80b5d1b311544f9030d34b4d66262be089527bffe6bbb
+  checksum: 9ed2708fda825c4bb7eb66ac793e7a28ce0e186709cfc53978857c5a83f55a32156ad313d92a5c4f3a55271d73481f2a9a2fea99b0bba02331790a762185a071
   languageName: node
   linkType: hard
 
@@ -1558,16 +1558,16 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.113.1
+    renovate: 35.113.3
   languageName: unknown
   linkType: soft
 
-"@cdktf/hcl2json@npm:0.16.1":
-  version: 0.16.1
-  resolution: "@cdktf/hcl2json@npm:0.16.1"
+"@cdktf/hcl2json@npm:0.16.2":
+  version: 0.16.2
+  resolution: "@cdktf/hcl2json@npm:0.16.2"
   dependencies:
     fs-extra: ^11.1.1
-  checksum: 0054a0d520dcfbf7ac39fea1cb758aa84a1de5611d29d7f21581376a61755f0c2275309b874e1daad9de0c8e89369bd21e8d3c59103487af5065374a1d84e657
+  checksum: eeb4552f76c5bfe2a33308db8b522accb8d58be78935ea3c0fc59d24d0117d2f647644d9d60c47b0041c6a2b669e1cc83cbff7b0d22e4a2548e88bbf87987ce3
   languageName: node
   linkType: hard
 
@@ -5568,14 +5568,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fast-xml-parser@npm:4.1.2":
-  version: 4.1.2
-  resolution: "fast-xml-parser@npm:4.1.2"
+"fast-xml-parser@npm:4.2.4":
+  version: 4.2.4
+  resolution: "fast-xml-parser@npm:4.2.4"
   dependencies:
     strnum: ^1.0.5
   bin:
     fxparser: src/cli/cli.js
-  checksum: 6a7d1b17057f8470e70603eddfa75f990625735d068d57ece861d0154ad8d27fda63c2831d07e1ecd7e68e993738b2448925cb9277d8c0ed68009623bbcd63c6
+  checksum: d3b4d0c0152c09f98def792769fca6bb3fa1d597f9745d9564451c239089bd86bdf573c9263b4944860028cb7edb81752d64399c1aff8b87c9225ecef96905f7
   languageName: node
   linkType: hard
 
@@ -8684,18 +8684,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.113.1":
-  version: 35.113.1
-  resolution: "renovate@npm:35.113.1"
+"renovate@npm:35.113.3":
+  version: 35.113.3
+  resolution: "renovate@npm:35.113.3"
   dependencies:
-    "@aws-sdk/client-codecommit": 3.347.0
-    "@aws-sdk/client-ec2": 3.347.0
-    "@aws-sdk/client-ecr": 3.347.0
-    "@aws-sdk/client-iam": 3.347.0
-    "@aws-sdk/client-rds": 3.347.0
-    "@aws-sdk/client-s3": 3.347.0
+    "@aws-sdk/client-codecommit": 3.347.1
+    "@aws-sdk/client-ec2": 3.347.1
+    "@aws-sdk/client-ecr": 3.347.1
+    "@aws-sdk/client-iam": 3.347.1
+    "@aws-sdk/client-rds": 3.347.1
+    "@aws-sdk/client-s3": 3.347.1
     "@breejs/later": 4.1.0
-    "@cdktf/hcl2json": 0.16.1
+    "@cdktf/hcl2json": 0.16.2
     "@cheap-glitch/mi-cron": 1.0.1
     "@iarna/toml": 3.0.0
     "@opentelemetry/api": 1.4.1
@@ -8801,7 +8801,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 19eb51aebec193b0e04174702f842d5592fbdffd8b9ca681b8efae87ad31078cc687df4e808bc5eff50962e5b092b25cfe2ecfc30556ccb261fca2f3bea42d75
+  checksum: 1e79b15b99799aa079aa17486cb2fae515ef9cd5abb8d8dcceb09382dc7340371cf28e30328eb53fd0745199c26fd4bcd8a52cbdf43ec4b308803301cf2ba056
   languageName: node
   linkType: hard
 
