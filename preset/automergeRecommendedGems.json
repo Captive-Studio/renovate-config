@@ -14,6 +14,7 @@
         "debug",
         "faker",
         "foreman",
+        "minitest",
         "pg",
         "puma",
         "rails",
@@ -25,7 +26,7 @@
         "simplecov",
         "tzinfo-data"
       ],
-      "matchPackagePatterns": ["^rspec-", "^rubocop-", "^sentry-"]
+      "matchPackagePatterns": ["^minitest-", "^rspec-", "^rubocop-", "^sentry-"]
     },
     {
       "matchUpdateTypes": ["patch"],
