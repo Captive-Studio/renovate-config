@@ -22,6 +22,7 @@
         "rubocop",
         "shoulda-matchers",
         "sidekiq",
+        "simplecov",
         "tzinfo-data"
       ],
       "matchPackagePatterns": ["^rspec-", "^rubocop-", "^sentry-"]
