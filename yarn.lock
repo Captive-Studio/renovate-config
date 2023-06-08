@@ -1558,7 +1558,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.114.3
+    renovate: 35.115.1
   languageName: unknown
   linkType: soft
 
@@ -3395,9 +3395,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:3.5.1":
-  version: 3.5.1
-  resolution: "@yarnpkg/core@npm:3.5.1"
+"@yarnpkg/core@npm:3.5.2":
+  version: 3.5.2
+  resolution: "@yarnpkg/core@npm:3.5.2"
   dependencies:
     "@arcanis/slice-ansi": ^1.1.1
     "@types/semver": ^7.1.0
@@ -3406,7 +3406,7 @@ __metadata:
     "@yarnpkg/json-proxy": ^2.1.1
     "@yarnpkg/libzip": ^2.3.0
     "@yarnpkg/parsers": ^2.5.1
-    "@yarnpkg/pnp": ^3.3.2
+    "@yarnpkg/pnp": ^3.3.3
     "@yarnpkg/shell": ^3.2.5
     camelcase: ^5.3.1
     chalk: ^3.0.0
@@ -3431,7 +3431,7 @@ __metadata:
     treeify: ^1.1.0
     tslib: ^1.13.0
     tunnel: ^0.0.6
-  checksum: 3a22d04678545913aa8765865bd1d4c9f4ffdd355168b9014e895e640d396144f75e20dcce4780f11ebfadd6b979746c0a83575a6b5d44dba66948851d5248c3
+  checksum: 7635ea96c79195afc2146a1b8c5adfcb765a83bce2721bc0c88799a01e0e0b73243631f47b57df14667d7349aa0cf0a6b28b6ecfc9814ef329c7dd1f4c7f3826
   languageName: node
   linkType: hard
 
@@ -3475,7 +3475,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/pnp@npm:^3.3.2":
+"@yarnpkg/pnp@npm:^3.3.3":
   version: 3.3.3
   resolution: "@yarnpkg/pnp@npm:3.3.3"
   dependencies:
@@ -8684,9 +8684,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.114.3":
-  version: 35.114.3
-  resolution: "renovate@npm:35.114.3"
+"renovate@npm:35.115.1":
+  version: 35.115.1
+  resolution: "renovate@npm:35.115.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -8715,7 +8715,7 @@ __metadata:
     "@sindresorhus/is": 4.6.0
     "@types/ms": 0.7.31
     "@types/tmp": 0.2.3
-    "@yarnpkg/core": 3.5.1
+    "@yarnpkg/core": 3.5.2
     "@yarnpkg/parsers": 2.5.1
     agentkeepalive: 4.3.0
     aggregate-error: 3.1.0
@@ -8801,7 +8801,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: f096b580d864f353623fa11014ad677ae5917581d092a697fa146a677ff2e91eb324e551f37c6f927f7674967721d6887cf0e70b1d8b271a1b31c8714d9e4df7
+  checksum: a2ba5a96cf98fc1e9c29f5611ecd98b46a7e95bd199f6cb8ecdd20635cf83970daad664ff2b6af03bc6bb42d56715661fb872bdb87869397d8692b9d46034893
   languageName: node
   linkType: hard
 
