@@ -3,7 +3,7 @@
   "description": "Add @rails/ to rubyOnRails",
   "packageRules": [
     {
-      "groupName": "Ruby on Rails packages",
+      "groupName": "Ruby on Rails JS packages",
       "matchPackagePrefixes": ["@rails"]
     }
   ]
