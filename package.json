@@ -71,7 +71,7 @@
     "@captive/cspell-config": "1.0.7",
     "@captive/eslint-config": "1.7.34",
     "ajv-cli": "5.0.0",
-    "concurrently": "8.1.0",
+    "concurrently": "8.2.0",
     "cspell": "6.31.1",
     "eslint": "8.42.0",
     "markdown-magic": "2.6.1",
