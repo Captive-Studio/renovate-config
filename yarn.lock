@@ -1549,7 +1549,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.115.2
+    renovate: 35.116.1
   languageName: unknown
   linkType: soft
 
@@ -2740,10 +2740,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:2.1.15":
-  version: 2.1.15
-  resolution: "@renovatebot/pep440@npm:2.1.15"
-  checksum: eaeff77ce9f47d0e0423c87c75b6339970f13689042cb6fe6ee4cea28ec709e771cec905ad7244a911e33202432184aafdd0a80e5b7ce52a78e1064de5da3245
+"@renovatebot/pep440@npm:2.1.16":
+  version: 2.1.16
+  resolution: "@renovatebot/pep440@npm:2.1.16"
+  checksum: 72a2271572f0d126cbeddfe3fa29db18513a94582cab2845f6807ec54d6895e70a56c111cac5ae12e141eb51bb40508e56e703397d9e69760bfedfe2ca41e07a
   languageName: node
   linkType: hard
 
@@ -8696,9 +8696,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.115.2":
-  version: 35.115.2
-  resolution: "renovate@npm:35.115.2"
+"renovate@npm:35.116.1":
+  version: 35.116.1
+  resolution: "renovate@npm:35.116.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -8722,7 +8722,7 @@ __metadata:
     "@opentelemetry/semantic-conventions": 1.13.0
     "@qnighy/marshal": 0.1.3
     "@renovatebot/osv-offline": 1.2.12
-    "@renovatebot/pep440": 2.1.15
+    "@renovatebot/pep440": 2.1.16
     "@renovatebot/ruby-semver": 3.0.1
     "@sindresorhus/is": 4.6.0
     "@types/ms": 0.7.31
@@ -8813,7 +8813,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 541c159cb7749677eaf06104a3c1ebcdaae6f8682e140d37fee1ecfea97e419924115f07e437548b7d7f1c6cdabd935847543690e522d5189289338a80fb0c88
+  checksum: 482a6d8684925d14f42217fbd414631dde7fea5852f299f0a2c2406fba6fc1959a84ed021795cd36f46070cf99312cf7237d4e2e405aa858c8bc420ecaf0665c
   languageName: node
   linkType: hard
 
