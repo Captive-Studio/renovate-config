@@ -1503,7 +1503,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.140.1
+    renovate: 35.140.2
   languageName: unknown
   linkType: soft
 
@@ -7744,7 +7744,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^9.3.1, node-gyp@npm:latest":
+"node-gyp@npm:^9.4.0, node-gyp@npm:latest":
   version: 9.4.0
   resolution: "node-gyp@npm:9.4.0"
   dependencies:
@@ -8362,14 +8362,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.19.0":
-  version: 1.19.0
-  resolution: "re2@npm:1.19.0"
+"re2@npm:1.19.1":
+  version: 1.19.1
+  resolution: "re2@npm:1.19.1"
   dependencies:
     install-artifact-from-github: ^1.3.3
     nan: ^2.17.0
-    node-gyp: ^9.3.1
-  checksum: 93d1be6c6cfc015b793591b482e737d41ece7d3191650e472b6d549c7e35f1e97e8030cba70ddcbd9ca5df61deeb31f937f6ab51d7729ad7970017d0925ef885
+    node-gyp: ^9.4.0
+  checksum: 44f752ebc03b9973d797f126787664f2763dc983d52a872833b4c8988e64db644a74fa76570112b1cd6e44b2f845d3e58e9779f1a917cb5a511044a6ba62a206
   languageName: node
   linkType: hard
 
@@ -8571,9 +8571,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.140.1":
-  version: 35.140.1
-  resolution: "renovate@npm:35.140.1"
+"renovate@npm:35.140.2":
+  version: 35.140.2
+  resolution: "renovate@npm:35.140.2"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -8660,12 +8660,12 @@ __metadata:
     parse-link-header: 2.0.0
     prettier: 2.8.8
     quick-lru: 5.1.1
-    re2: 1.19.0
+    re2: 1.19.1
     redis: 4.6.7
     remark: 13.0.0
     remark-github: 10.1.0
     safe-stable-stringify: 2.4.3
-    semver: 7.5.1
+    semver: 7.5.2
     semver-stable: 3.0.0
     semver-utils: 1.1.4
     shlex: 2.1.2
@@ -8686,7 +8686,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 49082fe0ef09e8534ae8295ed2e99c2062e5c4e5bce701e73c91a948b84edcdd004d9883f14bfb5489b02a47b20c12ec9c55e64a72bbc07842f11b0f31d991a0
+  checksum: 7f9a5e72fe95641dbec71be3252ab1f02393957fdb4b0a54f5ffbef80d856614dfc33f6ea71256fbbf02c342fae8df887fc7bb001bf467f64d4c8d545f2968af
   languageName: node
   linkType: hard
 
@@ -8949,14 +8949,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.5.1":
-  version: 7.5.1
-  resolution: "semver@npm:7.5.1"
+"semver@npm:7.5.2, semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.1":
+  version: 7.5.2
+  resolution: "semver@npm:7.5.2"
   dependencies:
     lru-cache: ^6.0.0
   bin:
     semver: bin/semver.js
-  checksum: d16dbedad53c65b086f79524b9ef766bf38670b2395bdad5c957f824dcc566b624988013564f4812bcace3f9d405355c3635e2007396a39d1bffc71cfec4a2fc
+  checksum: 3fdf5d1e6f170fe8bcc41669e31787649af91af7f54f05c71d0865bb7aa27e8b92f68b3e6b582483e2c1c648008bc84249d2cd86301771fe5cbf7621d1fe5375
   languageName: node
   linkType: hard
 
@@ -8966,17 +8966,6 @@ __metadata:
   bin:
     semver: ./bin/semver.js
   checksum: 1b26ecf6db9e8292dd90df4e781d91875c0dcc1b1909e70f5d12959a23c7eebb8f01ea581c00783bbee72ceeaad9505797c381756326073850dc36ed284b21b9
-  languageName: node
-  linkType: hard
-
-"semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.1":
-  version: 7.5.2
-  resolution: "semver@npm:7.5.2"
-  dependencies:
-    lru-cache: ^6.0.0
-  bin:
-    semver: bin/semver.js
-  checksum: 3fdf5d1e6f170fe8bcc41669e31787649af91af7f54f05c71d0865bb7aa27e8b92f68b3e6b582483e2c1c648008bc84249d2cd86301771fe5cbf7621d1fe5375
   languageName: node
   linkType: hard
 
