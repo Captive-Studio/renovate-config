@@ -24,7 +24,8 @@
         "shoulda-matchers",
         "sidekiq",
         "simplecov",
-        "tzinfo-data"
+        "tzinfo-data",
+        "webmock"
       ],
       "matchPackagePatterns": ["^minitest-", "^rspec-", "^rubocop-", "^sentry-"]
     },
