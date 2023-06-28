@@ -25,6 +25,7 @@
         "sidekiq",
         "simplecov",
         "tzinfo-data",
+        "web-console",
         "webmock"
       ],
       "matchPackagePatterns": ["^minitest-", "^rspec-", "^rubocop-", "^sentry-"]
