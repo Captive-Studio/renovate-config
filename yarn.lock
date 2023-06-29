@@ -1512,7 +1512,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.141.4
+    renovate: 35.146.1
   languageName: unknown
   linkType: soft
 
@@ -3764,13 +3764,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:12.0.0":
-  version: 12.0.0
-  resolution: "azure-devops-node-api@npm:12.0.0"
+"azure-devops-node-api@npm:12.1.0":
+  version: 12.1.0
+  resolution: "azure-devops-node-api@npm:12.1.0"
   dependencies:
     tunnel: 0.0.6
     typed-rest-client: ^1.8.4
-  checksum: a6e142c61f71ace9cd3fd814607d47d68b443065e50735b596c4d5057de16345f1eb40f4e2b5bcae2b60497483cf54fc7d9c4136a3568c01345cc34165e9b8ef
+  checksum: aa3c3f3eff89485a44ea31843749c5abf5ddfb0d2f059a3f5623d75d5eddbab5b839a5458c158e7941b9c8a2adfde2ecfea128ed076f730c309c869e8a318a78
   languageName: node
   linkType: hard
 
@@ -5857,18 +5857,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.2.7":
-  version: 10.2.7
-  resolution: "glob@npm:10.2.7"
+"glob@npm:10.3.1":
+  version: 10.3.1
+  resolution: "glob@npm:10.3.1"
   dependencies:
     foreground-child: ^3.1.0
     jackspeak: ^2.0.3
     minimatch: ^9.0.1
     minipass: ^5.0.0 || ^6.0.2
-    path-scurry: ^1.7.0
+    path-scurry: ^1.10.0
   bin:
     glob: dist/cjs/src/bin.js
-  checksum: 555205a74607d6f8d9874ba888924b305b5ea1abfaa2e9ccb11ac713d040aac7edbf7d8702a2f4a1cd81b2d7666412170ce7ef061d33cddde189dae8c1a1a054
+  checksum: 19c8c2805658b1002fecf0722cd609a33153d756a0d5260676bd0e9c5e6ef889ec9cce6d3dac0411aa90bce8de3d14f25b6f5589a3292582cccbfeddd0e98cc4
   languageName: node
   linkType: hard
 
@@ -7067,6 +7067,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"lru-cache@npm:^9.1.1 || ^10.0.0":
+  version: 10.0.0
+  resolution: "lru-cache@npm:10.0.0"
+  checksum: 18f101675fe283bc09cda0ef1e3cc83781aeb8373b439f086f758d1d91b28730950db785999cd060d3c825a8571c03073e8c14512b6655af2188d623031baf50
+  languageName: node
+  linkType: hard
+
 "luxon@npm:3.3.0, luxon@npm:^3.3.0":
   version: 3.3.0
   resolution: "luxon@npm:3.3.0"
@@ -8201,6 +8208,16 @@ __metadata:
   languageName: node
   linkType: hard
 
+"path-scurry@npm:^1.10.0":
+  version: 1.10.0
+  resolution: "path-scurry@npm:1.10.0"
+  dependencies:
+    lru-cache: ^9.1.1 || ^10.0.0
+    minipass: ^5.0.0 || ^6.0.2
+  checksum: 3b66a4a6ab66e45755b577c966ecf0da92d3e068b3c992d8f69aa2cc908ef4eda9358253e9b4f86cad43d3ad810ec445be164105975f5cb3fdab68459c59dc6e
+  languageName: node
+  linkType: hard
+
 "path-scurry@npm:^1.7.0":
   version: 1.9.2
   resolution: "path-scurry@npm:1.9.2"
@@ -8605,9 +8622,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.141.4":
-  version: 35.141.4
-  resolution: "renovate@npm:35.141.4"
+"renovate@npm:35.146.1":
+  version: 35.146.1
+  resolution: "renovate@npm:35.146.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -8641,7 +8658,7 @@ __metadata:
     aggregate-error: 3.1.0
     auth-header: 1.0.0
     aws4: 1.12.0
-    azure-devops-node-api: 12.0.0
+    azure-devops-node-api: 12.1.0
     bunyan: 1.8.15
     cacache: 17.1.3
     cacheable-lookup: 5.0.4
@@ -8665,7 +8682,7 @@ __metadata:
     fs-extra: 11.1.1
     git-url-parse: 13.1.0
     github-url-from-git: 1.5.0
-    glob: 10.2.7
+    glob: 10.3.1
     global-agent: 3.0.0
     good-enough-parser: 1.1.23
     got: 11.8.6
@@ -8678,6 +8695,7 @@ __metadata:
     json-dup-key-validator: 1.0.3
     json-stringify-pretty-compact: 3.0.0
     json5: 2.2.3
+    klona: 2.0.6
     luxon: 3.3.0
     markdown-it: 13.0.1
     markdown-table: 2.0.0
@@ -8720,7 +8738,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: bb384a0d94a7c66efcc265725d0377c6497428293572740374ee32c7bc1bbe9a7505836ca79d9ceedfaeed6b47d0efd4f5013708eab4962d8d06750d966b0b2a
+  checksum: 4845ddbac09a26adb16dd49e665a63c9b484e069c2af7ebe89cfa04f0482c03b55cdb2e96f22e495f96085f165bc7b2695b67fcfe8fa0e7253f08806c8da1ee1
   languageName: node
   linkType: hard
 
