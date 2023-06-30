@@ -1519,7 +1519,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.146.1
+    renovate: 35.151.0
   languageName: unknown
   linkType: soft
 
@@ -4228,6 +4228,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"commander@npm:^11.0.0":
+  version: 11.0.0
+  resolution: "commander@npm:11.0.0"
+  checksum: 6621954e1e1d078b4991c1f5bbd9439ad37aa7768d6ab4842de1dbd4d222c8a27e1b8e62108b3a92988614af45031d5bb2a2aaa92951f4d0c934d1a1ac564bb4
+  languageName: node
+  linkType: hard
+
 "commander@npm:^7.2.0":
   version: 7.2.0
   resolution: "commander@npm:7.2.0"
@@ -4818,17 +4825,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"editorconfig@npm:1.0.2":
-  version: 1.0.2
-  resolution: "editorconfig@npm:1.0.2"
+"editorconfig@npm:1.0.3":
+  version: 1.0.3
+  resolution: "editorconfig@npm:1.0.3"
   dependencies:
     "@one-ini/wasm": 0.1.1
-    commander: ^10.0.0
-    minimatch: 6.1.6
-    semver: ^7.3.8
+    commander: ^11.0.0
+    minimatch: 9.0.1
+    semver: ^7.5.3
   bin:
     editorconfig: bin/editorconfig
-  checksum: 21d0b40705957c207afd8cf829082ba432fbcc563130ab684eba276e8c22151deab80879d95d517df2db9a111d0023dafa2a26983b442fc327f5e1123a514da1
+  checksum: 40ff29a92c628a1f00b44af538aac7e845fce7986606992d46138387a5299506e6cfc2ba0aed7b58b37865b00991217b19e8bf664174b890b2b8c13731fcae45
   languageName: node
   linkType: hard
 
@@ -7506,15 +7513,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:6.1.6":
-  version: 6.1.6
-  resolution: "minimatch@npm:6.1.6"
-  dependencies:
-    brace-expansion: ^2.0.1
-  checksum: 707b026e0adc610be6c02f24173d84811e5b8cc2e434881e47ef00a72be5fbea9323b7158d7bf065782b1e1d5c50d7d80cd72f2602255f2fddfb1d2f02e9092c
-  languageName: node
-  linkType: hard
-
 "minimatch@npm:9.0.1":
   version: 9.0.1
   resolution: "minimatch@npm:9.0.1"
@@ -8597,9 +8595,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.146.1":
-  version: 35.146.1
-  resolution: "renovate@npm:35.146.1"
+"renovate@npm:35.151.0":
+  version: 35.151.0
+  resolution: "renovate@npm:35.151.0"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -8646,7 +8644,7 @@ __metadata:
     delay: 5.0.0
     dequal: 2.0.3
     detect-indent: 6.1.0
-    editorconfig: 1.0.2
+    editorconfig: 1.0.3
     email-addresses: 5.0.0
     emoji-regex: 10.2.1
     emojibase: 6.1.0
@@ -8713,7 +8711,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 4845ddbac09a26adb16dd49e665a63c9b484e069c2af7ebe89cfa04f0482c03b55cdb2e96f22e495f96085f165bc7b2695b67fcfe8fa0e7253f08806c8da1ee1
+  checksum: 2ded793a725629c20942f8e43c35009aad92f641b127562c89c234cedadc13269dfb67fd7efe762e54ac07587387969054ecc636a710bfdc8f27fec6f12e9ee8
   languageName: node
   linkType: hard
 
@@ -8976,7 +8974,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.5.3, semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.1":
+"semver@npm:7.5.3, semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.3.7, semver@npm:^7.3.8, semver@npm:^7.5.1, semver@npm:^7.5.3":
   version: 7.5.3
   resolution: "semver@npm:7.5.3"
   dependencies:
