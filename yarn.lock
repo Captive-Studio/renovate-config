@@ -1519,7 +1519,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 2.8.8
-    renovate: 35.151.0
+    renovate: 35.151.1
   languageName: unknown
   linkType: soft
 
@@ -7522,7 +7522,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:^9.0.1":
+"minimatch@npm:9.0.2, minimatch@npm:^9.0.1":
   version: 9.0.2
   resolution: "minimatch@npm:9.0.2"
   dependencies:
@@ -8595,9 +8595,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:35.151.0":
-  version: 35.151.0
-  resolution: "renovate@npm:35.151.0"
+"renovate@npm:35.151.1":
+  version: 35.151.1
+  resolution: "renovate@npm:35.151.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.348.0
     "@aws-sdk/client-ec2": 3.348.0
@@ -8672,7 +8672,7 @@ __metadata:
     luxon: 3.3.0
     markdown-it: 13.0.1
     markdown-table: 2.0.0
-    minimatch: 9.0.1
+    minimatch: 9.0.2
     moo: 0.5.2
     ms: 2.1.3
     nanoid: 3.3.6
@@ -8711,7 +8711,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 2ded793a725629c20942f8e43c35009aad92f641b127562c89c234cedadc13269dfb67fd7efe762e54ac07587387969054ecc636a710bfdc8f27fec6f12e9ee8
+  checksum: 706bac78f49892c0c8d6138f5448b2bc9d9ba8e6e47a914881e8580f9408ffab63c2e52496f6f73e1b83c625b972a15eb6ed279b2cd54cbc1701cd29d7164358
   languageName: node
   linkType: hard
 
