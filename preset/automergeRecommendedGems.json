@@ -9,6 +9,7 @@
       "matchPackageNames": [
         "aws-sdk-s3",
         "bootsnap",
+        "captive-api",
         "capybara",
         "cuprite",
         "debug",
