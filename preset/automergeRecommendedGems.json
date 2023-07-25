@@ -32,7 +32,13 @@
         "web-console",
         "webmock"
       ],
-      "matchPackagePatterns": ["^minitest-", "^rspec-", "^rubocop-", "^sentry-"]
+      "matchPackagePatterns": [
+        "^minitest-",
+        "^rspec-",
+        "^rswag-",
+        "^rubocop-",
+        "^sentry-"
+      ]
     },
     {
       "matchUpdateTypes": ["patch"],
