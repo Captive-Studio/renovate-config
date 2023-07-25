@@ -15,6 +15,7 @@
         "debug",
         "faker",
         "foreman",
+        "jsbundling-rails",
         "importmap-rails",
         "minitest",
         "pg",
