@@ -15,6 +15,7 @@
         "debug",
         "faker",
         "foreman",
+        "importmap-rails",
         "minitest",
         "pg",
         "puma",
