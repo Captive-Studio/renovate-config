@@ -11,6 +11,7 @@
         "bootsnap",
         "captive-api",
         "capybara",
+        "cssbundling-rails",
         "cuprite",
         "debug",
         "faker",
