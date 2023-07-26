@@ -14,6 +14,7 @@
           "github>Captive-Studio/renovate-config//preset/automergeRecommended",
           "github>Captive-Studio/renovate-config//preset/commit",
           "github>Captive-Studio/renovate-config//preset/schedule",
+          "github>Captive-Studio/renovate-config//preset/postUpgrade",
           "workarounds:all"
         ]
       }
