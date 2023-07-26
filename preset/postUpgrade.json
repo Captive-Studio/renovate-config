@@ -1,0 +1,8 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default post upgrade tasks",
+  "postUpgradeTasks": {
+    "commands": ["npm run format --if-present"],
+    "executionMode": "update"
+  }
+}
