@@ -16,17 +16,17 @@
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["major"],
-      "stabilityDays": 7
+      "minimumReleaseAge": "7 days"
     },
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["minor"],
-      "stabilityDays": 2
+      "minimumReleaseAge": "2 days"
     },
     {
       "matchDepTypes": ["dependencies"],
       "matchUpdateTypes": ["patch"],
-      "stabilityDays": 2
+      "minimumReleaseAge": "2 days"
     }
   ],
   "prConcurrentLimit": 20,
