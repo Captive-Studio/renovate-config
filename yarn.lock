@@ -1036,9 +1036,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@captive/cspell-config@npm:1.0.8":
-  version: 1.0.8
-  resolution: "@captive/cspell-config@npm:1.0.8"
+"@captive/cspell-config@npm:1.0.9":
+  version: 1.0.9
+  resolution: "@captive/cspell-config@npm:1.0.9"
   dependencies:
     "@cspell/dict-fr-fr": ^2.2.0
     "@w5s/cspell-config": ^1.0.0-alpha.12
@@ -1047,7 +1047,7 @@ __metadata:
   peerDependenciesMeta:
     cspell:
       optional: true
-  checksum: 813e9148053097d779048ec352c47c3c7ff1b5792b3fee67e3f46e791615a13ef3d5ac007e26c87415ff238c18c1482348719880b0c1c016ceb2a82dea67fbb0
+  checksum: e099f58bdc3ba5555b4cfe948deabf8a252afb258c240ee29d1f03d0130078820a796e29f1582482b7fbffcbd55015e84ec76c92b8098ed1cd57a9feebea659e
   languageName: node
   linkType: hard
 
@@ -1093,7 +1093,7 @@ __metadata:
   resolution: "@captive/renovate-config@workspace:."
   dependencies:
     "@captive/commitlint-config": 1.1.20
-    "@captive/cspell-config": 1.0.8
+    "@captive/cspell-config": 1.0.9
     "@captive/eslint-config": 1.8.1
     ajv-cli: 5.0.0
     concurrently: 8.2.0
