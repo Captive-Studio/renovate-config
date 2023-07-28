@@ -67,7 +67,7 @@
     "root": true
   },
   "devDependencies": {
-    "@captive/commitlint-config": "1.1.20",
+    "@captive/commitlint-config": "1.1.21",
     "@captive/cspell-config": "1.0.9",
     "@captive/eslint-config": "1.9.0",
     "ajv-cli": "5.0.0",
