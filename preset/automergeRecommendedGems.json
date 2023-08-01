@@ -25,6 +25,7 @@
         "redis",
         "rspec",
         "rubocop",
+        "selenium-webdriver",
         "shoulda-matchers",
         "sidekiq",
         "simplecov",
