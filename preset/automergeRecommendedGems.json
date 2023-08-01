@@ -30,6 +30,7 @@
         "simplecov",
         "tzinfo-data",
         "web-console",
+        "webdrivers",
         "webmock"
       ],
       "matchPackagePatterns": [
