@@ -8,6 +8,7 @@
       "matchPackageNames": [
         "core-js",
         "date-fns",
+        "esbuild",
         "ionicons",
         "pinia",
         "vue",
