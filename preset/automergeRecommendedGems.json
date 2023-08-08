@@ -26,6 +26,7 @@
         "rspec",
         "rubocop",
         "selenium-webdriver",
+        "sinatra",
         "shoulda-matchers",
         "sidekiq",
         "simplecov",
