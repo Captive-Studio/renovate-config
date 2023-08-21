@@ -1104,7 +1104,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 3.0.2
-    renovate: 36.52.4
+    renovate: 36.54.1
   languageName: unknown
   linkType: soft
 
@@ -4718,12 +4718,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cron-parser@npm:4.8.1":
-  version: 4.8.1
-  resolution: "cron-parser@npm:4.8.1"
+"cron-parser@npm:4.9.0":
+  version: 4.9.0
+  resolution: "cron-parser@npm:4.9.0"
   dependencies:
     luxon: ^3.2.1
-  checksum: e3e7b227cb45c8e3e16b5ceab9fd1b4769b878b430f009d5de26c3e20d4e0112fde6f90a663afbcd9cc2be92d73b6eefe2d939d1646f3a96704f73c63dd39b6f
+  checksum: 3cf248fc5cae6c19ec7124962b1cd84b76f02b9bc4f58976b3bd07624db3ef10aaf1548efcc2d2dcdab0dad4f12029d640a55ecce05ea5e1596af9db585502cf
   languageName: node
   linkType: hard
 
@@ -9230,9 +9230,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:36.52.4":
-  version: 36.52.4
-  resolution: "renovate@npm:36.52.4"
+"renovate@npm:36.54.1":
+  version: 36.54.1
+  resolution: "renovate@npm:36.54.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.363.0
     "@aws-sdk/client-ec2": 3.363.0
@@ -9274,7 +9274,7 @@ __metadata:
     clean-git-ref: 2.0.1
     commander: 11.0.0
     conventional-commits-detector: 1.0.3
-    cron-parser: 4.8.1
+    cron-parser: 4.9.0
     deepmerge: 4.3.1
     dequal: 2.0.3
     detect-indent: 6.1.0
@@ -9339,14 +9339,14 @@ __metadata:
     validate-npm-package-name: 5.0.0
     vuln-vects: 1.1.0
     xmldoc: 1.3.0
-    zod: 3.21.4
+    zod: 3.22.0
   dependenciesMeta:
     re2:
       optional: true
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 3481d52b31f84cb1d3d8c3c9668b77ebf4983aae911734a9b292d421088314bc30e78f871ea76cf7daebabab0623604ad69cc463f575df8bff947b06e9d23cea
+  checksum: 6b0ad133cbc27769e3680f521d483ac5047788886cddeef187bfef12ae6c4164d388c8fb74316eb90894e1a85a4d9ef698d7fa36de4fb659ac0d2126534459e5
   languageName: node
   linkType: hard
 
@@ -10959,10 +10959,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.21.4":
-  version: 3.21.4
-  resolution: "zod@npm:3.21.4"
-  checksum: f185ba87342ff16f7a06686767c2b2a7af41110c7edf7c1974095d8db7a73792696bcb4a00853de0d2edeb34a5b2ea6a55871bc864227dace682a0a28de33e1f
+"zod@npm:3.22.0":
+  version: 3.22.0
+  resolution: "zod@npm:3.22.0"
+  checksum: b3974ac2c879e1597559d69ad11c331dd4961164fb3a4805d12fe2b3c5b0b6404e4b3acca997d514456f2035140d228f1e9c523a69852937faeb0027f94b6ec0
   languageName: node
   linkType: hard
 
