@@ -1104,16 +1104,16 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 3.0.2
-    renovate: 36.57.4
+    renovate: 36.57.9
   languageName: unknown
   linkType: soft
 
-"@cdktf/hcl2json@npm:0.17.3":
-  version: 0.17.3
-  resolution: "@cdktf/hcl2json@npm:0.17.3"
+"@cdktf/hcl2json@npm:0.18.0":
+  version: 0.18.0
+  resolution: "@cdktf/hcl2json@npm:0.18.0"
   dependencies:
     fs-extra: ^11.1.1
-  checksum: 140f290a24a258720ae6d05ea124a229b1527a4726f1cb8c8a3ad315d9d6bb07b24d7e3ad14eba10761cc9a6efc34718346270d85961bb35390a7c19ccfd0f54
+  checksum: 08cc34d0b6f8e738e329ae635fbcccda3b8f60bf02d6ed214f0303b429a3bd1551c6f61e7499e3581ec5cb03ae58b3b555818239472c274a25feeea840e38f16
   languageName: node
   linkType: hard
 
@@ -4224,27 +4224,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:17.1.3":
-  version: 17.1.3
-  resolution: "cacache@npm:17.1.3"
-  dependencies:
-    "@npmcli/fs": ^3.1.0
-    fs-minipass: ^3.0.0
-    glob: ^10.2.2
-    lru-cache: ^7.7.1
-    minipass: ^5.0.0
-    minipass-collect: ^1.0.2
-    minipass-flush: ^1.0.5
-    minipass-pipeline: ^1.2.4
-    p-map: ^4.0.0
-    ssri: ^10.0.0
-    tar: ^6.1.11
-    unique-filename: ^3.0.0
-  checksum: 385756781e1e21af089160d89d7462b7ed9883c978e848c7075b90b73cb823680e66092d61513050164588387d2ca87dd6d910e28d64bc13a9ac82cd8580c796
-  languageName: node
-  linkType: hard
-
-"cacache@npm:^17.0.0":
+"cacache@npm:17.1.4, cacache@npm:^17.0.0":
   version: 17.1.4
   resolution: "cacache@npm:17.1.4"
   dependencies:
@@ -8304,13 +8284,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-html-parser@npm:6.1.5":
-  version: 6.1.5
-  resolution: "node-html-parser@npm:6.1.5"
+"node-html-parser@npm:6.1.6":
+  version: 6.1.6
+  resolution: "node-html-parser@npm:6.1.6"
   dependencies:
     css-select: ^5.1.0
     he: 1.2.0
-  checksum: b54257b31954be17d473c86a2fede53d5e238708f3d88577c98881c28ab66013fd37044903f6f3cd662b56d882681fb511bca75a80a80b62f7111b32b39eebae
+  checksum: 594dd7daf9c4894be632070e08491e2ac0397c64fabd2cba15c5e7f62f74c6f2d7e3be40931c22033233525dd8fb98ebf3e3017001d7030fa7d0d387f2a18680
   languageName: node
   linkType: hard
 
@@ -9229,9 +9209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:36.57.4":
-  version: 36.57.4
-  resolution: "renovate@npm:36.57.4"
+"renovate@npm:36.57.9":
+  version: 36.57.9
+  resolution: "renovate@npm:36.57.9"
   dependencies:
     "@aws-sdk/client-codecommit": 3.363.0
     "@aws-sdk/client-ec2": 3.363.0
@@ -9239,7 +9219,7 @@ __metadata:
     "@aws-sdk/client-rds": 3.363.0
     "@aws-sdk/client-s3": 3.363.0
     "@breejs/later": 4.1.0
-    "@cdktf/hcl2json": 0.17.3
+    "@cdktf/hcl2json": 0.18.0
     "@iarna/toml": 3.0.0
     "@opentelemetry/api": 1.4.1
     "@opentelemetry/context-async-hooks": 1.15.2
@@ -9266,7 +9246,7 @@ __metadata:
     aws4: 1.12.0
     azure-devops-node-api: 12.1.0
     bunyan: 1.8.15
-    cacache: 17.1.3
+    cacache: 17.1.4
     cacheable-lookup: 5.0.4
     chalk: 4.1.2
     changelog-filename-regex: 2.0.1
@@ -9310,7 +9290,7 @@ __metadata:
     moo: 0.5.2
     ms: 2.1.3
     nanoid: 3.3.6
-    node-html-parser: 6.1.5
+    node-html-parser: 6.1.6
     openpgp: 5.9.0
     p-all: 3.0.0
     p-map: 4.0.0
@@ -9345,7 +9325,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 4bd31c16e403f186fac5b6a50d0dbc1a273c83a415fad85fa5d7aabf8de02b272b28638d523b84f52697b76a88a6cd5f62fdb94b6aaf4cdcb618e953c27d45d7
+  checksum: 6a70ab52bd1bb5d10fd1d1d0b840fe5dece1b33190f8e7b938528e55418b123bf8b7b480df994cd7a960c3efb0e366a0525acc23afc2266a4dcfe14b2c8d1d49
   languageName: node
   linkType: hard
 
