@@ -1104,7 +1104,7 @@ __metadata:
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 3.0.2
-    renovate: 36.57.11
+    renovate: 36.64.1
   languageName: unknown
   linkType: soft
 
@@ -9209,9 +9209,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:36.57.11":
-  version: 36.57.11
-  resolution: "renovate@npm:36.57.11"
+"renovate@npm:36.64.1":
+  version: 36.64.1
+  resolution: "renovate@npm:36.64.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.363.0
     "@aws-sdk/client-ec2": 3.363.0
@@ -9312,7 +9312,7 @@ __metadata:
     slugify: 1.6.6
     source-map-support: 0.5.21
     traverse: 0.6.7
-    tslib: 2.6.1
+    tslib: 2.6.2
     upath: 2.0.1
     url-join: 4.0.1
     validate-npm-package-name: 5.0.0
@@ -9325,7 +9325,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 132efdb79c97de5351392c3890b83ef69a3f08e0ef23daae25a7fe42763ed9fbd55d2edf20bf3ee81b6ae787e79f8d8fbfaed06ce04db51d165fc1fe9c872cf7
+  checksum: 35698e8c2e45ab07f8b1545ae8f323c993d62452d5882e7a777796111c43955619e1baa1c40c09c6f3f6a9cf48040aff80ce627d94c30c0c39d53238d117b37b
   languageName: node
   linkType: hard
 
@@ -10239,10 +10239,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tslib@npm:2.6.1":
-  version: 2.6.1
-  resolution: "tslib@npm:2.6.1"
-  checksum: b0d176d176487905b66ae4d5856647df50e37beea7571c53b8d10ba9222c074b81f1410fb91da13debaf2cbc970663609068bdebafa844ea9d69b146527c38fe
+"tslib@npm:2.6.2, tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.5.0, tslib@npm:^2.6.0":
+  version: 2.6.2
+  resolution: "tslib@npm:2.6.2"
+  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
   languageName: node
   linkType: hard
 
@@ -10250,13 +10250,6 @@ __metadata:
   version: 1.14.1
   resolution: "tslib@npm:1.14.1"
   checksum: dbe628ef87f66691d5d2959b3e41b9ca0045c3ee3c7c7b906cc1e328b39f199bb1ad9e671c39025bd56122ac57dfbf7385a94843b1cc07c60a4db74795829acd
-  languageName: node
-  linkType: hard
-
-"tslib@npm:^2.1.0, tslib@npm:^2.3.1, tslib@npm:^2.5.0, tslib@npm:^2.6.0":
-  version: 2.6.2
-  resolution: "tslib@npm:2.6.2"
-  checksum: 329ea56123005922f39642318e3d1f0f8265d1e7fcb92c633e0809521da75eeaca28d2cf96d7248229deb40e5c19adf408259f4b9640afd20d13aecc1430f3ad
   languageName: node
   linkType: hard
 
