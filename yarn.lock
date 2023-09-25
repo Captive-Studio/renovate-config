@@ -1179,12 +1179,12 @@ __metadata:
     ajv-cli: 5.0.0
     concurrently: 8.2.1
     cspell: 7.3.6
-    eslint: 8.49.0
+    eslint: 8.50.0
     markdown-magic: 2.6.1
     markdown-magic-package-json: 2.0.2
     markdown-magic-subpackage-list: 1.1.2
     prettier: 3.0.3
-    renovate: 36.102.0
+    renovate: 36.107.1
   languageName: unknown
   linkType: soft
 
@@ -1721,10 +1721,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@eslint/js@npm:8.49.0":
-  version: 8.49.0
-  resolution: "@eslint/js@npm:8.49.0"
-  checksum: a6601807c8aeeefe866926ad92ed98007c034a735af20ff709009e39ad1337474243d47908500a3bde04e37bfba16bcf1d3452417f962e1345bc8756edd6b830
+"@eslint/js@npm:8.50.0":
+  version: 8.50.0
+  resolution: "@eslint/js@npm:8.50.0"
+  checksum: 302478f2acaaa7228729ec6a04f56641590185e1d8cd1c836a6db8a6b8009f80a57349341be9fbb9aa1721a7a569d1be3ffc598a33300d22816f11832095386c
   languageName: node
   linkType: hard
 
@@ -2407,17 +2407,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:3.0.7":
-  version: 3.0.7
-  resolution: "@renovatebot/pep440@npm:3.0.7"
-  checksum: d1abbcc19d5afa42f28fab765b87ede75a906401071a2b29459b32526fa8060d85793c078319e17b298f8817ffdf3aefaef3c645bd2b8e17d868e25daaf6f62f
+"@renovatebot/pep440@npm:3.0.8":
+  version: 3.0.8
+  resolution: "@renovatebot/pep440@npm:3.0.8"
+  checksum: 87f778e682ba31e9c9dd31400e4ba23d47e914f82e079210cda2d455dcdb98fb13a4afc8734d2f2f2e9b19333f8e0b27f52fe9f7901546aa227a481bfd76b5e6
   languageName: node
   linkType: hard
 
-"@renovatebot/ruby-semver@npm:3.0.14":
-  version: 3.0.14
-  resolution: "@renovatebot/ruby-semver@npm:3.0.14"
-  checksum: 4a0eda54ec5e43d7bf5ed4a11bb349f75b9799b6722e9b4ec153bd39f8f62dd597979c7e7a7a8626089d97207a295e0132acfc0c6ea666f2089f510078b612a8
+"@renovatebot/ruby-semver@npm:3.0.15":
+  version: 3.0.15
+  resolution: "@renovatebot/ruby-semver@npm:3.0.15"
+  checksum: 0f0d407bd88a4a040f0b12254255be65c5e527a6f60034fdc6b59de2094c4b0fa2fbc2ecc1999ed446f7bb8e1425855a233af76e42084ff5ae72b0dad906a9a9
   languageName: node
   linkType: hard
 
@@ -5718,14 +5718,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"eslint@npm:8.49.0":
-  version: 8.49.0
-  resolution: "eslint@npm:8.49.0"
+"eslint@npm:8.50.0":
+  version: 8.50.0
+  resolution: "eslint@npm:8.50.0"
   dependencies:
     "@eslint-community/eslint-utils": ^4.2.0
     "@eslint-community/regexpp": ^4.6.1
     "@eslint/eslintrc": ^2.1.2
-    "@eslint/js": 8.49.0
+    "@eslint/js": 8.50.0
     "@humanwhocodes/config-array": ^0.11.11
     "@humanwhocodes/module-importer": ^1.0.1
     "@nodelib/fs.walk": ^1.2.8
@@ -5761,7 +5761,7 @@ __metadata:
     text-table: ^0.2.0
   bin:
     eslint: bin/eslint.js
-  checksum: 4dfe257e1e42da2f9da872b05aaaf99b0f5aa022c1a91eee8f2af1ab72651b596366320c575ccd4e0469f7b4c97aff5bb85ae3323ebd6a293c3faef4028b0d81
+  checksum: 9ebfe5615dc84700000d218e32ddfdcfc227ca600f65f18e5541ec34f8902a00356a9a8804d9468fd6c8637a5ef6a3897291dad91ba6579d5b32ffeae5e31768
   languageName: node
   linkType: hard
 
@@ -9360,9 +9360,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:36.102.0":
-  version: 36.102.0
-  resolution: "renovate@npm:36.102.0"
+"renovate@npm:36.107.1":
+  version: 36.107.1
+  resolution: "renovate@npm:36.107.1"
   dependencies:
     "@aws-sdk/client-codecommit": 3.363.0
     "@aws-sdk/client-ec2": 3.363.0
@@ -9385,8 +9385,8 @@ __metadata:
     "@opentelemetry/semantic-conventions": 1.17.0
     "@qnighy/marshal": 0.1.3
     "@renovatebot/osv-offline": 1.3.7
-    "@renovatebot/pep440": 3.0.7
-    "@renovatebot/ruby-semver": 3.0.14
+    "@renovatebot/pep440": 3.0.8
+    "@renovatebot/ruby-semver": 3.0.15
     "@sindresorhus/is": 4.6.0
     "@types/ms": 0.7.31
     "@types/tmp": 0.2.4
@@ -9478,7 +9478,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 975231586b87e6b1d6f517ef1353c61c6bfe4a39a75d51fb3b047d08ba0e3ba0832e57e9dea5434610c6e9ffc4b2caf7552897b6b7c26a5f8d8420ac180a5900
+  checksum: a2031816a0d508dfd2ae8e89f249b4a1bfb8ad41923cef29e562c96f38208b00e72650a4dc8c364808a79489833fb8c8203fb48fb3bb2e22c7b100930ef8a860
   languageName: node
   linkType: hard
 
