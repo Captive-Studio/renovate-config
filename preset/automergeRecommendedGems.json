@@ -21,7 +21,6 @@
         "minitest",
         "pg",
         "puma",
-        "rails",
         "redis",
         "rspec",
         "rubocop",
