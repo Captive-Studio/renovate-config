@@ -14,6 +14,7 @@
         "cssbundling-rails",
         "cuprite",
         "debug",
+        "devise-i18n",
         "faker",
         "foreman",
         "jsbundling-rails",
