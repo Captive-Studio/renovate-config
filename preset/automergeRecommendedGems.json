@@ -11,6 +11,7 @@
         "bootsnap",
         "captive-api",
         "capybara",
+        "countries",
         "cssbundling-rails",
         "cuprite",
         "debug",
