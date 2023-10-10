@@ -68,7 +68,7 @@
   },
   "devDependencies": {
     "@captive/commitlint-config": "1.1.22",
-    "@captive/cspell-config": "1.0.11",
+    "@captive/cspell-config": "1.0.12",
     "@captive/eslint-config": "1.10.3",
     "ajv-cli": "5.0.0",
     "concurrently": "8.2.1",
