@@ -6,6 +6,7 @@
     "github>Captive-Studio/renovate-config//preset/groupCapacitorMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupFlipperMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupIonicMonorepo",
+    "github>Captive-Studio/renovate-config//preset/groupRails",
     "github>Captive-Studio/renovate-config//preset/groupRailsJs",
     "github>Captive-Studio/renovate-config//preset/groupRswagMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupSentryRubyMonorepo"
