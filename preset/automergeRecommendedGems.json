@@ -14,6 +14,7 @@
         "countries",
         "cssbundling-rails",
         "cuprite",
+        "data_migrate",
         "debug",
         "devise-i18n",
         "faker",
