@@ -18,6 +18,7 @@
         "debug",
         "devise-i18n",
         "faker",
+        "ffaker",
         "foreman",
         "importmap-rails",
         "jquery-rails",
