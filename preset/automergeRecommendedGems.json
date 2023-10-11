@@ -18,6 +18,7 @@
         "devise-i18n",
         "faker",
         "foreman",
+        "jquery-rails",
         "jsbundling-rails",
         "importmap-rails",
         "mocha",
