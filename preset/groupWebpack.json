@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Add bullet to rubyOnRails",
+  "packageRules": [
+    {
+      "groupName": "Webpack packages",
+      "matchPackagePatterns": ["^webpack$", "^webpack-"]
+    }
+  ]
+}
