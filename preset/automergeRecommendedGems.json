@@ -43,6 +43,7 @@
         "^minitest-",
         "^rspec-",
         "^rswag-",
+        "^rubocop-config-",
         "^rubocop-",
         "^sentry-"
       ]
