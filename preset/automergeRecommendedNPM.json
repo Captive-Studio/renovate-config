@@ -11,6 +11,7 @@
         "esbuild",
         "ionicons",
         "pinia",
+        "sass",
         "vue",
         "vue-router",
         "@ionic/lab",
