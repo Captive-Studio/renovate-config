@@ -3,6 +3,13 @@
   "description": "Automerge Trusted packages",
   "packageRules": [
     {
+      "matchUpdateTypes": ["major", "minor", "patch"],
+      "matchSourceUrls": [
+        "https://github.com/Captive-Studio/es-project-config"
+      ],
+      "automerge": true
+    },
+    {
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "matchPackageNames": [
