@@ -4,6 +4,7 @@
     "group:capacitorMonorepo",
     "group:ionic-nativeMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupCapacitorMonorepo",
+    "github>Captive-Studio/renovate-config//preset/groupCaptiveSdkMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupFlipperMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupIonicMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupRails",
