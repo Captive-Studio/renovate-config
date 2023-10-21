@@ -7331,7 +7331,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"is@npm:^3.2.1":
+"is@npm:^3.2.1, is@npm:^3.3.0":
   version: 3.3.0
   resolution: "is@npm:3.3.0"
   checksum: 81fad3b40c606984c2d0699207c4c48d2a0d29cc834b274d0b74c172f3eeebdb981301fe0d690ce090a96bf021a8a1f8b1325262ad9870c525e557ac4a559c56
@@ -8480,12 +8480,12 @@ __metadata:
   linkType: hard
 
 "node.extend@npm:^2.0.0":
-  version: 2.0.2
-  resolution: "node.extend@npm:2.0.2"
+  version: 2.0.3
+  resolution: "node.extend@npm:2.0.3"
   dependencies:
-    has: ^1.0.3
-    is: ^3.2.1
-  checksum: 1fe3a1ca7fc35392f169c8a46d889d07deb201bba3a20d17df23efab509698c9639737b0c235c9be772a34035e749bae5d477f74c9e26a1b67c78bd7d6dce8e4
+    hasown: ^2.0.0
+    is: ^3.3.0
+  checksum: fde3c527df4b814d773d06392a576a062a6322bbcf4ad2c8726c900573256164fd04d61ee9b09fca774f1dfae7035cb47d23334da50b308d83e9c525f2b83ea9
   languageName: node
   linkType: hard
 
