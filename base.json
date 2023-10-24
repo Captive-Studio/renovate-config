@@ -31,5 +31,6 @@
   "prConcurrentLimit": 20,
   "prHourlyLimit": 0,
   "platformAutomerge": true,
-  "updateNotScheduled": false
+  "updateNotScheduled": false,
+  "assigneesFromCodeOwners": false
 }
