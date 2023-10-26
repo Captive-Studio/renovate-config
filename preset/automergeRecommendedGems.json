@@ -9,7 +9,6 @@
       "matchPackageNames": [
         "aws-sdk-s3",
         "bootsnap",
-        "captive-api",
         "capybara",
         "countries",
         "cssbundling-rails",
