@@ -80,7 +80,7 @@
     "prettier": "3.0.3",
     "renovate": "37.34.2"
   },
-  "packageManager": "yarn@4.0.0",
+  "packageManager": "yarn@4.0.1",
   "engines": {
     "node": ">=16.0.0",
     "npm": ">=6.0.0",
