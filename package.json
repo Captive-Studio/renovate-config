@@ -72,7 +72,7 @@
     "@captive/eslint-config": "2.0.5",
     "ajv-cli": "5.0.0",
     "concurrently": "8.2.2",
-    "cspell": "7.3.9",
+    "cspell": "8.0.0",
     "eslint": "8.53.0",
     "markdown-magic": "2.6.1",
     "markdown-magic-package-json": "2.0.2",
