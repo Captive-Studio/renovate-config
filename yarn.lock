@@ -2035,11 +2035,11 @@ __metadata:
   linkType: hard
 
 "@octokit/types@npm:^12.0.0, @octokit/types@npm:^12.2.0":
-  version: 12.2.0
-  resolution: "@octokit/types@npm:12.2.0"
+  version: 12.3.0
+  resolution: "@octokit/types@npm:12.3.0"
   dependencies:
     "@octokit/openapi-types": "npm:^19.0.2"
-  checksum: 9f8924ea8fd0bd3ad8560cca5cba6de559559674be1c89ab3342abea9d8ee474f8d471da68d2159db57ae2ff60427f64bfb11ac2f9a1f2f38525e9c1d0dc48dc
+  checksum: ab78fd25490f995f79e341b00c375bade64eedb44d4c76fa3da85961003ba1efcac3cf168ea221bf4f9f5761afe91738412737acf30f1f41f3f2dbad14b872e4
   languageName: node
   linkType: hard
 
