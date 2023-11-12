@@ -1968,13 +1968,13 @@ __metadata:
   linkType: hard
 
 "@octokit/plugin-paginate-rest@npm:^9.0.0":
-  version: 9.1.3
-  resolution: "@octokit/plugin-paginate-rest@npm:9.1.3"
+  version: 9.1.4
+  resolution: "@octokit/plugin-paginate-rest@npm:9.1.4"
   dependencies:
-    "@octokit/types": "npm:^12.2.0"
+    "@octokit/types": "npm:^12.3.0"
   peerDependencies:
     "@octokit/core": ">=5"
-  checksum: e816a2d2444ff71b5a96105b8029266254fd20b9b3139eb373764e48a72979856a22d5ed6fc00aa03423ce21ec41137e0127285a547af2160b72703ab51cdfa6
+  checksum: 1573934e0c2a99e3512cd21a0dbb17f6ca1d5faffdffb499cb80519b1219da4d56f814a30c68c0961fcccf152895bdced478709195f53a6e4c32e71a3235f888
   languageName: node
   linkType: hard
 
@@ -1988,13 +1988,13 @@ __metadata:
   linkType: hard
 
 "@octokit/plugin-rest-endpoint-methods@npm:^10.0.0":
-  version: 10.1.3
-  resolution: "@octokit/plugin-rest-endpoint-methods@npm:10.1.3"
+  version: 10.1.4
+  resolution: "@octokit/plugin-rest-endpoint-methods@npm:10.1.4"
   dependencies:
-    "@octokit/types": "npm:^12.2.0"
+    "@octokit/types": "npm:^12.3.0"
   peerDependencies:
     "@octokit/core": ">=5"
-  checksum: 9e9d679209f2cccbe317b127ee97477d854091e98076fc6898e95a2d529c08e714ba39549640e5e3ef17aa27732df27dfb91c3025058d807251e5659a51342d7
+  checksum: d16753dc9dc884ead95c09c51ba316f53da59b95b97323858b52b76e28a0fb3f3db3db0545c4970d4c2aaf824999fd4425ab5c9516abdec33d8dd2db2e10696a
   languageName: node
   linkType: hard
 
@@ -2034,7 +2034,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/types@npm:^12.0.0, @octokit/types@npm:^12.2.0":
+"@octokit/types@npm:^12.0.0, @octokit/types@npm:^12.3.0":
   version: 12.3.0
   resolution: "@octokit/types@npm:12.3.0"
   dependencies:
@@ -7785,10 +7785,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"luxon@npm:3.4.3, luxon@npm:^3.2.1, luxon@npm:^3.4.3":
+"luxon@npm:3.4.3":
   version: 3.4.3
   resolution: "luxon@npm:3.4.3"
   checksum: b155c9961cf45dadae763b0ec2f5a38d81a2197714154c1dece3ed3a553f1984a34138c1856f248863c998cb623796b27de96b7f7286acdeae68220451e24540
+  languageName: node
+  linkType: hard
+
+"luxon@npm:^3.2.1, luxon@npm:^3.4.3":
+  version: 3.4.4
+  resolution: "luxon@npm:3.4.4"
+  checksum: c14164bc338987349075a08e63ea3ff902866735f7f5553a355b27be22667919765ff96fde4d3413d0e9a0edc4ff9e2e74ebcb8f86eae0ce8b14b27330d87d6e
   languageName: node
   linkType: hard
 
