@@ -1185,16 +1185,16 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.1.0"
-    renovate: "npm:37.59.4"
+    renovate: "npm:37.59.8"
   languageName: unknown
   linkType: soft
 
-"@cdktf/hcl2json@npm:0.19.0":
-  version: 0.19.0
-  resolution: "@cdktf/hcl2json@npm:0.19.0"
+"@cdktf/hcl2json@npm:0.19.1":
+  version: 0.19.1
+  resolution: "@cdktf/hcl2json@npm:0.19.1"
   dependencies:
     fs-extra: "npm:^11.1.1"
-  checksum: a5cad6f5c5eacb9832fdae6aa76cd45784dcd0d54394174f7a11c83b86afce33e8e6dfd5a678ddd68d8028b3cd7ea869b0d83f635d0c32f5df9a3c0f374e5298
+  checksum: 886dfcc52f6d780abe3117391c9a59e927f8c5a4b096d861b244aacc437f0bfad42980cdd8c5ee82c1930b8329dff21fa647c80c3759df078cbd6dfd56ffd2bf
   languageName: node
   linkType: hard
 
@@ -9460,9 +9460,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.59.4":
-  version: 37.59.4
-  resolution: "renovate@npm:37.59.4"
+"renovate@npm:37.59.8":
+  version: 37.59.8
+  resolution: "renovate@npm:37.59.8"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9471,7 +9471,7 @@ __metadata:
     "@aws-sdk/client-s3": "npm:3.363.0"
     "@aws-sdk/credential-providers": "npm:3.363.0"
     "@breejs/later": "npm:4.1.0"
-    "@cdktf/hcl2json": "npm:0.19.0"
+    "@cdktf/hcl2json": "npm:0.19.1"
     "@opentelemetry/api": "npm:1.6.0"
     "@opentelemetry/context-async-hooks": "npm:1.17.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:0.43.0"
@@ -9562,7 +9562,7 @@ __metadata:
     simple-git: "npm:3.20.0"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
-    toml-eslint-parser: "npm:0.6.1"
+    toml-eslint-parser: "npm:0.9.3"
     traverse: "npm:0.6.7"
     tslib: "npm:2.6.2"
     upath: "npm:2.0.1"
@@ -9577,7 +9577,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 2d2d942bbef12043a902f4fe0c864e6a75540b726e2b16dd39db4f83a9103a527bd3bc1446a00895563222a688432fc0194c608742ec7baa87bb12dd0f9429b6
+  checksum: 5cdae9bf8180c2193fbdf5a0d927fe18747576f57bcd5fcf7a249e1027d3315dc172d358ae3c16efb222774753753aa760cb6de979cb0abdf73fb20249410214
   languageName: node
   linkType: hard
 
@@ -10440,12 +10440,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"toml-eslint-parser@npm:0.6.1":
-  version: 0.6.1
-  resolution: "toml-eslint-parser@npm:0.6.1"
+"toml-eslint-parser@npm:0.9.3":
+  version: 0.9.3
+  resolution: "toml-eslint-parser@npm:0.9.3"
   dependencies:
     eslint-visitor-keys: "npm:^3.0.0"
-  checksum: 19773aad0db670165137628e889e45980aa65ab7344e6b1b4a5b18a548870866d82a37f5af4289fc8fb82b86fb6825cd19af33437513acfe47614a580f528097
+  checksum: ec9eb81c51966e7fdea32e5772d9f8e9f07f224843e1c8a4b223cd35d73fcd4e0f493a1153cfff4f9d8be77dc8be9122570a909df27f7ab72fc785734cc97ef8
   languageName: node
   linkType: hard
 
