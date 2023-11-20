@@ -18,6 +18,8 @@
         "data_migrate",
         "debug",
         "devise-i18n",
+        "factory_bot_rails",
+        "factory_bot",
         "faker",
         "ffaker",
         "foreman",
