@@ -11,6 +11,7 @@
         "activeadmin_addons",
         "aws-sdk-s3",
         "bootsnap",
+        "brakeman",
         "capybara",
         "countries",
         "cssbundling-rails",
