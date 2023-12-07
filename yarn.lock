@@ -1096,10 +1096,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@breejs/later@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@breejs/later@npm:4.1.0"
-  checksum: 4652a66952a9d2fc8623f50f94b34aed9607d0ddd222442a6cac639c30024c9835764e330bfe821ba7bdefd930ec7427f1e95e4026e24fb6e3f8169f0904d2c4
+"@breejs/later@npm:4.2.0":
+  version: 4.2.0
+  resolution: "@breejs/later@npm:4.2.0"
+  checksum: ddead3d5160c2eb9e98d059e87183a6cde565dd4a4a9c281a603b0fc2d7d9f99f6047e594b9e4443291b1a2ec84633cb7b69f3cda9794cb6de28fb704f26396e
   languageName: node
   linkType: hard
 
@@ -1185,7 +1185,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.1.0"
-    renovate: "npm:37.83.5"
+    renovate: "npm:37.89.2"
   languageName: unknown
   linkType: soft
 
@@ -6121,7 +6121,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gaxios@npm:^6.0.0":
+"gaxios@npm:^6.0.0, gaxios@npm:^6.1.1":
   version: 6.1.1
   resolution: "gaxios@npm:6.1.1"
   dependencies:
@@ -6133,7 +6133,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"gcp-metadata@npm:^6.0.0":
+"gcp-metadata@npm:^6.1.0":
   version: 6.1.0
   resolution: "gcp-metadata@npm:6.1.0"
   dependencies:
@@ -6407,17 +6407,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:9.2.0":
-  version: 9.2.0
-  resolution: "google-auth-library@npm:9.2.0"
+"google-auth-library@npm:9.4.1":
+  version: 9.4.1
+  resolution: "google-auth-library@npm:9.4.1"
   dependencies:
     base64-js: "npm:^1.3.0"
     ecdsa-sig-formatter: "npm:^1.0.11"
-    gaxios: "npm:^6.0.0"
-    gcp-metadata: "npm:^6.0.0"
+    gaxios: "npm:^6.1.1"
+    gcp-metadata: "npm:^6.1.0"
     gtoken: "npm:^7.0.0"
     jws: "npm:^4.0.0"
-  checksum: b168bbbf8b3e4c122cb315057152ca695a1a03414f7ff268a794f423759197758603211510c026a69566f6c1b49d4f004bfb2ebe69106dc1a68b763a43b59b00
+  checksum: 3fb1b26bec40568edfb9deeac2fdbf4d5d539ea6ed79895f411e508d6ef173f772648bd7ad4cab65a250df60660909e22f3f6863162de794ee065efb9974f723
   languageName: node
   linkType: hard
 
@@ -9085,9 +9085,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.83.5":
-  version: 37.83.5
-  resolution: "renovate@npm:37.83.5"
+"renovate@npm:37.89.2":
+  version: 37.89.2
+  resolution: "renovate@npm:37.89.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9095,7 +9095,7 @@ __metadata:
     "@aws-sdk/client-rds": "npm:3.363.0"
     "@aws-sdk/client-s3": "npm:3.363.0"
     "@aws-sdk/credential-providers": "npm:3.363.0"
-    "@breejs/later": "npm:4.1.0"
+    "@breejs/later": "npm:4.2.0"
     "@cdktf/hcl2json": "npm:0.19.1"
     "@opentelemetry/api": "npm:1.7.0"
     "@opentelemetry/context-async-hooks": "npm:1.18.1"
@@ -9147,7 +9147,7 @@ __metadata:
     glob: "npm:10.3.10"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
-    google-auth-library: "npm:9.2.0"
+    google-auth-library: "npm:9.4.1"
     got: "npm:11.8.6"
     graph-data-structure: "npm:3.3.0"
     handlebars: "npm:4.7.8"
@@ -9202,7 +9202,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: c907ce1d4d02c428549b90594952670053c94d32ee1c5648c84cd5e0d26840d12b44a395367015432605105e4a86d48fb4eb3a9e73536950283d97dde3a9ebe2
+  checksum: 948bfdaec36f77e5df6d0b70c7cf448768ffa8c02e853425a0297af8de94699e34106fab4aecfe6e21d7f1574dcf103cd5c2bca7328af717ef310b331a5b7a45
   languageName: node
   linkType: hard
 
