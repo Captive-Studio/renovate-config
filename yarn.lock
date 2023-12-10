@@ -1185,7 +1185,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.1.1"
-    renovate: "npm:37.89.6"
+    renovate: "npm:37.89.7"
   languageName: unknown
   linkType: soft
 
@@ -5133,17 +5133,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emojibase-regex@npm:15.2.0":
-  version: 15.2.0
-  resolution: "emojibase-regex@npm:15.2.0"
-  checksum: c77052fe858ff420313eba7a785812f78b63d3aa93d0b10ff23e70c325b6076fac88b28126c1f1469632f5f27e5ca88176d0282c4908b78fa250569c5767ff48
+"emojibase-regex@npm:15.3.0":
+  version: 15.3.0
+  resolution: "emojibase-regex@npm:15.3.0"
+  checksum: 6db4c4066adf52f3fd75c3ab2066ffb9f70c5c35aa829c588fa3a459f013ef35072e025beb16af6ed9864da681d9f72cb234085301fd657860e2f31524a7685f
   languageName: node
   linkType: hard
 
-"emojibase@npm:15.2.0":
-  version: 15.2.0
-  resolution: "emojibase@npm:15.2.0"
-  checksum: cc4961abc5e8ff3ae665f25220367ea0b78326409713d05fa5b709ca04e69de047639ec231659fe6e9cc0064e2a106d7a0a59298b7f1bc139a856c38d1772d66
+"emojibase@npm:15.3.0":
+  version: 15.3.0
+  resolution: "emojibase@npm:15.3.0"
+  checksum: 903240dba3b89d3367670bc82419b6e24df35a7784b2884943eb3c41d7894d59083b87ff0cbdaf44e00028b3772bdcb7de1d37ece9b5bfb28ae2aadf22cc047c
   languageName: node
   linkType: hard
 
@@ -9015,9 +9015,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.89.6":
-  version: 37.89.6
-  resolution: "renovate@npm:37.89.6"
+"renovate@npm:37.89.7":
+  version: 37.89.7
+  resolution: "renovate@npm:37.89.7"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9066,8 +9066,8 @@ __metadata:
     editorconfig: "npm:2.0.0"
     email-addresses: "npm:5.0.0"
     emoji-regex: "npm:10.3.0"
-    emojibase: "npm:15.2.0"
-    emojibase-regex: "npm:15.2.0"
+    emojibase: "npm:15.3.0"
+    emojibase-regex: "npm:15.3.0"
     extract-zip: "npm:2.0.1"
     find-packages: "npm:10.0.4"
     find-up: "npm:5.0.0"
@@ -9132,7 +9132,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 17123ae4dda8fba48d14a06288fe531ee88f280290740f83816121263fb89d84ef18084ab55c5afff47cc1707a9868720e28efed8c2a1d368d375ef9decf2152
+  checksum: dd49e49457c85262692f824ad87b92d7bd50b311e05629e118d9bbc94612d2c7661b2c8f6a783bb580834a49866435c90a6820d09c49288184736a9b6a6f9250
   languageName: node
   linkType: hard
 
