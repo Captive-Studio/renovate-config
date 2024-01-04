@@ -1,5 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "description": "Default configuration for an application",
-  "extends": ["github>Captive-Studio/renovate-config:base"]
+  "extends": [
+    "github>Captive-Studio/renovate-config:base",
+    ":pinDevDependencies"
+  ]
 }
