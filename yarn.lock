@@ -1185,16 +1185,16 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.4"
-    renovate: "npm:37.128.7"
+    renovate: "npm:37.140.0"
   languageName: unknown
   linkType: soft
 
-"@cdktf/hcl2json@npm:0.19.2":
-  version: 0.19.2
-  resolution: "@cdktf/hcl2json@npm:0.19.2"
+"@cdktf/hcl2json@npm:0.20.1":
+  version: 0.20.1
+  resolution: "@cdktf/hcl2json@npm:0.20.1"
   dependencies:
-    fs-extra: "npm:^11.1.1"
-  checksum: 4db59610d9bd0937f916d0c090be9d1b64cbc60de99ac958a9ffae1eacf05754e7ebe90099066567ee345124370c081fdade2c37764fef0445529f79a6f80f8b
+    fs-extra: "npm:11.2.0"
+  checksum: 808f5f84b29391de7d216c4dee06d852b81c8f0b2c6b860ea2ecf08d93ca8a4b2745891723152493a273d329d0792d0155d7c1c9266d3282ecd16344623aa992
   languageName: node
   linkType: hard
 
@@ -2343,27 +2343,27 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline-db@npm:1.4.1":
-  version: 1.4.1
-  resolution: "@renovatebot/osv-offline-db@npm:1.4.1"
+"@renovatebot/osv-offline-db@npm:1.5.0":
+  version: 1.5.0
+  resolution: "@renovatebot/osv-offline-db@npm:1.5.0"
   dependencies:
     "@seald-io/nedb": "npm:^4.0.3"
-  checksum: 0e45c866aedb233a0f1a16b75610ccf546eabe3e3979f9ab40a61c58aca7eb6ac99618c6f83bf301f4e6ea959f4dbca1eb25c414e28a62ac3522663d7e95ee12
+  checksum: 3832950beacdc46abfc9ae14961b76c692030be42c99f558d56f944b2b5ea1c77b3343b81ecaeda74283970622b2effe5dd2398693ebbcc12e583cdbfdec3c1c
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.3.11":
-  version: 1.3.11
-  resolution: "@renovatebot/osv-offline@npm:1.3.11"
+"@renovatebot/osv-offline@npm:1.4.0":
+  version: 1.4.0
+  resolution: "@renovatebot/osv-offline@npm:1.4.0"
   dependencies:
     "@octokit/rest": "npm:^20.0.2"
-    "@renovatebot/osv-offline-db": "npm:1.4.1"
+    "@renovatebot/osv-offline-db": "npm:1.5.0"
     adm-zip: "npm:~0.5.10"
     fs-extra: "npm:^11.2.0"
     got: "npm:^11.8.6"
     luxon: "npm:^3.4.4"
     node-fetch: "npm:^2.7.0"
-  checksum: 7d1b917f7250aaaa09715f62fedc1d575cf036322ffca08f096442f8e8f7bf07c7924eea36a752a7ea6387b79715293ad7fcacdd2970dd25c1f3327f8dcf66a2
+  checksum: 9acf5db68f3f636764660a6f6501b5fe54797db381ff4deab2370d8e9065e78eb4dbf8e12b48007b59f773a9e27e8e12a28d02d3c55d23d364161ec2e3937ce9
   languageName: node
   linkType: hard
 
@@ -5910,7 +5910,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:11.2.0, fs-extra@npm:^11.1.1, fs-extra@npm:^11.2.0":
+"fs-extra@npm:11.2.0, fs-extra@npm:^11.2.0":
   version: 11.2.0
   resolution: "fs-extra@npm:11.2.0"
   dependencies:
@@ -6251,9 +6251,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"google-auth-library@npm:9.4.1":
-  version: 9.4.1
-  resolution: "google-auth-library@npm:9.4.1"
+"google-auth-library@npm:9.4.2":
+  version: 9.4.2
+  resolution: "google-auth-library@npm:9.4.2"
   dependencies:
     base64-js: "npm:^1.3.0"
     ecdsa-sig-formatter: "npm:^1.0.11"
@@ -6261,7 +6261,7 @@ __metadata:
     gcp-metadata: "npm:^6.1.0"
     gtoken: "npm:^7.0.0"
     jws: "npm:^4.0.0"
-  checksum: 3fb1b26bec40568edfb9deeac2fdbf4d5d539ea6ed79895f411e508d6ef173f772648bd7ad4cab65a250df60660909e22f3f6863162de794ee065efb9974f723
+  checksum: 5492a54ce3e93a852a9d04ea3d730764d162d81e7de92b59a791ebc5ca9a667020906adc26718c3c9353beee9fb65d848b254d297c9ae538958fa5c8fa585e45
   languageName: node
   linkType: hard
 
@@ -8796,9 +8796,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.128.7":
-  version: 37.128.7
-  resolution: "renovate@npm:37.128.7"
+"renovate@npm:37.140.0":
+  version: 37.140.0
+  resolution: "renovate@npm:37.140.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -8807,7 +8807,7 @@ __metadata:
     "@aws-sdk/client-s3": "npm:3.363.0"
     "@aws-sdk/credential-providers": "npm:3.363.0"
     "@breejs/later": "npm:4.2.0"
-    "@cdktf/hcl2json": "npm:0.19.2"
+    "@cdktf/hcl2json": "npm:0.20.1"
     "@opentelemetry/api": "npm:1.7.0"
     "@opentelemetry/context-async-hooks": "npm:1.19.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:0.46.0"
@@ -8819,7 +8819,7 @@ __metadata:
     "@opentelemetry/sdk-trace-node": "npm:1.19.0"
     "@opentelemetry/semantic-conventions": "npm:1.19.0"
     "@qnighy/marshal": "npm:0.1.3"
-    "@renovatebot/osv-offline": "npm:1.3.11"
+    "@renovatebot/osv-offline": "npm:1.4.0"
     "@renovatebot/pep440": "npm:3.0.17"
     "@renovatebot/ruby-semver": "npm:3.0.22"
     "@sindresorhus/is": "npm:4.6.0"
@@ -8858,7 +8858,7 @@ __metadata:
     glob: "npm:10.3.10"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
-    google-auth-library: "npm:9.4.1"
+    google-auth-library: "npm:9.4.2"
     got: "npm:11.8.6"
     graph-data-structure: "npm:3.5.0"
     handlebars: "npm:4.7.8"
@@ -8913,7 +8913,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 72afda73b9c103ec115147858855dfb534518fc3c82bfa7b59fee9a41c303de90e86ee634a9b1cc3faa4ea6f0ec7c6744b4c18e20a58ce784198a3e6328f1b34
+  checksum: af92f14302a25b1f46c9e3693c4538dfe57c7b50b72ab0616f2b1acbea7698cd650e131380677b4514444d5a62e85e826a8069c3d2228da3de9de34f45913482
   languageName: node
   linkType: hard
 
