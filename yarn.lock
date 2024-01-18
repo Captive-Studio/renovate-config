@@ -1185,7 +1185,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.4"
-    renovate: "npm:37.140.0"
+    renovate: "npm:37.140.3"
   languageName: unknown
   linkType: soft
 
@@ -3950,13 +3950,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:12.1.0":
-  version: 12.1.0
-  resolution: "azure-devops-node-api@npm:12.1.0"
+"azure-devops-node-api@npm:12.3.0":
+  version: 12.3.0
+  resolution: "azure-devops-node-api@npm:12.3.0"
   dependencies:
     tunnel: "npm:0.0.6"
     typed-rest-client: "npm:^1.8.4"
-  checksum: 6feaab859264c5ba34746c9186851aa735e82d70738ca72202f3ac00335a54982340436d867eab0cf12f9778139af0e6accabe5ab9ff7e2595a4a712141591c3
+  checksum: 13b9bd6a0f63d9de1a4676b622cc6d7fb3486ed86fc721e7042371a6bcb6e40e711a442c9b3dd2e2c0d5151288588c9418b54613035a1d7c5878c28995acb4bc
   languageName: node
   linkType: hard
 
@@ -8796,9 +8796,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.140.0":
-  version: 37.140.0
-  resolution: "renovate@npm:37.140.0"
+"renovate@npm:37.140.3":
+  version: 37.140.3
+  resolution: "renovate@npm:37.140.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -8831,7 +8831,7 @@ __metadata:
     aggregate-error: "npm:3.1.0"
     auth-header: "npm:1.0.0"
     aws4: "npm:1.12.0"
-    azure-devops-node-api: "npm:12.1.0"
+    azure-devops-node-api: "npm:12.3.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.2"
     cacheable-lookup: "npm:5.0.4"
@@ -8913,7 +8913,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: af92f14302a25b1f46c9e3693c4538dfe57c7b50b72ab0616f2b1acbea7698cd650e131380677b4514444d5a62e85e826a8069c3d2228da3de9de34f45913482
+  checksum: c0be5512d8e2ec53d89b8d3b7d7cd4e7e022b66206446ef20f61a588214b871a21ccc68ac89efc0f7d1858dca53fbf2cc6c2bde85d731da3e984c57239d1ce2a
   languageName: node
   linkType: hard
 
