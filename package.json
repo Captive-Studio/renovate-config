@@ -39,7 +39,6 @@
     "test": "concurrently \"npm:test:*\"",
     "test:renovate-config": "test/test.sh",
     "test:unit": "vitest run",
-    "test:unit:update": "vitest run --update",
     "validate": "npm run build && npm run lint && npm test"
   },
   "commitlint": {
