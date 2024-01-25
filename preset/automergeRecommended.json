@@ -1,6 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
+    "github>w5s/renovate-config//preset/automergeRecommended",
     "github>Captive-Studio/renovate-config//preset/automergeRecommendedGems",
     "github>Captive-Studio/renovate-config//preset/automergeRecommendedNPM",
     "github>Captive-Studio/renovate-config//preset/automergeTest"

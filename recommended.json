@@ -1,0 +1,9 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Recommended configuration",
+  "extends": [
+    "github>Captive-Studio/renovate-config:base",
+    "github>Captive-Studio/renovate-config//preset/groupRecommended",
+    "github>Captive-Studio/renovate-config//preset/automergeRecommended"
+  ]
+}

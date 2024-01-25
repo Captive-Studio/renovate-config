@@ -4,8 +4,6 @@
   "dependencyDashboard": true,
   "extends": [
     "github>w5s/renovate-config:base",
-    "github>Captive-Studio/renovate-config//preset/groupRecommended",
-    "github>Captive-Studio/renovate-config//preset/automergeRecommended",
     "github>Captive-Studio/renovate-config//preset/commit",
     "github>Captive-Studio/renovate-config//preset/schedule",
     "workarounds:all"

@@ -1,0 +1,72 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Configuration snapshot > application.json 1`] = `
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default configuration for an application",
+  "extends": [
+    "github>Captive-Studio/renovate-config:recommended",
+    ":pinDevDependencies",
+  ],
+}
+`;
+
+exports[`Configuration snapshot > base.json 1`] = `
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "assigneesFromCodeOwners": false,
+  "dependencyDashboard": true,
+  "description": "Default base configuration for all Captive projects.",
+  "extends": [
+    "github>w5s/renovate-config:base",
+    "github>Captive-Studio/renovate-config//preset/commit",
+    "github>Captive-Studio/renovate-config//preset/schedule",
+    "workarounds:all",
+  ],
+  "onboarding": false,
+  "packageRules": [
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "major",
+      ],
+      "minimumReleaseAge": "7 days",
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "minor",
+      ],
+      "minimumReleaseAge": "2 days",
+    },
+    {
+      "matchDepTypes": [
+        "dependencies",
+      ],
+      "matchUpdateTypes": [
+        "patch",
+      ],
+      "minimumReleaseAge": "2 days",
+    },
+  ],
+  "platformAutomerge": true,
+  "prConcurrentLimit": 20,
+  "prHourlyLimit": 0,
+  "updateNotScheduled": false,
+}
+`;
+
+exports[`Configuration snapshot > library.json 1`] = `
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default configuration for a library",
+  "extends": [
+    "github>Captive-Studio/renovate-config:recommended",
+    ":pinOnlyDevDependencies",
+  ],
+}
+`;
