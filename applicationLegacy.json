@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Default configuration for a legacy application. No automerge is done and concurrency is limited",
+  "extends": [
+    "github>Captive-Studio/renovate-config:base",
+    "github>Captive-Studio/renovate-config//preset/groupRecommended",
+    ":pinDevDependencies"
+  ],
+  "prConcurrentLimit": 10
+}
