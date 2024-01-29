@@ -1184,7 +1184,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.4"
-    renovate: "npm:37.153.2"
+    renovate: "npm:37.158.1"
     vitest: "npm:1.2.2"
   languageName: unknown
   linkType: soft
@@ -2575,10 +2575,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/ruby-semver@npm:3.0.22":
-  version: 3.0.22
-  resolution: "@renovatebot/ruby-semver@npm:3.0.22"
-  checksum: 1fe243d3f3f2cbb9c94e031a3ed77597203a7f727e7e7b0a87f7d7510cc24a7929b3ba2eaf305cc97275021999dba5bb3f7a19f0e643e9671fb9bdb4d235120c
+"@renovatebot/ruby-semver@npm:3.0.23":
+  version: 3.0.23
+  resolution: "@renovatebot/ruby-semver@npm:3.0.23"
+  checksum: 52fd0b6e50548ed990292a901f9b92177fd1d5c0317b9a785ec74d613b3ccfcef7db50ab747422196aa28ee0b23737941e4099d1d5b12bc436a77a11cd1d5a58
   languageName: node
   linkType: hard
 
@@ -9482,9 +9482,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.153.2":
-  version: 37.153.2
-  resolution: "renovate@npm:37.153.2"
+"renovate@npm:37.158.1":
+  version: 37.158.1
+  resolution: "renovate@npm:37.158.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9507,7 +9507,7 @@ __metadata:
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/osv-offline": "npm:1.5.0"
     "@renovatebot/pep440": "npm:3.0.17"
-    "@renovatebot/ruby-semver": "npm:3.0.22"
+    "@renovatebot/ruby-semver": "npm:3.0.23"
     "@sindresorhus/is": "npm:4.6.0"
     "@types/ms": "npm:0.7.34"
     "@types/tmp": "npm:0.2.6"
@@ -9599,7 +9599,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: b0a146fbbb935686c3d2a3e36ea6e8f2d5a45da675059a0f72f4c95b9f76bd12693252eda40b31e2b41c563b5ae18de072808b9e4f39754f852b9e63a6673058
+  checksum: f45ee98c36d43ff92d9f458a0a85181f1fa9cfd026dc9ecb8f2ee928ee2611034aee6866cbde8a0107b49c779de16b491224957f4ab846bb9c01f40d86eaed97
   languageName: node
   linkType: hard
 
