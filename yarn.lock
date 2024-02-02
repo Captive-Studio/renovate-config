@@ -1184,7 +1184,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.4"
-    renovate: "npm:37.165.5"
+    renovate: "npm:37.165.6"
     vitest: "npm:1.2.2"
   languageName: unknown
   linkType: soft
@@ -3327,12 +3327,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/better-sqlite3@npm:7.6.8":
-  version: 7.6.8
-  resolution: "@types/better-sqlite3@npm:7.6.8"
+"@types/better-sqlite3@npm:7.6.9":
+  version: 7.6.9
+  resolution: "@types/better-sqlite3@npm:7.6.9"
   dependencies:
     "@types/node": "npm:*"
-  checksum: 404e9b7210564866b0f8878353cc6a16c6ffb313077cbb5aec6176ad2b0a30f64236f03f0a40d36d86bf4eab7658bdcd6d6a8a65dc377de7910fc9e9932885a4
+  checksum: 4aab425e51314028f969e543d0c87b5cb93b21c9f584f679817d62f9cbb4afd524f5e026df27315d68f5952e2c2f88f86a1434a1fc377283925a90450be28531
   languageName: node
   linkType: hard
 
@@ -9654,9 +9654,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.165.5":
-  version: 37.165.5
-  resolution: "renovate@npm:37.165.5"
+"renovate@npm:37.165.6":
+  version: 37.165.6
+  resolution: "renovate@npm:37.165.6"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9681,7 +9681,7 @@ __metadata:
     "@renovatebot/pep440": "npm:3.0.17"
     "@renovatebot/ruby-semver": "npm:3.0.23"
     "@sindresorhus/is": "npm:4.6.0"
-    "@types/better-sqlite3": "npm:7.6.8"
+    "@types/better-sqlite3": "npm:7.6.9"
     "@types/ms": "npm:0.7.34"
     "@types/tmp": "npm:0.2.6"
     "@yarnpkg/core": "npm:4.0.2"
@@ -9773,7 +9773,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: d995dc233e23b8e7e1fd0a92678813a0760fd466420b1c4d9d87fc0bb06af78b01177eb1522a7205157cd0697ce076143ca7ceec3992e9e5b5b501588a1e8405
+  checksum: 27ccd9222768d36d38cd0de6e5267f6b7d61ea07c4d23bb4d2d4062a217b4e4450ef394587b8057fc1f775f0220db6f194cf9bb81277b493f84ee4d76a4ab654
   languageName: node
   linkType: hard
 
