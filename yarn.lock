@@ -1184,7 +1184,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.5"
-    renovate: "npm:37.183.2"
+    renovate: "npm:37.186.0"
     vitest: "npm:1.2.2"
   languageName: unknown
   linkType: soft
@@ -2473,14 +2473,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redis/client@npm:1.5.13":
-  version: 1.5.13
-  resolution: "@redis/client@npm:1.5.13"
+"@redis/client@npm:1.5.14":
+  version: 1.5.14
+  resolution: "@redis/client@npm:1.5.14"
   dependencies:
     cluster-key-slot: "npm:1.1.2"
     generic-pool: "npm:3.9.0"
     yallist: "npm:4.0.0"
-  checksum: 10/757e38a5ebedd772fc051756971ad158878c95aa5bf8b2ab94b28e179f8a9cceb31a009c5d59c9efaf7640ef93a1936a8c54500c4c4065bfbd3e7fcc71f6dac6
+  checksum: 10/aab53eff9456e0a5e0ef78ce16db3eca4b837274b8285c5d66ced549573dbacf75972935806911274d6dd906a53d982ef9b1a6f11a8efe4a18efa94ec9c2a4b3
   languageName: node
   linkType: hard
 
@@ -2520,34 +2520,34 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline-db@npm:1.5.1":
-  version: 1.5.1
-  resolution: "@renovatebot/osv-offline-db@npm:1.5.1"
+"@renovatebot/osv-offline-db@npm:1.6.0":
+  version: 1.6.0
+  resolution: "@renovatebot/osv-offline-db@npm:1.6.0"
   dependencies:
     "@seald-io/nedb": "npm:^4.0.4"
-  checksum: 10/c5f5f3e2e0fc1e5a84d34487d4e4fe12c199b8a49383f7ec20fe4cafeadb0a66169acad4d736e1b192a082d1e1b31b52333e9dcae57245f69bd092a5528cac76
+  checksum: 10/bc55b7959302995a2d177f34f190319616009458120df5afbae25b88eda49257ca87c2a86fab8d08102744916df988255adb28c70f990ac5aad3a2fb6781a4e8
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.5.0":
-  version: 1.5.0
-  resolution: "@renovatebot/osv-offline@npm:1.5.0"
+"@renovatebot/osv-offline@npm:1.5.1":
+  version: 1.5.1
+  resolution: "@renovatebot/osv-offline@npm:1.5.1"
   dependencies:
     "@octokit/rest": "npm:^20.0.2"
-    "@renovatebot/osv-offline-db": "npm:1.5.1"
+    "@renovatebot/osv-offline-db": "npm:1.6.0"
     adm-zip: "npm:~0.5.10"
     fs-extra: "npm:^11.2.0"
     got: "npm:^11.8.6"
     luxon: "npm:^3.4.4"
     node-fetch: "npm:^2.7.0"
-  checksum: 10/0f573a420a3bcbcdefbc087e4009e5f64b62dafe2c2646349e4a6130fbd4cdc2599965348a736652633536a6a4accd994271443de25c1598bb29c978e09b0189
+  checksum: 10/477990edb51cebeb230e11bf2298e8fe471b6072639f631c1bcf93c7e8f2da018e0ca428708f318032bb51bc44b2fd02889cbbed45a5a2306c5e39bbc6cc57f6
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:3.0.17":
-  version: 3.0.17
-  resolution: "@renovatebot/pep440@npm:3.0.17"
-  checksum: 10/75a1442ff64aab8a539136bdf7b671af87b57c111034b5cf30e57f234f84683b467fb9b711268d867895dde7f1f8b0d4d0f42e29064d50b5d4f064bcb3ee55cf
+"@renovatebot/pep440@npm:3.0.19":
+  version: 3.0.19
+  resolution: "@renovatebot/pep440@npm:3.0.19"
+  checksum: 10/dc8f2d1099899dd7dbb1d2d5ac03c03e19425669fd1c3d0933c6dd519d414bd83cf53bdd446ddf0cf337411912455a84e157377a59c99033dd595a119ec093fd
   languageName: node
   linkType: hard
 
@@ -6698,12 +6698,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-url-parse@npm:13.1.1":
-  version: 13.1.1
-  resolution: "git-url-parse@npm:13.1.1"
+"git-url-parse@npm:14.0.0":
+  version: 14.0.0
+  resolution: "git-url-parse@npm:14.0.0"
   dependencies:
     git-up: "npm:^7.0.0"
-  checksum: 10/407f6579f3aa5e4040e215b45c1cfa7f08bd52a298a50310fc3debdd99e9d049d9f05e582b5475218116f312526691e1c3cc368e0d23f97c49735f210e381475
+  checksum: 10/c19430947895676c59ce472d534c88e5d2d9f443e6b6e4deaa8ad9ad921ded6c27a996b219503775c37fbb90f4a3c02a5f106f14b61286386f9e5098dff7d634
   languageName: node
   linkType: hard
 
@@ -9512,17 +9512,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redis@npm:4.6.12":
-  version: 4.6.12
-  resolution: "redis@npm:4.6.12"
+"redis@npm:4.6.13":
+  version: 4.6.13
+  resolution: "redis@npm:4.6.13"
   dependencies:
     "@redis/bloom": "npm:1.2.0"
-    "@redis/client": "npm:1.5.13"
+    "@redis/client": "npm:1.5.14"
     "@redis/graph": "npm:1.1.1"
     "@redis/json": "npm:1.0.6"
     "@redis/search": "npm:1.1.6"
     "@redis/time-series": "npm:1.0.5"
-  checksum: 10/4b6819518840fe15c1ecf6b41aa7cb9d3a73707b951e2d734f461e123f33acba63e35bf38fd51b3c3a2aaac10787bf9b7c6f6bbc5b479967ae89e39f9232d46f
+  checksum: 10/cc66182b8fa78c2a63b5300b15fa6fbf8908773d78bc5ca3960018f465595b51dfecaebe8c848111a3b723530f17bdaa1c186f73875cd9ba351f32d2e5e14d5f
   languageName: node
   linkType: hard
 
@@ -9635,9 +9635,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.183.2":
-  version: 37.183.2
-  resolution: "renovate@npm:37.183.2"
+"renovate@npm:37.186.0":
+  version: 37.186.0
+  resolution: "renovate@npm:37.186.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9658,8 +9658,8 @@ __metadata:
     "@opentelemetry/sdk-trace-node": "npm:1.21.0"
     "@opentelemetry/semantic-conventions": "npm:1.21.0"
     "@qnighy/marshal": "npm:0.1.3"
-    "@renovatebot/osv-offline": "npm:1.5.0"
-    "@renovatebot/pep440": "npm:3.0.17"
+    "@renovatebot/osv-offline": "npm:1.5.1"
+    "@renovatebot/pep440": "npm:3.0.19"
     "@renovatebot/ruby-semver": "npm:3.0.23"
     "@sindresorhus/is": "npm:4.6.0"
     "@types/better-sqlite3": "npm:7.6.9"
@@ -9694,7 +9694,7 @@ __metadata:
     find-packages: "npm:10.0.4"
     find-up: "npm:5.0.0"
     fs-extra: "npm:11.2.0"
-    git-url-parse: "npm:13.1.1"
+    git-url-parse: "npm:14.0.0"
     github-url-from-git: "npm:1.5.0"
     glob: "npm:10.3.10"
     global-agent: "npm:3.0.0"
@@ -9728,7 +9728,7 @@ __metadata:
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.2.5"
     re2: "npm:1.20.9"
-    redis: "npm:4.6.12"
+    redis: "npm:4.6.13"
     remark: "npm:13.0.0"
     remark-github: "npm:10.1.0"
     safe-stable-stringify: "npm:2.4.3"
@@ -9754,7 +9754,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/7e31b8e772928a8b7901da493f59390586992dbbe2faebfc9e29e4a9a9fbc700f7d5ba1ebc3c2f826e05478847e59d0d92d2d8b59ee17dca1641831077b166f5
+  checksum: 10/554d26b7efd645af5f22b17345b4d473d12b21be083a0cccf8b37505b920dd664017d5b2f0959296a211d0adf580a2e08223df5b04eafecab3aed44ded764365
   languageName: node
   linkType: hard
 
