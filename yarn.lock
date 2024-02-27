@@ -1184,7 +1184,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.5"
-    renovate: "npm:37.191.2"
+    renovate: "npm:37.214.1"
     vitest: "npm:1.3.1"
   languageName: unknown
   linkType: soft
@@ -4336,14 +4336,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:9.4.0":
-  version: 9.4.0
-  resolution: "better-sqlite3@npm:9.4.0"
+"better-sqlite3@npm:9.4.1":
+  version: 9.4.1
+  resolution: "better-sqlite3@npm:9.4.1"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/434adf187d962d961266b13df249e333bc9482171acf94a194d07937347bcf75c9940f51bf8953a0afbe923f5130d4a54cc5e6723be7f2192e7da29168c003e4
+  checksum: 10/aee907cd9509865dc36e6263700a769ae83eec02ab9b2bae2a8ec3f1a31c8cd03b4c4cfb606f82b5822d95358a555c6f2a0043c6503e769849494325a10b919b
   languageName: node
   linkType: hard
 
@@ -8943,12 +8943,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openpgp@npm:5.11.0":
-  version: 5.11.0
-  resolution: "openpgp@npm:5.11.0"
+"openpgp@npm:5.11.1":
+  version: 5.11.1
+  resolution: "openpgp@npm:5.11.1"
   dependencies:
     asn1.js: "npm:^5.0.0"
-  checksum: 10/8976520c5e22f0af833739dfbb20b2ebdc23973f593ab045e32053a7ff075768712d7b1129bbc50ae71a65b1cfb06e3afecee69b96403166a0be937ff4c448d0
+  checksum: 10/96ae925d05357f361d1decfdc2f322d3d7c0c65715c97f295b8ddb2dad375583030481223d11cc1596088ce15e281885d55b4548f80cfe881ef5f2a3659b369c
   languageName: node
   linkType: hard
 
@@ -9679,9 +9679,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.191.2":
-  version: 37.191.2
-  resolution: "renovate@npm:37.191.2"
+"renovate@npm:37.214.1":
+  version: 37.214.1
+  resolution: "renovate@npm:37.214.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9716,7 +9716,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.12.0"
     azure-devops-node-api: "npm:12.4.0"
-    better-sqlite3: "npm:9.4.0"
+    better-sqlite3: "npm:9.4.1"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.2"
     cacheable-lookup: "npm:5.0.4"
@@ -9764,7 +9764,7 @@ __metadata:
     ms: "npm:2.1.3"
     nanoid: "npm:3.3.7"
     node-html-parser: "npm:6.1.12"
-    openpgp: "npm:5.11.0"
+    openpgp: "npm:5.11.1"
     p-all: "npm:3.0.0"
     p-map: "npm:4.0.0"
     p-queue: "npm:6.6.2"
@@ -9798,7 +9798,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/373e63e405d3790efe39fa27fc96906d0e66b2a857185817455192ec4aabbbebe1728e1615ca566f6585af62deb79b8b0ebf4d27df778b42c4ced69a384dce92
+  checksum: 10/1ff4d04e8d4d8e44d6afa8bcb8df65496e365d1e5dc93de168f2e1e32dff0f6b77711c8822dd109fabc5308869498df7ed24e8f256556799917f63bfaa943da9
   languageName: node
   linkType: hard
 
