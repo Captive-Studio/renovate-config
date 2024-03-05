@@ -1184,7 +1184,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.5"
-    renovate: "npm:37.227.0"
+    renovate: "npm:37.227.1"
     vitest: "npm:1.3.1"
   languageName: unknown
   linkType: soft
@@ -7821,10 +7821,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonata@npm:2.0.3":
-  version: 2.0.3
-  resolution: "jsonata@npm:2.0.3"
-  checksum: 10/d1f070d82ae3aaf8c49aa8a75e3aac1d7cfa8eb76b3012e53a71eb75e370b84a92a7e636cfdd21af716459bafd87426586e1b633f9782db3d8fd898cb44aa5cd
+"jsonata@npm:2.0.4":
+  version: 2.0.4
+  resolution: "jsonata@npm:2.0.4"
+  checksum: 10/eb613eee1cb139f56b411891184df0612a049ca2174592ce18fab4423ce77ed8024b952ccec5d7b84a605f9a9f1c251416d8ad8055bef75bb022378b1961cb68
   languageName: node
   linkType: hard
 
@@ -9685,9 +9685,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.227.0":
-  version: 37.227.0
-  resolution: "renovate@npm:37.227.0"
+"renovate@npm:37.227.1":
+  version: 37.227.1
+  resolution: "renovate@npm:37.227.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9759,7 +9759,7 @@ __metadata:
     json-dup-key-validator: "npm:1.0.3"
     json-stringify-pretty-compact: "npm:3.0.0"
     json5: "npm:2.2.3"
-    jsonata: "npm:2.0.3"
+    jsonata: "npm:2.0.4"
     klona: "npm:2.0.6"
     lru-cache: "npm:10.2.0"
     luxon: "npm:3.4.4"
@@ -9804,7 +9804,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/89ec9f301f4cfe7a40186a6ab9405515b8a5751cc0b9f8ef534dd849228fcc8b07d4dee5073cf459f542fc0d799a6ca17ccc90ba674a0e5e90f523e464707e8b
+  checksum: 10/fbbd6f28facc0228111df3c91993e8462ff1a0141779d3c0f7b7bb1811d9da0d99ba8e72e78fa0c5484446e0ab6f483fe17da61ecb62496413bcff2fb92a0a58
   languageName: node
   linkType: hard
 
