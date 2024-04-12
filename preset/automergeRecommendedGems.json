@@ -41,6 +41,7 @@
         "shoulda-matchers",
         "sidekiq",
         "simplecov",
+        "spring",
         "tzinfo-data",
         "web-console",
         "webdrivers",
