@@ -1185,7 +1185,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.5"
-    renovate: "npm:37.292.0"
+    renovate: "npm:37.292.1"
     vitest: "npm:1.5.0"
   languageName: unknown
   linkType: soft
@@ -2586,10 +2586,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pep440@npm:3.0.19":
-  version: 3.0.19
-  resolution: "@renovatebot/pep440@npm:3.0.19"
-  checksum: 10/dc8f2d1099899dd7dbb1d2d5ac03c03e19425669fd1c3d0933c6dd519d414bd83cf53bdd446ddf0cf337411912455a84e157377a59c99033dd595a119ec093fd
+"@renovatebot/pep440@npm:3.0.20":
+  version: 3.0.20
+  resolution: "@renovatebot/pep440@npm:3.0.20"
+  checksum: 10/2b95946a1bd34511515b4a66a291098366a958745827deb3ce598bd17dc58158d34a8a214c485fc61fc5083d716dacbce2c0c578410151694a1b8771c13fab14
   languageName: node
   linkType: hard
 
@@ -9773,9 +9773,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.292.0":
-  version: 37.292.0
-  resolution: "renovate@npm:37.292.0"
+"renovate@npm:37.292.1":
+  version: 37.292.1
+  resolution: "renovate@npm:37.292.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.363.0"
     "@aws-sdk/client-ec2": "npm:3.363.0"
@@ -9797,7 +9797,7 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:1.23.0"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/osv-offline": "npm:1.5.4"
-    "@renovatebot/pep440": "npm:3.0.19"
+    "@renovatebot/pep440": "npm:3.0.20"
     "@renovatebot/ruby-semver": "npm:3.0.23"
     "@sindresorhus/is": "npm:4.6.0"
     "@types/better-sqlite3": "npm:7.6.9"
@@ -9892,7 +9892,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/31e2df0bd5a0152029fb793457a7ecebc1fef3df8ebbc63817c72c6102271bc89910d532b926c5106688736c6ebde175cb2353e07e0ed261d0092f167b9fcda5
+  checksum: 10/e90d8d08868b02a0fbebccfd66e07c2f0ccd901aa5a808b94d14241e54e3e09efcce52b2c8518aa23fcee0d7c9f12493b8bfd4caa847692fc4a3bc080499b784
   languageName: node
   linkType: hard
 
