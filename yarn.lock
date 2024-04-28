@@ -1177,7 +1177,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.5"
-    renovate: "npm:37.326.0"
+    renovate: "npm:37.326.1"
     vitest: "npm:1.5.2"
   languageName: unknown
   linkType: soft
@@ -4441,13 +4441,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:12.5.0":
-  version: 12.5.0
-  resolution: "azure-devops-node-api@npm:12.5.0"
+"azure-devops-node-api@npm:13.0.0":
+  version: 13.0.0
+  resolution: "azure-devops-node-api@npm:13.0.0"
   dependencies:
     tunnel: "npm:0.0.6"
     typed-rest-client: "npm:^1.8.4"
-  checksum: 10/68eb7bef399fec259cdd9ab52bb662281a5bb63b0eb5c76447a3c0b723e94fe40d1fa2282aaebf5bfdcfb4cbac6e96686bd2bb76364ba5b82ac786a2c2b9d4bd
+  checksum: 10/f365e0a8438a39737611af6d56982de0682395ea4bf831698105414aba9a519cc70d6b374c0423a502c7f7d4938662a7e2f88c134c23cd51e4ba6b769f732183
   languageName: node
   linkType: hard
 
@@ -10082,9 +10082,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.326.0":
-  version: 37.326.0
-  resolution: "renovate@npm:37.326.0"
+"renovate@npm:37.326.1":
+  version: 37.326.1
+  resolution: "renovate@npm:37.326.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.563.0"
     "@aws-sdk/client-ec2": "npm:3.563.0"
@@ -10119,7 +10119,7 @@ __metadata:
     aggregate-error: "npm:3.1.0"
     auth-header: "npm:1.0.0"
     aws4: "npm:1.12.0"
-    azure-devops-node-api: "npm:12.5.0"
+    azure-devops-node-api: "npm:13.0.0"
     better-sqlite3: "npm:9.5.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.2"
@@ -10204,7 +10204,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/c71ca7abb274198e1531728f8070dc551c87155edd531db87984daba5ccc61d7fcf17fe7bc07a8705d3c342f33b411d55b41fa4b95ef30d06f21847236fefc30
+  checksum: 10/54425b35147bb3b345db40232c23f5cba66621f840c71908e9f6715cd08d528a47253c8f38c1f1f3ce0f6166d7e704bb0a4ea3cbac03c476402bde22ba5cafc2
   languageName: node
   linkType: hard
 
