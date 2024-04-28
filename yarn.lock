@@ -4886,9 +4886,9 @@ __metadata:
   linkType: hard
 
 "cjs-module-lexer@npm:^1.2.2":
-  version: 1.2.3
-  resolution: "cjs-module-lexer@npm:1.2.3"
-  checksum: 10/f96a5118b0a012627a2b1c13bd2fcb92509778422aaa825c5da72300d6dcadfb47134dd2e9d97dfa31acd674891dd91642742772d19a09a8adc3e56bd2f5928c
+  version: 1.3.0
+  resolution: "cjs-module-lexer@npm:1.3.0"
+  checksum: 10/ce85fc7698f105117a11f64a4d3ef2f5875e58293a841e29d1dcca873b0b95a35ce187c6129d7e7ddc8e03f30fd8f0d663e61c034198987f55129bcf2fae6146
   languageName: node
   linkType: hard
 
