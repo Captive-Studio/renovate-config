@@ -1134,7 +1134,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.5"
-    renovate: "npm:37.354.3"
+    renovate: "npm:37.354.4"
     vitest: "npm:1.6.0"
   languageName: unknown
   linkType: soft
@@ -2155,7 +2155,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@octokit/rest@npm:^20.1.0":
+"@octokit/rest@npm:^20.1.1":
   version: 20.1.1
   resolution: "@octokit/rest@npm:20.1.1"
   dependencies:
@@ -2591,18 +2591,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.5.4":
-  version: 1.5.4
-  resolution: "@renovatebot/osv-offline@npm:1.5.4"
+"@renovatebot/osv-offline@npm:1.5.5":
+  version: 1.5.5
+  resolution: "@renovatebot/osv-offline@npm:1.5.5"
   dependencies:
-    "@octokit/rest": "npm:^20.1.0"
+    "@octokit/rest": "npm:^20.1.1"
     "@renovatebot/osv-offline-db": "npm:1.6.0"
     adm-zip: "npm:~0.5.12"
     fs-extra: "npm:^11.2.0"
     got: "npm:^11.8.6"
     luxon: "npm:^3.4.4"
     node-fetch: "npm:^2.7.0"
-  checksum: 10/050289d92d219d13580e5965317418cd63978d33fe79d96583d3b2d7bc35e881801ceff72f5d1a22ea1da7ce3a1a517a2e5b4f6cb74b7276163d8b574ea1a117
+  checksum: 10/0a7f3c71f01de45e02157a4179cb85c88b92c86fbca4c8a1631d1c9a8de560af55d8679fa6bd989019e536b8cb5f49402d550291b5330e4c391d09a0e336782a
   languageName: node
   linkType: hard
 
@@ -10061,9 +10061,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.354.3":
-  version: 37.354.3
-  resolution: "renovate@npm:37.354.3"
+"renovate@npm:37.354.4":
+  version: 37.354.4
+  resolution: "renovate@npm:37.354.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.565.0"
     "@aws-sdk/client-ec2": "npm:3.565.0"
@@ -10085,7 +10085,7 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:1.24.0"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/kbpgp": "npm:3.0.1"
-    "@renovatebot/osv-offline": "npm:1.5.4"
+    "@renovatebot/osv-offline": "npm:1.5.5"
     "@renovatebot/pep440": "npm:3.0.20"
     "@renovatebot/ruby-semver": "npm:3.0.23"
     "@sindresorhus/is": "npm:4.6.0"
@@ -10183,7 +10183,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/548200c92128c1a2275fcfb555814f5161b032909748ee8526c5e57ee2c25b2b0c251594003635d9ed75b03dfffc37698d31dcc3537ea89b8592f4c342cdda64
+  checksum: 10/df56a673f23a97f5c626941356054343461cb47b47ad1430ad7611ce44aef2bf78d996aeb323ff254b1c7ce3f53ffcc363a65432fd63e888722faa866646e678
   languageName: node
   linkType: hard
 
