@@ -36,6 +36,7 @@
         "rqrcode",
         "rspec",
         "rubocop",
+        "rubycritic",
         "selenium-webdriver",
         "sinatra",
         "shoulda-matchers",
