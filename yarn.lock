@@ -1134,7 +1134,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.2.5"
-    renovate: "npm:37.377.8"
+    renovate: "npm:37.379.0"
     vitest: "npm:1.6.0"
   languageName: unknown
   linkType: soft
@@ -5416,7 +5416,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff@npm:^5.1.0":
+"diff@npm:5.2.0, diff@npm:^5.1.0":
   version: 5.2.0
   resolution: "diff@npm:5.2.0"
   checksum: 10/01b7b440f83a997350a988e9d2f558366c0f90f15be19f4aa7f1bb3109a4e153dfc3b9fbf78e14ea725717017407eeaa2271e3896374a0181e8f52445740846d
@@ -9933,9 +9933,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.377.8":
-  version: 37.377.8
-  resolution: "renovate@npm:37.377.8"
+"renovate@npm:37.379.0":
+  version: 37.379.0
+  resolution: "renovate@npm:37.379.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.565.0"
     "@aws-sdk/client-ec2": "npm:3.565.0"
@@ -9981,6 +9981,7 @@ __metadata:
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:6.1.0"
+    diff: "npm:5.2.0"
     editorconfig: "npm:2.0.0"
     email-addresses: "npm:5.0.0"
     emoji-regex: "npm:10.3.0"
@@ -10055,7 +10056,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/3112db319216eeb1092d2eaf575d6d76651d8dd5206262e1cea760cf27abd81a6b5694e4719d2291150567393560ce79a953c19ae514d35f30ff425e0f602183
+  checksum: 10/2afa0b9ffe154d6c11b7d6cec3bbf6929fe17735886459b0bd24fd7aa45a52c8e2aa20b06a8348f84f323af296de87323c87518f283146b2a89d2cbcb175e9e5
   languageName: node
   linkType: hard
 
