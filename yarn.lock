@@ -4084,9 +4084,9 @@ __metadata:
   linkType: hard
 
 "adm-zip@npm:~0.5.12":
-  version: 0.5.12
-  resolution: "adm-zip@npm:0.5.12"
-  checksum: 10/258bfd115f452a0b259d8199ae826896dc53d16bc0cb9cf9ca50903d30b9cc901d093c5c33db68bcfccb5b230e49bea5f72155caf43510c2bbe2d67ad83ab6d4
+  version: 0.5.13
+  resolution: "adm-zip@npm:0.5.13"
+  checksum: 10/dd8da3fbeafc7342fbd0d04221700b6439be0cc17ffd4a1feba3e8762b8cd87846edd2c98ae00fb945595a54f8ecee88cb81b59c9ac92a0eb1ad00fa19478fc4
   languageName: node
   linkType: hard
 
