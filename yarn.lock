@@ -1187,7 +1187,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.3.2"
-    renovate: "npm:37.431.2"
+    renovate: "npm:37.431.4"
     vitest: "npm:2.0.2"
   languageName: unknown
   linkType: soft
@@ -7024,23 +7024,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:10.4.3":
-  version: 10.4.3
-  resolution: "glob@npm:10.4.3"
-  dependencies:
-    foreground-child: "npm:^3.1.0"
-    jackspeak: "npm:^3.1.2"
-    minimatch: "npm:^9.0.4"
-    minipass: "npm:^7.1.2"
-    package-json-from-dist: "npm:^1.0.0"
-    path-scurry: "npm:^1.11.1"
-  bin:
-    glob: dist/esm/bin.mjs
-  checksum: 10/7670e257bc7cf62a5649e79a71fc3b74806516eabfbfef0a949e11c5530c215d0f6d75c8c0c35266ff44ef6cb29b6c0e59be63906909be946d4c65df5d336be8
-  languageName: node
-  linkType: hard
-
-"glob@npm:^10.2.2, glob@npm:^10.3.10":
+"glob@npm:10.4.5, glob@npm:^10.2.2, glob@npm:^10.3.10":
   version: 10.4.5
   resolution: "glob@npm:10.4.5"
   dependencies:
@@ -8379,14 +8363,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"lru-cache@npm:10.3.1":
-  version: 10.3.1
-  resolution: "lru-cache@npm:10.3.1"
-  checksum: 10/52938a77f14f874e88fd9bf0fc8a39873e52deff85a4e3bb86d7c3a38b0ef2dcaddf1f7f59b2a131a66f3bdb56e26c1843eddbf7dddc02acc69279f74e4331c9
-  languageName: node
-  linkType: hard
-
-"lru-cache@npm:^10.0.1, lru-cache@npm:^10.2.0":
+"lru-cache@npm:10.4.3, lru-cache@npm:^10.0.1, lru-cache@npm:^10.2.0":
   version: 10.4.3
   resolution: "lru-cache@npm:10.4.3"
   checksum: 10/e6e90267360476720fa8e83cc168aa2bf0311f3f2eea20a6ba78b90a885ae72071d9db132f40fda4129c803e7dcec3a6b6a6fbb44ca90b081630b810b5d6a41a
@@ -10096,9 +10073,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.431.2":
-  version: 37.431.2
-  resolution: "renovate@npm:37.431.2"
+"renovate@npm:37.431.4":
+  version: 37.431.4
+  resolution: "renovate@npm:37.431.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.606.0"
     "@aws-sdk/client-ec2": "npm:3.606.0"
@@ -10156,7 +10133,7 @@ __metadata:
     fs-extra: "npm:11.2.0"
     git-url-parse: "npm:14.0.0"
     github-url-from-git: "npm:1.5.0"
-    glob: "npm:10.4.3"
+    glob: "npm:10.4.5"
     global-agent: "npm:3.0.0"
     good-enough-parser: "npm:1.1.23"
     google-auth-library: "npm:9.11.0"
@@ -10172,7 +10149,7 @@ __metadata:
     jsonata: "npm:2.0.5"
     jsonc-parser: "npm:3.3.1"
     klona: "npm:2.0.6"
-    lru-cache: "npm:10.3.1"
+    lru-cache: "npm:10.4.3"
     luxon: "npm:3.4.4"
     markdown-it: "npm:14.1.0"
     markdown-table: "npm:2.0.0"
@@ -10219,7 +10196,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/5525a6df5f522989524f28b7522c8d5cfaf2adac6267e0da90a8f22f5e8c5b63b621ec88714cc51c72b926279d15e8c1c324e9e9a7c0e2204a23b016a9956962
+  checksum: 10/52a22e3af6e4ad81e6232e64f1ee63c8011a24e760173ce9a527dcebcf12c0382f8f1c200ffa0952be060296180e1a61d30dd38dbf4ce0d7df3d2c6873b451e9
   languageName: node
   linkType: hard
 
