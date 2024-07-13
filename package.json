@@ -76,7 +76,7 @@
     "markdown-magic": "2.6.1",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
-    "prettier": "3.3.2",
+    "prettier": "3.3.3",
     "renovate": "37.431.4",
     "vitest": "2.0.2"
   },
