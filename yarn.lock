@@ -1187,7 +1187,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.3.3"
-    renovate: "npm:37.437.0"
+    renovate: "npm:37.437.2"
     vitest: "npm:2.0.3"
   languageName: unknown
   linkType: soft
@@ -9699,15 +9699,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.3.2":
-  version: 3.3.2
-  resolution: "prettier@npm:3.3.2"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 10/83214e154afa5aa9b664c2506640212323eb1376b13379b2413dc351b7de0687629dca3f00ff2ec895ebd7e3a2adb7d7e231b6c77606e2358137f2150807405b
-  languageName: node
-  linkType: hard
-
 "prettier@npm:3.3.3":
   version: 3.3.3
   resolution: "prettier@npm:3.3.3"
@@ -10062,9 +10053,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:37.437.0":
-  version: 37.437.0
-  resolution: "renovate@npm:37.437.0"
+"renovate@npm:37.437.2":
+  version: 37.437.2
+  resolution: "renovate@npm:37.437.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.606.0"
     "@aws-sdk/client-ec2": "npm:3.606.0"
@@ -10153,7 +10144,7 @@ __metadata:
     p-queue: "npm:6.6.2"
     p-throttle: "npm:4.1.1"
     parse-link-header: "npm:2.0.0"
-    prettier: "npm:3.3.2"
+    prettier: "npm:3.3.3"
     re2: "npm:1.21.3"
     redis: "npm:4.6.15"
     remark: "npm:13.0.0"
@@ -10185,7 +10176,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/66462777305036388111cfd92b6cb88d7b8317d3a7e5aff566154361752504b2f63a45063dabd2091f105dfd5f1fa1915b47e59569328b0cd4fd4e69d5dc9ec1
+  checksum: 10/796e29ba9c91303adb99bb180f2cfcdba9c7b31eb451759aff9ca804f92fa13370c6cecc9dd995c6200695ac805e6566b49d9e81818e5ef9def9fdd8169a5410
   languageName: node
   linkType: hard
 
