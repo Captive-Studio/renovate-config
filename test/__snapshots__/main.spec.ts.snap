@@ -81,5 +81,28 @@ exports[`Configuration snapshot > library.json 1`] = `
     "github>Captive-Studio/renovate-config:recommended",
     ":pinOnlyDevDependencies",
   ],
+  "packageRules": [
+    {
+      "automerge": true,
+      "matchCategories": [
+        "node",
+        "ruby",
+      ],
+      "matchDepTypes": [
+        "minor",
+        "patch",
+      ],
+    },
+    {
+      "automerge": true,
+      "matchDepTypes": [
+        "minor",
+        "patch",
+      ],
+      "matchManagers": [
+        "asdf",
+      ],
+    },
+  ],
 }
 `;
