@@ -1181,7 +1181,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.27.1"
+    renovate: "npm:38.32.0"
     vitest: "npm:2.0.5"
   languageName: unknown
   linkType: soft
@@ -4592,13 +4592,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:14.0.1":
-  version: 14.0.1
-  resolution: "azure-devops-node-api@npm:14.0.1"
+"azure-devops-node-api@npm:14.0.2":
+  version: 14.0.2
+  resolution: "azure-devops-node-api@npm:14.0.2"
   dependencies:
     tunnel: "npm:0.0.6"
     typed-rest-client: "npm:^2.0.1"
-  checksum: 10/be1462333cc6550f043e78ab868b1e1ab76c716b9afc7e4950f7da93377a03b2d21f09d037f75c5b933c6f68b155ae003d7be979179586fcbfff402feb80acee
+  checksum: 10/9193745571f003d9bf1a36a3230391d04a55c08e3baa1f7d8924a5ba3daf4fc929e0fbd2e034de98f1132bf9104def4b256cfaf2e3856f041e57cfca5351c3a5
   languageName: node
   linkType: hard
 
@@ -10265,9 +10265,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:38.27.1":
-  version: 38.27.1
-  resolution: "renovate@npm:38.27.1"
+"renovate@npm:38.32.0":
+  version: 38.32.0
+  resolution: "renovate@npm:38.32.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.621.0"
     "@aws-sdk/client-ec2": "npm:3.621.0"
@@ -10299,7 +10299,7 @@ __metadata:
     aggregate-error: "npm:3.1.0"
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.1"
-    azure-devops-node-api: "npm:14.0.1"
+    azure-devops-node-api: "npm:14.0.2"
     better-sqlite3: "npm:11.1.2"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.4"
@@ -10387,7 +10387,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/f4c89ed5cf7a6997ec1064354afd68b5a9857d9729c345504b933d88b30d2ab722fc948267d2a7fb7aaa0eb6e2bf2b6a2b6402b681a50b29a7c330fdf4b24d76
+  checksum: 10/fc1dca779516e69612b45771cac401f69eda34f42667adef0c98e7abdc3079400a359d0459c23c1877ddc052163e12fe81bb9208c9cdab391af9b721c6e7a7ae
   languageName: node
   linkType: hard
 
