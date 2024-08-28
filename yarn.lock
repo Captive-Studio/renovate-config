@@ -1181,7 +1181,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.55.5"
+    renovate: "npm:38.57.0"
     vitest: "npm:2.0.5"
   languageName: unknown
   linkType: soft
@@ -4607,14 +4607,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:11.1.2":
-  version: 11.1.2
-  resolution: "better-sqlite3@npm:11.1.2"
+"better-sqlite3@npm:11.2.1":
+  version: 11.2.1
+  resolution: "better-sqlite3@npm:11.2.1"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/0427f596149a8dead90d7e80d948a281292dc1bd88dfa7feaea1277e4673c75a724b70bcd460baf92a067118688d656bc4aa94f1fe977767722ad3e282488f03
+  checksum: 10/7416219cd129618bfe6fed18c7ecd233c6a2a4a610e75761ff9a2b2114ca274151c306ad0269df2f61505e3add30df8ffb4d86bb2f3c0d790b83415b6ac3d3d8
   languageName: node
   linkType: hard
 
@@ -10236,9 +10236,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:38.55.5":
-  version: 38.55.5
-  resolution: "renovate@npm:38.55.5"
+"renovate@npm:38.57.0":
+  version: 38.57.0
+  resolution: "renovate@npm:38.57.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.621.0"
     "@aws-sdk/client-ec2": "npm:3.621.0"
@@ -10273,7 +10273,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.1"
     azure-devops-node-api: "npm:14.0.2"
-    better-sqlite3: "npm:11.1.2"
+    better-sqlite3: "npm:11.2.1"
     bunyan: "npm:1.8.15"
     cacache: "npm:18.0.4"
     chalk: "npm:4.1.2"
@@ -10360,7 +10360,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/ffed13f6012186405cf504c87df0fc45b78e9a98e6474a699d8a744d91188bc2eff23ddf131b061910c709d282387b88348ad507ec470b1e80be76344630d1de
+  checksum: 10/c180a433e183564a212f9d4ca1454adeba1be929c6b5624bfe7fe32f024a71d823bb043dc281574bec965086589710657516c0798cba915823556d71955a6f32
   languageName: node
   linkType: hard
 
