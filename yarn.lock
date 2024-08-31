@@ -1181,7 +1181,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.58.1"
+    renovate: "npm:38.58.2"
     vitest: "npm:2.0.5"
   languageName: unknown
   linkType: soft
@@ -9302,7 +9302,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^10.1.0, node-gyp@npm:latest":
+"node-gyp@npm:^10.2.0, node-gyp@npm:latest":
   version: 10.2.0
   resolution: "node-gyp@npm:10.2.0"
   dependencies:
@@ -10064,14 +10064,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.21.3":
-  version: 1.21.3
-  resolution: "re2@npm:1.21.3"
+"re2@npm:1.21.4":
+  version: 1.21.4
+  resolution: "re2@npm:1.21.4"
   dependencies:
     install-artifact-from-github: "npm:^1.3.5"
     nan: "npm:^2.20.0"
-    node-gyp: "npm:^10.1.0"
-  checksum: 10/5787622e2cfe58e93e05fab9a515d160c5e76973ec5690dec6d1737da803d8c45542ddd6be940905e4084fdebe7bcd5fa141f29976f9570c1e55d6b66287a114
+    node-gyp: "npm:^10.2.0"
+  checksum: 10/926871cc84dab656afc035118c79d121211f21f4154084d7f6c05a05f746b5355f04e80a773db9ca817718dde03c561421b0a962300698c9f2eeafa4f70fd364
   languageName: node
   linkType: hard
 
@@ -10267,9 +10267,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:38.58.1":
-  version: 38.58.1
-  resolution: "renovate@npm:38.58.1"
+"renovate@npm:38.58.2":
+  version: 38.58.2
+  resolution: "renovate@npm:38.58.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.621.0"
     "@aws-sdk/client-ec2": "npm:3.621.0"
@@ -10361,7 +10361,7 @@ __metadata:
     p-throttle: "npm:4.1.1"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.3.3"
-    re2: "npm:1.21.3"
+    re2: "npm:1.21.4"
     redis: "npm:4.7.0"
     remark: "npm:13.0.0"
     remark-github: "npm:10.1.0"
@@ -10391,7 +10391,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/c80fe0aab6ddc8c05d53c982ac3c8daf9a0d0a30f6ff16c0eb7b912e98323703b49889eab88175eb9b290459fa0409de92ffe740ed286a09c61b157e3ce625a0
+  checksum: 10/880526a2d7f466878c5a896c3e585fe8adb171dd79af4ea956b4811c1d81ed39108ccc494d4688a36b9e472915132f3d3905946b3ca4e5d403e13940ac500991
   languageName: node
   linkType: hard
 
