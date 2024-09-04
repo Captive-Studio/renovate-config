@@ -1170,7 +1170,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.66.1"
+    renovate: "npm:38.67.4"
     vitest: "npm:2.0.5"
   languageName: unknown
   linkType: soft
@@ -4568,10 +4568,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"aws4@npm:1.13.1":
-  version: 1.13.1
-  resolution: "aws4@npm:1.13.1"
-  checksum: 10/67a501fa36d2d082970b6708663696b406c693042fcf7a177850c92557780674a86fc538a3162db122cc656ae85e8fb895c1d42b399bae53488e6a13839fb65a
+"aws4@npm:1.13.2":
+  version: 1.13.2
+  resolution: "aws4@npm:1.13.2"
+  checksum: 10/290b9f84facbad013747725bfd8b4c42d0b3b04b5620d8418f0219832ef95a7dc597a4af7b1589ae7fce18bacde96f40911c3cda36199dd04d9f8e01f72fa50a
   languageName: node
   linkType: hard
 
@@ -10249,9 +10249,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:38.66.1":
-  version: 38.66.1
-  resolution: "renovate@npm:38.66.1"
+"renovate@npm:38.67.4":
+  version: 38.67.4
+  resolution: "renovate@npm:38.67.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.637.0"
     "@aws-sdk/client-ec2": "npm:3.641.0"
@@ -10284,7 +10284,7 @@ __metadata:
     aggregate-error: "npm:3.1.0"
     async-mutex: "npm:0.5.0"
     auth-header: "npm:1.0.0"
-    aws4: "npm:1.13.1"
+    aws4: "npm:1.13.2"
     azure-devops-node-api: "npm:14.0.2"
     better-sqlite3: "npm:11.2.1"
     bunyan: "npm:1.8.15"
@@ -10373,7 +10373,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/ded959e6717260ff16c4b09146eecd052892d305d06fd3fca533a83b53c0e97d50a3684429a54575ea28f48cf7207fe5685c1d3918630580d29f0d72f07030a1
+  checksum: 10/27945e0388e854b1890f602f6ff4be33eb6f8d9d9b6dae19a8a51fad64e7a0dfc702770ddf142d604e55dbcea217c472288803fcc0634b6c2a93597533c770ff
   languageName: node
   linkType: hard
 
