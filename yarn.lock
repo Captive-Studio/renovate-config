@@ -1170,7 +1170,7 @@ __metadata:
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.72.0"
+    renovate: "npm:38.72.1"
     vitest: "npm:2.0.5"
   languageName: unknown
   linkType: soft
@@ -10250,9 +10250,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:38.72.0":
-  version: 38.72.0
-  resolution: "renovate@npm:38.72.0"
+"renovate@npm:38.72.1":
+  version: 38.72.1
+  resolution: "renovate@npm:38.72.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.637.0"
     "@aws-sdk/client-ec2": "npm:3.641.0"
@@ -10353,7 +10353,7 @@ __metadata:
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:2.1.2"
-    simple-git: "npm:3.25.0"
+    simple-git: "npm:3.26.0"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     toml-eslint-parser: "npm:0.10.0"
@@ -10374,7 +10374,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/d4fd0d4d4a46a87683bf75fc6b2f608864a489de73cfbe16ec3af250455d8c0dadcb51223cda1e014a2c69ebb9ccb0c403943336b95b292b410970a25413fb47
+  checksum: 10/932f42b4a1f452d886c6a1279b51758db818df4aed2dc10bf5d86e1e4aeeaf799dfcc79bed8e31367a9560c954d592625fe4244f06212def5bf5da4a5ddfb05f
   languageName: node
   linkType: hard
 
@@ -10828,14 +10828,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.25.0":
-  version: 3.25.0
-  resolution: "simple-git@npm:3.25.0"
+"simple-git@npm:3.26.0":
+  version: 3.26.0
+  resolution: "simple-git@npm:3.26.0"
   dependencies:
     "@kwsites/file-exists": "npm:^1.1.1"
     "@kwsites/promise-deferred": "npm:^1.1.1"
     debug: "npm:^4.3.5"
-  checksum: 10/f284162c941e36970db171eacfe0df1f7ce50313fa7841b95abb704ec78ffe4f27b6a46a4b621ed88711104faa295eb47fb2b54b23cead4400cb2204ed491074
+  checksum: 10/b9019f834f2da4dae18e101656d95e322f80f2942ca41f8719e58e026846e01b24bca472dba224c9642b3deb4f1971e760b657b5346140fb31b9c4b55a14c019
   languageName: node
   linkType: hard
 
