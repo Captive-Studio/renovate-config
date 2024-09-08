@@ -70,7 +70,7 @@
     "@captive/commitlint-config": "2.1.7",
     "@captive/cspell-config": "2.4.13",
     "@captive/eslint-config": "2.0.20",
-    "concurrently": "8.2.2",
+    "concurrently": "9.0.0",
     "cspell": "8.14.2",
     "eslint": "8.57.0",
     "markdown-magic": "2.6.1",
