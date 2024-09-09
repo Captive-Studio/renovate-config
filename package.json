@@ -71,7 +71,7 @@
     "root": true
   },
   "devDependencies": {
-    "@captive/commitlint-config": "2.1.7",
+    "@captive/commitlint-config": "2.1.8",
     "@captive/cspell-config": "2.4.13",
     "@captive/eslint-config": "2.0.22",
     "cspell": "8.14.2",
