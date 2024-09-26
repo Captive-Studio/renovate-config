@@ -1161,7 +1161,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:6.2.3"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.95.4"
+    renovate: "npm:38.97.0"
     vitest: "npm:2.1.1"
   languageName: unknown
   linkType: soft
@@ -10089,9 +10089,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:38.95.4":
-  version: 38.95.4
-  resolution: "renovate@npm:38.95.4"
+"renovate@npm:38.97.0":
+  version: 38.97.0
+  resolution: "renovate@npm:38.97.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.637.0"
     "@aws-sdk/client-ec2": "npm:3.641.0"
@@ -10191,7 +10191,7 @@ __metadata:
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:2.1.2"
-    simple-git: "npm:3.26.0"
+    simple-git: "npm:3.27.0"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     toml-eslint-parser: "npm:0.10.0"
@@ -10213,7 +10213,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/e13146b034e4e8a267560a95250584006e753587e7bf25203ef9d70fbba2a3ee1fbca8629b53dc8cd5ece355b1915b147b346e6b8561cbf624574cc72e0d4ec8
+  checksum: 10/408bc36b997746255dec6cf7ed4efd129f0537b1f040f27fe38d610051171558e0235b4262cd685547617c2533280deb44b6d16168a5578913bfc82148816f90
   languageName: node
   linkType: hard
 
@@ -10651,14 +10651,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.26.0":
-  version: 3.26.0
-  resolution: "simple-git@npm:3.26.0"
+"simple-git@npm:3.27.0":
+  version: 3.27.0
+  resolution: "simple-git@npm:3.27.0"
   dependencies:
     "@kwsites/file-exists": "npm:^1.1.1"
     "@kwsites/promise-deferred": "npm:^1.1.1"
     debug: "npm:^4.3.5"
-  checksum: 10/b9019f834f2da4dae18e101656d95e322f80f2942ca41f8719e58e026846e01b24bca472dba224c9642b3deb4f1971e760b657b5346140fb31b9c4b55a14c019
+  checksum: 10/c56c88dd1b5f6ad45c6034eb44f25ee61929a2a5832bd015b8b1b71331071e43bf631edbcc4a8529fa692f9b17576595d95c89218bc5d67be66ed0c1aedc7a76
   languageName: node
   linkType: hard
 
