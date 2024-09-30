@@ -1161,17 +1161,17 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:6.2.3"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.101.1"
+    renovate: "npm:38.105.0"
     vitest: "npm:2.1.1"
   languageName: unknown
   linkType: soft
 
-"@cdktf/hcl2json@npm:0.20.8":
-  version: 0.20.8
-  resolution: "@cdktf/hcl2json@npm:0.20.8"
+"@cdktf/hcl2json@npm:0.20.9":
+  version: 0.20.9
+  resolution: "@cdktf/hcl2json@npm:0.20.9"
   dependencies:
     fs-extra: "npm:11.2.0"
-  checksum: 10/9e25ac1c45c64ed2c125cb6abd0cc0ac24f5819798a45ab991f9bb59607b29dd6f1d20d7cc4984bf66d43b08ea2bb27b42db7bdfec9b53802760b76f0aa3a171
+  checksum: 10/623bad1ce46c8ba96b1693318021e1fe05072ca4a8e61cabd935647ff6fe09e167f015470f46f9bd89638da4576dbdacab68b8292089d471d30bff30916fba62
   languageName: node
   linkType: hard
 
@@ -10067,9 +10067,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:38.101.1":
-  version: 38.101.1
-  resolution: "renovate@npm:38.101.1"
+"renovate@npm:38.105.0":
+  version: 38.105.0
+  resolution: "renovate@npm:38.105.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.637.0"
     "@aws-sdk/client-ec2": "npm:3.641.0"
@@ -10078,7 +10078,7 @@ __metadata:
     "@aws-sdk/client-s3": "npm:3.637.0"
     "@aws-sdk/credential-providers": "npm:3.637.0"
     "@breejs/later": "npm:4.2.0"
-    "@cdktf/hcl2json": "npm:0.20.8"
+    "@cdktf/hcl2json": "npm:0.20.9"
     "@opentelemetry/api": "npm:1.9.0"
     "@opentelemetry/context-async-hooks": "npm:1.26.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:0.53.0"
@@ -10191,7 +10191,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/4b40dcf7681b9c4ee047294087bd6c274a8db766f4b9a1a39e2ffb9a3411bd0a6d78d689029ced308ce21279c37634c472ee598261d47123c745a2b899f237c0
+  checksum: 10/f5eb569a4bb100599a7eeaae7b2f3c5f154be82aae897b557cd572614b369d4a737ab894c4ef01780b15a8d7ce8b02ed6a911315ee83a77ca750618a42448726
   languageName: node
   linkType: hard
 
