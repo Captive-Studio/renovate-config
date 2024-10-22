@@ -79,7 +79,7 @@
     "markdown-magic": "2.6.1",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
-    "npm-run-all2": "6.2.6",
+    "npm-run-all2": "7.0.0",
     "prettier": "3.3.3",
     "renovate": "38.128.7",
     "vitest": "2.1.3"
