@@ -22,7 +22,10 @@
         "vue",
         "vue-router",
         "@ionic/lab",
-        "@vue/test-utils"
+        "@vue/test-utils",
+        "@rails/activestorage",
+        "@rails/ujs",
+        "@hotwired/turbo-rails"
       ],
       "matchPackagePrefixes": ["@capacitor/", "@sentry/"]
     }
