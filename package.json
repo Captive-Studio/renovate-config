@@ -82,7 +82,7 @@
     "npm-run-all2": "7.0.1",
     "prettier": "3.3.3",
     "renovate": "38.133.2",
-    "vitest": "2.1.3"
+    "vitest": "2.1.4"
   },
   "packageManager": "yarn@4.5.1",
   "engines": {
