@@ -22,6 +22,7 @@
         "factory_bot_rails",
         "factory_bot",
         "faker",
+        "fastlane",
         "ffaker",
         "foreman",
         "importmap-rails",
