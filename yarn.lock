@@ -1152,7 +1152,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.1"
     prettier: "npm:3.3.3"
-    renovate: "npm:38.142.7"
+    renovate: "npm:39.0.1"
     vitest: "npm:2.1.4"
   languageName: unknown
   linkType: soft
@@ -5178,12 +5178,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:2.50.0":
-  version: 2.50.0
-  resolution: "cronstrue@npm:2.50.0"
+"cronstrue@npm:2.51.0":
+  version: 2.51.0
+  resolution: "cronstrue@npm:2.51.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10/d4e70e0e9c3bad8bb492a3d196f5c456da04463896697ef0b8f323b9d96c07e9130efb0b58e8ac9059e1a209f09f96023ebda8ff74c7c457aaa7a7a61761e64e
+  checksum: 10/8fd04d2151b14ac8a34a40e23cf5eb1faebe1406413f0fa05a92605e0c27d826d15cfae4337969807b5815453b6b1ca165611d23f20fcff44eed26dbe392e690
   languageName: node
   linkType: hard
 
@@ -6988,12 +6988,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"git-url-parse@npm:14.1.0":
-  version: 14.1.0
-  resolution: "git-url-parse@npm:14.1.0"
+"git-url-parse@npm:15.0.0":
+  version: 15.0.0
+  resolution: "git-url-parse@npm:15.0.0"
   dependencies:
     git-up: "npm:^7.0.0"
-  checksum: 10/3bbf1182cd5a57c5ba2bd2c722f7391b771edb7d8bd37e060e25bd48b4f2a444bc5b5709fee0075f058a51b1233a65e4124b53715b5e091b34586b9a263ae2c3
+  checksum: 10/b6e54fc58bb4f4c9bfb1060ec93c3d1462880c6bec76926978e32b2bbfac3535001c87efd1ef0dca9cd9ee0ffdaacba2f50dc4f7032ba09ad92d93e9acc9936b
   languageName: node
   linkType: hard
 
@@ -7498,7 +7498,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:5.3.2, ignore@npm:^5.1.1, ignore@npm:^5.2.0, ignore@npm:^5.3.1":
+"ignore@npm:6.0.2":
+  version: 6.0.2
+  resolution: "ignore@npm:6.0.2"
+  checksum: 10/af39e49996cd989763920e445eff897d0ae1e36b5f27b0e09e14a4fd2df89b362f92e720ecf06ef729056842366527db8561d310e904718810b92ffbcd23056d
+  languageName: node
+  linkType: hard
+
+"ignore@npm:^5.1.1, ignore@npm:^5.2.0, ignore@npm:^5.3.1":
   version: 5.3.2
   resolution: "ignore@npm:5.3.2"
   checksum: 10/cceb6a457000f8f6a50e1196429750d782afce5680dd878aa4221bd79972d68b3a55b4b1458fc682be978f4d3c6a249046aa0880637367216444ab7b014cfc98
@@ -10142,9 +10149,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:38.142.7":
-  version: 38.142.7
-  resolution: "renovate@npm:38.142.7"
+"renovate@npm:39.0.1":
+  version: 39.0.1
+  resolution: "renovate@npm:39.0.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.658.1"
     "@aws-sdk/client-ec2": "npm:3.658.1"
@@ -10188,7 +10195,7 @@ __metadata:
     commander: "npm:12.1.0"
     conventional-commits-detector: "npm:1.0.3"
     cron-parser: "npm:4.9.0"
-    cronstrue: "npm:2.50.0"
+    cronstrue: "npm:2.51.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:6.1.0"
@@ -10202,7 +10209,7 @@ __metadata:
     find-packages: "npm:10.0.4"
     find-up: "npm:5.0.0"
     fs-extra: "npm:11.2.0"
-    git-url-parse: "npm:14.1.0"
+    git-url-parse: "npm:15.0.0"
     github-url-from-git: "npm:1.5.0"
     glob: "npm:11.0.0"
     global-agent: "npm:3.0.0"
@@ -10211,7 +10218,7 @@ __metadata:
     got: "npm:11.8.6"
     graph-data-structure: "npm:3.5.0"
     handlebars: "npm:4.7.8"
-    ignore: "npm:5.3.2"
+    ignore: "npm:6.0.2"
     ini: "npm:4.1.3"
     json-dup-key-validator: "npm:1.0.3"
     json-stringify-pretty-compact: "npm:3.0.0"
@@ -10252,7 +10259,7 @@ __metadata:
     tslib: "npm:2.8.0"
     upath: "npm:2.0.1"
     url-join: "npm:4.0.1"
-    validate-npm-package-name: "npm:5.0.1"
+    validate-npm-package-name: "npm:6.0.0"
     vuln-vects: "npm:1.1.0"
     xmldoc: "npm:1.3.0"
     yaml: "npm:2.6.0"
@@ -10267,7 +10274,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/718a1e5bb0117395870e4a5e4c15144b950c8ef74c1b39eb2524bada3b2ffe62d11543cf134de1f404981b642ec6d79f71429266a86454ca4992a2d6944a7bb8
+  checksum: 10/685980fed5e5a200b1e0e261bcdfb5751cc8e2e9d63f9ea2ea2bd7ff72236a123ed6f12fe142a25cfbbb491361d729ea6d5e2f56386b73ce280021306af59450
   languageName: node
   linkType: hard
 
@@ -11743,10 +11750,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"validate-npm-package-name@npm:5.0.1":
-  version: 5.0.1
-  resolution: "validate-npm-package-name@npm:5.0.1"
-  checksum: 10/0d583a1af23aeffea7748742cf22b6802458736fb8b60323ba5949763824d46f796474b0e1b9206beb716f9d75269e19dbd7795d6b038b29d561be95dd827381
+"validate-npm-package-name@npm:6.0.0":
+  version: 6.0.0
+  resolution: "validate-npm-package-name@npm:6.0.0"
+  checksum: 10/4d018c4fa07f95534a5fea667adc653b1ef52f08bf56aff066c28394499d0a6949c0b00edbd7077c4dc1e041da9220af7c742ced67d7d2d6a1b07d10cbe91b29
   languageName: node
   linkType: hard
 
