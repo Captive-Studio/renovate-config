@@ -12,6 +12,7 @@
         "aws-sdk-s3",
         "bootsnap",
         "brakeman",
+        "cancancan",
         "capybara",
         "countries",
         "cssbundling-rails",
