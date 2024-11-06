@@ -45,6 +45,7 @@
         "sidekiq",
         "simplecov",
         "spring",
+        "sprockets-rails",
         "tzinfo-data",
         "web-console",
         "webdrivers",
