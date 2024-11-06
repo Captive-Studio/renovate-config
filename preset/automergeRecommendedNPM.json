@@ -20,6 +20,7 @@
         "pinia",
         "sass",
         "vue",
+        "cypress",
         "vue-router",
         "@ionic/lab",
         "@vue/test-utils"
@@ -33,12 +34,8 @@
     },
     {
       "matchUpdateTypes": ["patch"],
-      "matchPackageNames": [
-        "axios"
-      ],
-      "matchPackagePrefixes": [
-        "@ionic/"
-      ],
+      "matchPackageNames": ["axios"],
+      "matchPackagePrefixes": ["@ionic/"],
       "automerge": true
     }
   ]
