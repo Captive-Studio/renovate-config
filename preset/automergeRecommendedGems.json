@@ -13,6 +13,7 @@
         "bootsnap",
         "brakeman",
         "cancancan",
+        "builder",
         "capybara",
         "countries",
         "cssbundling-rails",
