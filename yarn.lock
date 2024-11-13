@@ -1158,7 +1158,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.1"
     prettier: "npm:3.3.3"
-    renovate: "npm:39.11.7"
+    renovate: "npm:39.13.0"
     vitest: "npm:2.1.5"
   languageName: unknown
   linkType: soft
@@ -9853,7 +9853,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"punycode@npm:^2.1.0":
+"punycode@npm:2.3.1, punycode@npm:^2.1.0":
   version: 2.3.1
   resolution: "punycode@npm:2.3.1"
   checksum: 10/febdc4362bead22f9e2608ff0171713230b57aff9dddc1c273aa2a651fbd366f94b7d6a71d78342a7c0819906750351ca7f2edd26ea41b626d87d6a13d1bd059
@@ -10124,9 +10124,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.11.7":
-  version: 39.11.7
-  resolution: "renovate@npm:39.11.7"
+"renovate@npm:39.13.0":
+  version: 39.13.0
+  resolution: "renovate@npm:39.13.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.687.0"
     "@aws-sdk/client-ec2": "npm:3.687.0"
@@ -10218,6 +10218,7 @@ __metadata:
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.3.3"
     protobufjs: "npm:7.4.0"
+    punycode: "npm:2.3.1"
     re2: "npm:1.21.4"
     redis: "npm:4.7.0"
     remark: "npm:13.0.0"
@@ -10249,7 +10250,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/aa626224079b56dc91103008e67a8acf996d846efefe78ec25273744e2555f831c8e99d6eba3dfefa77b03aa36844cc4c4c3d3472da2d5170a6c83aadd7cd6fb
+  checksum: 10/5057bffc3152835c239f0c82c4cf0b23ec8cec1472ea3da314935c9235a5279bf17f4654435136e28fd3d247aa41bc26b3879e5fcb2b9a693230b9c5f8aee0f8
   languageName: node
   linkType: hard
 
