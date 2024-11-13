@@ -1158,7 +1158,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.1"
     prettier: "npm:3.3.3"
-    renovate: "npm:39.11.4"
+    renovate: "npm:39.11.5"
     vitest: "npm:2.1.4"
   languageName: unknown
   linkType: soft
@@ -2724,10 +2724,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/ruby-semver@npm:3.0.23":
-  version: 3.0.23
-  resolution: "@renovatebot/ruby-semver@npm:3.0.23"
-  checksum: 10/52fd0b6e50548ed990292a901f9b92177fd1d5c0317b9a785ec74d613b3ccfcef7db50ab747422196aa28ee0b23737941e4099d1d5b12bc436a77a11cd1d5a58
+"@renovatebot/ruby-semver@npm:3.1.1":
+  version: 3.1.1
+  resolution: "@renovatebot/ruby-semver@npm:3.1.1"
+  checksum: 10/f3b10f728c7e81b57c939b35fa981388d565306710bd053328ca169e81b00c80b33321b328e1593fa1bfaa1f976c5cc38e1ba0cdb56f4ca4442f2ece2ddb1225
   languageName: node
   linkType: hard
 
@@ -10124,9 +10124,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.11.4":
-  version: 39.11.4
-  resolution: "renovate@npm:39.11.4"
+"renovate@npm:39.11.5":
+  version: 39.11.5
+  resolution: "renovate@npm:39.11.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.687.0"
     "@aws-sdk/client-ec2": "npm:3.687.0"
@@ -10151,7 +10151,7 @@ __metadata:
     "@renovatebot/kbpgp": "npm:3.0.2"
     "@renovatebot/osv-offline": "npm:1.5.10"
     "@renovatebot/pep440": "npm:3.1.0"
-    "@renovatebot/ruby-semver": "npm:3.0.23"
+    "@renovatebot/ruby-semver": "npm:3.1.1"
     "@sindresorhus/is": "npm:4.6.0"
     "@yarnpkg/core": "npm:4.1.4"
     "@yarnpkg/parsers": "npm:3.0.2"
@@ -10249,7 +10249,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/78903e0c93f9937469afc4a7ad7d6f82b28bff432511c1157a9fd0e5b25f0b2e7eaf09ba373a024aed1260a440b3d2c509903287028eece3afbb0686fa38a81d
+  checksum: 10/01fd706a8bf5f970253c74c26178a8ce2aac537dc43698df72dcc29df11113e8298685693615ae46325bbb5c3b3dafc825aa8c06856a1fa5377805f05e42e005
   languageName: node
   linkType: hard
 
