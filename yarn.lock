@@ -1168,17 +1168,17 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.1"
     prettier: "npm:3.3.3"
-    renovate: "npm:39.19.1"
+    renovate: "npm:39.20.3"
     vitest: "npm:2.1.5"
   languageName: unknown
   linkType: soft
 
-"@cdktf/hcl2json@npm:0.20.9":
-  version: 0.20.9
-  resolution: "@cdktf/hcl2json@npm:0.20.9"
+"@cdktf/hcl2json@npm:0.20.10":
+  version: 0.20.10
+  resolution: "@cdktf/hcl2json@npm:0.20.10"
   dependencies:
     fs-extra: "npm:11.2.0"
-  checksum: 10/623bad1ce46c8ba96b1693318021e1fe05072ca4a8e61cabd935647ff6fe09e167f015470f46f9bd89638da4576dbdacab68b8292089d471d30bff30916fba62
+  checksum: 10/1824e4db1b20c7f85e2d4494a4dd4a7d57919de130c1b50ce333d51df96ab518830096101c9ab7907804b75421fef3a720a44ce1111b66f98d514b28744815fd
   languageName: node
   linkType: hard
 
@@ -10090,9 +10090,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.19.1":
-  version: 39.19.1
-  resolution: "renovate@npm:39.19.1"
+"renovate@npm:39.20.3":
+  version: 39.20.3
+  resolution: "renovate@npm:39.20.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.687.0"
     "@aws-sdk/client-ec2": "npm:3.687.0"
@@ -10101,7 +10101,7 @@ __metadata:
     "@aws-sdk/client-s3": "npm:3.689.0"
     "@aws-sdk/credential-providers": "npm:3.687.0"
     "@breejs/later": "npm:4.2.0"
-    "@cdktf/hcl2json": "npm:0.20.9"
+    "@cdktf/hcl2json": "npm:0.20.10"
     "@opentelemetry/api": "npm:1.9.0"
     "@opentelemetry/context-async-hooks": "npm:1.27.0"
     "@opentelemetry/exporter-trace-otlp-http": "npm:0.54.2"
@@ -10216,7 +10216,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/04722a21fe47b7a8453dc361670e8b649728a4cf56496635b9910382c30ab31472ab99e06f34db9a2cb3f472fb8ffdc3e95f25de83e2eee542039e4d098da86f
+  checksum: 10/0a34b698be75f03e0974f9a2d14cd148b63bf406493374fa7fa2652a3fe4a0ed396c946ffe645b4ba7c9ec812272e9285f977939bd88125ae9208cdcc4f10a1d
   languageName: node
   linkType: hard
 
