@@ -52,7 +52,12 @@
         "web-console",
         "webdrivers",
         "webmock"
-      ],
+      ]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "matchManagers": ["bundler"],
+      "automerge": true,
       "matchPackagePatterns": [
         "^minitest-",
         "^rspec-",

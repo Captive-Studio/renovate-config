@@ -25,7 +25,11 @@
         "tailwindcss",
         "@ionic/lab",
         "@vue/test-utils"
-      ],
+      ]
+    },
+    {
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true,
       "matchPackagePrefixes": [
         "@capacitor/",
         "@sentry/",
