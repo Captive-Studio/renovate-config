@@ -22,6 +22,7 @@
         "vue",
         "cypress",
         "vue-router",
+        "tailwindcss",
         "@ionic/lab",
         "@vue/test-utils"
       ],
