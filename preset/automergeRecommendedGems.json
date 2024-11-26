@@ -51,7 +51,10 @@
         "tzinfo-data",
         "web-console",
         "webdrivers",
-        "webmock"
+        "webmock",
+        "reline",
+        "securerandom",
+        "stringio"
       ]
     },
     {
