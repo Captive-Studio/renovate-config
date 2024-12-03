@@ -1158,7 +1158,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.1"
     prettier: "npm:3.4.1"
-    renovate: "npm:39.46.2"
+    renovate: "npm:39.48.0"
     vitest: "npm:2.1.8"
   languageName: unknown
   linkType: soft
@@ -9137,16 +9137,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:3.3.7":
-  version: 3.3.7
-  resolution: "nanoid@npm:3.3.7"
-  bin:
-    nanoid: bin/nanoid.cjs
-  checksum: 10/ac1eb60f615b272bccb0e2b9cd933720dad30bf9708424f691b8113826bb91aca7e9d14ef5d9415a6ba15c266b37817256f58d8ce980c82b0ba3185352565679
-  languageName: node
-  linkType: hard
-
-"nanoid@npm:^3.3.7":
+"nanoid@npm:3.3.8, nanoid@npm:^3.3.7":
   version: 3.3.8
   resolution: "nanoid@npm:3.3.8"
   bin:
@@ -9855,15 +9846,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"prettier@npm:3.3.3":
-  version: 3.3.3
-  resolution: "prettier@npm:3.3.3"
-  bin:
-    prettier: bin/prettier.cjs
-  checksum: 10/5beac1f30b5b40162532b8e2f7c3a4eb650910a2695e9c8512a62ffdc09dae93190c29db9107fa7f26d1b6c71aad3628ecb9b5de1ecb0911191099be109434d7
-  languageName: node
-  linkType: hard
-
 "prettier@npm:3.4.1":
   version: 3.4.1
   resolution: "prettier@npm:3.4.1"
@@ -10243,9 +10225,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.46.2":
-  version: 39.46.2
-  resolution: "renovate@npm:39.46.2"
+"renovate@npm:39.48.0":
+  version: 39.48.0
+  resolution: "renovate@npm:39.48.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.699.0"
     "@aws-sdk/client-ec2": "npm:3.701.0"
@@ -10326,7 +10308,7 @@ __metadata:
     minimatch: "npm:10.0.1"
     moo: "npm:0.5.2"
     ms: "npm:2.1.3"
-    nanoid: "npm:3.3.7"
+    nanoid: "npm:3.3.8"
     neotraverse: "npm:0.6.18"
     node-html-parser: "npm:6.1.13"
     openpgp: "npm:6.0.1"
@@ -10335,7 +10317,7 @@ __metadata:
     p-queue: "npm:6.6.2"
     p-throttle: "npm:4.1.1"
     parse-link-header: "npm:2.0.0"
-    prettier: "npm:3.3.3"
+    prettier: "npm:3.4.1"
     protobufjs: "npm:7.4.0"
     punycode: "npm:2.3.1"
     re2: "npm:1.21.4"
@@ -10369,7 +10351,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/626a15409e1b1f6c67d2333e99de8509c9a7b51f6e6ba7c42ddf5fb407671880b2ba7c696d95071a72f0341b68fff825d22a7b06c846679926a61bc6c4bf78f6
+  checksum: 10/e10347be26be496252c03a68a26ac22fafb05d108bbdb8040bda32b857ec2c74616aa6653c4f08a0a80a66ad525270ce96a0a4e57464461974a1495d00c8e3b6
   languageName: node
   linkType: hard
 
