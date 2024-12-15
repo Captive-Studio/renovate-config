@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.1"
     prettier: "npm:3.4.2"
-    renovate: "npm:39.69.1"
+    renovate: "npm:39.69.2"
     vitest: "npm:2.1.8"
   languageName: unknown
   linkType: soft
@@ -4631,14 +4631,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:11.6.0":
-  version: 11.6.0
-  resolution: "better-sqlite3@npm:11.6.0"
+"better-sqlite3@npm:11.7.0":
+  version: 11.7.0
+  resolution: "better-sqlite3@npm:11.7.0"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/044e80ec7de7029bcd35ee728e0ff22e3b14f408b99a948ffc461ef9cf0633915ac4b0182e79281c733930c273273405607188a52a7f25c09af888152874f469
+  checksum: 10/a09bb28c0292bb7c037896ee99197815841275bca2d14f63b58994188239f292642c8c7ea3e0206d8ea6c7530d7b03d7343138ebeb9a4cc855c0b3663e00c812
   languageName: node
   linkType: hard
 
@@ -10394,9 +10394,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.69.1":
-  version: 39.69.1
-  resolution: "renovate@npm:39.69.1"
+"renovate@npm:39.69.2":
+  version: 39.69.2
+  resolution: "renovate@npm:39.69.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.699.0"
     "@aws-sdk/client-ec2": "npm:3.701.0"
@@ -10431,7 +10431,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
     azure-devops-node-api: "npm:14.1.0"
-    better-sqlite3: "npm:11.6.0"
+    better-sqlite3: "npm:11.7.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:19.0.1"
     chalk: "npm:4.1.2"
@@ -10520,7 +10520,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/2f4aeaaba51e27defac328e5bf5e0d4a04bee1c8448421e545ae1861040660f7388f1f54b8e52a703d2d534ed60d75c4f22927e83a0d086529f428bafbd8f7fa
+  checksum: 10/1481eefebfd33db70b2d30c89f895570f265d79aefd3e009334ee92ab82993e59cbaf103b2ad39e5a0ecdeb4e295640fca548f47464b4b1e94b7341c0eaf7c38
   languageName: node
   linkType: hard
 
