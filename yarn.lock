@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.4.2"
-    renovate: "npm:39.71.0"
+    renovate: "npm:39.72.2"
     vitest: "npm:2.1.8"
   languageName: unknown
   linkType: soft
@@ -5928,17 +5928,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emojibase-regex@npm:15.3.2":
-  version: 15.3.2
-  resolution: "emojibase-regex@npm:15.3.2"
-  checksum: 10/c0e333163cf2643183c82ebcd093a1a92f74963659f69777a0961d4b8aff7e36e08ce97a45ab4b021a6b2d12f1ee96db0dc3a8b035aef1f1c4ae36f13170b4b4
+"emojibase-regex@npm:16.0.0":
+  version: 16.0.0
+  resolution: "emojibase-regex@npm:16.0.0"
+  checksum: 10/a3c8b0406feb09bd5bd352effc98e04cba4066688f830a146b27573ec53d524dbd83a6ad74db33f02a3a7e85d31049885aea3af470b573dfa8210ed082b7bab5
   languageName: node
   linkType: hard
 
-"emojibase@npm:15.3.1":
-  version: 15.3.1
-  resolution: "emojibase@npm:15.3.1"
-  checksum: 10/22e659bd7f5ba9f4d643fd1611012cacee7f84f2ba735e3e4607e46a5d83dfce92103b6065db13115b917f21f60e34bc6c3e9128cea59aca75f886c3157097c0
+"emojibase@npm:16.0.0":
+  version: 16.0.0
+  resolution: "emojibase@npm:16.0.0"
+  checksum: 10/d050008331a6149c6bb54a9f4f6aeee4d4e2b83e8b87ce0ad58a4e87443d367791c2de1e172c7950828934f1884e3a59e7abf889df754ed7d6162d0ed01ae308
   languageName: node
   linkType: hard
 
@@ -10662,9 +10662,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.71.0":
-  version: 39.71.0
-  resolution: "renovate@npm:39.71.0"
+"renovate@npm:39.72.2":
+  version: 39.72.2
+  resolution: "renovate@npm:39.72.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.699.0"
     "@aws-sdk/client-ec2": "npm:3.701.0"
@@ -10716,8 +10716,8 @@ __metadata:
     editorconfig: "npm:2.0.0"
     email-addresses: "npm:5.0.0"
     emoji-regex: "npm:10.4.0"
-    emojibase: "npm:15.3.1"
-    emojibase-regex: "npm:15.3.2"
+    emojibase: "npm:16.0.0"
+    emojibase-regex: "npm:16.0.0"
     extract-zip: "npm:2.0.1"
     find-packages: "npm:10.0.4"
     find-up: "npm:5.0.0"
@@ -10777,7 +10777,7 @@ __metadata:
     vuln-vects: "npm:1.1.0"
     xmldoc: "npm:1.3.0"
     yaml: "npm:2.6.1"
-    zod: "npm:3.23.8"
+    zod: "npm:3.24.0"
   dependenciesMeta:
     better-sqlite3:
       optional: true
@@ -10788,7 +10788,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/0590dd6f692664e096eaddc797c3801948b9157ca294ad129178339add992f2a3546e798a4b468adfa8e3a91cfe994b37302d1ccb6c2a25c628b6e2f2b6bbdd9
+  checksum: 10/3cb1d4b894f2956ccc7d5f09e945a1cc4005c14285a8b0450bc40c30fb7f9eb35565f7b7934eaf7fe900b3325df13288faa292cadcff44c3d08747af452c2fa1
   languageName: node
   linkType: hard
 
@@ -12895,10 +12895,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.23.8":
-  version: 3.23.8
-  resolution: "zod@npm:3.23.8"
-  checksum: 10/846fd73e1af0def79c19d510ea9e4a795544a67d5b34b7e1c4d0425bf6bfd1c719446d94cdfa1721c1987d891321d61f779e8236fde517dc0e524aa851a6eff1
+"zod@npm:3.24.0":
+  version: 3.24.0
+  resolution: "zod@npm:3.24.0"
+  checksum: 10/a5a5897d34090831eaa76b8f7399317b40a5e0e2cabed2cdf08667a91eec4ac06f82f9be415b8029d02409dd9f533441357e4707c49309867148002aa94d2ee3
   languageName: node
   linkType: hard
 
