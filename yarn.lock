@@ -1158,7 +1158,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.4.2"
-    renovate: "npm:39.90.4"
+    renovate: "npm:39.90.5"
     vitest: "npm:2.1.8"
   languageName: unknown
   linkType: soft
@@ -4303,12 +4303,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"agentkeepalive@npm:4.5.0":
-  version: 4.5.0
-  resolution: "agentkeepalive@npm:4.5.0"
+"agentkeepalive@npm:4.6.0":
+  version: 4.6.0
+  resolution: "agentkeepalive@npm:4.6.0"
   dependencies:
     humanize-ms: "npm:^1.2.1"
-  checksum: 10/dd210ba2a2e2482028f027b1156789744aadbfd773a6c9dd8e4e8001930d5af82382abe19a69240307b1d8003222ce6b0542935038313434b900e351914fc15f
+  checksum: 10/80c546bd88dd183376d6a29e5598f117f380b1d567feb1de184241d6ece721e2bdd38f179a1674276de01780ccae229a38c60a77317e2f5ad2f1818856445bd7
   languageName: node
   linkType: hard
 
@@ -10589,9 +10589,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.90.4":
-  version: 39.90.4
-  resolution: "renovate@npm:39.90.4"
+"renovate@npm:39.90.5":
+  version: 39.90.5
+  resolution: "renovate@npm:39.90.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.716.0"
     "@aws-sdk/client-ec2": "npm:3.716.0"
@@ -10620,7 +10620,7 @@ __metadata:
     "@sindresorhus/is": "npm:4.6.0"
     "@yarnpkg/core": "npm:4.1.6"
     "@yarnpkg/parsers": "npm:3.0.2"
-    agentkeepalive: "npm:4.5.0"
+    agentkeepalive: "npm:4.6.0"
     aggregate-error: "npm:3.1.0"
     async-mutex: "npm:0.5.0"
     auth-header: "npm:1.0.0"
@@ -10715,7 +10715,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/23d4473f31faad5ccedb9b72470f0613ef1ff9b2443341ec268c58dd6d4f51510efa36512261f7c8d91a05577ff1ab0de2138637861bb2816c48ef9f02fb5a1a
+  checksum: 10/c23c862baff16f05ef2cfd84a5f57c0bd122245dfd48b4ebb81068f80b5f5044fdd10755551787af5621a2eb5596717eab065d808cf3ad467b22f874bbda4980
   languageName: node
   linkType: hard
 
