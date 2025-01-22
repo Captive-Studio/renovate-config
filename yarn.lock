@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.4.2"
-    renovate: "npm:39.120.4"
+    renovate: "npm:39.124.0"
     vitest: "npm:3.0.3"
   languageName: unknown
   linkType: soft
@@ -2764,18 +2764,18 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/osv-offline@npm:1.5.11":
-  version: 1.5.11
-  resolution: "@renovatebot/osv-offline@npm:1.5.11"
+"@renovatebot/osv-offline@npm:1.5.12":
+  version: 1.5.12
+  resolution: "@renovatebot/osv-offline@npm:1.5.12"
   dependencies:
     "@octokit/rest": "npm:^20.1.1"
     "@renovatebot/osv-offline-db": "npm:1.7.0"
     adm-zip: "npm:~0.5.16"
-    fs-extra: "npm:^11.2.0"
+    fs-extra: "npm:^11.3.0"
     got: "npm:^11.8.6"
     luxon: "npm:^3.5.0"
     node-fetch: "npm:^2.7.0"
-  checksum: 10/7e0aed3033ebc5be3eefd3d0f650feeff4d926a495cfd032427e3c6fb405917582954db01e2eedb5356263bd0d324adaff567e7f8214fb0c6d06b4c98064fd79
+  checksum: 10/2f9e826ac8253c2769750392b4333f1695b40f44a515c3b74b6d0772656f15cc17ca9b9f48eaa0bb16f1ab7555379b3c880e57bd929edae1ef2e3daf36af9af8
   languageName: node
   linkType: hard
 
@@ -5283,12 +5283,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:2.52.0":
-  version: 2.52.0
-  resolution: "cronstrue@npm:2.52.0"
+"cronstrue@npm:2.53.0":
+  version: 2.53.0
+  resolution: "cronstrue@npm:2.53.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10/123725180e7bd6e77a1fbe6205cd6c3d55f45edd7bf4ddeabee85a277e905d55bbde73efc98369c8011db198a65f5d629f6709e5d968e5e46eba87ede1a1ba65
+  checksum: 10/98f693779c0f70d8b6caef4e2145ff8d9f846053d49bdb34b6841d79965f127c6537a4692a2e3e5e4b0a90922c088309c401f7236241a82d79dd9c88d24076c9
   languageName: node
   linkType: hard
 
@@ -7055,7 +7055,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:^11.2.0":
+"fs-extra@npm:11.3.0, fs-extra@npm:^11.2.0, fs-extra@npm:^11.3.0":
   version: 11.3.0
   resolution: "fs-extra@npm:11.3.0"
   dependencies:
@@ -10718,9 +10718,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.120.4":
-  version: 39.120.4
-  resolution: "renovate@npm:39.120.4"
+"renovate@npm:39.124.0":
+  version: 39.124.0
+  resolution: "renovate@npm:39.124.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.726.1"
     "@aws-sdk/client-ec2": "npm:3.726.1"
@@ -10743,7 +10743,7 @@ __metadata:
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.1.0"
     "@renovatebot/kbpgp": "npm:4.0.1"
-    "@renovatebot/osv-offline": "npm:1.5.11"
+    "@renovatebot/osv-offline": "npm:1.5.12"
     "@renovatebot/pep440": "npm:4.0.1"
     "@renovatebot/ruby-semver": "npm:4.0.0"
     "@sindresorhus/is": "npm:4.6.0"
@@ -10764,7 +10764,7 @@ __metadata:
     commander: "npm:12.1.0"
     conventional-commits-detector: "npm:1.0.3"
     croner: "npm:9.0.0"
-    cronstrue: "npm:2.52.0"
+    cronstrue: "npm:2.53.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:6.1.0"
@@ -10777,7 +10777,7 @@ __metadata:
     extract-zip: "npm:2.0.1"
     find-packages: "npm:10.0.4"
     find-up: "npm:5.0.0"
-    fs-extra: "npm:11.2.0"
+    fs-extra: "npm:11.3.0"
     git-url-parse: "npm:16.0.0"
     github-url-from-git: "npm:1.5.0"
     glob: "npm:11.0.1"
@@ -10844,7 +10844,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/ee51c147844225e3883b7eb6d4c18b57e8827e4e9a2ea4334ef12190407111d75320b78460214c712ead405c1d3d325e262fbf4ee24a74da3f5f4b3c7ffbd0e2
+  checksum: 10/6a3ee174ab224eb494d6a5e1b4d2ef89431e5388a024d0bb4027614ff034171e90c0cf8308df528818aa4b31bf7adacd29c1b5ca23354f1b05cc851e2422dabc
   languageName: node
   linkType: hard
 
