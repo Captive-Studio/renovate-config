@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.4.2"
-    renovate: "npm:39.126.1"
+    renovate: "npm:39.133.3"
     vitest: "npm:3.0.4"
   languageName: unknown
   linkType: soft
@@ -2503,10 +2503,50 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@pnpm/catalogs.protocol-parser@npm:^1000.0.0":
+  version: 1000.0.0
+  resolution: "@pnpm/catalogs.protocol-parser@npm:1000.0.0"
+  checksum: 10/411f738ac78db1227d1ae8c63098087c37304b4a0042a174a05ad3740946d7e8ad0e0da53fbb558a00f5fe00f03837efd968d90f544429a7d12f0cfcfaedd514
+  languageName: node
+  linkType: hard
+
+"@pnpm/catalogs.resolver@npm:1000.0.1":
+  version: 1000.0.1
+  resolution: "@pnpm/catalogs.resolver@npm:1000.0.1"
+  dependencies:
+    "@pnpm/catalogs.protocol-parser": "npm:^1000.0.0"
+    "@pnpm/error": "npm:^1000.0.1"
+  checksum: 10/62e15b321dbc470a8cdc2696633f3c13b135c7de087d4458c5ca84ffce35f660d019f26892dcd59d8e5ff6d2b92979516bec4a884137bc4e87cefb438a399f1f
+  languageName: node
+  linkType: hard
+
+"@pnpm/catalogs.types@npm:1000.0.0":
+  version: 1000.0.0
+  resolution: "@pnpm/catalogs.types@npm:1000.0.0"
+  checksum: 10/aa94d4d8afe25a700dbdd472e1b4ffda7d0a06a410a6c01f6c099b34611c2d58d2e36defdd0d97bfd4e2b1451a4c12b1091e127b3b1b6f86566daf76dba84595
+  languageName: node
+  linkType: hard
+
+"@pnpm/constants@npm:1001.0.0":
+  version: 1001.0.0
+  resolution: "@pnpm/constants@npm:1001.0.0"
+  checksum: 10/61c3a92a8b3489ca0550fec38dc55778802f1a239901aec55f2d031e46c105b00c9da6e2d4b4d9d3b9560b8569ab56ea5417c94982a932713b77cd316e3c6fb5
+  languageName: node
+  linkType: hard
+
 "@pnpm/constants@npm:6.1.0":
   version: 6.1.0
   resolution: "@pnpm/constants@npm:6.1.0"
   checksum: 10/2f94e48a2ea5406b93064dfbd41a4508871f40b766f5175223f32b778b716c2fcfb0fc44fb8d8549a064fd2152762783f414a244846be4c0dc4947b3a93f7cf1
+  languageName: node
+  linkType: hard
+
+"@pnpm/error@npm:1000.0.1, @pnpm/error@npm:^1000.0.1":
+  version: 1000.0.1
+  resolution: "@pnpm/error@npm:1000.0.1"
+  dependencies:
+    "@pnpm/constants": "npm:1001.0.0"
+  checksum: 10/a7ac99cfe79f1814f65d91ee082048856e4348e9f0f758ed7922d3a48c9a26e02c0af26291329fa3f16c2d9306f0f8f2182b7cf77ff87ae8944b932b9f795109
   languageName: node
   linkType: hard
 
@@ -2525,6 +2565,27 @@ __metadata:
   dependencies:
     graceful-fs: "npm:^4.2.6"
   checksum: 10/e090fe95d0d15bd6fde11967d6ac3da9e3e4ead0a3ec0de615b77505d1943d99940153a8cb9cd12ef477050efa70deb62fa705822b2edff7dc1e1c5b2fbdd169
+  languageName: node
+  linkType: hard
+
+"@pnpm/parse-overrides@npm:1000.0.1":
+  version: 1000.0.1
+  resolution: "@pnpm/parse-overrides@npm:1000.0.1"
+  dependencies:
+    "@pnpm/catalogs.resolver": "npm:1000.0.1"
+    "@pnpm/catalogs.types": "npm:1000.0.0"
+    "@pnpm/error": "npm:1000.0.1"
+    "@pnpm/parse-wanted-dependency": "npm:1000.0.0"
+  checksum: 10/38b49617d1c23e6a5ef398b1cc2cac1c4e0a9d60b79930b6d4fb7d3413335b82d491eaaa7c440b7d872c9a884b3e4b7de5ff98308314173cb682c805322c7cdf
+  languageName: node
+  linkType: hard
+
+"@pnpm/parse-wanted-dependency@npm:1000.0.0":
+  version: 1000.0.0
+  resolution: "@pnpm/parse-wanted-dependency@npm:1000.0.0"
+  dependencies:
+    validate-npm-package-name: "npm:5.0.0"
+  checksum: 10/27e3231ccf46532dee5bf1594c0fe199916bdd8095c5cbeecbfe4d69a7860d005258ce636bbc06cd73715ed6fd84098c8166aa10337665567b7ae7cd027a33b0
   languageName: node
   linkType: hard
 
@@ -4766,6 +4827,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"builtins@npm:^5.0.0":
+  version: 5.1.0
+  resolution: "builtins@npm:5.1.0"
+  dependencies:
+    semver: "npm:^7.0.0"
+  checksum: 10/60aa9969f69656bf6eab82cd74b23ab805f112ae46a54b912bccc1533875760f2d2ce95e0a7d13144e35ada9f0386f17ed4961908bc9434b5a5e21375b1902b2
+  languageName: node
+  linkType: hard
+
 "bunyan@npm:1.8.15":
   version: 1.8.15
   resolution: "bunyan@npm:1.8.15"
@@ -5165,10 +5235,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:12.1.0":
-  version: 12.1.0
-  resolution: "commander@npm:12.1.0"
-  checksum: 10/cdaeb672d979816853a4eed7f1310a9319e8b976172485c2a6b437ed0db0a389a44cfb222bfbde772781efa9f215bdd1b936f80d6b249485b465c6cb906e1f93
+"commander@npm:13.0.0, commander@npm:^13.0.0":
+  version: 13.0.0
+  resolution: "commander@npm:13.0.0"
+  checksum: 10/e89d5bf61e84e65e0cfdfcfb740049cf6bcaba63fc32a610375957a2a57373d42f7b00fc64bec5bdde0e547593fa184f869dfabe8a415bc4fd4482edf2fb5ca8
   languageName: node
   linkType: hard
 
@@ -5176,13 +5246,6 @@ __metadata:
   version: 11.1.0
   resolution: "commander@npm:11.1.0"
   checksum: 10/66bd2d8a0547f6cb1d34022efb25f348e433b0e04ad76a65279b1b09da108f59a4d3001ca539c60a7a46ea38bcf399fc17d91adad76a8cf43845d8dcbaf5cda1
-  languageName: node
-  linkType: hard
-
-"commander@npm:^13.0.0":
-  version: 13.0.0
-  resolution: "commander@npm:13.0.0"
-  checksum: 10/e89d5bf61e84e65e0cfdfcfb740049cf6bcaba63fc32a610375957a2a57373d42f7b00fc64bec5bdde0e547593fa184f869dfabe8a415bc4fd4482edf2fb5ca8
   languageName: node
   linkType: hard
 
@@ -10718,9 +10781,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.126.1":
-  version: 39.126.1
-  resolution: "renovate@npm:39.126.1"
+"renovate@npm:39.133.3":
+  version: 39.133.3
+  resolution: "renovate@npm:39.133.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.726.1"
     "@aws-sdk/client-ec2": "npm:3.726.1"
@@ -10740,6 +10803,7 @@ __metadata:
     "@opentelemetry/sdk-trace-base": "npm:1.30.1"
     "@opentelemetry/sdk-trace-node": "npm:1.30.1"
     "@opentelemetry/semantic-conventions": "npm:1.28.0"
+    "@pnpm/parse-overrides": "npm:1000.0.1"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.1.0"
     "@renovatebot/kbpgp": "npm:4.0.1"
@@ -10761,7 +10825,7 @@ __metadata:
     chalk: "npm:4.1.2"
     changelog-filename-regex: "npm:2.0.1"
     clean-git-ref: "npm:2.0.1"
-    commander: "npm:12.1.0"
+    commander: "npm:13.0.0"
     conventional-commits-detector: "npm:1.0.3"
     croner: "npm:9.0.0"
     cronstrue: "npm:2.53.0"
@@ -10844,7 +10908,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/5f936be8d72c00cd023b976b925cb8c15f4cdb58dd25876cc580ed918592e5b0c237cec4ab2253eacbc26ee15ca3fde04695d6317f5bbc5dda8665167c50fdf5
+  checksum: 10/8a47ec9b760eef7f13a1dec0e202170e15e3773a9c8d71b43509966400855f796f1970095817dd836db5db2d959b8ee2d1daaff5644305122b806e8f16fbfe1b
   languageName: node
   linkType: hard
 
@@ -11196,7 +11260,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"semver@npm:7.6.3, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.0, semver@npm:^7.6.3":
+"semver@npm:7.6.3, semver@npm:^7.0.0, semver@npm:^7.1.2, semver@npm:^7.3.2, semver@npm:^7.3.4, semver@npm:^7.3.5, semver@npm:^7.3.6, semver@npm:^7.5.2, semver@npm:^7.5.3, semver@npm:^7.5.4, semver@npm:^7.6.0, semver@npm:^7.6.3":
   version: 7.6.3
   resolution: "semver@npm:7.6.3"
   bin:
@@ -12494,6 +12558,15 @@ __metadata:
     spdx-correct: "npm:^3.0.0"
     spdx-expression-parse: "npm:^3.0.0"
   checksum: 10/86242519b2538bb8aeb12330edebb61b4eb37fd35ef65220ab0b03a26c0592c1c8a7300d32da3cde5abd08d18d95e8dabfad684b5116336f6de9e6f207eec224
+  languageName: node
+  linkType: hard
+
+"validate-npm-package-name@npm:5.0.0":
+  version: 5.0.0
+  resolution: "validate-npm-package-name@npm:5.0.0"
+  dependencies:
+    builtins: "npm:^5.0.0"
+  checksum: 10/5342a994986199b3c28e53a8452a14b2bb5085727691ea7aa0d284a6606b127c371e0925ae99b3f1ef7cc7d2c9de75f52eb61a3d1cc45e39bca1e3a9444cbb4e
   languageName: node
   linkType: hard
 
