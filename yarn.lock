@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.4.2"
-    renovate: "npm:39.133.3"
+    renovate: "npm:39.133.4"
     vitest: "npm:3.0.4"
   languageName: unknown
   linkType: soft
@@ -4695,14 +4695,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:11.8.0":
-  version: 11.8.0
-  resolution: "better-sqlite3@npm:11.8.0"
+"better-sqlite3@npm:11.8.1":
+  version: 11.8.1
+  resolution: "better-sqlite3@npm:11.8.1"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/701665395ae89d1230cedda89fed8cd653a667bf0ecd6117399b568625c411fb925848e9cbe22b64c56d7b5282c2aed7c2dac0e1a845b71a2d8dd6aad8497440
+  checksum: 10/d7f40fe0d00d29191eccc69b06b3c7990bcc1f3e8ca44118fadcc24f83c85c52c0dd5ce30c07b24fcb5580a3121d0fbf6dd24e9b322de65dbcb821a502b3609b
   languageName: node
   linkType: hard
 
@@ -10803,9 +10803,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.133.3":
-  version: 39.133.3
-  resolution: "renovate@npm:39.133.3"
+"renovate@npm:39.133.4":
+  version: 39.133.4
+  resolution: "renovate@npm:39.133.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.726.1"
     "@aws-sdk/client-ec2": "npm:3.726.1"
@@ -10841,7 +10841,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
     azure-devops-node-api: "npm:14.1.0"
-    better-sqlite3: "npm:11.8.0"
+    better-sqlite3: "npm:11.8.1"
     bunyan: "npm:1.8.15"
     cacache: "npm:19.0.1"
     chalk: "npm:4.1.2"
@@ -10930,7 +10930,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/8a47ec9b760eef7f13a1dec0e202170e15e3773a9c8d71b43509966400855f796f1970095817dd836db5db2d959b8ee2d1daaff5644305122b806e8f16fbfe1b
+  checksum: 10/2c72671e415ae0a7d03a5124bc6ef73397febe73c8aa57528dc37e83b780584ca96852f872f17af38450f4e954e55ae9549158b8255f1caa62947b1e2db64244
   languageName: node
   linkType: hard
 
