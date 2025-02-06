@@ -1092,7 +1092,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.4.2"
-    renovate: "npm:39.161.6"
+    renovate: "npm:39.162.1"
     vitest: "npm:3.0.5"
   languageName: unknown
   linkType: soft
@@ -5284,12 +5284,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:2.53.0":
-  version: 2.53.0
-  resolution: "cronstrue@npm:2.53.0"
+"cronstrue@npm:2.54.0":
+  version: 2.54.0
+  resolution: "cronstrue@npm:2.54.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10/98f693779c0f70d8b6caef4e2145ff8d9f846053d49bdb34b6841d79965f127c6537a4692a2e3e5e4b0a90922c088309c401f7236241a82d79dd9c88d24076c9
+  checksum: 10/a408205cda371e1ad5a05f3b3c205ae8cad54c3ebb40409a4e7e74ae7cd31c8ff3262c6a3378d3345330981c3d32cf0fbba84cde9bb0381ae863d9d238a441aa
   languageName: node
   linkType: hard
 
@@ -9891,10 +9891,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openpgp@npm:6.0.1":
-  version: 6.0.1
-  resolution: "openpgp@npm:6.0.1"
-  checksum: 10/29b4dca5027925573b7bbcc38d07e27ebec6fbb9c1d96398784129d2bb70176c4e80ca70e0584c1b183c52a437d090181ca408e3617ffa2d9bebeedfcee34161
+"openpgp@npm:6.1.0":
+  version: 6.1.0
+  resolution: "openpgp@npm:6.1.0"
+  checksum: 10/ee8a7f005defd7c312f9ff21ed90f03734ba5cf919952b65e84fec35266ebdf7727bc27819eb32bec77824115f16827eafa74f3ddcfd5ba09db5a6f28af3ab11
   languageName: node
   linkType: hard
 
@@ -10728,9 +10728,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.161.6":
-  version: 39.161.6
-  resolution: "renovate@npm:39.161.6"
+"renovate@npm:39.162.1":
+  version: 39.162.1
+  resolution: "renovate@npm:39.162.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.738.0"
     "@aws-sdk/client-ec2": "npm:3.738.0"
@@ -10775,7 +10775,7 @@ __metadata:
     commander: "npm:13.1.0"
     conventional-commits-detector: "npm:1.0.3"
     croner: "npm:9.0.0"
-    cronstrue: "npm:2.53.0"
+    cronstrue: "npm:2.54.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:6.1.0"
@@ -10815,7 +10815,7 @@ __metadata:
     nanoid: "npm:3.3.8"
     neotraverse: "npm:0.6.18"
     node-html-parser: "npm:7.0.1"
-    openpgp: "npm:6.0.1"
+    openpgp: "npm:6.1.0"
     p-all: "npm:3.0.0"
     p-map: "npm:4.0.0"
     p-queue: "npm:6.6.2"
@@ -10855,7 +10855,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/d0b5f12a5eb69ba78ea08f6e2839eeb584fac26705b5108113bf7492ef5749af34dc77af0036417b5d95fb0349c752e0fa80f1553a029be3d44512920355a0d1
+  checksum: 10/c0d76a3b9cf4fbe4d617314d710ff1519e88db277aaf0c91852937dde53fa937f0ee1df0ac783e874097fbe64e0fdfd89161c67f07b5dcb1375ff3a8751631c3
   languageName: node
   linkType: hard
 
