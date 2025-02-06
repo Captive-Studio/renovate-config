@@ -73,7 +73,7 @@
   "devDependencies": {
     "@captive/commitlint-config": "2.1.14",
     "@captive/cspell-config": "2.4.20",
-    "@captive/eslint-config": "2.0.31",
+    "@captive/eslint-config": "2.0.32",
     "cspell": "8.17.3",
     "eslint": "8.57.1",
     "markdown-magic": "3.3.0",
