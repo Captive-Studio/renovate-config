@@ -1087,7 +1087,7 @@ __metadata:
     "@captive/eslint-config": "npm:2.0.32"
     cspell: "npm:8.17.3"
     eslint: "npm:9.20.1"
-    markdown-magic: "npm:3.3.0"
+    markdown-magic: "npm:3.3.3"
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
@@ -8962,9 +8962,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-magic@npm:3.3.0":
-  version: 3.3.0
-  resolution: "markdown-magic@npm:3.3.0"
+"markdown-magic@npm:3.3.3":
+  version: 3.3.3
+  resolution: "markdown-magic@npm:3.3.3"
   dependencies:
     "@davidwells/md-utils": "npm:^0.0.40"
     "@technote-space/doctoc": "npm:2.4.7"
@@ -8976,13 +8976,14 @@ __metadata:
     micro-mdx-parser: "npm:^1.1.0"
     mri: "npm:^1.2.0"
     node-fetch: "npm:^2.7.0"
-    oparser: "npm:^3.0.13"
+    oparser: "npm:^3.0.22"
     smart-glob: "npm:^1.0.2"
+    string-width: "npm:^4.2.3"
     sync-request: "npm:^6.1.0"
   bin:
     markdown: cli.js
     md-magic: cli.js
-  checksum: 10/9fcea3b9142f78f8f72f6e884906e95657e0cb58ae4ed2c7c2767b50eed4006dd0642f740e852422bada7ac29c2c1b123f901cac09b010591c89dcdf453bf7c7
+  checksum: 10/e1b84e098d4bc0daf2f022aabca6b96dec41005a941f3c4d9ba001f2e06a1440570186de51ad929fcf8fe473b8ce206ad8a8b0fccc54c17dade6485d5230c0f8
   languageName: node
   linkType: hard
 
@@ -9940,7 +9941,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"oparser@npm:^3.0.1, oparser@npm:^3.0.13, oparser@npm:^3.0.22":
+"oparser@npm:^3.0.1, oparser@npm:^3.0.22":
   version: 3.0.22
   resolution: "oparser@npm:3.0.22"
   dependencies:
@@ -11661,7 +11662,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"string-width-cjs@npm:string-width@^4.2.0, string-width@npm:^4.1.0, string-width@npm:^4.2.0":
+"string-width-cjs@npm:string-width@^4.2.0, string-width@npm:^4.1.0, string-width@npm:^4.2.0, string-width@npm:^4.2.3":
   version: 4.2.3
   resolution: "string-width@npm:4.2.3"
   dependencies:
