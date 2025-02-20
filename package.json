@@ -76,7 +76,7 @@
     "@captive/eslint-config": "2.0.32",
     "cspell": "8.17.4",
     "eslint": "9.20.1",
-    "markdown-magic": "3.3.3",
+    "markdown-magic": "3.4.0",
     "markdown-magic-package-json": "2.0.2",
     "markdown-magic-subpackage-list": "1.1.2",
     "npm-run-all2": "7.0.2",
