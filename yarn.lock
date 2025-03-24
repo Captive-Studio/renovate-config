@@ -1430,7 +1430,7 @@ __metadata:
     "@captive/eslint-config": "npm:2.0.32"
     cspell: "npm:8.17.5"
     eslint: "npm:9.23.0"
-    markdown-magic: "npm:3.4.0"
+    markdown-magic: "npm:3.4.1"
     markdown-magic-package-json: "npm:2.0.2"
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
@@ -9028,9 +9028,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-magic@npm:3.4.0":
-  version: 3.4.0
-  resolution: "markdown-magic@npm:3.4.0"
+"markdown-magic@npm:3.4.1":
+  version: 3.4.1
+  resolution: "markdown-magic@npm:3.4.1"
   dependencies:
     "@davidwells/md-utils": "npm:^0.0.44"
     globrex: "npm:^0.1.2"
@@ -9048,7 +9048,8 @@ __metadata:
   bin:
     markdown: cli.js
     md-magic: cli.js
-  checksum: 10/4823eb9a41fbcd6043587c28fa076fdb9bb83b6f5384c0cf77e2462d11cebb2e78e9f903d4dcfcd142252938c2528a964a37e4e83f874e25d69014e789e8fd35
+    mdm: cli.js
+  checksum: 10/7278171880048d12f28f44f94fd45acc81b6e25dc16969b6cfe84925a2c8cf72533cc2c8203c6d57fd791cf24cb58b680ca55bbbdc43090a2385abab7ba863b5
   languageName: node
   linkType: hard
 
