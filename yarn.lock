@@ -1435,7 +1435,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.5.3"
-    renovate: "npm:39.216.0"
+    renovate: "npm:39.216.1"
     vitest: "npm:3.0.9"
   languageName: unknown
   linkType: soft
@@ -9498,16 +9498,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:3.3.10":
-  version: 3.3.10
-  resolution: "nanoid@npm:3.3.10"
-  bin:
-    nanoid: bin/nanoid.cjs
-  checksum: 10/c3d706bbece94e913ecb3a1b17db988decce290984fbacab9b6f279eb87b0882322a00db3409e5fb6e8eb181303eba856b1ae8296cef90d5ccc05128c846e6bb
-  languageName: node
-  linkType: hard
-
-"nanoid@npm:^3.3.8":
+"nanoid@npm:3.3.11, nanoid@npm:^3.3.8":
   version: 3.3.11
   resolution: "nanoid@npm:3.3.11"
   bin:
@@ -10644,9 +10635,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.216.0":
-  version: 39.216.0
-  resolution: "renovate@npm:39.216.0"
+"renovate@npm:39.216.1":
+  version: 39.216.1
+  resolution: "renovate@npm:39.216.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.738.0"
     "@aws-sdk/client-ec2": "npm:3.738.0"
@@ -10730,7 +10721,7 @@ __metadata:
     minimatch: "npm:10.0.1"
     moo: "npm:0.5.2"
     ms: "npm:2.1.3"
-    nanoid: "npm:3.3.10"
+    nanoid: "npm:3.3.11"
     neotraverse: "npm:0.6.18"
     node-html-parser: "npm:7.0.1"
     openpgp: "npm:6.1.0"
@@ -10773,7 +10764,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/a689af405c2e278db1175c0f9bfa7cdacf9817133eb9725a886bb7917002356b9a5093caf1646c035106a233ea3cfe2d93c7707af7bd9ee1fb09817b3291e2d0
+  checksum: 10/f34ca9c6c7a577a02078f3af93437c102620635aca25c5d8a569716ad445d42efc3ad446ed731815c4609d65f8ca74185aff44bb8bfe93e388ed3f587ae0fce4
   languageName: node
   linkType: hard
 
