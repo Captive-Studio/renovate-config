@@ -1151,7 +1151,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:7.0.2"
     prettier: "npm:3.5.3"
-    renovate: "npm:39.233.4"
+    renovate: "npm:39.233.5"
     vitest: "npm:3.1.1"
   languageName: unknown
   linkType: soft
@@ -4133,9 +4133,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.3.0":
-  version: 4.3.0
-  resolution: "@yarnpkg/core@npm:4.3.0"
+"@yarnpkg/core@npm:4.3.1":
+  version: 4.3.1
+  resolution: "@yarnpkg/core@npm:4.3.1"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
@@ -4163,7 +4163,7 @@ __metadata:
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
     tunnel: "npm:^0.0.6"
-  checksum: 10/6b726692128021fedec94eafc5d645afcefd1bd34926522bc207640bb41479090e71260b66efca3c5807815fe7345bc6782b41c60549c025cc1485f8b2e4e1d6
+  checksum: 10/3556259eb3361ca2516f9afb8eee6f0bce2985f01bdef7fc1cfbf5e0ff8a31e9ff123eaf62b1026de98913e66b765969efb402ed5b1f9c9e84f14f865fd68260
   languageName: node
   linkType: hard
 
@@ -10365,9 +10365,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:39.233.4":
-  version: 39.233.4
-  resolution: "renovate@npm:39.233.4"
+"renovate@npm:39.233.5":
+  version: 39.233.5
+  resolution: "renovate@npm:39.233.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.777.0"
     "@aws-sdk/client-ec2": "npm:3.779.0"
@@ -10397,7 +10397,7 @@ __metadata:
     "@renovatebot/pep440": "npm:4.1.0"
     "@renovatebot/ruby-semver": "npm:4.0.0"
     "@sindresorhus/is": "npm:4.6.0"
-    "@yarnpkg/core": "npm:4.3.0"
+    "@yarnpkg/core": "npm:4.3.1"
     "@yarnpkg/parsers": "npm:3.0.3"
     agentkeepalive: "npm:4.6.0"
     aggregate-error: "npm:3.1.0"
@@ -10494,7 +10494,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/b7487753d036395709495401952f66aa5587a9628814dade9950c398a3ffcf3430c13ac97785d0de53b1d6af17812983bd065a0ca8e8acff55bf40749e7ff525
+  checksum: 10/08d78442f8277bda704c9163764206a6b915f988c9702717eedddfd4d1ff5fca6fd0a8183ab2fc6b8895bf69ab296ec77c660d150a63204e395d9d605810f4b9
   languageName: node
   linkType: hard
 
