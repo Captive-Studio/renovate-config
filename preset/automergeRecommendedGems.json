@@ -49,6 +49,7 @@
         "spring",
         "sprockets-rails",
         "tzinfo-data",
+        "view_component",
         "web-console",
         "webdrivers",
         "webmock",
