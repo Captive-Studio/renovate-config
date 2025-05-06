@@ -1150,7 +1150,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.1"
     prettier: "npm:3.5.3"
-    renovate: "npm:40.3.6"
+    renovate: "npm:40.6.0"
     vitest: "npm:3.1.3"
   languageName: unknown
   linkType: soft
@@ -2532,20 +2532,20 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/catalogs.protocol-parser@npm:^1000.0.0":
-  version: 1000.0.0
-  resolution: "@pnpm/catalogs.protocol-parser@npm:1000.0.0"
-  checksum: 10/411f738ac78db1227d1ae8c63098087c37304b4a0042a174a05ad3740946d7e8ad0e0da53fbb558a00f5fe00f03837efd968d90f544429a7d12f0cfcfaedd514
+"@pnpm/catalogs.protocol-parser@npm:^1001.0.0":
+  version: 1001.0.0
+  resolution: "@pnpm/catalogs.protocol-parser@npm:1001.0.0"
+  checksum: 10/8253a786529974a1c094f4a548b5818c6be1f7a4a574304d8629140eee112edc760511d053fc0823dd372138ab9f57ae7f1da8ec8a7e21d1cac35a54faa5aa62
   languageName: node
   linkType: hard
 
-"@pnpm/catalogs.resolver@npm:1000.0.2":
-  version: 1000.0.2
-  resolution: "@pnpm/catalogs.resolver@npm:1000.0.2"
+"@pnpm/catalogs.resolver@npm:1000.0.3":
+  version: 1000.0.3
+  resolution: "@pnpm/catalogs.resolver@npm:1000.0.3"
   dependencies:
-    "@pnpm/catalogs.protocol-parser": "npm:^1000.0.0"
+    "@pnpm/catalogs.protocol-parser": "npm:^1001.0.0"
     "@pnpm/error": "npm:^1000.0.2"
-  checksum: 10/e97a70f9afef985d0f628447f7c1c6d69b6c5f0746573aea2e402fa0d723f15ac18d96232b17a0fc48d98e6583584b1db3f636567af36781e2aa72f7b5064e9a
+  checksum: 10/55feb253498474030e9259cc2554ca82a2dcc649aa1f693dce7896fd63ae7f11fcc17d0305d0c60bed7bb3516a99c2dcd960bbb58383467fc9bfca16b07fed91
   languageName: node
   linkType: hard
 
@@ -2597,24 +2597,24 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/parse-overrides@npm:1000.0.2":
-  version: 1000.0.2
-  resolution: "@pnpm/parse-overrides@npm:1000.0.2"
+"@pnpm/parse-overrides@npm:1001.0.0":
+  version: 1001.0.0
+  resolution: "@pnpm/parse-overrides@npm:1001.0.0"
   dependencies:
-    "@pnpm/catalogs.resolver": "npm:1000.0.2"
+    "@pnpm/catalogs.resolver": "npm:1000.0.3"
     "@pnpm/catalogs.types": "npm:1000.0.0"
     "@pnpm/error": "npm:1000.0.2"
-    "@pnpm/parse-wanted-dependency": "npm:1000.0.0"
-  checksum: 10/0f559ee9ec6ed10e23b6efeee161e9d81a7b0e83005eebdc2cdb26aed30a4aae63ca98d2fa4d3b323cb2b3c76c95cf031845928e0b3422653176f37e66f0398f
+    "@pnpm/parse-wanted-dependency": "npm:1001.0.0"
+  checksum: 10/88521dd7cc8f182d865262fb1441eba681534cadf12120f0fe0980ed15354b2c5aed1b22cd58e9778d98ace5fcc3c8b4a73343b634231f610a4597abc690a2d3
   languageName: node
   linkType: hard
 
-"@pnpm/parse-wanted-dependency@npm:1000.0.0":
-  version: 1000.0.0
-  resolution: "@pnpm/parse-wanted-dependency@npm:1000.0.0"
+"@pnpm/parse-wanted-dependency@npm:1001.0.0":
+  version: 1001.0.0
+  resolution: "@pnpm/parse-wanted-dependency@npm:1001.0.0"
   dependencies:
     validate-npm-package-name: "npm:5.0.0"
-  checksum: 10/27e3231ccf46532dee5bf1594c0fe199916bdd8095c5cbeecbfe4d69a7860d005258ce636bbc06cd73715ed6fd84098c8166aa10337665567b7ae7cd027a33b0
+  checksum: 10/5fb992e80ebfa95b09e0effd4a334caaa806830eb02cca0372da13f315264cd9fac7f66771fcd6b0a9862fd365c059e5e5dc443bd70285933ce7c69d8a2fb52a
   languageName: node
   linkType: hard
 
@@ -8691,10 +8691,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"json-stringify-pretty-compact@npm:3.0.0":
-  version: 3.0.0
-  resolution: "json-stringify-pretty-compact@npm:3.0.0"
-  checksum: 10/bf2cfb77e5eedb38c2a3c5ff2b8680e05a6073209bd54176640e90c2bc49c9eb798c8c6a3267216981291f8e3a6b82c996bfae71c155cbfd51eb3f998eeea482
+"json-stringify-pretty-compact@npm:4.0.0":
+  version: 4.0.0
+  resolution: "json-stringify-pretty-compact@npm:4.0.0"
+  checksum: 10/a10d5c423e467872994a49c5c1b56b073f277ce02d899cf567fc625f3783b89406bee6408bfb3b4bdeeff509b6a562f5259227e26754a6186f721809ca895f0c
   languageName: node
   linkType: hard
 
@@ -10852,9 +10852,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:40.3.6":
-  version: 40.3.6
-  resolution: "renovate@npm:40.3.6"
+"renovate@npm:40.6.0":
+  version: 40.6.0
+  resolution: "renovate@npm:40.6.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.799.0"
     "@aws-sdk/client-ec2": "npm:3.800.0"
@@ -10880,7 +10880,7 @@ __metadata:
     "@opentelemetry/sdk-trace-base": "npm:2.0.0"
     "@opentelemetry/sdk-trace-node": "npm:2.0.0"
     "@opentelemetry/semantic-conventions": "npm:1.32.0"
-    "@pnpm/parse-overrides": "npm:1000.0.2"
+    "@pnpm/parse-overrides": "npm:1001.0.0"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.1.0"
     "@renovatebot/kbpgp": "npm:4.0.1"
@@ -10931,7 +10931,7 @@ __metadata:
     ignore: "npm:7.0.4"
     ini: "npm:5.0.0"
     json-dup-key-validator: "npm:1.0.3"
-    json-stringify-pretty-compact: "npm:3.0.0"
+    json-stringify-pretty-compact: "npm:4.0.0"
     json5: "npm:2.2.3"
     jsonata: "npm:2.0.6"
     jsonc-parser: "npm:3.3.1"
@@ -10985,7 +10985,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/dc875fe3e29d8322d416f386dd35a1134aa882efdfe4cfb9310a411b69409e178f411e98df5e091adb47c7f0e7e417c67eae1a29633cea965faea1d868846543
+  checksum: 10/5e20b139960a0f349230d403e1fc77af303cc3a9487addda9bbc239e5409cd84e13dc216dab1e6cfbf0d5935e2135b6e4bd6e5708d64abee5f6b52b519e8345f
   languageName: node
   linkType: hard
 
