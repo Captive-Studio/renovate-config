@@ -1,10 +1,10 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Add bullet to rubyOnRails",
+  "description": "Add rails dependencies to Ruby on Rails",
   "packageRules": [
     {
       "groupName": "Ruby on Rails packages",
-      "matchPackageNames": ["bullet"]
+      "matchPackageNames": ["rails-i18n", "rspec-rails", "bullet"]
     }
   ]
 }
