@@ -3,7 +3,13 @@
   "description": "Automerge Ruby packages",
   "packageRules": [
     {
-      "matchUpdateTypes": ["minor", "patch"],
+      "matchUpdateTypes": ["minor"],
+      "automerge": true,
+      "matchManagers": ["bundler"],
+      "matchPackageNames": ["*", "!rails"]
+    },
+    {
+      "matchUpdateTypes": ["patch"],
       "automerge": true,
       "matchManagers": ["bundler"]
     }
