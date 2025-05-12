@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Ruby",
+      "matchManagers": ["bundler", "docker"],
+      "matchPackagePatterns": ["ruby", "cimg/ruby"]
+    }
+  ]
+}
