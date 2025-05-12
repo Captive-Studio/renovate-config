@@ -7,7 +7,7 @@
   ],
   "packageRules": [
     {
-      "matchCategories": ["node", "ruby"],
+      "matchCategories": ["node", "ruby", "postgres", "docker"],
       "matchDepTypes": ["minor", "patch"],
       "automerge": true
     },
