@@ -1160,7 +1160,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.1"
     prettier: "npm:3.5.3"
-    renovate: "npm:40.11.17"
+    renovate: "npm:40.11.19"
     vitest: "npm:3.1.3"
   languageName: unknown
   linkType: soft
@@ -2776,14 +2776,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redis/client@npm:1.6.0":
-  version: 1.6.0
-  resolution: "@redis/client@npm:1.6.0"
+"@redis/client@npm:1.6.1":
+  version: 1.6.1
+  resolution: "@redis/client@npm:1.6.1"
   dependencies:
     cluster-key-slot: "npm:1.1.2"
     generic-pool: "npm:3.9.0"
     yallist: "npm:4.0.0"
-  checksum: 10/ad375bd685dc34163304872e611ad31dc09a20f4dc8416e5dd588e8a9d2a42a6882f5c8f83d6388ba04ada71513c461b211c3146bcd8ab4da20b3f7edf08fb63
+  checksum: 10/3ef20235b9b0ecba728bbc7208eabbdfc2eebb50c6fb95b20486a0c14e9d6f3ce620ac0d3d14d7f682ea7cb953b13bf89bd94932b7ab3babeb12ba77136b4291
   languageName: node
   linkType: hard
 
@@ -4698,14 +4698,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:11.9.1":
-  version: 11.9.1
-  resolution: "better-sqlite3@npm:11.9.1"
+"better-sqlite3@npm:11.10.0":
+  version: 11.10.0
+  resolution: "better-sqlite3@npm:11.10.0"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/bfd820e7a32d6f8bbc43607ccb3a27d89ce20923118bf5c5f6c1550b55e8ce3b1c69db2273131791d866a078be66d3b15e6fedea96824cd3aeac3e492c61d1e1
+  checksum: 10/5e4c7437c4fe6033335a79c82974d7ab29f33c51c36f48b73e87e087d21578468575de1c56a7badd4f76f17255e25abefddaeacf018e5eeb9e0cb8d6e3e4a5e1
   languageName: node
   linkType: hard
 
@@ -10778,17 +10778,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redis@npm:4.7.0":
-  version: 4.7.0
-  resolution: "redis@npm:4.7.0"
+"redis@npm:4.7.1":
+  version: 4.7.1
+  resolution: "redis@npm:4.7.1"
   dependencies:
     "@redis/bloom": "npm:1.2.0"
-    "@redis/client": "npm:1.6.0"
+    "@redis/client": "npm:1.6.1"
     "@redis/graph": "npm:1.1.1"
     "@redis/json": "npm:1.0.7"
     "@redis/search": "npm:1.2.0"
     "@redis/time-series": "npm:1.1.0"
-  checksum: 10/d927a0b1516e2845b7eab67b1466b6f2d0d0695be7a3d4a0a1ffa2f2c60dace98fb9ad01ec0db07519fb9d4d078b99d95b6809508c2a72afe6f814fc8f693188
+  checksum: 10/42e55071c6e6191940b88466f444db409d6a4f953e06588141a791a4cc2d3f1bc068dd0fad18eeee105353b1e3b885406abf23dcc56f80972f27e4f8507bd388
   languageName: node
   linkType: hard
 
@@ -10882,9 +10882,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:40.11.17":
-  version: 40.11.17
-  resolution: "renovate@npm:40.11.17"
+"renovate@npm:40.11.19":
+  version: 40.11.19
+  resolution: "renovate@npm:40.11.19"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.799.0"
     "@aws-sdk/client-ec2": "npm:3.800.0"
@@ -10926,7 +10926,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
     azure-devops-node-api: "npm:14.1.0"
-    better-sqlite3: "npm:11.9.1"
+    better-sqlite3: "npm:11.10.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:19.0.1"
     chalk: "npm:4.1.2"
@@ -10985,7 +10985,7 @@ __metadata:
     protobufjs: "npm:7.5.0"
     punycode: "npm:2.3.1"
     re2: "npm:1.21.4"
-    redis: "npm:4.7.0"
+    redis: "npm:4.7.1"
     remark: "npm:13.0.0"
     remark-github: "npm:10.1.0"
     safe-stable-stringify: "npm:2.5.0"
@@ -11015,7 +11015,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/a2bd8e1617b03ce8930791b1b114d5937c4afa988e7ac508c0f89c143135b46b7a5ba94445bfee67f4dc75c50200ddb516e9b9f4c7a69eb2066e278a65f8e4dd
+  checksum: 10/dad42132e6f6139cafbb30f708ca9199ca9536159472a8113b85eebf80c6c5aeb74ecc8ac556c2c80819a529647bebf87930eb900e9d6f434ba50ef399752b87
   languageName: node
   linkType: hard
 
