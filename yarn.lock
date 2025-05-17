@@ -11636,12 +11636,11 @@ __metadata:
   linkType: hard
 
 "synckit@npm:^0.11.0":
-  version: 0.11.5
-  resolution: "synckit@npm:0.11.5"
+  version: 0.11.6
+  resolution: "synckit@npm:0.11.6"
   dependencies:
     "@pkgr/core": "npm:^0.2.4"
-    tslib: "npm:^2.8.1"
-  checksum: 10/de3f10ace0f80ddedb58cc4274b4f6687c14871bcb3231d394b17d784bb3f8747c769dff8976e08717ee38e60f0fe7e111487f19b5eeb4c794c975f062161e0c
+  checksum: 10/e3fc13b064cb401ad4214e846f3e70037a44a221fcd303ad638c02d14e3f497ddd501b5b9f5e324e03fa2a3ca101df43f0850faa1696abaf0230a16ce9693408
   languageName: node
   linkType: hard
 
