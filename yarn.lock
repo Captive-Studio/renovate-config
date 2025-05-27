@@ -1160,7 +1160,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.5.3"
-    renovate: "npm:40.31.1"
+    renovate: "npm:40.32.6"
     vitest: "npm:3.1.4"
   languageName: unknown
   linkType: soft
@@ -10403,9 +10403,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:40.31.1":
-  version: 40.31.1
-  resolution: "renovate@npm:40.31.1"
+"renovate@npm:40.32.6":
+  version: 40.32.6
+  resolution: "renovate@npm:40.32.6"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.799.0"
     "@aws-sdk/client-ec2": "npm:3.800.0"
@@ -10525,7 +10525,7 @@ __metadata:
     vuln-vects: "npm:1.1.0"
     xmldoc: "npm:1.3.0"
     yaml: "npm:2.8.0"
-    zod: "npm:3.24.4"
+    zod: "npm:3.25.7"
   dependenciesMeta:
     better-sqlite3:
       optional: true
@@ -10536,7 +10536,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/c1de90932f2213e5744ff2ab48cb63af0ea595abce9c267261194d24c933ef660d3b38f31d316086aab534f0344f4640e8fb6b8f6d45cbde23fb1924979d02fe
+  checksum: 10/ffbd00c75d7947d899c82b19c66668002c7999fdbcd31a94a71f55b14b57ed853798e4a63bd3bf32c7652ae01d556aad3882d79c126aff7424f2db65255ac00c
   languageName: node
   linkType: hard
 
@@ -12598,10 +12598,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.24.4":
-  version: 3.24.4
-  resolution: "zod@npm:3.24.4"
-  checksum: 10/3d545792fa54bb27ee5dbc34a5709e81f603185fcc94c8204b5d95c20dc4c81d870ff9c51f3884a30ef05cdc601449f4c4df254ac4783f0827b1faed7c1cdb48
+"zod@npm:3.25.7":
+  version: 3.25.7
+  resolution: "zod@npm:3.25.7"
+  checksum: 10/276350c5e58b4fe29924c813fbbad12f4297177d6edee3cc719ed265e237f922f8a1068538226c88c62c1ed2ed96855536d8e50f27fe3dbc67b7bcaefeac1a6e
   languageName: node
   linkType: hard
 
