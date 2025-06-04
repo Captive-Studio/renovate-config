@@ -1151,7 +1151,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.5.3"
-    renovate: "npm:40.41.1"
+    renovate: "npm:40.41.2"
     vitest: "npm:3.2.1"
   languageName: unknown
   linkType: soft
@@ -10148,27 +10148,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"protobufjs@npm:7.5.2":
-  version: 7.5.2
-  resolution: "protobufjs@npm:7.5.2"
-  dependencies:
-    "@protobufjs/aspromise": "npm:^1.1.2"
-    "@protobufjs/base64": "npm:^1.1.2"
-    "@protobufjs/codegen": "npm:^2.0.4"
-    "@protobufjs/eventemitter": "npm:^1.1.0"
-    "@protobufjs/fetch": "npm:^1.1.0"
-    "@protobufjs/float": "npm:^1.0.2"
-    "@protobufjs/inquire": "npm:^1.1.0"
-    "@protobufjs/path": "npm:^1.1.2"
-    "@protobufjs/pool": "npm:^1.1.0"
-    "@protobufjs/utf8": "npm:^1.1.0"
-    "@types/node": "npm:>=13.7.0"
-    long: "npm:^5.0.0"
-  checksum: 10/b19adca6f2fd02099d9d51c4bff154947290bd5887364c5cf7227b67d8960644a60c077fcab5889512de6313149d9b429d58d6a57d8793da12a7358196073445
-  languageName: node
-  linkType: hard
-
-"protobufjs@npm:^7.3.0":
+"protobufjs@npm:7.5.3, protobufjs@npm:^7.3.0":
   version: 7.5.3
   resolution: "protobufjs@npm:7.5.3"
   dependencies:
@@ -10464,9 +10444,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:40.41.1":
-  version: 40.41.1
-  resolution: "renovate@npm:40.41.1"
+"renovate@npm:40.41.2":
+  version: 40.41.2
+  resolution: "renovate@npm:40.41.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.821.0"
     "@aws-sdk/client-ec2": "npm:3.821.0"
@@ -10564,7 +10544,7 @@ __metadata:
     p-throttle: "npm:4.1.1"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.5.3"
-    protobufjs: "npm:7.5.2"
+    protobufjs: "npm:7.5.3"
     punycode: "npm:2.3.1"
     re2: "npm:1.22.1"
     redis: "npm:4.7.1"
@@ -10597,7 +10577,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/9c53464a7609372efecca3d13f274c5d1b02e6a151c3469dea74e62f5b78ef7ca1e3e7cead856074f33a0d3821c8d1ce391ca400f28980fd245929ec335da5ea
+  checksum: 10/44aaf52395eabbe13dfc5aad29796e8c0e95583672ed464442162e6b773fa14806e982fd5b7d6cd1d30eb3f9ebbb53780e8514ab1b7fc278d4b9b791413f15c2
   languageName: node
   linkType: hard
 
