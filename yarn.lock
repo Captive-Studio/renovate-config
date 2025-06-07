@@ -1151,7 +1151,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.5.3"
-    renovate: "npm:40.45.0"
+    renovate: "npm:40.45.5"
     vitest: "npm:3.2.2"
   languageName: unknown
   linkType: soft
@@ -7751,10 +7751,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ignore@npm:7.0.4":
-  version: 7.0.4
-  resolution: "ignore@npm:7.0.4"
-  checksum: 10/01ee59df2ffd14b0844efc17f5ab3642c848e45efdb7cc757928da5e076cb74313748f77f5ffe362a6407c5e7cc71f10fad5e8eb9d91c1a17c4e7ef2c1f8e40e
+"ignore@npm:7.0.5, ignore@npm:^7.0.0":
+  version: 7.0.5
+  resolution: "ignore@npm:7.0.5"
+  checksum: 10/f134b96a4de0af419196f52c529d5c6120c4456ff8a6b5a14ceaaa399f883e15d58d2ce651c9b69b9388491d4669dda47285d307e827de9304a53a1824801bc6
   languageName: node
   linkType: hard
 
@@ -7762,13 +7762,6 @@ __metadata:
   version: 5.3.2
   resolution: "ignore@npm:5.3.2"
   checksum: 10/cceb6a457000f8f6a50e1196429750d782afce5680dd878aa4221bd79972d68b3a55b4b1458fc682be978f4d3c6a249046aa0880637367216444ab7b014cfc98
-  languageName: node
-  linkType: hard
-
-"ignore@npm:^7.0.0":
-  version: 7.0.5
-  resolution: "ignore@npm:7.0.5"
-  checksum: 10/f134b96a4de0af419196f52c529d5c6120c4456ff8a6b5a14ceaaa399f883e15d58d2ce651c9b69b9388491d4669dda47285d307e827de9304a53a1824801bc6
   languageName: node
   linkType: hard
 
@@ -10457,9 +10450,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:40.45.0":
-  version: 40.45.0
-  resolution: "renovate@npm:40.45.0"
+"renovate@npm:40.45.5":
+  version: 40.45.5
+  resolution: "renovate@npm:40.45.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.821.0"
     "@aws-sdk/client-ec2": "npm:3.821.0"
@@ -10533,7 +10526,7 @@ __metadata:
     got: "npm:11.8.6"
     graph-data-structure: "npm:4.5.0"
     handlebars: "npm:4.7.8"
-    ignore: "npm:7.0.4"
+    ignore: "npm:7.0.5"
     ini: "npm:5.0.0"
     json-dup-key-validator: "npm:1.0.3"
     json-stringify-pretty-compact: "npm:4.0.0"
@@ -10590,7 +10583,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/d57966daf110695671b7502d794f0947d7eec9d1950f59d24b08676a17c8f8854a2e58a96b1f5429cd5a03905a99a7086514871e244489030a8f3043f1d30ce3
+  checksum: 10/630322dd7e5b7ba2f62218f5840be443d8d7f5038cf01233d8340741ac8d3127e7633399e88490f5eb2b02dc6172fcbbd040ae20f8966f65c574aa471f9c0548
   languageName: node
   linkType: hard
 
