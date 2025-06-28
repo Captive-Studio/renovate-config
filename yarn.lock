@@ -5397,15 +5397,15 @@ __metadata:
   linkType: hard
 
 "css-select@npm:^5.1.0":
-  version: 5.2.1
-  resolution: "css-select@npm:5.2.1"
+  version: 5.2.2
+  resolution: "css-select@npm:5.2.2"
   dependencies:
     boolbase: "npm:^1.0.0"
     css-what: "npm:^6.1.0"
-    domhandler: "npm:^5.0.3"
-    domutils: "npm:^3.2.2"
-    nth-check: "npm:^2.1.1"
-  checksum: 10/fcebcd87e36c523ef944e70d75e13377e79e5ce8d274542ebb5cda3e445ad71f4af3b8f873761711920b5be250e821e7779e1bbdef92cf8e1d690c4bb5ef9e8e
+    domhandler: "npm:^5.0.2"
+    domutils: "npm:^3.0.1"
+    nth-check: "npm:^2.0.1"
+  checksum: 10/ebb6a88446433312d1a16301afd1c5f75090805b730dbbdccb0338b0d6ca7922410375f16dde06673ef7da086e2cf3b9ad91afe9a8e0d2ee3625795cb5e0170d
   languageName: node
   linkType: hard
 
@@ -5692,7 +5692,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"domutils@npm:^3.2.2":
+"domutils@npm:^3.0.1":
   version: 3.2.2
   resolution: "domutils@npm:3.2.2"
   dependencies:
@@ -9696,7 +9696,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nth-check@npm:^2.1.1":
+"nth-check@npm:^2.0.1, nth-check@npm:^2.1.1":
   version: 2.1.1
   resolution: "nth-check@npm:2.1.1"
   dependencies:
