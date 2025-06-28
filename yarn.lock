@@ -5410,9 +5410,9 @@ __metadata:
   linkType: hard
 
 "css-what@npm:^6.1.0":
-  version: 6.2.1
-  resolution: "css-what@npm:6.2.1"
-  checksum: 10/535c4ff35b5bed4f30dcea8c3dc2ad6f723515d30dc0888ff72fd7576311b2e74145d90b815e557eccb8dc06a019928ab1f860cfcf40937aa39a7bbc376e8cfc
+  version: 6.2.2
+  resolution: "css-what@npm:6.2.2"
+  checksum: 10/3c5a53be94728089bd1716f915f7f96adde5dd8bf374610eb03982266f3d860bf1ebaf108cda30509d02ef748fe33eaa59aa75911e2c49ee05a85ef1f9fb5223
   languageName: node
   linkType: hard
 
