@@ -1157,7 +1157,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.38.2"
+    renovate: "npm:41.46.3"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -2456,13 +2456,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/catalogs.resolver@npm:1000.0.3":
-  version: 1000.0.3
-  resolution: "@pnpm/catalogs.resolver@npm:1000.0.3"
+"@pnpm/catalogs.resolver@npm:1000.0.4":
+  version: 1000.0.4
+  resolution: "@pnpm/catalogs.resolver@npm:1000.0.4"
   dependencies:
     "@pnpm/catalogs.protocol-parser": "npm:^1001.0.0"
-    "@pnpm/error": "npm:^1000.0.2"
-  checksum: 10/55feb253498474030e9259cc2554ca82a2dcc649aa1f693dce7896fd63ae7f11fcc17d0305d0c60bed7bb3516a99c2dcd960bbb58383467fc9bfca16b07fed91
+    "@pnpm/error": "npm:^1000.0.3"
+  checksum: 10/8b074c22ab1697f04e85bde4580f41d7a406cb79d2afaab19c3ef49082b55d5c13bd3f6edee0086334e66cdfcfe72c1886d1e97d907df63fc2543c8901a0feca
   languageName: node
   linkType: hard
 
@@ -2473,10 +2473,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/constants@npm:1001.1.0":
-  version: 1001.1.0
-  resolution: "@pnpm/constants@npm:1001.1.0"
-  checksum: 10/a3385c2ed54bfd63a9ffce0b6ca5bcb710892365adbf0487f1f56d7abf1e61d08a6afffa1bb78d931124ae76091313ae57b1d0fe3210467baa1fee883a03f3eb
+"@pnpm/constants@npm:1001.2.0":
+  version: 1001.2.0
+  resolution: "@pnpm/constants@npm:1001.2.0"
+  checksum: 10/32218d3c8141b37f5b667f74608fb62abc310a5421b0697704f232a91bfa03738f79ee12aaaf0468dcc0fe7f3732310059e34635e31dd20cef95e4d20f2a7704
   languageName: node
   linkType: hard
 
@@ -2487,12 +2487,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/error@npm:1000.0.2, @pnpm/error@npm:^1000.0.2":
-  version: 1000.0.2
-  resolution: "@pnpm/error@npm:1000.0.2"
+"@pnpm/error@npm:1000.0.3, @pnpm/error@npm:^1000.0.3":
+  version: 1000.0.3
+  resolution: "@pnpm/error@npm:1000.0.3"
   dependencies:
-    "@pnpm/constants": "npm:1001.1.0"
-  checksum: 10/242e73d4da1eede3044d67612490d3a2579b146a509be9be8afe548341d07e8b67a94c230f5a156793226c183184a0c086813aa7489f664302a2da60aa2c5b2d
+    "@pnpm/constants": "npm:1001.2.0"
+  checksum: 10/a411a3568cd4a726905dd7586e5ccc1ddd6b77a4d9c14832906118f50a005b5accfc12e3ab692cc438734232ccabc8ba782168da223e373c35e90f5c71a07030
   languageName: node
   linkType: hard
 
@@ -2514,15 +2514,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/parse-overrides@npm:1001.0.0":
-  version: 1001.0.0
-  resolution: "@pnpm/parse-overrides@npm:1001.0.0"
+"@pnpm/parse-overrides@npm:1001.0.1":
+  version: 1001.0.1
+  resolution: "@pnpm/parse-overrides@npm:1001.0.1"
   dependencies:
-    "@pnpm/catalogs.resolver": "npm:1000.0.3"
+    "@pnpm/catalogs.resolver": "npm:1000.0.4"
     "@pnpm/catalogs.types": "npm:1000.0.0"
-    "@pnpm/error": "npm:1000.0.2"
+    "@pnpm/error": "npm:1000.0.3"
     "@pnpm/parse-wanted-dependency": "npm:1001.0.0"
-  checksum: 10/88521dd7cc8f182d865262fb1441eba681534cadf12120f0fe0980ed15354b2c5aed1b22cd58e9778d98ace5fcc3c8b4a73343b634231f610a4597abc690a2d3
+  checksum: 10/ee43bbf301bbf3cb74d08102f8edd45dcbbfb4b58dfa6a6072cb0c0b9f38ed23b703396bfb008bdbd7dce81da398f6547077bc1b20e6b77fb232e9ed9ab7a49b
   languageName: node
   linkType: hard
 
@@ -9874,10 +9874,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"openpgp@npm:6.1.1":
-  version: 6.1.1
-  resolution: "openpgp@npm:6.1.1"
-  checksum: 10/1c575fe65b6fd2f03b81fe2ba44aff6961d7d57aa857a36e1e345fe9344e125cbb68d655b5cdec0e3118c5dfa5006e6bc5e67eafbb609dfd496436badc016241
+"openpgp@npm:6.2.0":
+  version: 6.2.0
+  resolution: "openpgp@npm:6.2.0"
+  checksum: 10/01b7524ff1fafa5f9c80533ca00e72f3a1fd3f2daa0406e491289b5d9b8b96c1e977e68792324b78f4c78da3204fc2f343e06515775e14ab04d5fc35dfd828d2
   languageName: node
   linkType: hard
 
@@ -10682,9 +10682,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.38.2":
-  version: 41.38.2
-  resolution: "renovate@npm:41.38.2"
+"renovate@npm:41.46.3":
+  version: 41.46.3
+  resolution: "renovate@npm:41.46.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.840.0"
     "@aws-sdk/client-ec2": "npm:3.840.0"
@@ -10710,7 +10710,7 @@ __metadata:
     "@opentelemetry/sdk-trace-base": "npm:2.0.1"
     "@opentelemetry/sdk-trace-node": "npm:2.0.1"
     "@opentelemetry/semantic-conventions": "npm:1.36.0"
-    "@pnpm/parse-overrides": "npm:1001.0.0"
+    "@pnpm/parse-overrides": "npm:1001.0.1"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.1.0"
     "@renovatebot/kbpgp": "npm:4.0.1"
@@ -10774,7 +10774,7 @@ __metadata:
     nanoid: "npm:5.1.5"
     neotraverse: "npm:0.6.18"
     node-html-parser: "npm:7.0.1"
-    openpgp: "npm:6.1.1"
+    openpgp: "npm:6.2.0"
     p-all: "npm:5.0.0"
     p-map: "npm:7.0.3"
     p-queue: "npm:8.1.0"
@@ -10801,7 +10801,7 @@ __metadata:
     tslib: "npm:2.8.1"
     upath: "npm:2.0.1"
     url-join: "npm:5.0.0"
-    validate-npm-package-name: "npm:6.0.1"
+    validate-npm-package-name: "npm:6.0.2"
     vuln-vects: "npm:1.1.0"
     xmldoc: "npm:2.0.2"
     yaml: "npm:2.8.0"
@@ -10816,7 +10816,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/4605a667b2807d309e20dddfb156fd44fa7d7a7eb17a6efb8a7dc30cbc362daa9ab9d52a323fed3a5da449c284b3ccaa8290f89c46324c42c008863d3142f057
+  checksum: 10/9c28a8da50ec8b0d2a23c1a3d5d01ed2d77f1204b742ec59feafc173b6ef86c0d58e0e26374742b62c31119b89430102d99729f797925b01e1c751741c97b205
   languageName: node
   linkType: hard
 
@@ -12423,10 +12423,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"validate-npm-package-name@npm:6.0.1":
-  version: 6.0.1
-  resolution: "validate-npm-package-name@npm:6.0.1"
-  checksum: 10/754448c4337977981a886a26986fcb2088e1253277037de3be0f483eefbab535c5ad9316ef47ed33ab4cb3a43d8daaf1b3748eeebca642e1eccd614287e26a1f
+"validate-npm-package-name@npm:6.0.2":
+  version: 6.0.2
+  resolution: "validate-npm-package-name@npm:6.0.2"
+  checksum: 10/f0e022b0a7f11345a92b64121b059b720204cd64406a0d65d81526181dcb70aef551c7c6bf9ca37b91607a7c6ff4d62e1f63a86c8d9b7346d722a641a4bd8789
   languageName: node
   linkType: hard
 
