@@ -1158,7 +1158,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.51.2"
+    renovate: "npm:41.52.1"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -10700,9 +10700,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.51.2":
-  version: 41.51.2
-  resolution: "renovate@npm:41.51.2"
+"renovate@npm:41.52.1":
+  version: 41.52.1
+  resolution: "renovate@npm:41.52.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.858.0"
     "@aws-sdk/client-ec2": "npm:3.858.0"
@@ -10810,7 +10810,7 @@ __metadata:
     semver: "npm:7.7.2"
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
-    shlex: "npm:2.1.2"
+    shlex: "npm:3.0.0"
     simple-git: "npm:3.28.0"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
@@ -10834,7 +10834,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/3f07d272dedf62613ab60afc07ab2d1f22ba3b5167909460997995eb2250c73af9840b10cb1a0b47cbd750cad6e58ce466e3d29d82ecb60b34c29f4c01c5ab65
+  checksum: 10/3bf055a4d4af99269dc9c9280940676fbac13ab4eb4e4b7702d30c57dff53b79b925372694ff9868002b7c0fab5f5ae1402fa23ccfbba40034683c7cb06d349a
   languageName: node
   linkType: hard
 
@@ -11254,10 +11254,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"shlex@npm:2.1.2":
-  version: 2.1.2
-  resolution: "shlex@npm:2.1.2"
-  checksum: 10/f3432731f97830b0e73aef8f5d280fab890ee5893e3d5bb708b554d86f1b58c66d0e68ce15e45215d9cadac47946160fd93938e28eac271cfda9f77e97f76b99
+"shlex@npm:3.0.0":
+  version: 3.0.0
+  resolution: "shlex@npm:3.0.0"
+  checksum: 10/68d7ee9295d8383dcdd135d8d9775c3f3f2079d5ca7114950d4e3efc82aa649558ad7b3b3358cda1462e9736668bebd1cc510fd0d3f8074fee805aab7e562df0
   languageName: node
   linkType: hard
 
