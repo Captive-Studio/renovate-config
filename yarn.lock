@@ -1158,7 +1158,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.55.3"
+    renovate: "npm:41.58.2"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -2457,13 +2457,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/catalogs.resolver@npm:1000.0.4":
-  version: 1000.0.4
-  resolution: "@pnpm/catalogs.resolver@npm:1000.0.4"
+"@pnpm/catalogs.resolver@npm:1000.0.5":
+  version: 1000.0.5
+  resolution: "@pnpm/catalogs.resolver@npm:1000.0.5"
   dependencies:
     "@pnpm/catalogs.protocol-parser": "npm:^1001.0.0"
-    "@pnpm/error": "npm:^1000.0.3"
-  checksum: 10/8b074c22ab1697f04e85bde4580f41d7a406cb79d2afaab19c3ef49082b55d5c13bd3f6edee0086334e66cdfcfe72c1886d1e97d907df63fc2543c8901a0feca
+    "@pnpm/error": "npm:^1000.0.4"
+  checksum: 10/940383c96cdd44a801cf193c65db384b323d4ab9901ee1fb8747165dbe1d6c200c30617e432ed55614289dc499e2340db54d05332d3441475e9029a7c8255040
   languageName: node
   linkType: hard
 
@@ -2471,13 +2471,6 @@ __metadata:
   version: 1000.0.0
   resolution: "@pnpm/catalogs.types@npm:1000.0.0"
   checksum: 10/aa94d4d8afe25a700dbdd472e1b4ffda7d0a06a410a6c01f6c099b34611c2d58d2e36defdd0d97bfd4e2b1451a4c12b1091e127b3b1b6f86566daf76dba84595
-  languageName: node
-  linkType: hard
-
-"@pnpm/constants@npm:1001.2.0":
-  version: 1001.2.0
-  resolution: "@pnpm/constants@npm:1001.2.0"
-  checksum: 10/32218d3c8141b37f5b667f74608fb62abc310a5421b0697704f232a91bfa03738f79ee12aaaf0468dcc0fe7f3732310059e34635e31dd20cef95e4d20f2a7704
   languageName: node
   linkType: hard
 
@@ -2495,12 +2488,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/error@npm:1000.0.3":
-  version: 1000.0.3
-  resolution: "@pnpm/error@npm:1000.0.3"
+"@pnpm/error@npm:1000.0.4, @pnpm/error@npm:^1000.0.4":
+  version: 1000.0.4
+  resolution: "@pnpm/error@npm:1000.0.4"
   dependencies:
-    "@pnpm/constants": "npm:1001.2.0"
-  checksum: 10/a411a3568cd4a726905dd7586e5ccc1ddd6b77a4d9c14832906118f50a005b5accfc12e3ab692cc438734232ccabc8ba782168da223e373c35e90f5c71a07030
+    "@pnpm/constants": "npm:1001.3.0"
+  checksum: 10/8d68bdde090e093986a84fc384f165ce94e13272b186d7d6fef3a604b61942151f331612a23385fd7fbb38676b40129701465e9b974f96af99f2626c145f680d
   languageName: node
   linkType: hard
 
@@ -2513,15 +2506,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/error@npm:^1000.0.3":
-  version: 1000.0.4
-  resolution: "@pnpm/error@npm:1000.0.4"
-  dependencies:
-    "@pnpm/constants": "npm:1001.3.0"
-  checksum: 10/8d68bdde090e093986a84fc384f165ce94e13272b186d7d6fef3a604b61942151f331612a23385fd7fbb38676b40129701465e9b974f96af99f2626c145f680d
-  languageName: node
-  linkType: hard
-
 "@pnpm/graceful-fs@npm:2.0.0":
   version: 2.0.0
   resolution: "@pnpm/graceful-fs@npm:2.0.0"
@@ -2531,15 +2515,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@pnpm/parse-overrides@npm:1001.0.1":
-  version: 1001.0.1
-  resolution: "@pnpm/parse-overrides@npm:1001.0.1"
+"@pnpm/parse-overrides@npm:1001.0.2":
+  version: 1001.0.2
+  resolution: "@pnpm/parse-overrides@npm:1001.0.2"
   dependencies:
-    "@pnpm/catalogs.resolver": "npm:1000.0.4"
+    "@pnpm/catalogs.resolver": "npm:1000.0.5"
     "@pnpm/catalogs.types": "npm:1000.0.0"
-    "@pnpm/error": "npm:1000.0.3"
+    "@pnpm/error": "npm:1000.0.4"
     "@pnpm/parse-wanted-dependency": "npm:1001.0.0"
-  checksum: 10/ee43bbf301bbf3cb74d08102f8edd45dcbbfb4b58dfa6a6072cb0c0b9f38ed23b703396bfb008bdbd7dce81da398f6547077bc1b20e6b77fb232e9ed9ab7a49b
+  checksum: 10/e73b6fcb046442f9db8b3939d3d1512f031c113f6c6a431a8f8065a3cd9d9a0d223a11b41390f73c0a8f2b665672ecfa2a9e62bd76d4172223e225fa287750cc
   languageName: node
   linkType: hard
 
@@ -8496,10 +8480,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonata@npm:2.0.6":
-  version: 2.0.6
-  resolution: "jsonata@npm:2.0.6"
-  checksum: 10/4f00053bbe9a28bfc6de0d9bcb3ace96a5829ee45b4d077a1a9f39b804743f4ce904dc7d125e727271ec88ae3366c962f3d56ea712874326c4551f2e10446463
+"jsonata@npm:2.1.0":
+  version: 2.1.0
+  resolution: "jsonata@npm:2.1.0"
+  checksum: 10/cd5527c4bf5ab5150aa1251584440d5f7dca56d63bd881e8e135ee5560f3c51591797868b898198b01a7daaaa5fe94a456fa964d6fdbc13ab1e61e441b5ea0bd
   languageName: node
   linkType: hard
 
@@ -10700,9 +10684,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.55.3":
-  version: 41.55.3
-  resolution: "renovate@npm:41.55.3"
+"renovate@npm:41.58.2":
+  version: 41.58.2
+  resolution: "renovate@npm:41.58.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.858.0"
     "@aws-sdk/client-ec2": "npm:3.858.0"
@@ -10728,7 +10712,7 @@ __metadata:
     "@opentelemetry/sdk-trace-base": "npm:2.0.1"
     "@opentelemetry/sdk-trace-node": "npm:2.0.1"
     "@opentelemetry/semantic-conventions": "npm:1.36.0"
-    "@pnpm/parse-overrides": "npm:1001.0.1"
+    "@pnpm/parse-overrides": "npm:1001.0.2"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.1.0"
     "@renovatebot/kbpgp": "npm:4.0.1"
@@ -10780,7 +10764,7 @@ __metadata:
     json-dup-key-validator: "npm:1.0.3"
     json-stringify-pretty-compact: "npm:4.0.0"
     json5: "npm:2.2.3"
-    jsonata: "npm:2.0.6"
+    jsonata: "npm:2.1.0"
     jsonc-parser: "npm:3.3.1"
     klona: "npm:2.0.6"
     luxon: "npm:3.7.1"
@@ -10834,7 +10818,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/654f3782a19453a14b033553ee94790be8090c9229b97ee1810eb2d08b93acc63bf8cd17a7b486d0b7d816573edb4f73ed49faaba526320f7e4a5d5a02a4b119
+  checksum: 10/aa73b67b5baecec5ce8b6be83dd7976ea13a66fdd8d481e6a15b967acddd6aff6efc3b56066a68a114b6add87176594fe33cfac13838885f27cd1353fa23bdc6
   languageName: node
   linkType: hard
 
