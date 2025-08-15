@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.70.3"
+    renovate: "npm:41.74.2"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -10708,9 +10708,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.70.3":
-  version: 41.70.3
-  resolution: "renovate@npm:41.70.3"
+"renovate@npm:41.74.2":
+  version: 41.74.2
+  resolution: "renovate@npm:41.74.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.858.0"
     "@aws-sdk/client-ec2": "npm:3.858.0"
@@ -10822,7 +10822,7 @@ __metadata:
     simple-git: "npm:3.28.0"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
-    strip-json-comments: "npm:5.0.2"
+    strip-json-comments: "npm:5.0.3"
     toml-eslint-parser: "npm:0.10.0"
     tslib: "npm:2.8.1"
     upath: "npm:2.0.1"
@@ -10842,7 +10842,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/d065f5065b7e462eca638fb2326e908b311ada5e7b8ac09daa9556e08d8296bfcc18ced76b6230cc912adb3012aadaf7bea08ecbcd8a28718dc8b205a9034d17
+  checksum: 10/782fa6522b64ea82f5f314136be973b5c43abedadcc36d5ed30e80957a92b7ee04733022964be1f131b86ca712ec7cf62b72d3b40728cb52dcfb8999b3eaf8fc
   languageName: node
   linkType: hard
 
@@ -11700,10 +11700,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"strip-json-comments@npm:5.0.2":
-  version: 5.0.2
-  resolution: "strip-json-comments@npm:5.0.2"
-  checksum: 10/986064b73898edc77113cd6147b32f36e299869f3675ed81c3166492a6d8f02d918a492604d1982dab40ca727a86969cb91aa44d6632626f8d7c3c6ead1216bb
+"strip-json-comments@npm:5.0.3":
+  version: 5.0.3
+  resolution: "strip-json-comments@npm:5.0.3"
+  checksum: 10/3ccbf26f278220f785e4b71f8a719a6a063d72558cc63cb450924254af258a4f4c008b8c9b055373a680dc7bd525be9e543ad742c177f8a7667e0b726258e0e4
   languageName: node
   linkType: hard
 
