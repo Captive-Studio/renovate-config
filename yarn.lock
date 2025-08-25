@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.82.6"
+    renovate: "npm:41.82.10"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -5002,10 +5002,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"chalk@npm:5.5.0":
-  version: 5.5.0
-  resolution: "chalk@npm:5.5.0"
-  checksum: 10/19f6905b47b628541976a534e2f39c3779f7f9276ff9693cb8f7cdb3e3e09ee5dee16e0c3768632fbb41c2a1f1653ee0041ea7730428b804068945eb0bab09c4
+"chalk@npm:5.6.0, chalk@npm:^5.2.0, chalk@npm:^5.3.0, chalk@npm:^5.4.1":
+  version: 5.6.0
+  resolution: "chalk@npm:5.6.0"
+  checksum: 10/f0e0646a72adbd0f6e73441d3872d7f2f40ba98052924f08a30c10634ec6b1e2cd19cc3c40cc21081dad640e2a1a2749030418571690b89bd7782babf7f89866
   languageName: node
   linkType: hard
 
@@ -5016,13 +5016,6 @@ __metadata:
     ansi-styles: "npm:^4.1.0"
     supports-color: "npm:^7.1.0"
   checksum: 10/cb3f3e594913d63b1814d7ca7c9bafbf895f75fbf93b92991980610dfd7b48500af4e3a5d4e3a8f337990a96b168d7eb84ee55efdce965e2ee8efc20f8c8f139
-  languageName: node
-  linkType: hard
-
-"chalk@npm:^5.2.0, chalk@npm:^5.3.0, chalk@npm:^5.4.1":
-  version: 5.6.0
-  resolution: "chalk@npm:5.6.0"
-  checksum: 10/f0e0646a72adbd0f6e73441d3872d7f2f40ba98052924f08a30c10634ec6b1e2cd19cc3c40cc21081dad640e2a1a2749030418571690b89bd7782babf7f89866
   languageName: node
   linkType: hard
 
@@ -10896,9 +10889,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.82.6":
-  version: 41.82.6
-  resolution: "renovate@npm:41.82.6"
+"renovate@npm:41.82.10":
+  version: 41.82.10
+  resolution: "renovate@npm:41.82.10"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.858.0"
     "@aws-sdk/client-ec2": "npm:3.858.0"
@@ -10942,7 +10935,7 @@ __metadata:
     better-sqlite3: "npm:12.2.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:20.0.0"
-    chalk: "npm:5.5.0"
+    chalk: "npm:5.6.0"
     changelog-filename-regex: "npm:2.0.1"
     clean-git-ref: "npm:2.0.1"
     commander: "npm:14.0.0"
@@ -11031,7 +11024,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/168eabc24be3baf4ad6f51ce5ed2fd2b6af6d3ca1b720ca177dce8c8102cd324d584b7e57a7ac77964fc342684ce3ceb4ed444e418271776be184cf53dfdacc3
+  checksum: 10/e5c7dc9039aede1ae5b1b8d339775ed73f3367a398b5805466ff2e84211b8f8acb73d70f3e2d45c64d5016a06345c39401146427b9555710428c8ddf14737b9d
   languageName: node
   linkType: hard
 
