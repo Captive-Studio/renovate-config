@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.86.1"
+    renovate: "npm:41.87.4"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -4250,9 +4250,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.4.2":
-  version: 4.4.2
-  resolution: "@yarnpkg/core@npm:4.4.2"
+"@yarnpkg/core@npm:4.4.3":
+  version: 4.4.3
+  resolution: "@yarnpkg/core@npm:4.4.3"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
@@ -4268,10 +4268,10 @@ __metadata:
     cross-spawn: "npm:^7.0.3"
     diff: "npm:^5.1.0"
     dotenv: "npm:^16.3.1"
+    es-toolkit: "npm:^1.39.7"
     fast-glob: "npm:^3.2.2"
     got: "npm:^11.7.0"
     hpagent: "npm:^1.2.0"
-    lodash: "npm:^4.17.15"
     micromatch: "npm:^4.0.2"
     p-limit: "npm:^2.2.0"
     semver: "npm:^7.1.2"
@@ -4280,7 +4280,7 @@ __metadata:
     tinylogic: "npm:^2.0.0"
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10/3b4dbd753a4f2e66e003e6632980a86457a0647b6d131ddfce63808d3b009892f9464d61c5303de9fe0a01097ac69da01c148b8c09646a9eb2be16e82b210a86
+  checksum: 10/7d0b01008e03b9f5f522ca1d530a49a36b05a41d2aadcafa1a3a3bd1c853e6751a92695764e7027cfe3cbecfe6456c90b4dc969c373f5bc1326a8ffbe885042e
   languageName: node
   linkType: hard
 
@@ -6042,6 +6042,18 @@ __metadata:
     is-date-object: "npm:^1.0.5"
     is-symbol: "npm:^1.0.4"
   checksum: 10/17faf35c221aad59a16286cbf58ef6f080bf3c485dff202c490d074d8e74da07884e29b852c245d894eac84f73c58330ec956dfd6d02c0b449d75eb1012a3f9b
+  languageName: node
+  linkType: hard
+
+"es-toolkit@npm:^1.39.7":
+  version: 1.39.10
+  resolution: "es-toolkit@npm:1.39.10"
+  dependenciesMeta:
+    "@trivago/prettier-plugin-sort-imports@4.3.0":
+      unplugged: true
+    prettier-plugin-sort-re-exports@0.0.1:
+      unplugged: true
+  checksum: 10/e29686bda6131825a4974ae15892d68c33a8e686b634614ebc3bc15c5d0f85f7533fca8613708f01a54b8b9b379794258b6edf3db47d626546477029d1faabbc
   languageName: node
   linkType: hard
 
@@ -10888,9 +10900,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.86.1":
-  version: 41.86.1
-  resolution: "renovate@npm:41.86.1"
+"renovate@npm:41.87.4":
+  version: 41.87.4
+  resolution: "renovate@npm:41.87.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.858.0"
     "@aws-sdk/client-ec2": "npm:3.858.0"
@@ -10924,7 +10936,7 @@ __metadata:
     "@renovatebot/pep440": "npm:4.2.0"
     "@renovatebot/ruby-semver": "npm:4.1.0"
     "@sindresorhus/is": "npm:7.0.2"
-    "@yarnpkg/core": "npm:4.4.2"
+    "@yarnpkg/core": "npm:4.4.3"
     "@yarnpkg/parsers": "npm:3.0.3"
     agentkeepalive: "npm:4.6.0"
     async-mutex: "npm:0.5.0"
@@ -11023,7 +11035,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/a0cdb95baffe3d003dd9ff77ecfe10d27ce9d61f37bf9d8ef62f3e9a44885ec90558a7da4257b2ebc0475c3705192210a4c65099b3dcf4062ec3a29c76751fe6
+  checksum: 10/62e42ed334014aa9bf4c0db706a3541644bce6e6e46ad924deb8f6a635769c8c1cc4eec8d0c4ea99441943769994556f45a8c3a74c6d7cc297c02368fd8d030b
   languageName: node
   linkType: hard
 
