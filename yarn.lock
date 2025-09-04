@@ -1158,7 +1158,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.96.2"
+    renovate: "npm:41.97.4"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -5818,14 +5818,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-regex@npm:10.4.0":
-  version: 10.4.0
-  resolution: "emoji-regex@npm:10.4.0"
-  checksum: 10/76bb92c5bcf0b6980d37e535156231e4a9d0aa6ab3b9f5eabf7690231d5aa5d5b8e516f36e6804cbdd0f1c23dfef2a60c40ab7bb8aedd890584281a565b97c50
-  languageName: node
-  linkType: hard
-
-"emoji-regex@npm:^10.2.1":
+"emoji-regex@npm:10.5.0, emoji-regex@npm:^10.2.1":
   version: 10.5.0
   resolution: "emoji-regex@npm:10.5.0"
   checksum: 10/97537a2cec7c12653bdedf9d87b3c4e2641f12f8f8829765d33959d8e62c6fc23ffe7722ccbdaf3531681725bed0cc201059652f3289fd06925255437a589a49
@@ -10904,9 +10897,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.96.2":
-  version: 41.96.2
-  resolution: "renovate@npm:41.96.2"
+"renovate@npm:41.97.4":
+  version: 41.97.4
+  resolution: "renovate@npm:41.97.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.879.0"
     "@aws-sdk/client-ec2": "npm:3.879.0"
@@ -10963,7 +10956,7 @@ __metadata:
     diff: "npm:8.0.2"
     editorconfig: "npm:3.0.1"
     email-addresses: "npm:5.0.0"
-    emoji-regex: "npm:10.4.0"
+    emoji-regex: "npm:10.5.0"
     emojibase: "npm:16.0.0"
     emojibase-regex: "npm:16.0.0"
     extract-zip: "npm:2.0.1"
@@ -11039,7 +11032,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/21ba54e7d9f96f3674b0c8aedeb27b657df4e6231d9576145d121d8d5670405dd9e09dee0a27df2edae5cc6ea157dfe7c8700d126e17edcc0e9241ac319662ea
+  checksum: 10/1c2002b64c07b56297b0f37200892dccde9e2403b886117b7689f08a6609f618d426c9dc9339cdffe161bb5976da0550cdec0b6d306040cb369415777a8a48dd
   languageName: node
   linkType: hard
 
