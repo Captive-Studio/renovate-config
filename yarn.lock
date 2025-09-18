@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.116.6"
+    renovate: "npm:41.116.10"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -2344,9 +2344,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/resource-detector-gcp@npm:0.39.0":
-  version: 0.39.0
-  resolution: "@opentelemetry/resource-detector-gcp@npm:0.39.0"
+"@opentelemetry/resource-detector-gcp@npm:0.40.0":
+  version: 0.40.0
+  resolution: "@opentelemetry/resource-detector-gcp@npm:0.40.0"
   dependencies:
     "@opentelemetry/core": "npm:^2.0.0"
     "@opentelemetry/resources": "npm:^2.0.0"
@@ -2354,7 +2354,7 @@ __metadata:
     gcp-metadata: "npm:^6.0.0"
   peerDependencies:
     "@opentelemetry/api": ^1.0.0
-  checksum: 10/e43f8bba98ee3dacf5ef70a2a82c3e4572dbeca156a8a5b11eceaafaa2690f24565a5629561465260e034bc9b13e6c75fa3f6bae5ffc6c4d5d790b289436ca62
+  checksum: 10/359e84b2210499c84e469cd7a468275d9004364bdd84eb330c950aa6e408c24017aaadc6dd242a68885ed4f960f61f440b60a3cdfa4df92c5d786bd7216e9175
   languageName: node
   linkType: hard
 
@@ -2811,10 +2811,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/ruby-semver@npm:4.1.0":
-  version: 4.1.0
-  resolution: "@renovatebot/ruby-semver@npm:4.1.0"
-  checksum: 10/adff9515ad6112416e84d3b2b92b273abf90cf572deed102ef6fb577c4f99752f04336428c962e688137f93674c10190365671a3350e8cb0d454154285990e62
+"@renovatebot/ruby-semver@npm:4.1.2":
+  version: 4.1.2
+  resolution: "@renovatebot/ruby-semver@npm:4.1.2"
+  checksum: 10/e9eb3b79497c8a731961ed69a2f83b412510abfe68e474b24ccd5bcc6be43bd8d05c02b2c891938faf6c3c6004560a0c80f7fd36761c9a4ed3b552a6363c6fec
   languageName: node
   linkType: hard
 
@@ -10940,9 +10940,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.116.6":
-  version: 41.116.6
-  resolution: "renovate@npm:41.116.6"
+"renovate@npm:41.116.10":
+  version: 41.116.10
+  resolution: "renovate@npm:41.116.10"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.879.0"
     "@aws-sdk/client-ec2": "npm:3.879.0"
@@ -10962,7 +10962,7 @@ __metadata:
     "@opentelemetry/instrumentation-http": "npm:0.205.0"
     "@opentelemetry/resource-detector-aws": "npm:2.5.0"
     "@opentelemetry/resource-detector-azure": "npm:0.12.0"
-    "@opentelemetry/resource-detector-gcp": "npm:0.39.0"
+    "@opentelemetry/resource-detector-gcp": "npm:0.40.0"
     "@opentelemetry/resource-detector-github": "npm:0.31.0"
     "@opentelemetry/resources": "npm:2.1.0"
     "@opentelemetry/sdk-trace-base": "npm:2.1.0"
@@ -10974,7 +10974,7 @@ __metadata:
     "@renovatebot/kbpgp": "npm:4.0.1"
     "@renovatebot/osv-offline": "npm:1.6.10"
     "@renovatebot/pep440": "npm:4.2.0"
-    "@renovatebot/ruby-semver": "npm:4.1.0"
+    "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.0.2"
     "@yarnpkg/core": "npm:4.4.3"
     "@yarnpkg/parsers": "npm:3.0.3"
@@ -11075,7 +11075,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/4324a7a58ac50c6a7af00dbda0375269380194530cd0f27fcac56c9cae20d22f93b341c1b389e1cdb8ce47dd1e20f215b52128fad24ac5f9eeebaf8649dc90ca
+  checksum: 10/7f42b3c45da63e5dc96906fa62d934a80198922d60f642dc56c3517054023aea17d738a255e44f26417404fb3bf9c2396ed59be9de3732bc08ed38c3fb8a39b8
   languageName: node
   linkType: hard
 
