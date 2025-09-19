@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.117.1"
+    renovate: "npm:41.118.0"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -2762,9 +2762,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/kbpgp@npm:4.0.2":
-  version: 4.0.2
-  resolution: "@renovatebot/kbpgp@npm:4.0.2"
+"@renovatebot/kbpgp@npm:4.0.3":
+  version: 4.0.3
+  resolution: "@renovatebot/kbpgp@npm:4.0.3"
   dependencies:
     bn: "npm:1.0.5"
     bzip-deflate: "npm:^1.0.0"
@@ -2778,7 +2778,7 @@ __metadata:
     purepack: "npm:^1.0.6"
     triplesec: "npm:^4.0.3"
     tweetnacl: "npm:^1.0.3"
-  checksum: 10/45b25e6eb9fad57ae57416d0ba6a8f31ed4f5da8fbae734b7f293538f01751f8a75c34a560ac47472e03b0b631c6a5736824f79605c1c09fa8b48ef354e34f7a
+  checksum: 10/d5037939229548267e9a9b9c891fed4fb348dcd501aa32ac9754a50dccf9fb442683caa68f3ecf403cdeb333fbf0e516c5882546f57e06fd89e033895f9b1842
   languageName: node
   linkType: hard
 
@@ -10940,9 +10940,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.117.1":
-  version: 41.117.1
-  resolution: "renovate@npm:41.117.1"
+"renovate@npm:41.118.0":
+  version: 41.118.0
+  resolution: "renovate@npm:41.118.0"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.879.0"
     "@aws-sdk/client-ec2": "npm:3.879.0"
@@ -10971,7 +10971,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.2"
     "@qnighy/marshal": "npm:0.1.3"
     "@renovatebot/detect-tools": "npm:1.1.0"
-    "@renovatebot/kbpgp": "npm:4.0.2"
+    "@renovatebot/kbpgp": "npm:4.0.3"
     "@renovatebot/osv-offline": "npm:1.6.10"
     "@renovatebot/pep440": "npm:4.2.1"
     "@renovatebot/ruby-semver": "npm:4.1.2"
@@ -11075,7 +11075,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/183681f1d1bca169cff46def9604f777c3d90087bf23d7c3210195de03c9fc98d57b8e224211b61bcea5caa1a16f0a15f245860d19e32bbcf40728608bda6722
+  checksum: 10/26503a83febc9355170adf2985f19ba5af0cb23211776f2d48d0322e22a71d7aca092bfab37ded3233012c373f905a385431504df2696df288eea67be2b71e54
   languageName: node
   linkType: hard
 
