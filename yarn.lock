@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.125.0"
+    renovate: "npm:41.125.2"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -5682,10 +5682,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"detect-indent@npm:7.0.1":
-  version: 7.0.1
-  resolution: "detect-indent@npm:7.0.1"
-  checksum: 10/cbf3f0b1c3c881934ca94428e1179b26ab2a587e0d719031d37a67fb506d49d067de54ff057cb1e772e75975fed5155c01cd4518306fee60988b1486e3fc7768
+"detect-indent@npm:7.0.2":
+  version: 7.0.2
+  resolution: "detect-indent@npm:7.0.2"
+  checksum: 10/ef215d1b55a14f677ce03e840973b25362b6f8cd3f566bc82831fa1abb2be6a95423729bc573dc2334b1371ad7be18d9ec67e1a9611b71a04cb6d63f0d8e54cc
   languageName: node
   linkType: hard
 
@@ -10924,9 +10924,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.125.0":
-  version: 41.125.0
-  resolution: "renovate@npm:41.125.0"
+"renovate@npm:41.125.2":
+  version: 41.125.2
+  resolution: "renovate@npm:41.125.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.879.0"
     "@aws-sdk/client-ec2": "npm:3.879.0"
@@ -10980,7 +10980,7 @@ __metadata:
     cronstrue: "npm:3.3.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
-    detect-indent: "npm:7.0.1"
+    detect-indent: "npm:7.0.2"
     diff: "npm:8.0.2"
     editorconfig: "npm:3.0.1"
     email-addresses: "npm:5.0.0"
@@ -11059,7 +11059,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/98228a12c115cfacc2630bf741483dc9dfff82c64916f5164264db94d38890aabf2d60ab02fb523687f03bb8fe21b744c84a20242601d2085d1e8c4af0cbb97a
+  checksum: 10/ed4a31f8b36d82f8a53df6672cf3ad319c291e1341d5b0cf7b63e0ea4b826d00c55d11d44264fe50ae4546272c58955ca1b64c3d0a4414560473dc314fca94e7
   languageName: node
   linkType: hard
 
