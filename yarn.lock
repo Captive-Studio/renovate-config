@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.130.2"
+    renovate: "npm:41.131.1"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -2734,15 +2734,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/detect-tools@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@renovatebot/detect-tools@npm:1.1.0"
+"@renovatebot/detect-tools@npm:1.2.4":
+  version: 1.2.4
+  resolution: "@renovatebot/detect-tools@npm:1.2.4"
   dependencies:
-    fs-extra: "npm:^11.2.0"
+    fs-extra: "npm:^11.3.2"
     toml-eslint-parser: "npm:^0.10.0"
-    upath: "npm:^2.0.0"
-    zod: "npm:^3.23.0"
-  checksum: 10/55f0c2c84b24dba582dfee8864d9f8851aa49a24646b47eb420fe5891bb1e6983cc38ec637126dfe12e57ff07707aa1cc854d792ef48c17e45436f82b3fab479
+    upath: "npm:^2.0.1"
+    zod: "npm:^3.25.76"
+  checksum: 10/92ecfa778e23a8a376170f79f190572aa5be9fafbba76de9cd84271ed6e1975d92c71b364fbefb770fd568a5cbb2b1767a307bab9d63301360a9574c2af0dea4
   languageName: node
   linkType: hard
 
@@ -4257,15 +4257,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.4.3":
-  version: 4.4.3
-  resolution: "@yarnpkg/core@npm:4.4.3"
+"@yarnpkg/core@npm:4.4.4":
+  version: 4.4.4
+  resolution: "@yarnpkg/core@npm:4.4.4"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.1.2"
-    "@yarnpkg/libzip": "npm:^3.2.1"
+    "@yarnpkg/fslib": "npm:^3.1.3"
+    "@yarnpkg/libzip": "npm:^3.2.2"
     "@yarnpkg/parsers": "npm:^3.0.3"
     "@yarnpkg/shell": "npm:^4.1.3"
     camelcase: "npm:^5.3.1"
@@ -4287,7 +4287,7 @@ __metadata:
     tinylogic: "npm:^2.0.0"
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10/7d0b01008e03b9f5f522ca1d530a49a36b05a41d2aadcafa1a3a3bd1c853e6751a92695764e7027cfe3cbecfe6456c90b4dc969c373f5bc1326a8ffbe885042e
+  checksum: 10/a4c9f166de3341b93ccdbbf2025f3556e7f7671df26abc1d8f0c49749e64cca69b6b9413364c5d1a3ec454ee467940b0384489171d4298313ad4a45a7ea74cc8
   languageName: node
   linkType: hard
 
@@ -4300,7 +4300,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/libzip@npm:^3.2.1":
+"@yarnpkg/libzip@npm:^3.2.2":
   version: 3.2.2
   resolution: "@yarnpkg/libzip@npm:3.2.2"
   dependencies:
@@ -7067,7 +7067,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"fs-extra@npm:11.3.2, fs-extra@npm:^11.2.0, fs-extra@npm:^11.3.2":
+"fs-extra@npm:11.3.2, fs-extra@npm:^11.3.2":
   version: 11.3.2
   resolution: "fs-extra@npm:11.3.2"
   dependencies:
@@ -10924,9 +10924,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.130.2":
-  version: 41.130.2
-  resolution: "renovate@npm:41.130.2"
+"renovate@npm:41.131.1":
+  version: 41.131.1
+  resolution: "renovate@npm:41.131.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.879.0"
     "@aws-sdk/client-ec2": "npm:3.879.0"
@@ -10954,13 +10954,13 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:1.37.0"
     "@pnpm/parse-overrides": "npm:1001.0.3"
     "@qnighy/marshal": "npm:0.1.3"
-    "@renovatebot/detect-tools": "npm:1.1.0"
+    "@renovatebot/detect-tools": "npm:1.2.4"
     "@renovatebot/kbpgp": "npm:4.0.3"
     "@renovatebot/osv-offline": "npm:1.6.11"
     "@renovatebot/pep440": "npm:4.2.1"
     "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.1.0"
-    "@yarnpkg/core": "npm:4.4.3"
+    "@yarnpkg/core": "npm:4.4.4"
     "@yarnpkg/parsers": "npm:3.0.3"
     ae-cvss-calculator: "npm:1.0.8"
     agentkeepalive: "npm:4.6.0"
@@ -11059,7 +11059,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/9b3ba1b54b55a6608a4a669582bd982895fe7b733f3d4ef4751d4682b31dbaa409d8092a61a032d1bd8783740ddbc34c4d24b020870552a5a4fd425a05b22f3a
+  checksum: 10/8b8e3dc685424df557dd00ca53350ddd707e6d114d3e91c5cd091da879821d62d0ef99f91acca50ad7c75b333ab97fc3a55c0375ec60366f64afd8287e36c8a8
   languageName: node
   linkType: hard
 
@@ -12587,7 +12587,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"upath@npm:2.0.1, upath@npm:^2.0.0":
+"upath@npm:2.0.1, upath@npm:^2.0.1":
   version: 2.0.1
   resolution: "upath@npm:2.0.1"
   checksum: 10/7b98a83559a295d59f87f7a8d615c7549d19e4aec4dd9d52be2bf1ba93e1d6ee7d8f2188cdecbf303a22cea3768abff4268b960350152a0264125f577d9ed79e
@@ -13176,7 +13176,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"zod@npm:3.25.76, zod@npm:^3.23.0":
+"zod@npm:3.25.76, zod@npm:^3.25.76":
   version: 3.25.76
   resolution: "zod@npm:3.25.76"
   checksum: 10/f0c963ec40cd96858451d1690404d603d36507c1fc9682f2dae59ab38b578687d542708a7fdbf645f77926f78c9ed558f57c3d3aa226c285f798df0c4da16995
