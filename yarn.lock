@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.130.0"
+    renovate: "npm:41.130.2"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -2988,10 +2988,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/is@npm:7.0.2":
-  version: 7.0.2
-  resolution: "@sindresorhus/is@npm:7.0.2"
-  checksum: 10/8a737db55aacebd30bccf8a974fbd8bc667baf2a30ffea48fe564079c49ddd8eaaef347910b386bc7f5f0b06aa8eadef9119644b0e27ce3c3a6c69c48a909a11
+"@sindresorhus/is@npm:7.1.0":
+  version: 7.1.0
+  resolution: "@sindresorhus/is@npm:7.1.0"
+  checksum: 10/f3afa7d786f83ad32a7d778c549231dde0dae51dcf510004271f7cb66c4d4feaa6470cf0e669a29260b07790f8a1d17df02cc6982da4526c7bd313649fbb3fa3
   languageName: node
   linkType: hard
 
@@ -10134,12 +10134,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-all@npm:5.0.0":
-  version: 5.0.0
-  resolution: "p-all@npm:5.0.0"
+"p-all@npm:5.0.1":
+  version: 5.0.1
+  resolution: "p-all@npm:5.0.1"
   dependencies:
     p-map: "npm:^6.0.0"
-  checksum: 10/c9e1391871a106fdd7984cb0be6c2434793baf6e02599dbd50585738cff0388ee4204e7e09b8066126fa8bfb3f69636a5abd344c35ab2b4634c3815e06b68bab
+  checksum: 10/dab1f348a0626acf4ff2a3b8f1039af7c81b44dc4e516e81dfccba7c8fbc22e265eea2011cd80af00b5d8c44c1cb9a2cc0b252926383f340184079f9336daab6
   languageName: node
   linkType: hard
 
@@ -10924,9 +10924,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.130.0":
-  version: 41.130.0
-  resolution: "renovate@npm:41.130.0"
+"renovate@npm:41.130.2":
+  version: 41.130.2
+  resolution: "renovate@npm:41.130.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.879.0"
     "@aws-sdk/client-ec2": "npm:3.879.0"
@@ -10959,7 +10959,7 @@ __metadata:
     "@renovatebot/osv-offline": "npm:1.6.11"
     "@renovatebot/pep440": "npm:4.2.1"
     "@renovatebot/ruby-semver": "npm:4.1.2"
-    "@sindresorhus/is": "npm:7.0.2"
+    "@sindresorhus/is": "npm:7.1.0"
     "@yarnpkg/core": "npm:4.4.3"
     "@yarnpkg/parsers": "npm:3.0.3"
     ae-cvss-calculator: "npm:1.0.8"
@@ -11018,7 +11018,7 @@ __metadata:
     neotraverse: "npm:0.6.18"
     node-html-parser: "npm:7.0.1"
     openpgp: "npm:6.2.2"
-    p-all: "npm:5.0.0"
+    p-all: "npm:5.0.1"
     p-map: "npm:7.0.3"
     p-queue: "npm:8.1.1"
     p-throttle: "npm:8.0.0"
@@ -11059,7 +11059,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/a3e3bbd3504425513b82ef0aec83325dd967d32fcb3fc90d114a514797694f35bc8af01f33f6191df8b0f3f3f7749fbd2ef7c50b38d6a5ce448cf147661a24aa
+  checksum: 10/9b3ba1b54b55a6608a4a669582bd982895fe7b733f3d4ef4751d4682b31dbaa409d8092a61a032d1bd8783740ddbc34c4d24b020870552a5a4fd425a05b22f3a
   languageName: node
   linkType: hard
 
