@@ -1168,7 +1168,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.131.9"
+    renovate: "npm:41.131.12"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -4678,14 +4678,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:12.2.0":
-  version: 12.2.0
-  resolution: "better-sqlite3@npm:12.2.0"
+"better-sqlite3@npm:12.3.0":
+  version: 12.3.0
+  resolution: "better-sqlite3@npm:12.3.0"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/2662e321237624d5813a7b97528dfc11fc5110b068d57f4096de82d7136e7e4a4b722a2a4266ddfb5095070712fd3d2542f6212ccb68e2d3eb2042498269e1cf
+  checksum: 10/6565dc019972dbda8832d3d9033051a39420e20dab0e15c899c9954b200358278b744c4f4ac5cb4007c6b12107bc451888ec2fd800ff6b6cc8222242c7600dcb
   languageName: node
   linkType: hard
 
@@ -9781,12 +9781,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nanoid@npm:5.1.5":
-  version: 5.1.5
-  resolution: "nanoid@npm:5.1.5"
+"nanoid@npm:5.1.6":
+  version: 5.1.6
+  resolution: "nanoid@npm:5.1.6"
   bin:
     nanoid: bin/nanoid.js
-  checksum: 10/6de2d006b51c983be385ef7ee285f7f2a57bd96f8c0ca881c4111461644bd81fafc2544f8e07cb834ca0f3e0f3f676c1fe78052183f008b0809efe6e273119f5
+  checksum: 10/4109dbcf596d7f297a9b42f459b8f01694a03ebbdd2f41408d963ad54e5ec7234cbe7b4acad137751f31add11bb4fb3415a3e688082516745812811f05570014
   languageName: node
   linkType: hard
 
@@ -10922,9 +10922,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.131.9":
-  version: 41.131.9
-  resolution: "renovate@npm:41.131.9"
+"renovate@npm:41.131.12":
+  version: 41.131.12
+  resolution: "renovate@npm:41.131.12"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.879.0"
     "@aws-sdk/client-ec2": "npm:3.879.0"
@@ -10966,7 +10966,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
     azure-devops-node-api: "npm:15.1.1"
-    better-sqlite3: "npm:12.2.0"
+    better-sqlite3: "npm:12.3.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:20.0.1"
     chalk: "npm:5.6.2"
@@ -11012,7 +11012,7 @@ __metadata:
     minimatch: "npm:10.0.3"
     moo: "npm:0.5.2"
     ms: "npm:2.1.3"
-    nanoid: "npm:5.1.5"
+    nanoid: "npm:5.1.6"
     neotraverse: "npm:0.6.18"
     node-html-parser: "npm:7.0.1"
     openpgp: "npm:6.2.2"
@@ -11057,7 +11057,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/ef86881d7bfc50f12fe86c33ffb89f6fd17036adcb02a1473cdab1f91544fe01881923dc09bd59515c81f263591eff39da900f5d8bd639f99b7fe0acaa6a2182
+  checksum: 10/faf79284c098dc40222493f3b46b960bf85af1cd79dd46e9168cc97c521a9c16a66d51b98e935a2c839c6ae2fac686d03ddd477cb08fc9cab2daef8cc48d3d1c
   languageName: node
   linkType: hard
 
