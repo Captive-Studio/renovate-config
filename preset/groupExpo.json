@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "groupName": "Expo & React Native core",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": [
+        "^expo($|[-/])",
+        "^react-native($|[-/])",
+        "^react$"
+      ],
+      "automerge": false
+    }
+  ]
+}
