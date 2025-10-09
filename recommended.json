@@ -17,7 +17,7 @@
       "matchManagers": ["asdf"],
       "matchDepTypes": ["minor", "patch"],
       "automerge": true
-    }
+    },
     {
       "matchManagers": ["npm"],
       "matchDepTypes": ["patch"],
