@@ -5,9 +5,9 @@
       "groupName": "Expo & React Native core",
       "matchManagers": ["npm"],
       "matchPackagePatterns": [
-        "^expo($|[-/])",
+        "^(@expo|expo)($|[-/])",
         "^react-native($|[-/])",
-        "^react$"
+        "^react($|[-/])"
       ],
       "automerge": false
     }
