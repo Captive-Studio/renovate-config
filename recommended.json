@@ -4,6 +4,24 @@
   "extends": [
     "github>Captive-Studio/renovate-config:base",
     "github>Captive-Studio/renovate-config//preset/groupRecommended",
-    "github>Captive-Studio/renovate-config//preset/automergeRecommended"
+    "github>Captive-Studio/renovate-config//preset/automergeRecommended",
+    ":separateMultipleMajorReleases"
+  ],
+  "packageRules": [
+    {
+      "matchCategories": ["node", "ruby", "postgres", "docker"],
+      "matchDepTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["asdf"],
+      "matchDepTypes": ["minor", "patch"],
+      "automerge": true
+    }
+    {
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["patch"],
+      "automerge": true
+    }
   ]
 }

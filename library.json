@@ -4,17 +4,5 @@
   "extends": [
     "github>Captive-Studio/renovate-config:recommended",
     ":pinOnlyDevDependencies"
-  ],
-  "packageRules": [
-    {
-      "matchCategories": ["node", "ruby", "postgres", "docker"],
-      "matchDepTypes": ["minor", "patch"],
-      "automerge": true
-    },
-    {
-      "matchManagers": ["asdf"],
-      "matchDepTypes": ["minor", "patch"],
-      "automerge": true
-    }
   ]
 }
