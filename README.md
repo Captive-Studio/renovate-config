@@ -1,161 +1,198 @@
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=# Captive Renovate configuration _(${name})_) -->
-# Captive Renovate configuration _(@captive/renovate-config)_
-<!-- AUTO-GENERATED-CONTENT:END -->
+# 🧰 Captive Renovate Configuration
+
+*(@Captive-Studio/renovate-config)*
 
 [![License][license-image]][license-url]
 
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=> ${description}&unknownTxt= ) -->
-> Renovate configuration presets
-<!-- AUTO-GENERATED-CONTENT:END -->
+> Configuration partagée pour **Renovate**, optimisée pour les projets Captive.
+> Elle vise à automatiser les mises à jour de dépendances **en toute sécurité**, sans submerger les équipes.
 
-## Getting Started - App Installation
+---
 
-* [for GitHub](https://docs.renovatebot.com/install-github-app/)
-* [for GitLab](https://docs.renovatebot.com/install-gitlab-app/)
-  * go to [Renovate Dashboard](https://app.renovatebot.com/dashboard) to add your project,
-  * accept Renovate Bot PR
+## 🚀 Démarrage rapide
 
-## Features
+### 1. Installer Renovate
 
-* ✅ Automerge only when safe
-  * When dev dependency that is self validated by CI
-  * When project is following semantic-versioning and well maintained
-* 🚄 Focus on productivity
-  * The configuration should not overburden the team by creating a great amount of PR, it should be a safe way to automate and save time
-* ✓ Main Supported Technologies
+* [Installer pour GitHub](https://docs.renovatebot.com/install-github-app/)
+* [Installer pour GitLab](https://docs.renovatebot.com/install-gitlab-app/)
+
+Une fois installé :
+
+1. Rendez-vous sur le [tableau de bord Renovate](https://app.renovatebot.com/dashboard)
+2. Ajoutez votre projet
+3. Acceptez la première Pull Request de configuration proposée par Renovate Bot
+
+---
+
+## ✨ Fonctionnalités principales
+
+* ✅ **Automerge sécurisé**
+
+  * Activé uniquement lorsque les dépendances sont validées par la CI
+  * Compatible avec les projets respectant le *semantic versioning*
+
+* 🚄 **Productivité sans surcharge**
+
+  * Limite le nombre de PR simultanées
+  * Priorise la stabilité et la lisibilité du flux de mises à jour
+
+* 🧩 **Technologies principales supportées**
+
   * Ruby
-  * NodeJS
+  * Node.js
   * Docker
-* 🗓️ Scheduled to run outside working hours (night and weekend)
 
-## Usage
+* 🗓️ **Planification intelligente**
 
-### Requirements
+  * Exécution en dehors des heures ouvrées (nuits et week-ends)
 
-* ✓ Renovate bot instance is already configured and has the permissions to access the repository
+---
 
-### PHASE 1: Configuration
+## ⚙️ Utilisation
 
-_⏱️ ~ 5min - 1 day, depending on the type of Renovate schedule_
+### Prérequis
 
-> 🎯 Intention
->
-> * Configure Renovate bot to be able Pull Request on a given repository
-> * Limit Renovate bot to not create more Pull Request that the team can handle
-> * Schedule in the `renovate.json` so that it does not interfere with daily work
+* Renovate doit être installé et avoir les autorisations nécessaires sur le dépôt.
 
-1. Extend Shared configuration in your project
+---
 
-    **Application**
+### 🧩 PHASE 1 — Configuration initiale
 
-    A repository that will never be used as dependency.
+*⏱️ Durée estimée : 5 minutes à 1 jour selon le planning Renovate*
 
-    ```jsonc
-    // renovate.json
-    {
-        "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-        "extends": [
-            // Dependencies will be pinned
-            "github>Captive-Studio/renovate-config:application"
-        ]
-    }
-    ```
+🎯 **Objectif :**
+Configurer Renovate pour :
 
-    **Library** :
+* Créer automatiquement des PR de mise à jour
+* Limiter leur volume selon la capacité de l’équipe
+* Planifier leur exécution hors des heures de travail
 
-    A repository that will be reused by others.
+#### 1. Étendre la configuration partagée
 
-    ```jsonc
-    // renovate.json
-    {
-        "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-        "extends": [
-            // Dependencies will not be pinned
-            "github>Captive-Studio/renovate-config:library"
-        ]
-    }
-    ```
+**Pour une application** (non réutilisée ailleurs) :
 
-2. Ensure `CODEOWNERS` is setup ( [example](./CODEOWNERS) )
+```jsonc
+// renovate.json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>Captive-Studio/renovate-config:application"
+  ]
+}
+```
 
-    _⚠️ If not set, pull request will not be automatically assigned. The consequence is often that nobody cares about maintenance_
+**Pour une bibliothèque** (réutilisée dans d’autres projets) :
 
-    ✓ Use person (`@first_name.last_name`) or team reference `@TeamName` for owners
+```jsonc
+// renovate.json
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "extends": [
+    "github>Captive-Studio/renovate-config:library"
+  ]
+}
+```
 
-3. Limit Pull request maximum concurrency (Optional)
+#### 2. Configurer les propriétaires (`CODEOWNERS`)
 
-    _⚠️ only for old/not maintained projects_
+> ⚠️ Sans propriétaires définis, les PR de maintenance risquent d’être ignorées.
 
-    ```diff
-    {
-    "extends": [
-        "github>Captive-Studio/renovate-config:...",
-    -
-    +  "github>Captive-Studio/renovate-config:rate-limited"
-    ],
-    
-    ```
+Utilisez des références personnelles (`@prenom.nom`) ou d’équipe (`@NomEquipe`).
+👉 Exemple : [CODEOWNERS](./CODEOWNERS)
 
-    _This configuration will limit arbitrarily concurrent PR to 6 (to avoid excess of PR)_
+#### 3. Limiter la concurrence des PR (optionnel)
 
-4. Check for "Dependency Dashboard" issue in Github/Gitlab (after few minutes)
-
-5. 🎉 Renovate bot will create pull requests on the next schedule !
-
-### PHASE 2: Automation and Noise reduction
-
-_⏱️ ~ 1 day to 1 week_
-
-> 🎯 Intention
->
-> * Automate as much as possible (`automerge: true`)
-> * Ownership : do not let unmerged PR stay more than 24 hours in the repository
-> * Safety first, do not automate if there is a risk of critical regression
-
-After each manual Pull Request creation, improve automation :
-
-1. Add checks / tests / end to end tests that would enable `automerge` (if possible)
-2. Enable `automerge` into the project -OR- into this shared configuration, for the PR package
-3. Trigger a PR rebase from renovate, and check that Automerge is enabled in the updated PR description
-
-### PHASE 3: Regular maintenance
-
-> 🎯 Intention
->
-> * Keep the number of outdated packages to 0 most of the time
-
-Requirements :
-
-* ✓ The stock of outdated packages was reduced by phase 2 and is low
-* ✓ The team can handle all PR if they were created
-
-Ensure that Renovate will update every possible packages, as soon as possible.
+*Utile pour les anciens projets peu maintenus.*
 
 ```diff
 {
   "extends": [
     "github>Captive-Studio/renovate-config:...",
--  "github>Captive-Studio/renovate-config:rate-limited"
-+
-  ],
-
+-   // configuration standard
++   "github>Captive-Studio/renovate-config:rate-limited"
+  ]
 }
 ```
 
-> [Read the documentation](https://docs.renovatebot.com/configuration-options/) to improve your configuration.
+> Cette variante limite le nombre de PR simultanées à 6 pour éviter l’encombrement.
 
-## License
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=[${license}][license-url] © ${author}) -->
+#### 4. Vérifier la création du ticket “Dependency Dashboard”
+
+Ce ticket est automatiquement généré sur GitHub/GitLab après quelques minutes.
+
+#### 5. 🎉 Laissez Renovate travailler !
+
+Les premières PR apparaîtront selon la planification définie.
+
+---
+
+### 🤖 PHASE 2 — Automatisation et réduction du bruit
+
+*⏱️ Durée estimée : 1 jour à 1 semaine*
+
+🎯 **Objectif :**
+
+* Automatiser un maximum de PR (`automerge: true`)
+* Éviter les PR dormantes de plus de 24h
+* Prioriser la sécurité et la non-régression
+
+#### Étapes recommandées :
+
+1. Ajouter des tests (unitaires, end-to-end) permettant de garantir la fiabilité des merges automatiques
+2. Activer `automerge` dans le projet ou dans la configuration partagée
+3. Rebaser une PR via Renovate et vérifier que le merge automatique est bien activé
+
+---
+
+### 🔁 PHASE 3 — Maintenance continue
+
+🎯 **Objectif :**
+Maintenir le nombre de dépendances obsolètes aussi proche de zéro que possible.
+
+#### Conditions préalables :
+
+* Le stock de dépendances obsolètes est déjà faible
+* L’équipe peut absorber toutes les PR générées
+
+#### Exemple :
+
+```diff
+{
+  "extends": [
+    "github>Captive-Studio/renovate-config:...",
+-   "github>Captive-Studio/renovate-config:rate-limited"
++   // suppression de la limitation
+  ]
+}
+```
+
+📘 Pour aller plus loin :
+[Documentation complète de Renovate](https://docs.renovatebot.com/configuration-options/)
+
+---
+
+## 📚 Documentation complémentaire
+
+* [Documentation officielle Renovate](https://docs.renovatebot.com/)
+* [Configuration JSON Schema](https://docs.renovatebot.com/renovate-schema/)
+* [Tableau de bord Renovate](https://app.renovatebot.com/dashboard)
+
+---
+
+## 🧩 Bonnes pratiques Captive
+
+* ✅ Toujours définir un responsable via `CODEOWNERS`
+* ✅ Garder le tableau de bord “Dependency Dashboard” à jour
+* ✅ Ne pas ignorer les PR obsolètes
+* ✅ Supprimer les limitations une fois la stabilité atteinte
+
+---
+
+## 🪪 Licence
+
 [MIT][license-url] © Captive Studio
-<!-- AUTO-GENERATED-CONTENT:END -->
 
-<!-- VARIABLES -->
+---
 
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=[package-version-svg]: https://img.shields.io/npm/v/${name}.svg?style=flat-square) -->
-<!-- AUTO-GENERATED-CONTENT:END -->
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=[package-url]: https://www.npmjs.com/package/${name}) -->
-<!-- AUTO-GENERATED-CONTENT:END -->
-<!-- AUTO-GENERATED-CONTENT:START (PKG_JSON:template=[license-image]: https://img.shields.io/badge/license-${license}-green.svg?style=flat-square) -->
 [license-image]: https://img.shields.io/badge/license-MIT-green.svg?style=flat-square
-<!-- AUTO-GENERATED-CONTENT:END -->
 [license-url]: ../../LICENSE
