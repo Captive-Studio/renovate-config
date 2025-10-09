@@ -3,8 +3,8 @@
   "packageRules": [
     {
       "description": "Automerge des updates de digest Dockerfiles",
-      "matchManagers": ["dockerfile", "circleci"],
-      "matchUpdateTypes": ["digest"],
+      "matchManagers": ["dockerfile", "circleci", "docker-compose"],
+      "matchUpdateTypes": ["digest", "patch"],
       "automerge": true
     }
   ]
