@@ -5,6 +5,19 @@
     {
       "groupName": "Ruby on Rails packages",
       "matchPackageNames": ["rails-i18n", "rspec-rails", "bullet"]
+    },
+    {
+      "matchManagers": ["bundler", "npm"],
+      "matchPackagePrefixes": ["@rails/"],
+      "matchPackageNames": ["rails"],
+      "matchUpdateTypes": ["major"],
+      "addLabels": ["major-upgrade", "manual-review"],
+      "prBodyNotes": [
+        "Fermée automatiquement : montée majeure de Rails nécessitant un traitement manuel."
+      ],
+      "prCreation": "not-pending",
+      "automerge": false,
+      "autoclose": true
     }
   ]
 }
