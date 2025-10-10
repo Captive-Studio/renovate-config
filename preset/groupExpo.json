@@ -6,8 +6,9 @@
       "matchManagers": ["npm"],
       "matchPackagePatterns": [
         "^(@expo|expo)($|[-/])",
-        "^react-native($|[-/])",
-        "^react($|[-/])"
+        "^(@react|react)($|[-/])",
+        "@types/react",
+        "jest"
       ],
       "automerge": false
     }
