@@ -18,6 +18,10 @@
       "prCreation": "not-pending",
       "automerge": false,
       "autoclose": true
+    },
+    {
+      "groupName": "ByeBug & Pry-ByeBug",
+      "matchPackageNames": ["byebue", "pry-byebug"]
     }
   ]
 }
