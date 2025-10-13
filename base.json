@@ -26,7 +26,7 @@
       "minimumReleaseAge": "2 days"
     }
   ],
-  "prConcurrentLimit": 20,
+  "prConcurrentLimit": 5,
   "prHourlyLimit": 0,
   "platformAutomerge": true,
   "updateNotScheduled": true,
