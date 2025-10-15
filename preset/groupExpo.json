@@ -10,7 +10,27 @@
         "@types/react",
         "jest"
       ],
-      "automerge": false
+      "ignoreDeps": [
+        "@react-native-community/datetimepicker",
+        "@react-native-picker/picker",
+        "react",
+        "react-dom",
+        "react-native"
+      ]
+    },
+    {
+      "description": "Met à jour le noyau Expo uniquement quand Expo est mis à jour",
+      "matchManagers": ["npm"],
+      "matchPackagePatterns": ["^expo$"],
+      "groupName": "Expo core (trigger full update)",
+      "extends": ["group:allNonMajor"],
+      "postUpgradeTasks": {
+        "commands": [
+          "npm install",
+          "npx expo install --fix"
+        ],
+        "fileFilters": ["package.json", "package-lock.json"]
+      }
     }
   ]
 }
