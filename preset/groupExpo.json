@@ -14,7 +14,7 @@
         "@react-native-community/datetimepicker",
         "@react-native-picker/picker",
         "@sentry/react-native",
-        "@types/jest"
+        "@types/jest",
         "jest",
         "react",
         "react-dom",
