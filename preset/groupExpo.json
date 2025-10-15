@@ -13,11 +13,15 @@
       "ignoreDeps": [
         "@react-native-community/datetimepicker",
         "@react-native-picker/picker",
+        "@sentry/react-native",
+        "@types/jest"
+        "jest",
         "react",
         "react-dom",
         "react-native",
-        "jest",
-        "@types/jest"
+        "react-native-svg",
+        "react-native-webview",
+        "react-native-worklets"
       ]
     },
     {
