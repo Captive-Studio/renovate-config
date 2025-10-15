@@ -19,6 +19,7 @@
         "react",
         "react-dom",
         "react-native",
+        "react-native-screens",
         "react-native-svg",
         "react-native-webview",
         "react-native-worklets"
