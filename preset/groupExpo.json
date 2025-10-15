@@ -15,6 +15,7 @@
         "@react-native-picker/picker",
         "@sentry/react-native",
         "@types/jest",
+        "@types/react",
         "jest",
         "react",
         "react-dom",
