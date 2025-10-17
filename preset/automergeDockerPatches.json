@@ -2,8 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "description": "Automerge des updates de digest Dockerfiles",
-      "matchManagers": ["dockerfile", "circleci", "docker-compose"],
+      "description": "Automerge des patch et digest",
       "matchUpdateTypes": ["digest", "patch"],
       "automerge": true
     }
