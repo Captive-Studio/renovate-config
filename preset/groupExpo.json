@@ -32,7 +32,6 @@
       "matchManagers": ["npm"],
       "matchPackagePatterns": ["^expo$"],
       "groupName": "Expo core (trigger full update)",
-      "extends": ["group:allNonMajor"],
       "postUpgradeTasks": {
         "commands": [
           "npm install",
