@@ -1172,7 +1172,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:41.154.0"
+    renovate: "npm:41.155.2"
     vitest: "npm:3.2.4"
   languageName: unknown
   linkType: soft
@@ -2683,59 +2683,48 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@redis/bloom@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@redis/bloom@npm:1.2.0"
+"@redis/bloom@npm:5.8.3":
+  version: 5.8.3
+  resolution: "@redis/bloom@npm:5.8.3"
   peerDependencies:
-    "@redis/client": ^1.0.0
-  checksum: 10/a16408f729ddd032a52c9d998661dfa7beabc0e92760d30619c3166c7a53a98c037956d93d230b787005fd8a599a7456461ca7429c1916893c2d13d59a41e0e6
+    "@redis/client": ^5.8.3
+  checksum: 10/031bfb7d85b33ecb48c612357561236fff459179fc4eae4192d2b2153c347b8944c507b4fa1af07c01b2b7d0861af9c0c9546d2888406865ff176913892fdc0c
   languageName: node
   linkType: hard
 
-"@redis/client@npm:1.6.1":
-  version: 1.6.1
-  resolution: "@redis/client@npm:1.6.1"
+"@redis/client@npm:5.8.3":
+  version: 5.8.3
+  resolution: "@redis/client@npm:5.8.3"
   dependencies:
     cluster-key-slot: "npm:1.1.2"
-    generic-pool: "npm:3.9.0"
-    yallist: "npm:4.0.0"
-  checksum: 10/3ef20235b9b0ecba728bbc7208eabbdfc2eebb50c6fb95b20486a0c14e9d6f3ce620ac0d3d14d7f682ea7cb953b13bf89bd94932b7ab3babeb12ba77136b4291
+  checksum: 10/402e5f452021263a3c37e97347d663358d4cd01587e0da9a1b5b9aa6d8eb7b0aac97d2f735043ed8b17f5d93f0684150ba8e4bc43e153fe324b354a7633e9201
   languageName: node
   linkType: hard
 
-"@redis/graph@npm:1.1.1":
-  version: 1.1.1
-  resolution: "@redis/graph@npm:1.1.1"
+"@redis/json@npm:5.8.3":
+  version: 5.8.3
+  resolution: "@redis/json@npm:5.8.3"
   peerDependencies:
-    "@redis/client": ^1.0.0
-  checksum: 10/96b8ee9bec124947465848b56a014805f9639e09704e03c75a92072a319599ac9dcd4f9ace22970a7f72131a241166ad31db4dc6931b34808d22a5ca94649ba5
+    "@redis/client": ^5.8.3
+  checksum: 10/fc81b7e6388e479658cda54054ee1c9df5210ea418c0b3b605141780335040d04a901ce19f51a31b5a21427c5914fff6776a8a4237cf00234a31ff81b6b027c7
   languageName: node
   linkType: hard
 
-"@redis/json@npm:1.0.7":
-  version: 1.0.7
-  resolution: "@redis/json@npm:1.0.7"
+"@redis/search@npm:5.8.3":
+  version: 5.8.3
+  resolution: "@redis/search@npm:5.8.3"
   peerDependencies:
-    "@redis/client": ^1.0.0
-  checksum: 10/df0ac5035608d2e82289237d1adbf541af3743a86692df9958a2c89281bce024eeecfc031db51774d8a46639c5ec34ce9f8b71ebec7bce21865920e36ca3db57
+    "@redis/client": ^5.8.3
+  checksum: 10/74c4ef9d3f30760a7e628bbf7dcbf7ab8331069092e3db407fce1ceb80a9b5b765b32e4877783f6334212389e736c499a1eb53b7ebadaabc6be2864d4cc72125
   languageName: node
   linkType: hard
 
-"@redis/search@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@redis/search@npm:1.2.0"
+"@redis/time-series@npm:5.8.3":
+  version: 5.8.3
+  resolution: "@redis/time-series@npm:5.8.3"
   peerDependencies:
-    "@redis/client": ^1.0.0
-  checksum: 10/25bba222c0fb1ec1f2db08fe157d30d56a8ffe234214c72d3a7a991daefe77f18c5e6440ab3aa297aef88bafd5448b04ac9fcd84671f2dadc8989712c06b63b4
-  languageName: node
-  linkType: hard
-
-"@redis/time-series@npm:1.1.0":
-  version: 1.1.0
-  resolution: "@redis/time-series@npm:1.1.0"
-  peerDependencies:
-    "@redis/client": ^1.0.0
-  checksum: 10/e1d000eef7f37645f7f4ff94f32dd998384360b12fed1e4d614d828c065b72d7627e27444fab781fac4fdfe301c45f893417550fb1011d3b75237566ff0954e0
+    "@redis/client": ^5.8.3
+  checksum: 10/20ab29dfe1a76c451ab008081900ab073d83aefd740b49455af1e09b132a2431e6e47164152e6b5e056626cacf1b969d2df4fc9ff580eb40c932ed5e04dc84ad
   languageName: node
   linkType: hard
 
@@ -5861,14 +5850,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emoji-regex@npm:10.5.0":
-  version: 10.5.0
-  resolution: "emoji-regex@npm:10.5.0"
-  checksum: 10/97537a2cec7c12653bdedf9d87b3c4e2641f12f8f8829765d33959d8e62c6fc23ffe7722ccbdaf3531681725bed0cc201059652f3289fd06925255437a589a49
-  languageName: node
-  linkType: hard
-
-"emoji-regex@npm:^10.2.1":
+"emoji-regex@npm:10.6.0, emoji-regex@npm:^10.2.1":
   version: 10.6.0
   resolution: "emoji-regex@npm:10.6.0"
   checksum: 10/98cc0b0e1daed1ed25afbf69dcb921fee00f712f51aab93aa1547e4e4e8171725cc4f0098aaa645b4f611a19da11ec9f4623eb6ff2b72314b39a8f2ae7c12bf2
@@ -7217,13 +7199,6 @@ __metadata:
   version: 2.0.1
   resolution: "generator-function@npm:2.0.1"
   checksum: 10/eb7e7eb896c5433f3d40982b2ccacdb3dd990dd3499f14040e002b5d54572476513be8a2e6f9609f6e41ab29f2c4469307611ddbfc37ff4e46b765c326663805
-  languageName: node
-  linkType: hard
-
-"generic-pool@npm:3.9.0":
-  version: 3.9.0
-  resolution: "generic-pool@npm:3.9.0"
-  checksum: 10/3c632d30a6a7d47412dc67ddc517992691e0fde819c0cb6b5871bc87d10f61a7c09f12a60dbd77c78ae3e6ca10db41e2eaee28985ce724d9620354a006205ce1
   languageName: node
   linkType: hard
 
@@ -10816,17 +10791,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"redis@npm:4.7.1":
-  version: 4.7.1
-  resolution: "redis@npm:4.7.1"
+"redis@npm:5.8.3":
+  version: 5.8.3
+  resolution: "redis@npm:5.8.3"
   dependencies:
-    "@redis/bloom": "npm:1.2.0"
-    "@redis/client": "npm:1.6.1"
-    "@redis/graph": "npm:1.1.1"
-    "@redis/json": "npm:1.0.7"
-    "@redis/search": "npm:1.2.0"
-    "@redis/time-series": "npm:1.1.0"
-  checksum: 10/42e55071c6e6191940b88466f444db409d6a4f953e06588141a791a4cc2d3f1bc068dd0fad18eeee105353b1e3b885406abf23dcc56f80972f27e4f8507bd388
+    "@redis/bloom": "npm:5.8.3"
+    "@redis/client": "npm:5.8.3"
+    "@redis/json": "npm:5.8.3"
+    "@redis/search": "npm:5.8.3"
+    "@redis/time-series": "npm:5.8.3"
+  checksum: 10/3843f0ad95efe90c6f8b4e0f0eb0aa13f40f9b704c9cde47106e49a66473b09bd26e9f929eeb77bf7f0f833a59252670a5b293fdc1b0d122ce2496b7ce2383eb
   languageName: node
   linkType: hard
 
@@ -10943,9 +10917,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:41.154.0":
-  version: 41.154.0
-  resolution: "renovate@npm:41.154.0"
+"renovate@npm:41.155.2":
+  version: 41.155.2
+  resolution: "renovate@npm:41.155.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.899.0"
     "@aws-sdk/client-ec2": "npm:3.899.0"
@@ -11003,7 +10977,7 @@ __metadata:
     diff: "npm:8.0.2"
     editorconfig: "npm:3.0.1"
     email-addresses: "npm:5.0.0"
-    emoji-regex: "npm:10.5.0"
+    emoji-regex: "npm:10.6.0"
     emojibase: "npm:16.0.0"
     emojibase-regex: "npm:16.0.0"
     extract-zip: "npm:2.0.1"
@@ -11046,7 +11020,7 @@ __metadata:
     protobufjs: "npm:7.5.4"
     punycode: "npm:2.3.1"
     re2: "npm:1.22.1"
-    redis: "npm:4.7.1"
+    redis: "npm:5.8.3"
     remark: "npm:15.0.1"
     remark-gfm: "npm:4.0.1"
     remark-github: "npm:12.0.0"
@@ -11078,7 +11052,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/a6e412a85f34127b2c5dbd354f4e535331e02dea2a46512dccd217a7e1dc2d5f8d50ef5c3e532f933883abd184e7fb97769ddc3e62e1d286d84375419d38cd4c
+  checksum: 10/b8dac3812c49ccdf8ca4f7ca15b419a9aa2cf496f2735e179ac423b6e1af3f5801e42d4bc2757eb3160a34bb03a3f6748ebbc4c97d23f56ef2d33ab674a26aaa
   languageName: node
   linkType: hard
 
@@ -13106,7 +13080,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"yallist@npm:4.0.0, yallist@npm:^4.0.0":
+"yallist@npm:^4.0.0":
   version: 4.0.0
   resolution: "yallist@npm:4.0.0"
   checksum: 10/4cb02b42b8a93b5cf50caf5d8e9beb409400a8a4d85e83bb0685c1457e9ac0b7a00819e9f5991ac25ffabb56a78e2f017c1acc010b3a1babfe6de690ba531abd
