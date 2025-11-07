@@ -1161,7 +1161,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.6.2"
-    renovate: "npm:42.0.3"
+    renovate: "npm:42.1.2"
     vitest: "npm:4.0.8"
   languageName: unknown
   linkType: soft
@@ -3045,10 +3045,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@sindresorhus/is@npm:7.1.0":
-  version: 7.1.0
-  resolution: "@sindresorhus/is@npm:7.1.0"
-  checksum: 10/f3afa7d786f83ad32a7d778c549231dde0dae51dcf510004271f7cb66c4d4feaa6470cf0e669a29260b07790f8a1d17df02cc6982da4526c7bd313649fbb3fa3
+"@sindresorhus/is@npm:7.1.1":
+  version: 7.1.1
+  resolution: "@sindresorhus/is@npm:7.1.1"
+  checksum: 10/913fe9bfe12ef0ddbe70eb9343fdb28ba69eebcd68b1bd635b762d93d05b2aa1eaa57c494b845f96267185f53c66a9e607a7c980c54acce8e0a61521a1ad2bad
   languageName: node
   linkType: hard
 
@@ -10875,9 +10875,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.0.3":
-  version: 42.0.3
-  resolution: "renovate@npm:42.0.3"
+"renovate@npm:42.1.2":
+  version: 42.1.2
+  resolution: "renovate@npm:42.1.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.922.0"
     "@aws-sdk/client-ec2": "npm:3.922.0"
@@ -10910,7 +10910,7 @@ __metadata:
     "@renovatebot/pep440": "npm:4.2.1"
     "@renovatebot/pgp": "npm:1.1.0"
     "@renovatebot/ruby-semver": "npm:4.1.2"
-    "@sindresorhus/is": "npm:7.1.0"
+    "@sindresorhus/is": "npm:7.1.1"
     "@yarnpkg/core": "npm:4.4.4"
     "@yarnpkg/parsers": "npm:3.0.3"
     ae-cvss-calculator: "npm:1.0.9"
@@ -11010,7 +11010,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/593140e4f6025d4fe2451095c777e55c3ea154b855ba003d63fef3912811d35e04042cdcdfde47ff129b66147f5201d848c052206c39e4266dcf003d91b35a42
+  checksum: 10/53e31efb4944372bf6015b73dbb3aae57feef12e1ea1e7c78f3b9f92949a9eec239d70f0f268852becb6746fd7513d1aacb200a32046a74d060347e45d49d9d1
   languageName: node
   linkType: hard
 
