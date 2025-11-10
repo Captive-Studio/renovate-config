@@ -24,7 +24,8 @@
         "vue-router",
         "tailwindcss",
         "@ionic/lab",
-        "@vue/test-utils"
+        "@vue/test-utils",
+        "lucide-react-native"
       ]
     },
     {
