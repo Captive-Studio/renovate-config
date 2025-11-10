@@ -42,6 +42,11 @@
       "matchPackageNames": ["axios"],
       "matchPackagePrefixes": ["@ionic/"],
       "automerge": true
+    },
+    {
+      "matchUpdateTypes": ["patch"],
+      "automerge": true,
+      "matchManagers": ["npm"]
     }
   ]
 }
