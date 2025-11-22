@@ -1603,9 +1603,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.2.22":
-  version: 5.2.23
-  resolution: "@cspell/dict-npm@npm:5.2.23"
-  checksum: 10/8f17a089b370dc93b5c07abc3ac1032dad3f6cd01a59921282a24b33aa572f2f96b49ab4b7a05651fd77605d6e302b1d8cba0c60c6ef63380d2cce306aeca0f4
+  version: 5.2.24
+  resolution: "@cspell/dict-npm@npm:5.2.24"
+  checksum: 10/c14f236db499704e6fcc0b4e193e3dbf2842888bcda86390e8c474e798c66973bb9369dee2ab77f34fc7460ab97dc5fd8c7fbf19a604c08d24256b8d1279fc30
   languageName: node
   linkType: hard
 
