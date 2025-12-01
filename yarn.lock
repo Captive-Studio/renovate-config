@@ -1174,7 +1174,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.7.3"
-    renovate: "npm:42.27.1"
+    renovate: "npm:42.27.5"
     vitest: "npm:4.0.14"
   languageName: unknown
   linkType: soft
@@ -4772,14 +4772,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:12.4.5":
-  version: 12.4.5
-  resolution: "better-sqlite3@npm:12.4.5"
+"better-sqlite3@npm:12.4.6":
+  version: 12.4.6
+  resolution: "better-sqlite3@npm:12.4.6"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/6b6616fee9e1811cb81a269834d37828497af191d30ffe9805efc659a7a8ac9164779082ee60f8f3d9a7acd4b2dda86dbce9c870f666e0026665949a50c72fde
+  checksum: 10/383b1acc7c9f03e0677ab2aad5d3a44b4d36565396b1d10dfa5ebcf7840799afeb180c2b7c9813d7ffd1d5c92e497d5c9c52118fe7c5839987df87370df69943
   languageName: node
   linkType: hard
 
@@ -11025,9 +11025,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.27.1":
-  version: 42.27.1
-  resolution: "renovate@npm:42.27.1"
+"renovate@npm:42.27.5":
+  version: 42.27.5
+  resolution: "renovate@npm:42.27.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.940.0"
     "@aws-sdk/client-ec2": "npm:3.940.0"
@@ -11070,7 +11070,7 @@ __metadata:
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
     azure-devops-node-api: "npm:15.1.1"
-    better-sqlite3: "npm:12.4.5"
+    better-sqlite3: "npm:12.4.6"
     bunyan: "npm:1.8.15"
     cacache: "npm:20.0.2"
     chalk: "npm:5.6.2"
@@ -11161,7 +11161,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/296fb965bad178565a1fe136e915babca6728a15874f61fd72410980ab7670631b032d899c03f583fdc8e0605adcca70b5a1ca660bf5f17d629ad94294546190
+  checksum: 10/3c4a29a9c66f34aeb5c4e289577121da27bec920b274030b0a65735fb4b42591621f4b3f6eec09fe676ec202ef2a1691822c75658793767b8c2587c7662e098f
   languageName: node
   linkType: hard
 
