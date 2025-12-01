@@ -1174,7 +1174,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.7.3"
-    renovate: "npm:42.28.0"
+    renovate: "npm:42.29.3"
     vitest: "npm:4.0.14"
   languageName: unknown
   linkType: soft
@@ -2314,16 +2314,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/instrumentation-redis@npm:0.57.0":
-  version: 0.57.0
-  resolution: "@opentelemetry/instrumentation-redis@npm:0.57.0"
+"@opentelemetry/instrumentation-redis@npm:0.57.1":
+  version: 0.57.1
+  resolution: "@opentelemetry/instrumentation-redis@npm:0.57.1"
   dependencies:
     "@opentelemetry/instrumentation": "npm:^0.208.0"
     "@opentelemetry/redis-common": "npm:^0.38.2"
     "@opentelemetry/semantic-conventions": "npm:^1.27.0"
   peerDependencies:
     "@opentelemetry/api": ^1.3.0
-  checksum: 10/171f5e57d0141088f8e4cdb8f744226d7999ca045842708e65c8b784f53a41e25a7248f22382bf1b4a80b6fa1cc4c41658502bb15340b3fa2c22f2e9db8b76e0
+  checksum: 10/66e15fbc41edcf21500dd1fab6a5fddd3d59e7ef5a4f12ac8403bec3cdd51b5b8b3ab7555041b50c42463827fae8a0a77e5fdcc3bb0e155de75278ec3379fdc1
   languageName: node
   linkType: hard
 
@@ -11025,9 +11025,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.28.0":
-  version: 42.28.0
-  resolution: "renovate@npm:42.28.0"
+"renovate@npm:42.29.3":
+  version: 42.29.3
+  resolution: "renovate@npm:42.29.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.940.0"
     "@aws-sdk/client-ec2": "npm:3.940.0"
@@ -11045,7 +11045,7 @@ __metadata:
     "@opentelemetry/instrumentation": "npm:0.208.0"
     "@opentelemetry/instrumentation-bunyan": "npm:0.54.0"
     "@opentelemetry/instrumentation-http": "npm:0.208.0"
-    "@opentelemetry/instrumentation-redis": "npm:0.57.0"
+    "@opentelemetry/instrumentation-redis": "npm:0.57.1"
     "@opentelemetry/resource-detector-aws": "npm:2.8.0"
     "@opentelemetry/resource-detector-azure": "npm:0.16.0"
     "@opentelemetry/resource-detector-gcp": "npm:0.43.0"
@@ -11161,7 +11161,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/eaecc4f19355a2851cb7631f4451bd59ba101b5df9d94813c71dcc5162c96aab35ac3c1a31bb1134f4f72a5e30bb677e034c75c8bef3aea404ecf292be128474
+  checksum: 10/1bd3f4819367cee17055be42e5851ac30dd9b3f37861ff7414b871847252fffdf5bc67049a5f3aa6846b23b0bfc5757e1697345aaae72b39ebf890f0fa70101b
   languageName: node
   linkType: hard
 
