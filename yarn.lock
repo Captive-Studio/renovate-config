@@ -8564,14 +8564,14 @@ __metadata:
   linkType: hard
 
 "jsonc-eslint-parser@npm:^2.4.0":
-  version: 2.4.1
-  resolution: "jsonc-eslint-parser@npm:2.4.1"
+  version: 2.4.2
+  resolution: "jsonc-eslint-parser@npm:2.4.2"
   dependencies:
     acorn: "npm:^8.5.0"
     eslint-visitor-keys: "npm:^3.0.0"
     espree: "npm:^9.0.0"
     semver: "npm:^7.3.5"
-  checksum: 10/b728fcad68a82c734f23bf1fe1694eb970d597e752b605649b0c83d98783911a6a184ede77e170059bc3efe4e43625289a39a6a518433b0466ac45c06cee3246
+  checksum: 10/4010e0724c78b6ff9c6576cf3c96b6352c43b5e5cbb4e364c44ec1983fd111c0a1673622bfe225345eafbafca04e9151aade417e3e4d94c84cf0938189def974
   languageName: node
   linkType: hard
 
@@ -12224,12 +12224,21 @@ __metadata:
   languageName: node
   linkType: hard
 
-"toml-eslint-parser@npm:0.10.0, toml-eslint-parser@npm:^0.10.0":
+"toml-eslint-parser@npm:0.10.0":
   version: 0.10.0
   resolution: "toml-eslint-parser@npm:0.10.0"
   dependencies:
     eslint-visitor-keys: "npm:^3.0.0"
   checksum: 10/a2e161e2e9724ffe7736b3348cdef23f813ed729c27bfabc0d6c96348adaef97d90e1f463b4be2b691c138662807eede2551bcf823e8d09e2396d19e0558fb80
+  languageName: node
+  linkType: hard
+
+"toml-eslint-parser@npm:^0.10.0":
+  version: 0.10.1
+  resolution: "toml-eslint-parser@npm:0.10.1"
+  dependencies:
+    eslint-visitor-keys: "npm:^3.0.0"
+  checksum: 10/b8716ff79ed03fcc843c8392723c32b3847ce3dfe4950abdba31faf3419d94068cd27409b6d91df797d6b925b583bcd003c83f331e611357e1c5861624038a51
   languageName: node
   linkType: hard
 
