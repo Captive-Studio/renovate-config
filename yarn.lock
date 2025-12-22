@@ -1184,7 +1184,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.7.4"
-    renovate: "npm:42.65.0"
+    renovate: "npm:42.65.2"
     vitest: "npm:4.0.16"
   languageName: unknown
   linkType: soft
@@ -4685,13 +4685,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"azure-devops-node-api@npm:15.1.1":
-  version: 15.1.1
-  resolution: "azure-devops-node-api@npm:15.1.1"
+"azure-devops-node-api@npm:15.1.2":
+  version: 15.1.2
+  resolution: "azure-devops-node-api@npm:15.1.2"
   dependencies:
     tunnel: "npm:0.0.6"
     typed-rest-client: "npm:2.1.0"
-  checksum: 10/93b633b2a75d3d73cceffe2276e4f966fb5750d61c8e6ea4842e00bf2d059bf5b19d2544a051d8e77c5ce9c8c0fc239e53f7ab7e1d51571f3e52cf228e364c0e
+  checksum: 10/39bfd7ac94d35c17753e82d1c1d69c484b83b5a3883bb9db3c5e2f2d03c09cd7faab71a2f86af8097042a71e9deefc63779b9e7c54d0681416bd84275bb2882b
   languageName: node
   linkType: hard
 
@@ -10978,9 +10978,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.65.0":
-  version: 42.65.0
-  resolution: "renovate@npm:42.65.0"
+"renovate@npm:42.65.2":
+  version: 42.65.2
+  resolution: "renovate@npm:42.65.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.940.0"
     "@aws-sdk/client-ec2": "npm:3.940.0"
@@ -11022,7 +11022,7 @@ __metadata:
     async-mutex: "npm:0.5.0"
     auth-header: "npm:1.0.0"
     aws4: "npm:1.13.2"
-    azure-devops-node-api: "npm:15.1.1"
+    azure-devops-node-api: "npm:15.1.2"
     better-sqlite3: "npm:12.5.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:20.0.3"
@@ -11114,7 +11114,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/f06c55135743814477631ad7199e2ce5598007ba05ae3bee3506b75e36863426b7ee18929add9cd8deceb503bb59feac2441fd1a27647952b33e2f801ec3e58c
+  checksum: 10/c2e837887ed6bc0912a3254dc5ba257884fe07aadb4285c430711815caefc03e254a4e9a91e8f1465c23c4345235bdd6d2c9978367574a533578388c3881d1f4
   languageName: node
   linkType: hard
 
