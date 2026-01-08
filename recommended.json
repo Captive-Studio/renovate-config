@@ -10,8 +10,13 @@
   ],
   "packageRules": [
     {
-      "matchCategories": ["node", "ruby", "postgres", "docker"],
+      "matchCategories": ["node", "ruby", "postgres"],
       "matchDepTypes": ["minor", "patch"],
+      "automerge": true
+    },
+    {
+      "matchManagers": ["docker"],
+      "matchUpdateTypes": ["minor", "patch"],
       "automerge": true
     },
     {
