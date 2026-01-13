@@ -1195,7 +1195,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.7.4"
-    renovate: "npm:42.81.0"
+    renovate: "npm:42.81.1"
     vitest: "npm:4.0.17"
   languageName: unknown
   linkType: soft
@@ -10891,9 +10891,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.81.0":
-  version: 42.81.0
-  resolution: "renovate@npm:42.81.0"
+"renovate@npm:42.81.1":
+  version: 42.81.1
+  resolution: "renovate@npm:42.81.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.958.0"
     "@aws-sdk/client-ec2": "npm:3.958.0"
@@ -11014,7 +11014,7 @@ __metadata:
     tslib: "npm:2.8.1"
     upath: "npm:2.0.1"
     url-join: "npm:5.0.0"
-    validate-npm-package-name: "npm:7.0.1"
+    validate-npm-package-name: "npm:7.0.2"
     xmldoc: "npm:2.0.3"
     yaml: "npm:2.8.2"
     zod: "npm:3.25.76"
@@ -11028,7 +11028,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/e442e2e6f3a5feb9cffb8a12f4fab054c611721c26249ab02dc0a9e4eb35de9bcd7f1d7f5a189f3190b0955c0827219d2c68204668ea01c290278b45927e28d5
+  checksum: 10/4461cc6013f846263521dcda1e3bf9d29f0b4aabae2910af2d5e37278c0df62576274014e319333f75f66335c1e34be85815a19c78f43872e43e4acc5aca376f
   languageName: node
   linkType: hard
 
@@ -12571,10 +12571,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"validate-npm-package-name@npm:7.0.1":
-  version: 7.0.1
-  resolution: "validate-npm-package-name@npm:7.0.1"
-  checksum: 10/861128b132b465fadc71eca71535822676f58ae921da42b459bc5193f11d8ad4f46509bce9a5c0ccf86f0b727364be352d7fee1de025c6d9de120a2b1c6901d9
+"validate-npm-package-name@npm:7.0.2":
+  version: 7.0.2
+  resolution: "validate-npm-package-name@npm:7.0.2"
+  checksum: 10/2a9bdc6fd5e4284c8e02279446bfd3c38c0c01222555fd3b00b4765d9d47b217d4a200910be71b80b958f6baf40d2d32e812a8632633a2ce376a9b3b74811072
   languageName: node
   linkType: hard
 
