@@ -1195,7 +1195,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.0"
-    renovate: "npm:42.81.8"
+    renovate: "npm:42.81.11"
     vitest: "npm:4.0.17"
   languageName: unknown
   linkType: soft
@@ -2876,15 +2876,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/detect-tools@npm:1.2.6":
-  version: 1.2.6
-  resolution: "@renovatebot/detect-tools@npm:1.2.6"
+"@renovatebot/detect-tools@npm:1.2.7":
+  version: 1.2.7
+  resolution: "@renovatebot/detect-tools@npm:1.2.7"
   dependencies:
     fs-extra: "npm:^11.3.3"
-    toml-eslint-parser: "npm:^0.10.1"
+    toml-eslint-parser: "npm:^0.11.0"
     upath: "npm:^2.0.1"
     zod: "npm:^3.25.76"
-  checksum: 10/37528b541b5ea9ed5331461888060bcaa0ed4f524023bf08b2141939d0b3a6d2b14dbbfc1249d14c9e5274d4e88bbf5aa05b4bfc8e86919e87c5a02e313aea8d
+  checksum: 10/88dd2e8d907f7fe928a0585bfbbc09e2ded55e3abc3c770b173620ede23f6fa3f780576d9f8a17723416dbdeb94c3baf53cdbe6cd4c9189ca2f1c7297ba4af51
   languageName: node
   linkType: hard
 
@@ -10891,9 +10891,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:42.81.8":
-  version: 42.81.8
-  resolution: "renovate@npm:42.81.8"
+"renovate@npm:42.81.11":
+  version: 42.81.11
+  resolution: "renovate@npm:42.81.11"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.958.0"
     "@aws-sdk/client-ec2": "npm:3.958.0"
@@ -10922,7 +10922,7 @@ __metadata:
     "@opentelemetry/semantic-conventions": "npm:1.38.0"
     "@pnpm/parse-overrides": "npm:1001.0.3"
     "@qnighy/marshal": "npm:0.1.3"
-    "@renovatebot/detect-tools": "npm:1.2.6"
+    "@renovatebot/detect-tools": "npm:1.2.7"
     "@renovatebot/osv-offline": "npm:2.0.1"
     "@renovatebot/pep440": "npm:4.2.1"
     "@renovatebot/pgp": "npm:1.2.3"
@@ -11010,7 +11010,7 @@ __metadata:
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     strip-json-comments: "npm:5.0.3"
-    toml-eslint-parser: "npm:0.10.1"
+    toml-eslint-parser: "npm:0.11.0"
     tslib: "npm:2.8.1"
     upath: "npm:2.0.1"
     url-join: "npm:5.0.0"
@@ -11028,7 +11028,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/aeef91b5e8bcdf9792415a87b985a05f5d2ec51e358489b2d87c5b4dde2549500d56e49f8dd23b1f46a0ce0d6116496452cd5798128336c9df25e3f9987c0f5b
+  checksum: 10/64715ee9e9608a724dd40832eb0e45dafa9e008c1acfbfc24d265fa90f2711a28b41532e3d1d486643f793d5dc33158563614124cf72e798247977d2396e1617
   languageName: node
   linkType: hard
 
@@ -12133,12 +12133,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"toml-eslint-parser@npm:0.10.1, toml-eslint-parser@npm:^0.10.1":
-  version: 0.10.1
-  resolution: "toml-eslint-parser@npm:0.10.1"
+"toml-eslint-parser@npm:0.11.0, toml-eslint-parser@npm:^0.11.0":
+  version: 0.11.0
+  resolution: "toml-eslint-parser@npm:0.11.0"
   dependencies:
     eslint-visitor-keys: "npm:^3.0.0"
-  checksum: 10/b8716ff79ed03fcc843c8392723c32b3847ce3dfe4950abdba31faf3419d94068cd27409b6d91df797d6b925b583bcd003c83f331e611357e1c5861624038a51
+  checksum: 10/3ff24f4d2a3bc0424478bc0a1dae5f579383368390721780b340431905d79e382bfbf48508709d809c5b908793b9c76b0ec06a102275b713b2d0ba91b855f7c0
   languageName: node
   linkType: hard
 
