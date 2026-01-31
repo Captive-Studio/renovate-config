@@ -1074,13 +1074,13 @@ __metadata:
   linkType: hard
 
 "@babel/code-frame@npm:^7.0.0":
-  version: 7.28.6
-  resolution: "@babel/code-frame@npm:7.28.6"
+  version: 7.29.0
+  resolution: "@babel/code-frame@npm:7.29.0"
   dependencies:
     "@babel/helper-validator-identifier": "npm:^7.28.5"
     js-tokens: "npm:^4.0.0"
     picocolors: "npm:^1.1.1"
-  checksum: 10/93e7ed9e039e3cb661bdb97c26feebafacc6ec13d745881dae5c7e2708f579475daebe7a3b5d23b183bb940b30744f52f4a5bcb65b4df03b79d82fcb38495784
+  checksum: 10/199e15ff89007dd30675655eec52481cb245c9fdf4f81e4dc1f866603b0217b57aff25f5ffa0a95bbc8e31eb861695330cd7869ad52cc211aa63016320ef72c5
   languageName: node
   linkType: hard
 
@@ -1092,11 +1092,11 @@ __metadata:
   linkType: hard
 
 "@babel/runtime-corejs3@npm:^7.14.9":
-  version: 7.28.6
-  resolution: "@babel/runtime-corejs3@npm:7.28.6"
+  version: 7.29.0
+  resolution: "@babel/runtime-corejs3@npm:7.29.0"
   dependencies:
-    core-js-pure: "npm:^3.43.0"
-  checksum: 10/7110da259094d1299762b619dd92bc3cc4f6ae124662e87c9856c24fe425628a423fe133c577168cd54049d05159952000bf58705efb147231059f4802a4c7bb
+    core-js-pure: "npm:^3.48.0"
+  checksum: 10/59b3b614a8b4c5cf94d1f271f36eb96def0f0be0b6fa93da2ff7a87996bc3806f83690e7517f2e675078ff645e4e953f8bf3c6fc1a59cc5327e45f04bc0dd105
   languageName: node
   linkType: hard
 
@@ -5271,7 +5271,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"core-js-pure@npm:^3.43.0":
+"core-js-pure@npm:^3.48.0":
   version: 3.48.0
   resolution: "core-js-pure@npm:3.48.0"
   checksum: 10/7c624d5551252ad166b9a7df4daca354540b71bb2ce9c8df2a9ef7acb6335a7a56557bcbe2bd78e20e3a4eeeee2922ff37a22a67e978b293a2b4e5b9a7a04d9b
