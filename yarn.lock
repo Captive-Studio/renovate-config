@@ -1446,16 +1446,16 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-gb-mit@npm:^3.1.16":
-  version: 3.1.16
-  resolution: "@cspell/dict-en-gb-mit@npm:3.1.16"
-  checksum: 10/2420e6158a979a6bf237feb6b8aceaff81aa150c61a4b1a850cd99efe2dd9134ac833e3d66d3671c6fc0df08a8f6557394cf42986fa89c74c4962ab7b8b37e38
+  version: 3.1.17
+  resolution: "@cspell/dict-en-gb-mit@npm:3.1.17"
+  checksum: 10/2e9eb0dd0cedaac152ba7247e519d0722d6cd5123e520012d71f84320c50e6f2825b622f650fb07c9def834863f929afb00007c42ff7387703d036e7326a03a4
   languageName: node
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.4.27":
-  version: 4.4.27
-  resolution: "@cspell/dict-en_us@npm:4.4.27"
-  checksum: 10/16ee4c7af802ae5fe019a1fc0768d58c2e1d4088e5b8a5931435ddb2fdfbff4fba9c4bfada12a870172047b3c4c269a2c06c1ec542a290ef79b5c4f60f488ac5
+  version: 4.4.28
+  resolution: "@cspell/dict-en_us@npm:4.4.28"
+  checksum: 10/3f68eeb6ee94efc4fd4fe967c35626a00f5e1fe0b2408b78a4e5109b415ccb4b3b6cbe8c27ddfbc7f63e05896e04fc245709205203f26456669c01a123ed21ec
   languageName: node
   linkType: hard
 
@@ -1633,9 +1633,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.2.31":
-  version: 5.2.31
-  resolution: "@cspell/dict-npm@npm:5.2.31"
-  checksum: 10/06a6afd8ba03755f9214819a1c69d52516fc67850a94364f8fdf62ba4e9bf2ef4b032a02327a951e87f41a49f7e12d2729923c37e4eccc32ffa097edb76607a6
+  version: 5.2.32
+  resolution: "@cspell/dict-npm@npm:5.2.32"
+  checksum: 10/c621f1e109f859770217d99df0b13bb634ddfc98140f3b6354811514a8d6267d2c55bc772e3e6e1275c8bb676779cf58512030c9252a5e5cbd96468f41f80145
   languageName: node
   linkType: hard
 
@@ -1684,9 +1684,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-rust@npm:^4.1.1":
-  version: 4.1.1
-  resolution: "@cspell/dict-rust@npm:4.1.1"
-  checksum: 10/6d26edf8a3098156a197e8ca6e85c5bef52f5a469bf3e67603774beaf2b11a194c0e4d5f145c65e4d22b2565f29630b95b181ec5d927dd9b1a3440cdb9db7e79
+  version: 4.1.2
+  resolution: "@cspell/dict-rust@npm:4.1.2"
+  checksum: 10/f618727d8c3af5f3d5e74eca04e9b0685f525d217206c40faf9803aa4fd7b9defc9b5174bff17411ef2d935df7ebe66cb2e38f34b6887a118908e10a5c834376
   languageName: node
   linkType: hard
 
@@ -3921,11 +3921,11 @@ __metadata:
   linkType: hard
 
 "@types/node@npm:*, @types/node@npm:>=13.7.0":
-  version: 25.1.0
-  resolution: "@types/node@npm:25.1.0"
+  version: 25.2.0
+  resolution: "@types/node@npm:25.2.0"
   dependencies:
     undici-types: "npm:~7.16.0"
-  checksum: 10/ad15db75cfaec9e6311a1db7f3a91799be4c2698e1cfb0f74cc4d6e4398361550d00a4070921e1de7d9a10db83e41fd29f3a640dfacdabbd1c74ae16d8ce943a
+  checksum: 10/18a7245e20556bc92486161872c54bef7601e1e7970028e8a18d1f57d88aa3035efef42c144a2100f9e9bf6fba7a15b4ae8ee044cd98a8b06d6f754232611f70
   languageName: node
   linkType: hard
 
