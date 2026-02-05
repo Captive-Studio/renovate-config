@@ -1185,7 +1185,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.3.4"
+    renovate: "npm:43.3.6"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -5356,12 +5356,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:3.9.0":
-  version: 3.9.0
-  resolution: "cronstrue@npm:3.9.0"
+"cronstrue@npm:3.11.0":
+  version: 3.11.0
+  resolution: "cronstrue@npm:3.11.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10/893bfa958b79806b67f154acd0ca934a80256404d622a8ee4257e742a5e6e6598134d515986ee20c69cd0041ba2eeebd39e1a5dfa192d7e1e55cd2799051d115
+  checksum: 10/40076e2ec17ec9b1757ff6e3ef64382d0e7cdf07ac3fb24295d2c895ff7c0821e21ad4162ef8c23c9f9787a3daa9a5ac2a91fdc4b183e6f5e589ba9eb07b7f24
   languageName: node
   linkType: hard
 
@@ -10853,9 +10853,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.3.4":
-  version: 43.3.4
-  resolution: "renovate@npm:43.3.4"
+"renovate@npm:43.3.6":
+  version: 43.3.6
+  resolution: "renovate@npm:43.3.6"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.980.0"
     "@aws-sdk/client-ec2": "npm:3.980.0"
@@ -10907,7 +10907,7 @@ __metadata:
     commander: "npm:14.0.2"
     conventional-commits-detector: "npm:1.0.3"
     croner: "npm:9.1.0"
-    cronstrue: "npm:3.9.0"
+    cronstrue: "npm:3.11.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:7.0.2"
@@ -10988,7 +10988,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/2a57c3ee0a0e8e6ab3547db275e4672d8378fe2fe41af52e74ee84c9b3037b76318c024fc0bb4856a51ed2ce2b16696e25d9007112c322cdb82681e859d6eb1a
+  checksum: 10/baf668c44d4f811e9b383784df3f229da0f2b2af728828c7c0d6d5e8b09f19a15b1934d671bfee07696d8ca9497d21143b2419188cc3441ab75b39796f2012d4
   languageName: node
   linkType: hard
 
