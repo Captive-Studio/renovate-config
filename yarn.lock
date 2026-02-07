@@ -1244,7 +1244,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.4.1"
+    renovate: "npm:43.4.2"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -5202,14 +5202,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"commander@npm:14.0.2":
-  version: 14.0.2
-  resolution: "commander@npm:14.0.2"
-  checksum: 10/2d202db5e5f9bb770112a3c1579b893d17ac6f6d932183077308bdd96d0f87f0bbe6a68b5b9ed2cf3b2514be6bb7de637480703c0e2db9741ee1b383237deb26
-  languageName: node
-  linkType: hard
-
-"commander@npm:^14.0.0, commander@npm:^14.0.3":
+"commander@npm:14.0.3, commander@npm:^14.0.0, commander@npm:^14.0.3":
   version: 14.0.3
   resolution: "commander@npm:14.0.3"
   checksum: 10/dfa9ebe2a433d277de5cb0252d23b10a543d245d892db858d23b516336a835c50fd4f52bee4cd13c705cc8acb6f03dc632c73dd806f7d06d3353eb09953dd17a
@@ -10850,9 +10843,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.4.1":
-  version: 43.4.1
-  resolution: "renovate@npm:43.4.1"
+"renovate@npm:43.4.2":
+  version: 43.4.2
+  resolution: "renovate@npm:43.4.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.980.0"
     "@aws-sdk/client-ec2": "npm:3.980.0"
@@ -10901,7 +10894,7 @@ __metadata:
     cacache: "npm:20.0.3"
     changelog-filename-regex: "npm:2.0.1"
     clean-git-ref: "npm:2.0.1"
-    commander: "npm:14.0.2"
+    commander: "npm:14.0.3"
     conventional-commits-detector: "npm:1.0.3"
     croner: "npm:9.1.0"
     cronstrue: "npm:3.11.0"
@@ -10985,7 +10978,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/3f635af04aca10d09b39ee3d7eb996977d5fcbce105acc6549242805e21177881398491daeb6e68978256b123bd218b9884dce72b65fa39efd1e5ee077686cc7
+  checksum: 10/1e72f84115f0dc4ec34e2c16b546f0a9847682ea7c96ec6701931fd1c6484fdc434de23a707f8d883f960b061977810d995c7af4392ee3d6e6cda7b98099bb8a
   languageName: node
   linkType: hard
 
