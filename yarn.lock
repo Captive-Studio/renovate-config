@@ -1505,16 +1505,16 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-en-gb-mit@npm:^3.1.17":
-  version: 3.1.17
-  resolution: "@cspell/dict-en-gb-mit@npm:3.1.17"
-  checksum: 10/2e9eb0dd0cedaac152ba7247e519d0722d6cd5123e520012d71f84320c50e6f2825b622f650fb07c9def834863f929afb00007c42ff7387703d036e7326a03a4
+  version: 3.1.18
+  resolution: "@cspell/dict-en-gb-mit@npm:3.1.18"
+  checksum: 10/8582fe6920826b08ce999f6bf13fa4d5b5e16ea641b8206cb80a24a52c17440a46d9caef86e0851a212af30cc12b025c1963c6c6f6846cd677deddd424129814
   languageName: node
   linkType: hard
 
 "@cspell/dict-en_us@npm:^4.4.28":
-  version: 4.4.28
-  resolution: "@cspell/dict-en_us@npm:4.4.28"
-  checksum: 10/3f68eeb6ee94efc4fd4fe967c35626a00f5e1fe0b2408b78a4e5109b415ccb4b3b6cbe8c27ddfbc7f63e05896e04fc245709205203f26456669c01a123ed21ec
+  version: 4.4.29
+  resolution: "@cspell/dict-en_us@npm:4.4.29"
+  checksum: 10/537f254cb34484f6b44a9c935ad8ad32924c950b338c23ee2494c26a65b8eb06cfa16452ef5bf3102322ec4be3a55563a582d8efd3f651b64c41b5ee16f90738
   languageName: node
   linkType: hard
 
@@ -1692,9 +1692,9 @@ __metadata:
   linkType: hard
 
 "@cspell/dict-npm@npm:^5.2.32":
-  version: 5.2.32
-  resolution: "@cspell/dict-npm@npm:5.2.32"
-  checksum: 10/c621f1e109f859770217d99df0b13bb634ddfc98140f3b6354811514a8d6267d2c55bc772e3e6e1275c8bb676779cf58512030c9252a5e5cbd96468f41f80145
+  version: 5.2.33
+  resolution: "@cspell/dict-npm@npm:5.2.33"
+  checksum: 10/d89433958a3d07ead0c44e99fde1a9c4bd7272c171d0afa4a1179fb26e51f55354c1980ee7c714fba211b920458d5d6fe26858db1a16826d9c6e4ef17d3021a3
   languageName: node
   linkType: hard
 
