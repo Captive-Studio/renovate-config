@@ -1244,7 +1244,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.11.1"
+    renovate: "npm:43.12.1"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -8772,9 +8772,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:14.1.0":
-  version: 14.1.0
-  resolution: "markdown-it@npm:14.1.0"
+"markdown-it@npm:14.1.1":
+  version: 14.1.1
+  resolution: "markdown-it@npm:14.1.1"
   dependencies:
     argparse: "npm:^2.0.1"
     entities: "npm:^4.4.0"
@@ -8784,7 +8784,7 @@ __metadata:
     uc.micro: "npm:^2.1.0"
   bin:
     markdown-it: bin/markdown-it.mjs
-  checksum: 10/f34f921be178ed0607ba9e3e27c733642be445e9bb6b1dba88da7aafe8ba1bc5d2f1c3aa8f3fc33b49a902da4e4c08c2feadfafb290b8c7dda766208bb6483a9
+  checksum: 10/088822c8aa9346ba4af6a205f6ee0f4baae55e3314f040dc5c28c897d57d0f979840c71872b3582a6a6e572d8c851c54e323c82f4559011dfa2e96224fc20fc2
   languageName: node
   linkType: hard
 
@@ -10823,9 +10823,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.11.1":
-  version: 43.11.1
-  resolution: "renovate@npm:43.11.1"
+"renovate@npm:43.12.1":
+  version: 43.12.1
+  resolution: "renovate@npm:43.12.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.980.0"
     "@aws-sdk/client-ec2": "npm:3.980.0"
@@ -10909,7 +10909,7 @@ __metadata:
     jsonc-parser: "npm:3.3.1"
     klona: "npm:2.0.6"
     luxon: "npm:3.7.2"
-    markdown-it: "npm:14.1.0"
+    markdown-it: "npm:14.1.1"
     markdown-table: "npm:3.0.4"
     minimatch: "npm:10.1.2"
     moo: "npm:0.5.2"
@@ -10958,7 +10958,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/28318cff2858bba7aa379542216e844143621ee74deedd329615ff5c011d7eb469fd372cfc2e96d34fa9c6cdf9533477ba55dad549bbbe42e285749312c80d8c
+  checksum: 10/88a3258d145ddd80669815c40527bff8846b3e1ea96a69932cd777dfaf235997bb4748c219e56d74bfc89f25a59a0a20ed7ed68ac5666a1d7b87f5256cd867e4
   languageName: node
   linkType: hard
 
