@@ -6530,8 +6530,8 @@ __metadata:
   linkType: hard
 
 "eslint-plugin-n@npm:^17.0.0":
-  version: 17.23.2
-  resolution: "eslint-plugin-n@npm:17.23.2"
+  version: 17.24.0
+  resolution: "eslint-plugin-n@npm:17.24.0"
   dependencies:
     "@eslint-community/eslint-utils": "npm:^4.5.0"
     enhanced-resolve: "npm:^5.17.1"
@@ -6544,7 +6544,7 @@ __metadata:
     ts-declaration-location: "npm:^1.0.6"
   peerDependencies:
     eslint: ">=8.23.0"
-  checksum: 10/67a15908b27fe5f9aee97d280c3e869debef58fc941b285ace6dab0baabe5263086f90d72a059f9e6efe0a427b77d42912892146eb8c882d085733c7cb068ead
+  checksum: 10/bbff1172f7297288d209f167febb3a31747838d5ed8050aa7d1aa2540a49b4f9932828831529f0306f2909e41ae3ae8848c145238a6990eae5a9d128a59b056c
   languageName: node
   linkType: hard
 
@@ -10648,11 +10648,11 @@ __metadata:
   linkType: hard
 
 "qs@npm:^6.10.3":
-  version: 6.14.2
-  resolution: "qs@npm:6.14.2"
+  version: 6.15.0
+  resolution: "qs@npm:6.15.0"
   dependencies:
     side-channel: "npm:^1.1.0"
-  checksum: 10/682933a85bb4b7bd0d66e13c0a40d9e612b5e4bcc2cb9238f711a9368cd22d91654097a74fff93551e58146db282c56ac094957dfdc60ce64ea72c3c9d7779ac
+  checksum: 10/a3458f2f389285c3512e0ebc55522ee370ac7cb720ba9f0eff3e30fb2bb07631caf556c08e2a3d4481a371ac14faa9ceb7442a0610c5a7e55b23a5bdee7b701c
   languageName: node
   linkType: hard
 
