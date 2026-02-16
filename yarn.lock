@@ -1244,7 +1244,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.18.0"
+    renovate: "npm:43.19.2"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -5947,17 +5947,17 @@ __metadata:
   languageName: node
   linkType: hard
 
-"emojibase-regex@npm:16.0.0":
-  version: 16.0.0
-  resolution: "emojibase-regex@npm:16.0.0"
-  checksum: 10/a3c8b0406feb09bd5bd352effc98e04cba4066688f830a146b27573ec53d524dbd83a6ad74db33f02a3a7e85d31049885aea3af470b573dfa8210ed082b7bab5
+"emojibase-regex@npm:17.0.0":
+  version: 17.0.0
+  resolution: "emojibase-regex@npm:17.0.0"
+  checksum: 10/f9cd1e0ebe11047f779cb47aa80f8344a429fa2c5933eb039811a0c35cd9b495fc53b0c1c02f13761ba3c4c0c5e78f57639515f4285e0b9b4a069c7e2b9280fe
   languageName: node
   linkType: hard
 
-"emojibase@npm:16.0.0":
-  version: 16.0.0
-  resolution: "emojibase@npm:16.0.0"
-  checksum: 10/d050008331a6149c6bb54a9f4f6aeee4d4e2b83e8b87ce0ad58a4e87443d367791c2de1e172c7950828934f1884e3a59e7abf889df754ed7d6162d0ed01ae308
+"emojibase@npm:17.0.0":
+  version: 17.0.0
+  resolution: "emojibase@npm:17.0.0"
+  checksum: 10/8ee6b0cc6ca807e11a1ec72288cc83477f82eedd9f57a69ccbb7d120f811ff3b30d4ff42c100226dde7576f6b17a77f22d2aa103541f208b30dcde1da23dbe4e
   languageName: node
   linkType: hard
 
@@ -9780,7 +9780,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.14.0, nan@npm:^2.24.0":
+"nan@npm:^2.14.0, nan@npm:^2.25.0":
   version: 2.25.0
   resolution: "nan@npm:2.25.0"
   dependencies:
@@ -9890,7 +9890,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"node-gyp@npm:^12.1.0, node-gyp@npm:latest":
+"node-gyp@npm:^12.2.0, node-gyp@npm:latest":
   version: 12.2.0
   resolution: "node-gyp@npm:12.2.0"
   dependencies:
@@ -10691,14 +10691,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.23.2":
-  version: 1.23.2
-  resolution: "re2@npm:1.23.2"
+"re2@npm:1.23.3":
+  version: 1.23.3
+  resolution: "re2@npm:1.23.3"
   dependencies:
     install-artifact-from-github: "npm:^1.4.0"
-    nan: "npm:^2.24.0"
-    node-gyp: "npm:^12.1.0"
-  checksum: 10/a8bef54f0c39cc7bb3c92aef84b51f8215ee0405c9aa1c13a73419124e1aa82958deae6da75a3835117a03bfcfe214778c8f717aa8f2e58855b236a009de323f
+    nan: "npm:^2.25.0"
+    node-gyp: "npm:^12.2.0"
+  checksum: 10/30b5b583e571d2bc1673d96271bf39a2bed9a5517eb2f7b0f957ba0d596236ff1f27b02902c7cd03126606a9cf2bfb6eb86fbe43cbc7c2a4164935a123f7e5d3
   languageName: node
   linkType: hard
 
@@ -10907,9 +10907,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.18.0":
-  version: 43.18.0
-  resolution: "renovate@npm:43.18.0"
+"renovate@npm:43.19.2":
+  version: 43.19.2
+  resolution: "renovate@npm:43.19.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.980.0"
     "@aws-sdk/client-ec2": "npm:3.980.0"
@@ -10969,8 +10969,8 @@ __metadata:
     editorconfig: "npm:3.0.1"
     email-addresses: "npm:5.0.0"
     emoji-regex: "npm:10.6.0"
-    emojibase: "npm:16.0.0"
-    emojibase-regex: "npm:16.0.0"
+    emojibase: "npm:17.0.0"
+    emojibase-regex: "npm:17.0.0"
     execa: "npm:8.0.1"
     extract-zip: "npm:2.0.1"
     find-packages: "npm:10.0.4"
@@ -11009,7 +11009,7 @@ __metadata:
     prettier: "npm:3.6.2"
     protobufjs: "npm:8.0.0"
     punycode: "npm:2.3.1"
-    re2: "npm:1.23.2"
+    re2: "npm:1.23.3"
     redis: "npm:5.10.0"
     remark: "npm:15.0.1"
     remark-gfm: "npm:4.0.1"
@@ -11042,7 +11042,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/651a3bfede92d00961f04379b2b68be50b9e8355b8ed4f1f360110f074b5ceb24c11e68323da429e81ce799d59cddbcfc761a5f2a2f988ad84e65f5201e128c0
+  checksum: 10/97e11099437839af6a52176903a94ab01a1aed9e19e1eabcfd74fa2562b4c0b8ca7fe9bf4a92e7b2638163fe4e55f02a4a4fbe2b789d8d56a4bfef6fe5342289
   languageName: node
   linkType: hard
 
