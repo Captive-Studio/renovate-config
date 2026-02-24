@@ -12,6 +12,7 @@
     "github>Captive-Studio/renovate-config//preset/groupRailsJs",
     "github>Captive-Studio/renovate-config//preset/groupRswagMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupRuby",
+    "github>Captive-Studio/renovate-config//preset/groupDevise",
     "github>Captive-Studio/renovate-config//preset/groupSentryRubyMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupWebpack",
     "github>Captive-Studio/renovate-config//preset/groupTamagui",
