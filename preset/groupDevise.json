@@ -1,0 +1,10 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Add rails dependencies to Ruby on Rails",
+  "packageRules": [
+    {
+      "groupName": "[Ruby] Devise packages",
+      "matchPackageNames": ["devise", "devise-i18n"]
+    }
+  ]
+}
