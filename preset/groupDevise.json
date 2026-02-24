@@ -4,7 +4,7 @@
   "packageRules": [
     {
       "groupName": "[Ruby] Devise packages",
-      "matchPackageNames": ["devise", "devise-i18n"]
+      "matchPackageNames": ["devise", "devise-i18n", "devise_masquerade"]
     }
   ]
 }
