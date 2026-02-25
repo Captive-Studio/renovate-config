@@ -1304,7 +1304,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.32.2"
+    renovate: "npm:43.33.2"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -7561,14 +7561,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"glob@npm:13.0.4":
-  version: 13.0.4
-  resolution: "glob@npm:13.0.4"
+"glob@npm:13.0.5":
+  version: 13.0.5
+  resolution: "glob@npm:13.0.5"
   dependencies:
     minimatch: "npm:^10.2.1"
     minipass: "npm:^7.1.2"
     path-scurry: "npm:^2.0.0"
-  checksum: 10/a320e2116cd503ff54d8fefd84a2c07fa8ad821ac81356778a8547f83ac86432584f3956e26eaa521874249c24f9f7f73b9adf2379f6024753e9e069d3809826
+  checksum: 10/c86a2a2ab12382d9afcf04d0b59e665a93db6c394ea9632be9f4192c2f946f414590c244290bca8e2a5ba41a2f3fb0c93ea6a6674d0344e3fdb3e7dd570eae05
   languageName: node
   linkType: hard
 
@@ -11037,9 +11037,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.32.2":
-  version: 43.32.2
-  resolution: "renovate@npm:43.32.2"
+"renovate@npm:43.33.2":
+  version: 43.33.2
+  resolution: "renovate@npm:43.33.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.992.0"
     "@aws-sdk/client-ec2": "npm:3.992.0"
@@ -11109,7 +11109,7 @@ __metadata:
     fs-extra: "npm:11.3.3"
     git-url-parse: "npm:16.1.0"
     github-url-from-git: "npm:1.5.0"
-    glob: "npm:13.0.4"
+    glob: "npm:13.0.5"
     global-agent: "npm:3.0.0"
     google-auth-library: "npm:10.5.0"
     got: "npm:14.6.6"
@@ -11172,7 +11172,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/ab9018567d748b4ff5b0886f9d420e722ef82de0332a59d4dba6e5d8cb7ad5682429da4a279725a02a85e88d34284f96d33551d782794e4bc8bffb2575cc03d1
+  checksum: 10/efb5f15052b88491549ee5fcda4101ac0e29fb5416ba6d02bebdf5e8806c3332506f17d6eba25f57b001d072a053929489af4d49895764476e0a8533d06844b3
   languageName: node
   linkType: hard
 
