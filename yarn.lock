@@ -1304,7 +1304,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.43.0"
+    renovate: "npm:43.43.2"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -9680,12 +9680,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:10.2.2, minimatch@npm:^10.2.1, minimatch@npm:^10.2.2":
-  version: 10.2.2
-  resolution: "minimatch@npm:10.2.2"
+"minimatch@npm:10.2.3":
+  version: 10.2.3
+  resolution: "minimatch@npm:10.2.3"
   dependencies:
     brace-expansion: "npm:^5.0.2"
-  checksum: 10/e135be7b502ac97c02bcee42ccc1c55dc26dbac036c0f4acde69e42fe339d7fb53fae711e57b3546cb533426382ea492c73a073c7f78832e0453d120d48dd015
+  checksum: 10/186c6a6ce9f7a79ae7776efc799c32d1a6670ebbcc2a8756e6cb6ec4aab7439a6ca6e592e1a6aac5f21674eefae5b19821b8fa95072a4f4567da1ae40eb6075d
   languageName: node
   linkType: hard
 
@@ -9695,6 +9695,15 @@ __metadata:
   dependencies:
     brace-expansion: "npm:^1.1.7"
   checksum: 10/d430c40785fdb42c9fc1a36b9c9e3b08146044bd0f2fd043b05afb436aa4eaf6cdcb7756939ab8fc01664cd75d6335fd5043b2fe2aa084756927ffc77c1e3597
+  languageName: node
+  linkType: hard
+
+"minimatch@npm:^10.2.1, minimatch@npm:^10.2.2":
+  version: 10.2.2
+  resolution: "minimatch@npm:10.2.2"
+  dependencies:
+    brace-expansion: "npm:^5.0.2"
+  checksum: 10/e135be7b502ac97c02bcee42ccc1c55dc26dbac036c0f4acde69e42fe339d7fb53fae711e57b3546cb533426382ea492c73a073c7f78832e0453d120d48dd015
   languageName: node
   linkType: hard
 
@@ -11017,9 +11026,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.43.0":
-  version: 43.43.0
-  resolution: "renovate@npm:43.43.0"
+"renovate@npm:43.43.2":
+  version: 43.43.2
+  resolution: "renovate@npm:43.43.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.992.0"
     "@aws-sdk/client-ec2": "npm:3.992.0"
@@ -11106,7 +11115,7 @@ __metadata:
     luxon: "npm:3.7.2"
     markdown-it: "npm:14.1.1"
     markdown-table: "npm:3.0.4"
-    minimatch: "npm:10.2.2"
+    minimatch: "npm:10.2.3"
     moo: "npm:0.5.2"
     ms: "npm:2.1.3"
     neotraverse: "npm:0.6.18"
@@ -11152,7 +11161,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/757c453fe453b5f075ea4ec1af5a051c43b72cde2a2993f073cbd9c412763b6e2d456f3b44efd564f8bd2c891fa7745c8e8bc4475e9d509aecd0a5f9d267ff19
+  checksum: 10/c23a835ad6928c674210d31f6240f9822cc7a5384ef527750910a43a71a2d57ab46730246e420e10860bfcaf8ac9eb4885cb74b2e8d08cf7ee18f72ea875b8ff
   languageName: node
   linkType: hard
 
