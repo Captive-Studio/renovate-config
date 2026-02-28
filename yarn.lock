@@ -1198,7 +1198,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.46.0"
+    renovate: "npm:43.46.2"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -10829,9 +10829,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.46.0":
-  version: 43.46.0
-  resolution: "renovate@npm:43.46.0"
+"renovate@npm:43.46.2":
+  version: 43.46.2
+  resolution: "renovate@npm:43.46.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.992.0"
     "@aws-sdk/client-ec2": "npm:3.992.0"
@@ -10942,7 +10942,7 @@ __metadata:
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:3.0.0"
-    simple-git: "npm:3.31.1"
+    simple-git: "npm:3.32.1"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     strip-json-comments: "npm:5.0.3"
@@ -10964,7 +10964,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/84db2cbd42aa53adc1957cc341b15d7ab11461756c589554bdd142ba1ab4c037d8b39a01542baf26eee7e7c4436dd6c53bf1fdb4bc83977172d8aacb424eab6c
+  checksum: 10/3f2957ddcef930331c17ddac5b0eff257fc378c00e07834f30b4d935bd505f8459576eaef733fa78206831635b2a09bf5b22be6638a45f9eb684d652283f6608
   languageName: node
   linkType: hard
 
@@ -11505,14 +11505,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.31.1":
-  version: 3.31.1
-  resolution: "simple-git@npm:3.31.1"
+"simple-git@npm:3.32.1":
+  version: 3.32.1
+  resolution: "simple-git@npm:3.32.1"
   dependencies:
     "@kwsites/file-exists": "npm:^1.1.1"
     "@kwsites/promise-deferred": "npm:^1.1.1"
     debug: "npm:^4.4.0"
-  checksum: 10/8e646331eafa0397537f5b8a338405d69a38c8cf8d0cf60f5377d487d6387371c02841156f009926d5df1558c9c020fbf70a722713a60153c743e57831a7e89d
+  checksum: 10/8605c083d071fe42711b3154592e0d7e17396fc28cdeaa7ce22f1e6ef27d0bab7ae3c4ed9b4ba82da6925257781029b4d4e47cdc37115f6e01d82356f4fc3e32
   languageName: node
   linkType: hard
 
