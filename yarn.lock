@@ -1139,7 +1139,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.46.5"
+    renovate: "npm:43.46.6"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -10770,9 +10770,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.46.5":
-  version: 43.46.5
-  resolution: "renovate@npm:43.46.5"
+"renovate@npm:43.46.6":
+  version: 43.46.6
+  resolution: "renovate@npm:43.46.6"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1000.0"
     "@aws-sdk/client-ec2": "npm:3.1000.0"
@@ -10883,7 +10883,7 @@ __metadata:
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:3.0.0"
-    simple-git: "npm:3.32.1"
+    simple-git: "npm:3.32.2"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     strip-json-comments: "npm:5.0.3"
@@ -10905,7 +10905,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/cb1aa7b3f2bc0285e6b80044b9eee15505e370ca0d67952cabc71d424d4b932a3b0a6d8c1b931c2064d9cdc8e7a8a5de6817a446ca0de17caa6593eb15a3413d
+  checksum: 10/aa26b8ae1e5075b11dac2405303912c859598ba01435402ce9cbdf234c02ce7ba9d9b050624cbde137cb89e26ba9913dfa6f73e79ae323a553b9f52cd6b3ac16
   languageName: node
   linkType: hard
 
@@ -11453,14 +11453,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.32.1":
-  version: 3.32.1
-  resolution: "simple-git@npm:3.32.1"
+"simple-git@npm:3.32.2":
+  version: 3.32.2
+  resolution: "simple-git@npm:3.32.2"
   dependencies:
     "@kwsites/file-exists": "npm:^1.1.1"
     "@kwsites/promise-deferred": "npm:^1.1.1"
     debug: "npm:^4.4.0"
-  checksum: 10/8605c083d071fe42711b3154592e0d7e17396fc28cdeaa7ce22f1e6ef27d0bab7ae3c4ed9b4ba82da6925257781029b4d4e47cdc37115f6e01d82356f4fc3e32
+  checksum: 10/0bfd71e197a24cfa0407fa8159b3cfb76f3dc31ec1e1dd6db8901ebb09a93328050e9c1da6b17dc9edf454216f9d729d5469fc617c1af3e7364d856a029a841f
   languageName: node
   linkType: hard
 
