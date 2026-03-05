@@ -1139,7 +1139,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.55.3"
+    renovate: "npm:43.55.6"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -2431,14 +2431,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@opentelemetry/semantic-conventions@npm:1.39.0":
-  version: 1.39.0
-  resolution: "@opentelemetry/semantic-conventions@npm:1.39.0"
-  checksum: 10/30b8f78468ef38c541f9c8a6831d53dc66c097c4c2cf5eb662c64dd2c52327d44779104fdcd14c8d0f1e9802dc7674accfd9186777493202595f9a9af2e5d1b6
-  languageName: node
-  linkType: hard
-
-"@opentelemetry/semantic-conventions@npm:^1.27.0, @opentelemetry/semantic-conventions@npm:^1.29.0, @opentelemetry/semantic-conventions@npm:^1.37.0":
+"@opentelemetry/semantic-conventions@npm:1.40.0, @opentelemetry/semantic-conventions@npm:^1.27.0, @opentelemetry/semantic-conventions@npm:^1.29.0, @opentelemetry/semantic-conventions@npm:^1.37.0":
   version: 1.40.0
   resolution: "@opentelemetry/semantic-conventions@npm:1.40.0"
   checksum: 10/edb58894590e42e631006a9f5741955fad248e3589aa334a5e59080c535ead44ee9f376c444ef2be094d1e6c1a2e596538c1df0a31a04508551e91b1a5d5c93c
@@ -10750,9 +10743,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.55.3":
-  version: 43.55.3
-  resolution: "renovate@npm:43.55.3"
+"renovate@npm:43.55.6":
+  version: 43.55.6
+  resolution: "renovate@npm:43.55.6"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1000.0"
     "@aws-sdk/client-ec2": "npm:3.1000.0"
@@ -10778,7 +10771,7 @@ __metadata:
     "@opentelemetry/resources": "npm:2.5.1"
     "@opentelemetry/sdk-trace-base": "npm:2.5.1"
     "@opentelemetry/sdk-trace-node": "npm:2.5.1"
-    "@opentelemetry/semantic-conventions": "npm:1.39.0"
+    "@opentelemetry/semantic-conventions": "npm:1.40.0"
     "@pnpm/parse-overrides": "npm:1001.0.3"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:5.11.0"
@@ -10863,7 +10856,7 @@ __metadata:
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:3.0.0"
-    simple-git: "npm:3.32.2"
+    simple-git: "npm:3.32.3"
     slugify: "npm:1.6.6"
     source-map-support: "npm:0.5.21"
     strip-json-comments: "npm:5.0.3"
@@ -10885,7 +10878,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/037f3aeb424b171fd88f77daa1751924c3f5b9e0307224277ea1116bbaf15e0973bb6777c1ece43e9771fc437f0bdb44ca6651117ca0e9fed0fa004d7f3030e2
+  checksum: 10/c3365c4b17286d8d2a6a867b7cc21343fa50bc4dfe3fd2bca6888598ca42b7d516b3cee74af3dcceca9b46cad15c1dc72ac66061b198ca126575b1ccf1d76d06
   languageName: node
   linkType: hard
 
@@ -11433,14 +11426,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.32.2":
-  version: 3.32.2
-  resolution: "simple-git@npm:3.32.2"
+"simple-git@npm:3.32.3":
+  version: 3.32.3
+  resolution: "simple-git@npm:3.32.3"
   dependencies:
     "@kwsites/file-exists": "npm:^1.1.1"
     "@kwsites/promise-deferred": "npm:^1.1.1"
     debug: "npm:^4.4.0"
-  checksum: 10/0bfd71e197a24cfa0407fa8159b3cfb76f3dc31ec1e1dd6db8901ebb09a93328050e9c1da6b17dc9edf454216f9d729d5469fc617c1af3e7364d856a029a841f
+  checksum: 10/9ec8d0cb7a1f813fe56be71cfaf85f44960befa03528560b0d8234eab957cf2a11e62e7b90e0c88066b6db314c8559698f9c13c64602aec56e0834c7508e4c83
   languageName: node
   linkType: hard
 
