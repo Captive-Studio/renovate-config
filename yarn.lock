@@ -1139,7 +1139,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.55.1"
+    renovate: "npm:43.55.3"
     vitest: "npm:4.0.18"
   languageName: unknown
   linkType: soft
@@ -5248,12 +5248,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cronstrue@npm:3.12.0":
-  version: 3.12.0
-  resolution: "cronstrue@npm:3.12.0"
+"cronstrue@npm:3.13.0":
+  version: 3.13.0
+  resolution: "cronstrue@npm:3.13.0"
   bin:
     cronstrue: bin/cli.js
-  checksum: 10/23dba1540ebc1c46ba251bf616f5ea019c24b704b16c6759f29fc917218f76f5e2841a65f4a5d3c5b789d5aede027b77ce70502c4762e614ac6340d4fb301881
+  checksum: 10/36044742ca6e1435f132cdd94aa1b203bddb9af6f79a6763c521ca829ebdcc965fc705fc62aa81610176fc16644b48abbdf0beeec7043248af4e6e0466a79e43
   languageName: node
   linkType: hard
 
@@ -9423,12 +9423,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minimatch@npm:10.2.3":
-  version: 10.2.3
-  resolution: "minimatch@npm:10.2.3"
+"minimatch@npm:10.2.4, minimatch@npm:^10.2.1, minimatch@npm:^10.2.2":
+  version: 10.2.4
+  resolution: "minimatch@npm:10.2.4"
   dependencies:
     brace-expansion: "npm:^5.0.2"
-  checksum: 10/186c6a6ce9f7a79ae7776efc799c32d1a6670ebbcc2a8756e6cb6ec4aab7439a6ca6e592e1a6aac5f21674eefae5b19821b8fa95072a4f4567da1ae40eb6075d
+  checksum: 10/aea4874e521c55bb60744685bbffe3d152e5460f84efac3ea936e6bbe2ceba7deb93345fec3f9bb17f7b6946776073a64d40ae32bf5f298ad690308121068a1f
   languageName: node
   linkType: hard
 
@@ -9438,15 +9438,6 @@ __metadata:
   dependencies:
     brace-expansion: "npm:^1.1.7"
   checksum: 10/b11a7ee5773cd34c1a0c8436cdbe910901018fb4b6cb47aa508a18d567f6efd2148507959e35fba798389b161b8604a2d704ccef751ea36bd4582f9852b7d63f
-  languageName: node
-  linkType: hard
-
-"minimatch@npm:^10.2.1, minimatch@npm:^10.2.2":
-  version: 10.2.4
-  resolution: "minimatch@npm:10.2.4"
-  dependencies:
-    brace-expansion: "npm:^5.0.2"
-  checksum: 10/aea4874e521c55bb60744685bbffe3d152e5460f84efac3ea936e6bbe2ceba7deb93345fec3f9bb17f7b6946776073a64d40ae32bf5f298ad690308121068a1f
   languageName: node
   linkType: hard
 
@@ -10759,9 +10750,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.55.1":
-  version: 43.55.1
-  resolution: "renovate@npm:43.55.1"
+"renovate@npm:43.55.3":
+  version: 43.55.3
+  resolution: "renovate@npm:43.55.3"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1000.0"
     "@aws-sdk/client-ec2": "npm:3.1000.0"
@@ -10814,7 +10805,7 @@ __metadata:
     commander: "npm:14.0.3"
     conventional-commits-detector: "npm:1.0.3"
     croner: "npm:10.0.1"
-    cronstrue: "npm:3.12.0"
+    cronstrue: "npm:3.13.0"
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:7.0.2"
@@ -10848,7 +10839,7 @@ __metadata:
     luxon: "npm:3.7.2"
     markdown-it: "npm:14.1.1"
     markdown-table: "npm:3.0.4"
-    minimatch: "npm:10.2.3"
+    minimatch: "npm:10.2.4"
     moo: "npm:0.5.2"
     ms: "npm:2.1.3"
     neotraverse: "npm:0.6.18"
@@ -10894,7 +10885,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/50567573c969f60c92bd9701ffefe7f316041553697515f035bf00c5fd243518c3a05f956e272585ca854d00f2e4b87f701ee69427ce1925f6927ba99628276d
+  checksum: 10/037f3aeb424b171fd88f77daa1751924c3f5b9e0307224277ea1116bbaf15e0973bb6777c1ece43e9771fc437f0bdb44ca6651117ca0e9fed0fa004d7f3030e2
   languageName: node
   linkType: hard
 
