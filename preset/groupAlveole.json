@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Groupe les packages Alveole",
+  "packageRules": [
+    {
+      "groupName": "[NPM] Alveole",
+      "matchManagers": ["npm"],
+      "matchPackageNames": ["@alveole"]
+    }
+  ]
+}
