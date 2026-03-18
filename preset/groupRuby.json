@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "groupName": "Ruby (CI and Lang)",
-      "matchPackagePatterns": ["ruby", "cimg/ruby"]
+      "matchPackageNames": ["ruby", "cimg/ruby"]
     }
   ]
 }
