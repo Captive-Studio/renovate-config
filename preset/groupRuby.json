@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "groupName": "Ruby (CI and Lang)",
-      "matchPackageNames": ["ruby", "cimg/ruby"],
+      "matchPackageNames": ["ruby-version", "cimg/ruby"],
       "minimumReleaseAge": "3 days"
     }
   ]
