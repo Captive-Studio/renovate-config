@@ -16,6 +16,7 @@
     "github>Captive-Studio/renovate-config//preset/groupSentryRubyMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupWebpack",
     "github>Captive-Studio/renovate-config//preset/groupTamagui",
-    "github>Captive-Studio/renovate-config//preset/groupExpo"
+    "github>Captive-Studio/renovate-config//preset/groupExpo",
+    "github>Captive-Studio/renovate-config//preset/groupAlveole"
   ]
 }
