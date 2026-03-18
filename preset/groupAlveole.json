@@ -5,14 +5,14 @@
     {
       "groupName": "[NPM] Alveole",
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@alveole"]
+      "matchPackagePrefixes": ["@alveole/"]
     },
     {
       "groupName": "[NPM] Alveole automerge minor",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "matchManagers": ["npm"],
-      "matchPackageNames": ["@alveole"]
+      "matchPackagePrefixes": ["@alveole/"]
     }
   ]
 }
