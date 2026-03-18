@@ -2,8 +2,7 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
-      "groupName": "Ruby",
-      "matchManagers": ["bundler", "docker"],
+      "groupName": "Ruby (CI and Lang)",
       "matchPackagePatterns": ["ruby", "cimg/ruby"]
     }
   ]
