@@ -48,6 +48,11 @@
       "matchUpdateTypes": ["patch"],
       "automerge": true,
       "matchManagers": ["npm"]
+    },
+    {
+      "matchDepTypes": ["devDependencies"],
+      "matchUpdateTypes": ["minor", "patch"],
+      "automerge": true
     }
   ]
 }
