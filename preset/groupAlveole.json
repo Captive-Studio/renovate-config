@@ -6,13 +6,6 @@
       "groupName": "[NPM] Alveole",
       "matchManagers": ["npm"],
       "matchPackagePrefixes": ["@alveole/"]
-    },
-    {
-      "groupName": "[NPM] Alveole automerge minor",
-      "matchUpdateTypes": ["minor", "patch"],
-      "automerge": true,
-      "matchManagers": ["npm"],
-      "matchPackagePrefixes": ["@alveole/"]
     }
   ]
 }
