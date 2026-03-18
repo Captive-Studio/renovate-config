@@ -25,7 +25,25 @@
         "tailwindcss",
         "@ionic/lab",
         "@vue/test-utils",
-        "lucide-react-native"
+        "lucide-react-native",
+        "react-hook-form",
+        "@tanstack/react-query",
+        "@uiw/react-signature",
+        "libphonenumber-js",
+        "lodash",
+        "lucide-react-native",
+        "openai",
+        "qs",
+        "crypto-js",
+        "date-fns",
+        "sweetalert2",
+        "jwt-decode",
+        "written-number",
+        "zod",
+        "jest",
+        "json-stringify-pretty-compact",
+        "react-syntax-highlighter",
+        "react-select"
       ]
     },
     {
@@ -41,7 +59,6 @@
     {
       "matchUpdateTypes": ["patch"],
       "matchPackageNames": ["axios"],
-      "matchPackagePrefixes": ["@ionic/"],
       "automerge": true
     },
     {
