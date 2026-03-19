@@ -28,19 +28,6 @@
       ]
     },
     {
-      "description": "Met à jour le noyau Expo uniquement quand Expo est mis à jour",
-      "matchManagers": ["npm"],
-      "matchPackagePatterns": ["^expo$"],
-      "groupName": "Expo core (trigger full update)",
-      "postUpgradeTasks": {
-        "commands": [
-          "npm install",
-          "npx expo install --fix"
-        ],
-        "fileFilters": ["package.json", "package-lock.json"]
-      }
-    },
-    {
       "description": "Ne pas mettre à jour les deps verrouillées par Expo",
       "matchPackageNames": [
         "@react-native-community/netinfo"
