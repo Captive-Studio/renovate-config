@@ -39,6 +39,13 @@
         ],
         "fileFilters": ["package.json", "package-lock.json"]
       }
+    },
+    {
+      "description": "Ne pas mettre à jour les deps verrouillées par Expo",
+      "matchPackageNames": [
+        "@react-native-community/netinfo"
+      ],
+      "enabled": false
     }
   ]
 }
