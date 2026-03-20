@@ -31,7 +31,9 @@
       "description": "Ne pas mettre à jour les deps verrouillées par Expo",
       "matchPackageNames": [
         "@react-native-community/netinfo",
-        "react-native-safe-area-context"
+        "react-native-safe-area-context",
+        "react-native-reanimated",
+        "react-native-gesture-handler"
       ],
       "enabled": false
     }
