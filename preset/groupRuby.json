@@ -3,7 +3,7 @@
   "packageRules": [
     {
       "groupName": "Ruby (CI and Lang)",
-      "matchPackageNames": ["ruby-version", "cimg/ruby"],
+      "matchPackageNames": ["ruby-version", "cimg/ruby", "ruby", "docker.io/library/ruby"],
       "minimumReleaseAge": "3 days"
     }
   ]
