@@ -4,6 +4,10 @@
     {
       "groupName": "Expo & React Native core",
       "matchManagers": ["npm"],
+      "addLabels": ["warning"],
+      "prBodyNotes": [
+        "ATTENTION : verifier que Expo Go est bien disponible pour la version du SDK Expo mise a jour avant de merger cette PR."
+      ],
       "matchPackagePatterns": [
         "^(@expo|expo)($|[-/])",
         "^(@react|react)($|[-/])",
