@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.90.1"
+    renovate: "npm:43.91.2"
     vitest: "npm:4.1.1"
   languageName: unknown
   linkType: soft
@@ -4583,26 +4583,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"cacache@npm:20.0.3":
-  version: 20.0.3
-  resolution: "cacache@npm:20.0.3"
-  dependencies:
-    "@npmcli/fs": "npm:^5.0.0"
-    fs-minipass: "npm:^3.0.0"
-    glob: "npm:^13.0.0"
-    lru-cache: "npm:^11.1.0"
-    minipass: "npm:^7.0.3"
-    minipass-collect: "npm:^2.0.1"
-    minipass-flush: "npm:^1.0.5"
-    minipass-pipeline: "npm:^1.2.4"
-    p-map: "npm:^7.0.2"
-    ssri: "npm:^13.0.0"
-    unique-filename: "npm:^5.0.0"
-  checksum: 10/388a0169970df9d051da30437f93f81b7e91efb570ad0ff2b8fde33279fbe726c1bc8e8e2b9c05053ffb4f563854c73db395e8712e3b62347a1bc4f7fb8899ff
-  languageName: node
-  linkType: hard
-
-"cacache@npm:^20.0.1":
+"cacache@npm:20.0.4, cacache@npm:^20.0.1":
   version: 20.0.4
   resolution: "cacache@npm:20.0.4"
   dependencies:
@@ -10489,9 +10470,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.90.1":
-  version: 43.90.1
-  resolution: "renovate@npm:43.90.1"
+"renovate@npm:43.91.2":
+  version: 43.91.2
+  resolution: "renovate@npm:43.91.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1000.0"
     "@aws-sdk/client-ec2": "npm:3.1000.0"
@@ -10537,7 +10518,7 @@ __metadata:
     azure-devops-node-api: "npm:15.1.2"
     better-sqlite3: "npm:12.8.0"
     bunyan: "npm:1.8.15"
-    cacache: "npm:20.0.3"
+    cacache: "npm:20.0.4"
     changelog-filename-regex: "npm:2.0.1"
     clean-git-ref: "npm:2.0.1"
     commander: "npm:14.0.3"
@@ -10623,7 +10604,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/c1e28fe38194b540e8e72fbb934fc0ef14d7beec57e4838a2b05c860e210b88ad7c29becca5048352aa55dbf02ffe3d578a290cfd850ba4adde75808c8ed67b5
+  checksum: 10/32e2196238b5df13be08e7ce934268afb9a0eae72927b55f0acd94a6f55e0c2f7553a85beb7d72ede9a0f06957ed062a1b9e548b09c911e383534ec682affb88
   languageName: node
   linkType: hard
 
@@ -11946,24 +11927,6 @@ __metadata:
     trough: "npm:^2.0.0"
     vfile: "npm:^6.0.0"
   checksum: 10/d9e6e88900a075f391b6bbf06f34062d41fa6257798110d1647753cfc2c6a6e2c1d016434e8ee35706c50485f9fb9ae4707a6a4790bd8dc461ec7e7315ed908b
-  languageName: node
-  linkType: hard
-
-"unique-filename@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "unique-filename@npm:5.0.0"
-  dependencies:
-    unique-slug: "npm:^6.0.0"
-  checksum: 10/a5f67085caef74bdd2a6869a200ed5d68d171f5cc38435a836b5fd12cce4e4eb55e6a190298035c325053a5687ed7a3c96f0a91e82215fd14729769d9ac57d9b
-  languageName: node
-  linkType: hard
-
-"unique-slug@npm:^6.0.0":
-  version: 6.0.0
-  resolution: "unique-slug@npm:6.0.0"
-  dependencies:
-    imurmurhash: "npm:^0.1.4"
-  checksum: 10/b78ed9d5b01ff465f80975f17387750ed3639909ac487fa82c4ae4326759f6de87c2131c0c39eca4c68cf06c537a8d104fba1dfc8a30308f99bc505345e1eba3
   languageName: node
   linkType: hard
 
