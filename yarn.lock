@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.91.5"
+    renovate: "npm:43.91.6"
     vitest: "npm:4.1.2"
   languageName: unknown
   linkType: soft
@@ -3997,14 +3997,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@yarnpkg/core@npm:4.5.0":
-  version: 4.5.0
-  resolution: "@yarnpkg/core@npm:4.5.0"
+"@yarnpkg/core@npm:4.6.0":
+  version: 4.6.0
+  resolution: "@yarnpkg/core@npm:4.6.0"
   dependencies:
     "@arcanis/slice-ansi": "npm:^1.1.1"
     "@types/semver": "npm:^7.1.0"
     "@types/treeify": "npm:^1.0.0"
-    "@yarnpkg/fslib": "npm:^3.1.4"
+    "@yarnpkg/fslib": "npm:^3.1.5"
     "@yarnpkg/libzip": "npm:^3.2.2"
     "@yarnpkg/parsers": "npm:^3.0.3"
     "@yarnpkg/shell": "npm:^4.1.3"
@@ -4023,15 +4023,15 @@ __metadata:
     p-limit: "npm:^2.2.0"
     semver: "npm:^7.1.2"
     strip-ansi: "npm:^6.0.0"
-    tar: "npm:^6.0.5"
+    tar: "npm:^7.5.3"
     tinylogic: "npm:^2.0.0"
     treeify: "npm:^1.1.0"
     tslib: "npm:^2.4.0"
-  checksum: 10/438e0d0e73f22454696575436ee11f27e765df7fa6b6f9bf63e3d5f79f2b7ceb382dd7df1efbb27ca674a974a2c444a5bf346aac3875ffa6a555b26517309b71
+  checksum: 10/b13e4b61c6167eacd6792bba04f3b3416289b7dd6b5258e335de48e487950e28108d8661d013c80b04759df72f42daa356bce3b6631f6f3b91dc9a67d88bc954
   languageName: node
   linkType: hard
 
-"@yarnpkg/fslib@npm:^3.1.2, @yarnpkg/fslib@npm:^3.1.3, @yarnpkg/fslib@npm:^3.1.4":
+"@yarnpkg/fslib@npm:^3.1.2, @yarnpkg/fslib@npm:^3.1.3, @yarnpkg/fslib@npm:^3.1.5":
   version: 3.1.5
   resolution: "@yarnpkg/fslib@npm:3.1.5"
   dependencies:
@@ -4767,13 +4767,6 @@ __metadata:
   version: 1.1.4
   resolution: "chownr@npm:1.1.4"
   checksum: 10/115648f8eb38bac5e41c3857f3e663f9c39ed6480d1349977c4d96c95a47266fcacc5a5aabf3cb6c481e22d72f41992827db47301851766c4fd77ac21a4f081d
-  languageName: node
-  linkType: hard
-
-"chownr@npm:^2.0.0":
-  version: 2.0.0
-  resolution: "chownr@npm:2.0.0"
-  checksum: 10/c57cf9dd0791e2f18a5ee9c1a299ae6e801ff58fee96dc8bfd0dcb4738a6ce58dd252a3605b1c93c6418fe4f9d5093b28ffbf4d66648cb2a9c67eaef9679be2f
   languageName: node
   linkType: hard
 
@@ -6716,15 +6709,6 @@ __metadata:
     jsonfile: "npm:^6.0.1"
     universalify: "npm:^2.0.0"
   checksum: 10/1b8deea9c540a2efe63c750bc9e1ba6238115579d1571d67fe8fb58e3fb6df19aba29fd4ebb81217cf0bf5bce0df30ca68dbc3e06f6652b856edd385ce0ff649
-  languageName: node
-  linkType: hard
-
-"fs-minipass@npm:^2.0.0":
-  version: 2.1.0
-  resolution: "fs-minipass@npm:2.1.0"
-  dependencies:
-    minipass: "npm:^3.0.0"
-  checksum: 10/03191781e94bc9a54bd376d3146f90fe8e082627c502185dbf7b9b3032f66b0b142c1115f3b2cc5936575fc1b44845ce903dd4c21bec2a8d69f3bd56f9cee9ec
   languageName: node
   linkType: hard
 
@@ -9231,27 +9215,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"minipass@npm:^5.0.0":
-  version: 5.0.0
-  resolution: "minipass@npm:5.0.0"
-  checksum: 10/61682162d29f45d3152b78b08bab7fb32ca10899bc5991ffe98afc18c9e9543bd1e3be94f8b8373ba6262497db63607079dc242ea62e43e7b2270837b7347c93
-  languageName: node
-  linkType: hard
-
 "minipass@npm:^7.0.2, minipass@npm:^7.0.3, minipass@npm:^7.0.4, minipass@npm:^7.1.2, minipass@npm:^7.1.3":
   version: 7.1.3
   resolution: "minipass@npm:7.1.3"
   checksum: 10/175e4d5e20980c3cd316ae82d2c031c42f6c746467d8b1905b51060a0ba4461441a0c25bb67c025fd9617f9a3873e152c7b543c6b5ac83a1846be8ade80dffd6
-  languageName: node
-  linkType: hard
-
-"minizlib@npm:^2.1.1":
-  version: 2.1.2
-  resolution: "minizlib@npm:2.1.2"
-  dependencies:
-    minipass: "npm:^3.0.0"
-    yallist: "npm:^4.0.0"
-  checksum: 10/ae0f45436fb51344dcb87938446a32fbebb540d0e191d63b35e1c773d47512e17307bf54aa88326cc6d176594d00e4423563a091f7266c2f9a6872cdc1e234d1
   languageName: node
   linkType: hard
 
@@ -9268,15 +9235,6 @@ __metadata:
   version: 0.5.3
   resolution: "mkdirp-classic@npm:0.5.3"
   checksum: 10/3f4e088208270bbcc148d53b73e9a5bd9eef05ad2cbf3b3d0ff8795278d50dd1d11a8ef1875ff5aea3fa888931f95bfcb2ad5b7c1061cfefd6284d199e6776ac
-  languageName: node
-  linkType: hard
-
-"mkdirp@npm:^1.0.3":
-  version: 1.0.4
-  resolution: "mkdirp@npm:1.0.4"
-  bin:
-    mkdirp: bin/cmd.js
-  checksum: 10/d71b8dcd4b5af2fe13ecf3bd24070263489404fe216488c5ba7e38ece1f54daf219e72a833a3a2dc404331e870e9f44963a33399589490956bff003a3404d3b2
   languageName: node
   linkType: hard
 
@@ -10470,9 +10428,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.91.5":
-  version: 43.91.5
-  resolution: "renovate@npm:43.91.5"
+"renovate@npm:43.91.6":
+  version: 43.91.6
+  resolution: "renovate@npm:43.91.6"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1000.0"
     "@aws-sdk/client-ec2": "npm:3.1000.0"
@@ -10509,7 +10467,7 @@ __metadata:
     "@renovatebot/pgp": "npm:1.3.4"
     "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.2.0"
-    "@yarnpkg/core": "npm:4.5.0"
+    "@yarnpkg/core": "npm:4.6.0"
     "@yarnpkg/parsers": "npm:3.0.3"
     ae-cvss-calculator: "npm:1.0.11"
     agentkeepalive: "npm:4.6.0"
@@ -10604,7 +10562,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/9c9133d09327dc780b3776c18449d1947c4dc2d313761c91fba742db7d90ed875c69a299eb5d8af554e444318df0329645c574f9812393856f68d34d92766e17
+  checksum: 10/4c6255b122ee4254b3d9ecb5053a19b98bef96b3f542bb37604c51bd35a5ec886adf6e8758bb09d261e67f4d217bc79c8dc47e952e9ce1dde603f79f7cfdcb16
   languageName: node
   linkType: hard
 
@@ -11504,17 +11462,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"tar@npm:^6.0.5":
-  version: 6.2.1
-  resolution: "tar@npm:6.2.1"
+"tar@npm:^7.5.3":
+  version: 7.5.13
+  resolution: "tar@npm:7.5.13"
   dependencies:
-    chownr: "npm:^2.0.0"
-    fs-minipass: "npm:^2.0.0"
-    minipass: "npm:^5.0.0"
-    minizlib: "npm:^2.1.1"
-    mkdirp: "npm:^1.0.3"
-    yallist: "npm:^4.0.0"
-  checksum: 10/bfbfbb2861888077fc1130b84029cdc2721efb93d1d1fb80f22a7ac3a98ec6f8972f29e564103bbebf5e97be67ebc356d37fa48dbc4960600a1eb7230fbd1ea0
+    "@isaacs/fs-minipass": "npm:^4.0.0"
+    chownr: "npm:^3.0.0"
+    minipass: "npm:^7.1.2"
+    minizlib: "npm:^3.1.0"
+    yallist: "npm:^5.0.0"
+  checksum: 10/2bc2b6f0349038a6621dbba1c4522d45752d5071b2994692257113c2050cd23fafc30308f820e5f8ad6fda3f7d7f92adc9a432aa733daa04c42af2061c021c3f
   languageName: node
   linkType: hard
 
