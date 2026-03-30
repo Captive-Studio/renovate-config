@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.100.2"
+    renovate: "npm:43.101.1"
     vitest: "npm:4.1.2"
   languageName: unknown
   linkType: soft
@@ -2566,15 +2566,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/good-enough-parser@npm:1.2.0":
-  version: 1.2.0
-  resolution: "@renovatebot/good-enough-parser@npm:1.2.0"
+"@renovatebot/good-enough-parser@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@renovatebot/good-enough-parser@npm:2.0.0"
   dependencies:
     "@thi.ng/zipper": "npm:1.0.3"
     "@types/moo": "npm:0.5.10"
     klona: "npm:2.0.6"
-    moo: "npm:0.5.2"
-  checksum: 10/a52f9862249aace2cc8705995f99169b4140a0fe62148cefc6a799cbb7c32ccb9d23495bca92a0a91a980a510e3854fdc8aca1af5726497f4160b9012790d7fb
+    moo: "npm:0.5.3"
+  checksum: 10/aa0df92b6b04ff914c6cec85911ae5b92e6de59ffa9129c88fd72bc673fedaa565820695b6f405d28a7210d941a0f370f4449e5832af2eb9233227e2e47edacb
   languageName: node
   linkType: hard
 
@@ -9282,13 +9282,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"moo@npm:0.5.2":
-  version: 0.5.2
-  resolution: "moo@npm:0.5.2"
-  checksum: 10/fee356cb13b52e259c925fe297d71b3f47b98b06444b696dd4870d20cad4711eb58d24131afeba9bf7a51d77c77a3cbe8479066497d12a88abb51865c1be7de7
-  languageName: node
-  linkType: hard
-
 "moo@npm:0.5.3":
   version: 0.5.3
   resolution: "moo@npm:0.5.3"
@@ -10440,9 +10433,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.100.2":
-  version: 43.100.2
-  resolution: "renovate@npm:43.100.2"
+"renovate@npm:43.101.1":
+  version: 43.101.1
+  resolution: "renovate@npm:43.101.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1000.0"
     "@aws-sdk/client-ec2": "npm:3.1000.0"
@@ -10473,7 +10466,7 @@ __metadata:
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:5.11.0"
     "@renovatebot/detect-tools": "npm:2.0.0"
-    "@renovatebot/good-enough-parser": "npm:1.2.0"
+    "@renovatebot/good-enough-parser": "npm:2.0.0"
     "@renovatebot/osv-offline": "npm:2.4.0"
     "@renovatebot/pep440": "npm:4.2.2"
     "@renovatebot/pgp": "npm:1.3.4"
@@ -10574,7 +10567,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/9b618351f088ad93e8b23a95daac27e0f47055618e26d84bd8d6ddfeaea0ab5c4b0f3d7f6544f74cf764cf7a7b7acc5c655d932f3d9a16e816f529034c9bee8b
+  checksum: 10/d76133687902e4d07b1e1eaa48e78afa1cebed4033258223706c2d9ebae03e50e96e2d1bd5aa18a587bbfe0b5851a3df5eae06b750b2719172fea1a375a35f76
   languageName: node
   linkType: hard
 
