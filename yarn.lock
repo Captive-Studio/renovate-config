@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.100.0"
+    renovate: "npm:43.100.2"
     vitest: "npm:4.1.2"
   languageName: unknown
   linkType: soft
@@ -2554,15 +2554,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/detect-tools@npm:1.2.9":
-  version: 1.2.9
-  resolution: "@renovatebot/detect-tools@npm:1.2.9"
+"@renovatebot/detect-tools@npm:2.0.0":
+  version: 2.0.0
+  resolution: "@renovatebot/detect-tools@npm:2.0.0"
   dependencies:
     fs-extra: "npm:^11.3.4"
     toml-eslint-parser: "npm:^0.12.0"
     upath: "npm:^2.0.1"
     zod: "npm:^3.25.76"
-  checksum: 10/4b274f1f92e9465807ea0757b5fae500ab258b05023d4b7254299d8a51e4507e1f8cbde134737a451140eafb64cdba27609fc01ef3cd1bc9a64fea6d191fb825
+  checksum: 10/5f082141589e8071edc2101232eeababf4a81794db3ed6931f4d4841911482584e124b3c571e2c95b65f2990f13b8556f8be6e43564216d342d22c7657321b56
   languageName: node
   linkType: hard
 
@@ -5448,10 +5448,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"diff@npm:8.0.3":
-  version: 8.0.3
-  resolution: "diff@npm:8.0.3"
-  checksum: 10/52f957e1fa53db4616ff5f4811b92b22b97a160c12a2f86f22debd4181227b0f6751aa8fd711d6a8fcf4618acb13b86bc702e6d9d6d6ed82acfd00c9cb26ace2
+"diff@npm:8.0.4":
+  version: 8.0.4
+  resolution: "diff@npm:8.0.4"
+  checksum: 10/b4036ceda0d1e10683a2313079ed52c5e6b09553ae29da87bce81d98714d9725dbf3c0f6f7c3b1f16eec049fe17087e38ee329e732580fa62f6ec1c2487b2435
   languageName: node
   linkType: hard
 
@@ -10440,9 +10440,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.100.0":
-  version: 43.100.0
-  resolution: "renovate@npm:43.100.0"
+"renovate@npm:43.100.2":
+  version: 43.100.2
+  resolution: "renovate@npm:43.100.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1000.0"
     "@aws-sdk/client-ec2": "npm:3.1000.0"
@@ -10472,7 +10472,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.3"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:5.11.0"
-    "@renovatebot/detect-tools": "npm:1.2.9"
+    "@renovatebot/detect-tools": "npm:2.0.0"
     "@renovatebot/good-enough-parser": "npm:1.2.0"
     "@renovatebot/osv-offline": "npm:2.4.0"
     "@renovatebot/pep440": "npm:4.2.2"
@@ -10498,7 +10498,7 @@ __metadata:
     deepmerge: "npm:4.3.1"
     dequal: "npm:2.0.3"
     detect-indent: "npm:7.0.2"
-    diff: "npm:8.0.3"
+    diff: "npm:8.0.4"
     editorconfig: "npm:3.0.2"
     email-addresses: "npm:5.0.0"
     emoji-regex: "npm:10.6.0"
@@ -10574,7 +10574,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/2ac9fb1f8007379872f9b08c98799533741c6fbb2e95e563a1097580395b79448f688ccf3f25a0abe3fb43431ae7ba97eb5a9e52b26817a5fe1020018a5902ba
+  checksum: 10/9b618351f088ad93e8b23a95daac27e0f47055618e26d84bd8d6ddfeaea0ab5c4b0f3d7f6544f74cf764cf7a7b7acc5c655d932f3d9a16e816f529034c9bee8b
   languageName: node
   linkType: hard
 
