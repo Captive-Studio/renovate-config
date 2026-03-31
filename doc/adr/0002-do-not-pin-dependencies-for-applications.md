@@ -1,15 +1,15 @@
-# 2. Do not pin dependencies for applications
+# 2. Ne pas pinner les dépendances pour les applications
 
-Date: 2023-04-28
+Date : 2023-04-28
 
-## Status
+## Statut
 
-Accepted
+Accepté
 
-## Context
+## Contexte
 
-This renovate-config was forked from a previous version used by Julien Polo at his former work at Koober.
-The provided configuration are pinning versions :
+Cette configuration Renovate est issue d’une version précédente utilisée par Julien Polo dans son ancien poste chez Koober.
+La configuration fournie pinait les versions :
 
 `application.json`
 
@@ -25,24 +25,63 @@ The provided configuration are pinning versions :
 
 ```
 
-For example, `:pinAllExceptPeerDependencies` will always transform "~> 1.0.0" to "1.0.0"
-This seems to be a good practice to be explicit, but it has not always de the consensus (among all developers, and among Captive).
+Par exemple, `:pinAllExceptPeerDependencies` transformera toujours `\"~> 1.0.0\"` en `\"1.0.0\"`.
+Cela semble être une bonne pratique pour être explicite, mais ce n’a pas toujours fait consensus (ni entre tous les développeurs, ni au sein de Captive).
 
-## Decision
+## Décision
 
-It has been decided that constraints are necessary
+Il a été décidé que les contraintes sont nécessaires :
 
 ```ruby
-# NOT OK :
-gem "my-gem" # Dangerous and cannot be processed by Renovate
+# PAS OK :
+gem "my-gem" # Dangereux et ne peut pas être géré par Renovate
 
 # OK
-gem "my-gem" "1.0.0" # Exact constraint
+gem "my-gem", "1.0.0" # Contrainte exacte
 
 # OK
-gem "my-gem" "~> 1.0.0" # Range constraint
+gem "my-gem", "~> 1.0.0" # Contrainte de type range
 ```
 
-## Consequences
+## Conséquences
 
-What becomes easier or more difficult to do and any risks introduced by the change that will need to be mitigated.
+Ce qui devient plus simple ou plus difficile à faire, ainsi que les risques introduits par ce changement qui devront être pris en compte.
+
+## Suivi : mise à jour de la stratégie de pinning (2026-03-31)
+
+Depuis la rédaction de cet ADR, la configuration partagée a évolué. Le preset `recommended` étend désormais directement le preset intégré de Renovate `:pinAllExceptPeerDependencies`.
+
+Concrètement, cela signifie que les projets qui étendent `github>Captive-Studio/renovate-config:application` ou `github>Captive-Studio/renovate-config:library` verront Renovate convertir les ranges de versions supportées en versions exactes dans les PR :
+
+```json
+// package.json (npm)
+{
+  "dependencies": {
+    "some-package": "^1.2.3"
+  }
+}
+```
+
+devient :
+
+```json
+{
+  "dependencies": {
+    "some-package": "1.2.3"
+  }
+}
+```
+
+Pour Ruby/Bundler, des ranges comme :
+
+```ruby
+gem "my-gem", "~> 1.0.0"
+```
+
+sont normalisées en :
+
+```ruby
+gem "my-gem", "1.0.0"
+```
+
+alors que le `Gemfile.lock` reste la source de vérité pour les versions réellement résolues. Ce suivi réintroduit de fait un pinning global (sauf pour les `peerDependencies`) comme comportement par défaut pour les applications et bibliothèques qui utilisent le preset partagé `recommended`.

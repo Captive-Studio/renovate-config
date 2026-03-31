@@ -11,7 +11,8 @@
     "github>Captive-Studio/renovate-config//preset/groupRecommended",
     "github>Captive-Studio/renovate-config//preset/automergeRecommended",
     ":separateMultipleMajorReleases",
-    ":separateMultipleMinorReleases"
+    ":separateMultipleMinorReleases",
+    ":pinAllExceptPeerDependencies"
   ],
   "packageRules": [
     {
