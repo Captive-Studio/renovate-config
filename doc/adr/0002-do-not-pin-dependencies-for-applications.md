@@ -4,7 +4,7 @@ Date : 2023-04-28
 
 ## Statut
 
-Accepté
+Superseded (remplacé) par l’ADR 0003
 
 ## Contexte
 
