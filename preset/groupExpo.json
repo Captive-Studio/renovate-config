@@ -2,6 +2,15 @@
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
     {
+      "description": "Expo-doctor: conserver des ranges (^) pour certaines deps attendues par le SDK Expo",
+      "matchManagers": ["npm"],
+      "matchPackageNames": [
+        "@react-navigation/bottom-tabs",
+        "@react-navigation/native"
+      ],
+      "rangeStrategy": "bump"
+    },
+    {
       "groupName": "Expo & React Native core",
       "matchManagers": ["npm"],
       "addLabels": ["warning"],
