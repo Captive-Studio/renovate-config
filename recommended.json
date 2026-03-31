@@ -16,6 +16,15 @@
   ],
   "packageRules": [
     {
+      "description": "Expo-doctor: conserver des ranges (^) pour certaines deps attendues par le SDK Expo",
+      "matchManagers": ["npm"],
+      "matchPackageNames": [
+        "@react-navigation/bottom-tabs",
+        "@react-navigation/native"
+      ],
+      "rangeStrategy": "bump"
+    },
+    {
       "matchCategories": ["node", "ruby", "postgres"],
       "matchDepTypes": ["minor", "patch"],
       "automerge": true
