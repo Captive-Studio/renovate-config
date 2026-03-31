@@ -1,16 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "packageRules": [
-    {
-      "description": "Expo-doctor: conserver des ranges (^) pour certaines deps attendues par le SDK Expo",
-      "matchManagers": ["npm"],
-      "matchPackageNames": [
-        "@react-navigation/bottom-tabs",
-        "@react-navigation/native"
-      ],
-      "rangeStrategy": "bump"
-    },
-    {
+      {
       "groupName": "Expo & React Native core",
       "matchManagers": ["npm"],
       "addLabels": ["warning"],
@@ -44,6 +35,8 @@
       "description": "Ne pas mettre à jour les deps verrouillées par Expo",
       "matchPackageNames": [
         "@react-native-community/netinfo",
+        "@react-navigation/bottom-tabs",
+        "@react-navigation/native",
         "react-native-safe-area-context",
         "react-native-reanimated",
         "react-native-gesture-handler"
