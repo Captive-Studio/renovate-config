@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.102.2"
+    renovate: "npm:43.102.5"
     vitest: "npm:4.1.2"
   languageName: unknown
   linkType: soft
@@ -2545,15 +2545,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/detect-tools@npm:2.0.0":
-  version: 2.0.0
-  resolution: "@renovatebot/detect-tools@npm:2.0.0"
+"@renovatebot/detect-tools@npm:2.0.1":
+  version: 2.0.1
+  resolution: "@renovatebot/detect-tools@npm:2.0.1"
   dependencies:
     fs-extra: "npm:^11.3.4"
     toml-eslint-parser: "npm:^0.12.0"
     upath: "npm:^2.0.1"
     zod: "npm:^3.25.76"
-  checksum: 10/5f082141589e8071edc2101232eeababf4a81794db3ed6931f4d4841911482584e124b3c571e2c95b65f2990f13b8556f8be6e43564216d342d22c7657321b56
+  checksum: 10/8ac111a4e3178696c54faf356915d8bd62fe6790ef896a3491115ed7b75084ee0e3f591b646313b2440b03f689f36be2870b82915aa1d599e68046456bedf117
   languageName: node
   linkType: hard
 
@@ -10412,9 +10412,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.102.2":
-  version: 43.102.2
-  resolution: "renovate@npm:43.102.2"
+"renovate@npm:43.102.5":
+  version: 43.102.5
+  resolution: "renovate@npm:43.102.5"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1021.0"
     "@aws-sdk/client-ec2": "npm:3.1021.0"
@@ -10444,7 +10444,7 @@ __metadata:
     "@pnpm/parse-overrides": "npm:1001.0.4"
     "@qnighy/marshal": "npm:0.1.3"
     "@redis/client": "npm:5.11.0"
-    "@renovatebot/detect-tools": "npm:2.0.0"
+    "@renovatebot/detect-tools": "npm:2.0.1"
     "@renovatebot/good-enough-parser": "npm:2.0.0"
     "@renovatebot/osv-offline": "npm:2.4.0"
     "@renovatebot/pep440": "npm:4.2.2"
@@ -10546,7 +10546,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/05352aa949e2a8e9ed9b83b3f748624a4e7c68636c351044e88c48587c54b36a4ef79ae5b92536569bab1e8121350ba97a79888a875660a140b983fd138d44d3
+  checksum: 10/91082461ffd74b3bf2f305fd90c0fbc9173a89a700a607808c09fb8d548e410f34a07fcb05fc271b4a1563cb745e84f1893f68641f61cc315a62b0a3d9dd11cf
   languageName: node
   linkType: hard
 
