@@ -4343,11 +4343,11 @@ __metadata:
   linkType: hard
 
 "baseline-browser-mapping@npm:^2.10.12":
-  version: 2.10.14
-  resolution: "baseline-browser-mapping@npm:2.10.14"
+  version: 2.10.15
+  resolution: "baseline-browser-mapping@npm:2.10.15"
   bin:
     baseline-browser-mapping: dist/cli.cjs
-  checksum: 10/87af5698be54da1f76bcf7833df071965ea62fed92c3ac4b0fad35c8c788ece9a4193148befca91fe19aecec7d13d9ec6d2d55931cc6b46dd1f5b1c8248cda9b
+  checksum: 10/bc84f12b068f9558261d323777efff2e260f228f614346ad45c52f974912b3cb2c851032fac39b31939589ad55057ca583983d25644fe5ad406f948f0d6f0c0c
   languageName: node
   linkType: hard
 
