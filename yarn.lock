@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.104.6"
+    renovate: "npm:43.104.7"
     vitest: "npm:4.1.2"
   languageName: unknown
   linkType: soft
@@ -4143,10 +4143,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"ae-cvss-calculator@npm:1.0.11":
-  version: 1.0.11
-  resolution: "ae-cvss-calculator@npm:1.0.11"
-  checksum: 10/3278eb057ec209b24bc86ab0acf92b926421ff50b36eee365a5544c5985183b20f30c3ae37c73dcd35fcbb85cb2fac36b46207148e9183889041605e9b54f37d
+"ae-cvss-calculator@npm:1.0.12":
+  version: 1.0.12
+  resolution: "ae-cvss-calculator@npm:1.0.12"
+  checksum: 10/1dc617731c6e7303adc4ecd44a018144053180c4cc150c955c2958790ea641ff303a1bb6ac5a1026bbb5bfac89969f26e2faff69f13b869fc99f724d233b9e56
   languageName: node
   linkType: hard
 
@@ -10193,9 +10193,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.104.6":
-  version: 43.104.6
-  resolution: "renovate@npm:43.104.6"
+"renovate@npm:43.104.7":
+  version: 43.104.7
+  resolution: "renovate@npm:43.104.7"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1021.0"
     "@aws-sdk/client-ec2": "npm:3.1021.0"
@@ -10234,7 +10234,7 @@ __metadata:
     "@sindresorhus/is": "npm:7.2.0"
     "@yarnpkg/core": "npm:4.6.0"
     "@yarnpkg/parsers": "npm:3.0.3"
-    ae-cvss-calculator: "npm:1.0.11"
+    ae-cvss-calculator: "npm:1.0.12"
     agentkeepalive: "npm:4.6.0"
     async-mutex: "npm:0.5.0"
     aws4: "npm:1.13.2"
@@ -10326,7 +10326,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/f0b6d7cdc243746dcc69c3daa7005ceb764eca5feb65f2fab39905df5f702feaadfe3f94899b87cd381ef7a34976fc481cc74d59080b5495cc8946a0c4904505
+  checksum: 10/bf303079e6cd730cb7570071ce256516774099ff3da40f5529f2067529b8087e70583b8b97d34d0ca13e3188244a7204d157ce0938636bdaec839ad2283cf846
   languageName: node
   linkType: hard
 
