@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.104.8"
+    renovate: "npm:43.104.11"
     vitest: "npm:4.1.2"
   languageName: unknown
   linkType: soft
@@ -7942,19 +7942,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"jsonc-morph@npm:^0.3.1":
-  version: 0.3.2
-  resolution: "jsonc-morph@npm:0.3.2"
-  checksum: 10/bc2d4b926ef9264e43a4a3f8ebe0c54e0547df83734e4d70949a63bbe174e4c9621b422e001c05f8b316092fd51385931cdb190170ee19adfd3aec1c40d63fb2
+"jsonc-morph@npm:^0.3.3":
+  version: 0.3.3
+  resolution: "jsonc-morph@npm:0.3.3"
+  checksum: 10/1268851102236f2865300a8f9e97b0ef9a7547a4facc2400b3c67131aeb6878fbc1608dca798765c091f08903dac99d41c3b026dd4f9f01644990dbd7596986d
   languageName: node
   linkType: hard
 
-"jsonc-weaver@npm:0.2.2":
-  version: 0.2.2
-  resolution: "jsonc-weaver@npm:0.2.2"
+"jsonc-weaver@npm:0.2.4":
+  version: 0.2.4
+  resolution: "jsonc-weaver@npm:0.2.4"
   dependencies:
-    jsonc-morph: "npm:^0.3.1"
-  checksum: 10/973f3a99f9222e0f17cf76fd354566ca734148c9b8edb6614e43b68153a73a31a470fc9ed94c475c9545f8170d83c1f578f75500da4c4567972e440bab3727ff
+    jsonc-morph: "npm:^0.3.3"
+  checksum: 10/f8be3d2882f67856a1d916d8a34483d912637d954747eb97b2e37f69713ba83ae6fa1ae2eb94286d072f2eb10d3cc1630a966a1ac32f7bb25c59d4a7da6d7cac
   languageName: node
   linkType: hard
 
@@ -9122,7 +9122,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"nan@npm:^2.14.0, nan@npm:^2.25.0":
+"nan@npm:^2.14.0, nan@npm:^2.26.2":
   version: 2.26.2
   resolution: "nan@npm:2.26.2"
   dependencies:
@@ -10006,14 +10006,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"re2@npm:1.23.3":
-  version: 1.23.3
-  resolution: "re2@npm:1.23.3"
+"re2@npm:1.24.0":
+  version: 1.24.0
+  resolution: "re2@npm:1.24.0"
   dependencies:
     install-artifact-from-github: "npm:^1.4.0"
-    nan: "npm:^2.25.0"
+    nan: "npm:^2.26.2"
     node-gyp: "npm:^12.2.0"
-  checksum: 10/30b5b583e571d2bc1673d96271bf39a2bed9a5517eb2f7b0f957ba0d596236ff1f27b02902c7cd03126606a9cf2bfb6eb86fbe43cbc7c2a4164935a123f7e5d3
+  checksum: 10/5c1d4824ae6345d3c1e24180321c2fa68865e986ec0ff8899ac2ff3e486b5ffc349190567d55e76776fcd66d38e52e12f26b91f70b44d0f53336d96cfedb8203
   languageName: node
   linkType: hard
 
@@ -10184,9 +10184,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.104.8":
-  version: 43.104.8
-  resolution: "renovate@npm:43.104.8"
+"renovate@npm:43.104.11":
+  version: 43.104.11
+  resolution: "renovate@npm:43.104.11"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1021.0"
     "@aws-sdk/client-ec2": "npm:3.1021.0"
@@ -10266,7 +10266,7 @@ __metadata:
     json-stringify-pretty-compact: "npm:4.0.0"
     json5: "npm:2.2.3"
     jsonata: "npm:2.1.0"
-    jsonc-weaver: "npm:0.2.2"
+    jsonc-weaver: "npm:0.2.4"
     klona: "npm:2.0.6"
     luxon: "npm:3.7.2"
     markdown-it: "npm:14.1.1"
@@ -10285,7 +10285,7 @@ __metadata:
     prettier: "npm:3.8.1"
     protobufjs: "npm:8.0.0"
     punycode: "npm:2.3.1"
-    re2: "npm:1.23.3"
+    re2: "npm:1.24.0"
     remark: "npm:15.0.1"
     remark-gfm: "npm:4.0.1"
     remark-github: "npm:12.0.0"
@@ -10317,7 +10317,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/c36e9c04356501cb234a45aad3b630b935b7e3b207c6b2e7b7e26f06485873bb45347a2d657d83de22ec7c546ed36675cbed674dee9b696f18e89b1d0662e980
+  checksum: 10/14af6bcac6efc8a61d718055362e9988fa10ca7550f7d3d7af361176d57e0c7e31bc7e19d76af8e736ee21fda11aeac9a98d7ef77ffe8a79362770a2c450aefe
   languageName: node
   linkType: hard
 
