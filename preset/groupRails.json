@@ -10,18 +10,18 @@
       "matchManagers": ["bundler", "npm"],
       "matchPackagePrefixes": ["@rails/"],
       "matchPackageNames": ["rails"],
-      "matchUpdateTypes": ["major"],
-      "addLabels": ["major-upgrade", "manual-review"],
+      "matchUpdateTypes": ["major", "minor"],
+      "addLabels": ["manual-review"],
       "prBodyNotes": [
-        "Fermée automatiquement : montée majeure de Rails nécessitant un traitement manuel."
+        "Mise à jour de Rails (major/minor) : nécessite un traitement manuel. PR créée uniquement après approbation via Dependency Dashboard. Avant de traiter cette mise à jour, lis le standard : https://www.notion.so/captive/Rails-Mettre-jour-une-application-f96ef5af0ba4490194bdf09a6a1293ff"
       ],
       "prCreation": "not-pending",
       "automerge": false,
-      "autoclose": true
+      "dependencyDashboardApproval": true
     },
     {
       "groupName": "ByeBug & Pry-ByeBug",
-      "matchPackageNames": ["byebue", "pry-byebug"]
+      "matchPackageNames": ["byebug", "pry-byebug"]
     }
   ]
 }
