@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.1"
-    renovate: "npm:43.110.2"
+    renovate: "npm:43.110.4"
     vitest: "npm:4.1.3"
   languageName: unknown
   linkType: soft
@@ -9612,13 +9612,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-queue@npm:9.1.0":
-  version: 9.1.0
-  resolution: "p-queue@npm:9.1.0"
+"p-queue@npm:9.1.1":
+  version: 9.1.1
+  resolution: "p-queue@npm:9.1.1"
   dependencies:
     eventemitter3: "npm:^5.0.1"
     p-timeout: "npm:^7.0.0"
-  checksum: 10/7221f58c20852fe1d9283fdcfb2c62628384daf4ccd7a936ba826637d41e1e66f606bc2eaa6d1705513daccb47c21eb890400fc0a91f8566c83d176e63fd3664
+  checksum: 10/5d071056ee5531bf5eae6e7618cdc312558fec82296c7a1abca7fae478e3d3bb1f181ae167c7bf7762041c1f8fba3504588e1456bff39d2b5185516015c080e0
   languageName: node
   linkType: hard
 
@@ -10184,9 +10184,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.110.2":
-  version: 43.110.2
-  resolution: "renovate@npm:43.110.2"
+"renovate@npm:43.110.4":
+  version: 43.110.4
+  resolution: "renovate@npm:43.110.4"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1021.0"
     "@aws-sdk/client-ec2": "npm:3.1021.0"
@@ -10279,7 +10279,7 @@ __metadata:
     openpgp: "npm:6.3.0"
     p-all: "npm:5.0.1"
     p-map: "npm:7.0.4"
-    p-queue: "npm:9.1.0"
+    p-queue: "npm:9.1.1"
     p-throttle: "npm:8.1.0"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.8.1"
@@ -10317,7 +10317,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/a130ecc6ac5d4a6996e8c72008cbe380dfb21849d8b11f34cde6f781a687166abad420e876469ff2cdafb0eef2badabbee39881ee7ce6a770d944590f01de1b5
+  checksum: 10/f93956f238b570eb6ee88d82651aa3e516f9bde7eede92627c4f76cda4ff867cee9481e913adddb601f71a46469eb9aa57f70a7bee429fecdd8c5583acbb811c
   languageName: node
   linkType: hard
 
