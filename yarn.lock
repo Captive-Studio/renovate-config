@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.2"
-    renovate: "npm:43.113.0"
+    renovate: "npm:43.115.1"
     vitest: "npm:4.1.4"
   languageName: unknown
   linkType: soft
@@ -2812,6 +2812,22 @@ __metadata:
   version: 0.4.1
   resolution: "@sec-ant/readable-stream@npm:0.4.1"
   checksum: 10/aac89581652ac85debe7c5303451c2ebf8bf25ca25db680e4b9b73168f6940616d9a4bbe3348981827b1159b14e2f2e6af4b7bd5735cac898c12d5c51909c102
+  languageName: node
+  linkType: hard
+
+"@simple-git/args-pathspec@npm:^1.0.2, @simple-git/args-pathspec@npm:^1.0.3":
+  version: 1.0.3
+  resolution: "@simple-git/args-pathspec@npm:1.0.3"
+  checksum: 10/74bcc00123cd0da800fc5a6417f83f2f4fce66eb38749efc2ca3b6e4c431c6edaabe80c5834714c155f6ba07582069b182420eda27a601353fb5a3b48917d7e0
+  languageName: node
+  linkType: hard
+
+"@simple-git/argv-parser@npm:^1.0.3":
+  version: 1.1.1
+  resolution: "@simple-git/argv-parser@npm:1.1.1"
+  dependencies:
+    "@simple-git/args-pathspec": "npm:^1.0.3"
+  checksum: 10/89f49ee1e9a936318d443a21b04fa8adcd7a3fa4d2d9ebc947d6d4f347d65db5fbcfec37f3d75711f2724d7886506f3003144735e244e1eea6badef58696d99f
   languageName: node
   linkType: hard
 
@@ -9643,13 +9659,13 @@ __metadata:
   languageName: node
   linkType: hard
 
-"p-queue@npm:9.1.1":
-  version: 9.1.1
-  resolution: "p-queue@npm:9.1.1"
+"p-queue@npm:9.1.2":
+  version: 9.1.2
+  resolution: "p-queue@npm:9.1.2"
   dependencies:
     eventemitter3: "npm:^5.0.1"
     p-timeout: "npm:^7.0.0"
-  checksum: 10/5d071056ee5531bf5eae6e7618cdc312558fec82296c7a1abca7fae478e3d3bb1f181ae167c7bf7762041c1f8fba3504588e1456bff39d2b5185516015c080e0
+  checksum: 10/ed8e3c936aa15c9aa1a33805d4b5e740bd8bfb3bd825e0fb378ac4d496b0505233690c38af09f4fd3b677d0aa4e0d6b46f18c5779683db79d9914e2e8929ccf6
   languageName: node
   linkType: hard
 
@@ -10224,9 +10240,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.113.0":
-  version: 43.113.0
-  resolution: "renovate@npm:43.113.0"
+"renovate@npm:43.115.1":
+  version: 43.115.1
+  resolution: "renovate@npm:43.115.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1021.0"
     "@aws-sdk/client-ec2": "npm:3.1021.0"
@@ -10319,7 +10335,7 @@ __metadata:
     openpgp: "npm:6.3.0"
     p-all: "npm:5.0.1"
     p-map: "npm:7.0.4"
-    p-queue: "npm:9.1.1"
+    p-queue: "npm:9.1.2"
     p-throttle: "npm:8.1.0"
     parse-link-header: "npm:2.0.0"
     prettier: "npm:3.8.1"
@@ -10335,7 +10351,7 @@ __metadata:
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:3.0.0"
-    simple-git: "npm:3.33.0"
+    simple-git: "npm:3.35.2"
     slugify: "npm:1.6.9"
     source-map-support: "npm:0.5.21"
     strip-json-comments: "npm:5.0.3"
@@ -10357,7 +10373,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/decdc9704da31043e5abd9f5edb75cd4b650f80006074f4ba574a80d27d602aa14409cacf6b836c4b524e5f042a9b33c03b21e95cf8dd05ada16a470d70d37fd
+  checksum: 10/c0f17b21831e45c905ae21b1cd65935ef52e992be1411895b6ab5455a9732ede9b8f6d4340fdfab0cc015e133c3d4ff943909b81fa7d027ca88f566ebfcf7d3b
   languageName: node
   linkType: hard
 
@@ -10868,14 +10884,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.33.0":
-  version: 3.33.0
-  resolution: "simple-git@npm:3.33.0"
+"simple-git@npm:3.35.2":
+  version: 3.35.2
+  resolution: "simple-git@npm:3.35.2"
   dependencies:
     "@kwsites/file-exists": "npm:^1.1.1"
     "@kwsites/promise-deferred": "npm:^1.1.1"
+    "@simple-git/args-pathspec": "npm:^1.0.2"
+    "@simple-git/argv-parser": "npm:^1.0.3"
     debug: "npm:^4.4.0"
-  checksum: 10/5175133df68053f52db3c160e060939ec6584409378e89cc5e57f60a00739a507a99a7dbcec0401925fdfdca9c9c60ec6ef84d9669e815d0806f4c18bf7aa820
+  checksum: 10/4bfb2ac73041db774e8cfaefbc97e4cacf2725d955e458e135647209829336505223128f928aac9f86b92e30d0e7c4128daad0268a1303c2d88fda8be1fda0d1
   languageName: node
   linkType: hard
 
