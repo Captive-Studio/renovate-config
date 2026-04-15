@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.3"
-    renovate: "npm:43.115.1"
+    renovate: "npm:43.116.1"
     vitest: "npm:4.1.4"
   languageName: unknown
   linkType: soft
@@ -2664,10 +2664,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@renovatebot/pgp@npm:1.3.4":
-  version: 1.3.4
-  resolution: "@renovatebot/pgp@npm:1.3.4"
-  checksum: 10/a74d321f231af3e056dfe80aa859da3c98b10d641b3bb532196142990a767f8336d40b3b1cda0ba212f51e3e60f400ad781ae3d947ed066a5bcd573b46262bb3
+"@renovatebot/pgp@npm:1.3.5":
+  version: 1.3.5
+  resolution: "@renovatebot/pgp@npm:1.3.5"
+  checksum: 10/a0b672b18176a5bff3c0353bd94930928381b17540887abc02dbefaa95e954f6c7f5acdbab0990f5a08f88569d0dcae64c1cd000fc648a7c4c756a45239d017f
   languageName: node
   linkType: hard
 
@@ -10240,9 +10240,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.115.1":
-  version: 43.115.1
-  resolution: "renovate@npm:43.115.1"
+"renovate@npm:43.116.1":
+  version: 43.116.1
+  resolution: "renovate@npm:43.116.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1021.0"
     "@aws-sdk/client-ec2": "npm:3.1021.0"
@@ -10276,7 +10276,7 @@ __metadata:
     "@renovatebot/good-enough-parser": "npm:2.0.0"
     "@renovatebot/osv-offline": "npm:2.4.1"
     "@renovatebot/pep440": "npm:4.2.2"
-    "@renovatebot/pgp": "npm:1.3.4"
+    "@renovatebot/pgp": "npm:1.3.5"
     "@renovatebot/ruby-semver": "npm:4.1.2"
     "@sindresorhus/is": "npm:7.2.0"
     "@yarnpkg/core": "npm:4.6.0"
@@ -10373,7 +10373,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/c0f17b21831e45c905ae21b1cd65935ef52e992be1411895b6ab5455a9732ede9b8f6d4340fdfab0cc015e133c3d4ff943909b81fa7d027ca88f566ebfcf7d3b
+  checksum: 10/33e0efc7a42c7b67fb22edb8851eeffdef20993e029fd16571585b4eacd81c28e1c06fb48ec2e15a8b01f8a644f35ccde78f6c1a79c543b78de5fee888ca324f
   languageName: node
   linkType: hard
 
