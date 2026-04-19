@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.3"
-    renovate: "npm:43.129.0"
+    renovate: "npm:43.129.1"
     vitest: "npm:4.1.4"
   languageName: unknown
   linkType: soft
@@ -2848,14 +2848,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@simple-git/args-pathspec@npm:^1.0.2, @simple-git/args-pathspec@npm:^1.0.3":
+"@simple-git/args-pathspec@npm:^1.0.3":
   version: 1.0.3
   resolution: "@simple-git/args-pathspec@npm:1.0.3"
   checksum: 10/74bcc00123cd0da800fc5a6417f83f2f4fce66eb38749efc2ca3b6e4c431c6edaabe80c5834714c155f6ba07582069b182420eda27a601353fb5a3b48917d7e0
   languageName: node
   linkType: hard
 
-"@simple-git/argv-parser@npm:^1.0.3":
+"@simple-git/argv-parser@npm:^1.1.0":
   version: 1.1.1
   resolution: "@simple-git/argv-parser@npm:1.1.1"
   dependencies:
@@ -10273,9 +10273,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.129.0":
-  version: 43.129.0
-  resolution: "renovate@npm:43.129.0"
+"renovate@npm:43.129.1":
+  version: 43.129.1
+  resolution: "renovate@npm:43.129.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1021.0"
     "@aws-sdk/client-ec2": "npm:3.1021.0"
@@ -10385,7 +10385,7 @@ __metadata:
     semver-stable: "npm:3.0.0"
     semver-utils: "npm:1.1.4"
     shlex: "npm:3.0.0"
-    simple-git: "npm:3.35.2"
+    simple-git: "npm:3.36.0"
     slugify: "npm:1.6.9"
     source-map-support: "npm:0.5.21"
     strip-json-comments: "npm:5.0.3"
@@ -10407,7 +10407,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/7e753e7b7f2a10394df541a16530bd9c874e806fc467b70591f5a6221ede8209759aaa713d620f8ce1e75abfc31cd5d3b0ff0f786601a57173eb3d78e72e8f1b
+  checksum: 10/88ebd3aea1020f88d7085f4805ace307884bdef1eb3ae87c120fc4caad8a8dbdc6b23fbaac513d394e0bb319418bf29a50efd28e1462c173ca5fc6b66125c426
   languageName: node
   linkType: hard
 
@@ -10918,16 +10918,16 @@ __metadata:
   languageName: node
   linkType: hard
 
-"simple-git@npm:3.35.2":
-  version: 3.35.2
-  resolution: "simple-git@npm:3.35.2"
+"simple-git@npm:3.36.0":
+  version: 3.36.0
+  resolution: "simple-git@npm:3.36.0"
   dependencies:
     "@kwsites/file-exists": "npm:^1.1.1"
     "@kwsites/promise-deferred": "npm:^1.1.1"
-    "@simple-git/args-pathspec": "npm:^1.0.2"
-    "@simple-git/argv-parser": "npm:^1.0.3"
+    "@simple-git/args-pathspec": "npm:^1.0.3"
+    "@simple-git/argv-parser": "npm:^1.1.0"
     debug: "npm:^4.4.0"
-  checksum: 10/4bfb2ac73041db774e8cfaefbc97e4cacf2725d955e458e135647209829336505223128f928aac9f86b92e30d0e7c4128daad0268a1303c2d88fda8be1fda0d1
+  checksum: 10/79a745464798bce17fc5c286ff4a44ba07d368a745d03d31f3c3cef51bd63b98dc29e72f55dda087b64e5db90e5e9f91a7429543ddf08d105d9a069c525e6818
   languageName: node
   linkType: hard
 
