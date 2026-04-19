@@ -1141,7 +1141,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:8.0.4"
     prettier: "npm:3.8.3"
-    renovate: "npm:43.132.0"
+    renovate: "npm:43.132.1"
     vitest: "npm:4.1.4"
   languageName: unknown
   linkType: soft
@@ -4498,14 +4498,14 @@ __metadata:
   languageName: node
   linkType: hard
 
-"better-sqlite3@npm:12.8.0":
-  version: 12.8.0
-  resolution: "better-sqlite3@npm:12.8.0"
+"better-sqlite3@npm:12.9.0":
+  version: 12.9.0
+  resolution: "better-sqlite3@npm:12.9.0"
   dependencies:
     bindings: "npm:^1.5.0"
     node-gyp: "npm:latest"
     prebuild-install: "npm:^7.1.1"
-  checksum: 10/63b943e5431ee2fed02796aa2bb452f19d08340bfcfee555c4865414d89262964b3b3e55324c5c5a0628247808b0ea25a357a62872a5e017455af6938b9a619a
+  checksum: 10/0b32b06140f2a98ce7fbcf7d30b56b46e16d0b6fbfb63157a7bb61dea7265e176ab362d439785e852716a03a130db5f0ab356b6a68cbcb23d59a362c1a8b01d4
   languageName: node
   linkType: hard
 
@@ -10273,9 +10273,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.132.0":
-  version: 43.132.0
-  resolution: "renovate@npm:43.132.0"
+"renovate@npm:43.132.1":
+  version: 43.132.1
+  resolution: "renovate@npm:43.132.1"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1021.0"
     "@aws-sdk/client-ec2": "npm:3.1021.0"
@@ -10319,7 +10319,7 @@ __metadata:
     async-mutex: "npm:0.5.0"
     aws4: "npm:1.13.2"
     azure-devops-node-api: "npm:15.1.2"
-    better-sqlite3: "npm:12.8.0"
+    better-sqlite3: "npm:12.9.0"
     bunyan: "npm:1.8.15"
     cacache: "npm:20.0.4"
     changelog-filename-regex: "npm:2.0.1"
@@ -10407,7 +10407,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/b1496c0374bfd9c8c54aba7f47ce32c2bfb60dd33e08e92bbf5195e48e33aafc30a6fddf239a7e9010bcb47a9cd230681b08a5c0274f0d9872ae15cf4b791110
+  checksum: 10/959dc56a00d55e78ec4dade1320562816bfe469e6cc54d0f2b43b4669007decd42baf64ad35e99a44311076dde9e9428f986aabf03a45b5643248271d27b0eac
   languageName: node
   linkType: hard
 
