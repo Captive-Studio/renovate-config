@@ -5,6 +5,13 @@
       "groupName": "Ruby (CI and Lang)",
       "matchPackageNames": ["ruby-version", "cimg/ruby", "ruby", "docker.io/library/ruby"],
       "minimumReleaseAge": "3 days"
+    },
+    {
+      "groupName": "Ruby (CI and Lang)",
+      "matchPackageNames": ["ghcr.io/captive-studio/ruby-ci"],
+      "minimumReleaseAge": "2 days",
+      "prCreation": "not-pending",
+      "internalChecksFilter": "strict"
     }
   ]
 }
