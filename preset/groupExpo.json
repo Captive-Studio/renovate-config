@@ -37,6 +37,7 @@
         "@react-native-community/netinfo",
         "@react-navigation/bottom-tabs",
         "@react-navigation/native",
+        "@shopify/flash-list",
         "react-native-safe-area-context",
         "react-native-reanimated",
         "react-native-gesture-handler"
