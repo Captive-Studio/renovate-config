@@ -43,7 +43,8 @@
         "jest",
         "json-stringify-pretty-compact",
         "react-syntax-highlighter",
-        "react-select"
+        "react-select",
+        "@lottiefiles/dotlottie-react"
       ]
     },
     {
