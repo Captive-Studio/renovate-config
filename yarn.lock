@@ -3388,13 +3388,13 @@ __metadata:
   linkType: hard
 
 "@smithy/util-retry@npm:^4.2.13, @smithy/util-retry@npm:^4.3.6":
-  version: 4.3.6
-  resolution: "@smithy/util-retry@npm:4.3.6"
+  version: 4.3.8
+  resolution: "@smithy/util-retry@npm:4.3.8"
   dependencies:
     "@smithy/service-error-classification": "npm:^4.3.1"
     "@smithy/types": "npm:^4.14.1"
     tslib: "npm:^2.6.2"
-  checksum: 10/0e54ddad846552aba9ad2f52f1f0824b24f63ae11b2371b2214bce6b8e93db24c9e92fafe86e166580b13f179e867d512a124b192f24325354cf69bf1748d862
+  checksum: 10/1e093b8d1e8b00ba5a381cfc65cbeff80d5930823d73c253ab73d06449d397a8c2e045e4a201753557551f6518a215432562e326289a8209ac8ad57bdc11a0c9
   languageName: node
   linkType: hard
 
