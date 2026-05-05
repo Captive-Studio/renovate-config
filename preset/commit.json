@@ -5,9 +5,10 @@
   "commitMessageAction": "Upgrade",
   "packageRules": [
     {
-      "matchUpdateTypes": ["pin"],
+      "matchUpdateTypes": ["pin", "pinDigest"],
       "commitMessagePrefix": "📌",
-      "commitMessageAction": "Pin"
+      "commitMessageAction": "Pin",
+      "automerge": true
     },
     {
       "matchUpdateTypes": ["rollback"],
