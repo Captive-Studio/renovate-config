@@ -1,0 +1,15 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "packageRules": [
+    {
+      "matchPackageNames": ["axios"],
+      "matchUpdateTypes": ["major", "minor"],
+      "matchManagers": ["npm"],
+      "addLabels": ["manual-review"],
+      "prHeader": [
+        "Il y a déjà eu des BREAKING CHANGES par le passé. Vérifie avec le changelog avant de merger."
+      ],
+      "automerge": false
+    }
+  ]
+}
