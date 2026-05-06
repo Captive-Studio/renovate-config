@@ -3,7 +3,7 @@
   "description": "Default base configuration for all Captive projects.",
   "dependencyDashboard": true,
   "extends": [
-    "github>w5s/renovate-config:base",
+    "github>w5s/renovate-config:_base",
     "github>Captive-Studio/renovate-config//preset/commit",
     "github>Captive-Studio/renovate-config//preset/schedule",
     "workarounds:all"
