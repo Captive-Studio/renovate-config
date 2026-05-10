@@ -7832,9 +7832,9 @@ __metadata:
   linkType: hard
 
 "jsonc-morph@npm:^0.3.3":
-  version: 0.3.3
-  resolution: "jsonc-morph@npm:0.3.3"
-  checksum: 10/1268851102236f2865300a8f9e97b0ef9a7547a4facc2400b3c67131aeb6878fbc1608dca798765c091f08903dac99d41c3b026dd4f9f01644990dbd7596986d
+  version: 0.3.4
+  resolution: "jsonc-morph@npm:0.3.4"
+  checksum: 10/4cd2905b4ed0ba57850acd6caf7f1395835b3903385e2d5940e6840cb486f42743667a95bf8fe154c6b3b04d2908fb85d82205192612b540eb63dba17937c508
   languageName: node
   linkType: hard
 
