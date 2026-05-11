@@ -29,9 +29,9 @@
     "develop": ":",
     "docs": "md-magic --path '**/*.md' --ignore='node_modules'",
     "format": "npx run-p \"format:*\"",
-    "format:src": "eslint . --cache --fix --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "format:src": "eslint \"**/*.{mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,vue,yml,yaml}\" --cache --fix",
     "lint": "npx run-p \"lint:*\"",
-    "lint:src": "eslint . --cache --ext=mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,yml,yaml",
+    "lint:src": "eslint \"**/*.{mjs,cjs,js,jsx,ts,tsx,json,jsonc,json5,vue,yml,yaml}\" --cache",
     "mrm": "npm exec --package=mrm --package=@w5s/mrm-preset@latest -- mrm --preset @w5s/mrm-preset",
     "postinstall": "npx run-p \"postinstall:*\"",
     "postinstall:githooks": "[ -n \"${CI:-}\" ] || git config core.hooksPath .githooks",
@@ -43,12 +43,7 @@
     "test": "npx run-p \"test:*\"",
     "test:renovate-config": "test/test.sh",
     "test:unit": "vitest run",
-    "validate": "npm run build && npm run lint && npm test"
-  },
-  "commitlint": {
-    "extends": [
-      "@captive/commitlint-config"
-    ]
+    "validate": "npm run build && npm run lint && npm run test"
   },
   "lint-staged": {
     "*.js?(x)": [
@@ -64,16 +59,9 @@
       "eslint"
     ]
   },
-  "eslintConfig": {
-    "extends": [
-      "@captive/eslint-config"
-    ],
-    "root": true
-  },
   "devDependencies": {
-    "@captive/commitlint-config": "2.1.15",
     "@captive/cspell-config": "2.4.21",
-    "@captive/eslint-config": "2.0.32",
+    "@eslint/eslintrc": "^3.3.5",
     "cspell": "10.0.0",
     "eslint": "10.3.0",
     "markdown-magic": "4.8.0",

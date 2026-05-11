@@ -1,5 +1,0 @@
-#!/bin/sh
-
-# BEGIN MANAGED BLOCK
-npm exec -- commitlint --edit $1
-# END MANAGED BLOCK

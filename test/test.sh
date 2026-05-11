@@ -1,7 +1,8 @@
 #!/bin/sh
 set -e
 
-preset_files=$(grep -lri --include="*.json" "https://docs.renovatebot.com/renovate-schema.json" .)
+preset_files=$(grep -lri --include="*.json" "https://docs.renovatebot.com/renovate-schema.json" --exclude-dir=node_modules \
+  --exclude-dir=.claude .)
 
 for preset_file in $preset_files
 do

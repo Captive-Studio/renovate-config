@@ -13,9 +13,7 @@
       "description": "Automerge des packages de confiance, y compris en majeure",
       "matchManagers": ["npm"],
       "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": [
-        "lint-staged"
-      ],
+      "matchPackageNames": ["lint-staged"],
       "automerge": true
     },
     {
