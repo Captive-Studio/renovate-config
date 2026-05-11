@@ -12,6 +12,11 @@
       ],
       "minimumReleaseAge": "3 days",
       "automerge": true
+    },
+    {
+      "_comment": "GHCR n'expose pas encore de release timestamps (https://github.com/renovatebot/renovate/issues/39064). Comme on a internalChecksFilter=strict, renovate ne crée jamais la PR. Désactiver minimumReleaseAge pour les images GHCR permet de contourner ce problème.",
+      "matchRegistryUrls": ["ghcr.io"],
+      "minimumReleaseAge": ""
     }
   ]
 }
