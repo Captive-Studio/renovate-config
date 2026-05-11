@@ -10,6 +10,15 @@
       "automerge": true
     },
     {
+      "description": "Automerge des packages de confiance, y compris en majeure",
+      "matchManagers": ["npm"],
+      "matchDepTypes": ["devDependencies"],
+      "matchPackageNames": [
+        "lint-staged"
+      ],
+      "automerge": true
+    },
+    {
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "matchPackageNames": [
