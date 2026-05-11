@@ -6,7 +6,6 @@ exports[`Configuration snapshot > application.json 1`] = `
   "description": "Default configuration for an application",
   "extends": [
     "github>Captive-Studio/renovate-config:recommended",
-    ":pinDevDependencies",
   ],
 }
 `;
@@ -31,9 +30,10 @@ exports[`Configuration snapshot > base.json 1`] = `
   "dependencyDashboard": true,
   "description": "Default base configuration for all Captive projects.",
   "extends": [
-    "github>w5s/renovate-config:base",
+    "github>w5s/renovate-config:_base",
     "github>Captive-Studio/renovate-config//preset/commit",
     "github>Captive-Studio/renovate-config//preset/schedule",
+    "github>Captive-Studio/renovate-config//preset/automergeBase",
     "workarounds:all",
   ],
   "onboarding": false,
@@ -67,9 +67,9 @@ exports[`Configuration snapshot > base.json 1`] = `
     },
   ],
   "platformAutomerge": true,
-  "prConcurrentLimit": 20,
+  "prConcurrentLimit": 5,
   "prHourlyLimit": 0,
-  "updateNotScheduled": false,
+  "updateNotScheduled": true,
 }
 `;
 
@@ -80,29 +80,6 @@ exports[`Configuration snapshot > library.json 1`] = `
   "extends": [
     "github>Captive-Studio/renovate-config:recommended",
     ":pinOnlyDevDependencies",
-  ],
-  "packageRules": [
-    {
-      "automerge": true,
-      "matchCategories": [
-        "node",
-        "ruby",
-      ],
-      "matchDepTypes": [
-        "minor",
-        "patch",
-      ],
-    },
-    {
-      "automerge": true,
-      "matchDepTypes": [
-        "minor",
-        "patch",
-      ],
-      "matchManagers": [
-        "asdf",
-      ],
-    },
   ],
 }
 `;
