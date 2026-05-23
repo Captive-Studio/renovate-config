@@ -9,6 +9,7 @@
   "extends": [
     "github>Captive-Studio/renovate-config:base",
     "github>Captive-Studio/renovate-config//preset/groupRecommended",
+    "github>Captive-Studio/renovate-config//preset/captivePlatformWorkflows",
     ":separateMultipleMajorReleases",
     ":separateMultipleMinorReleases",
     ":pinAllExceptPeerDependencies"
