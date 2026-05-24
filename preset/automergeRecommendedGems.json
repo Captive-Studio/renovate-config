@@ -22,7 +22,6 @@
       "description": "Automerge ActiveStorage en major pour 7.x → 8.x uniquement",
       "matchManagers": ["bundler"],
       "matchPackageNames": ["activestorage"],
-      "matchUpdateTypes": ["major"],
       "matchCurrentVersion": "/^7\\./",
       "allowedVersions": ">=8.0.0 <9.0.0",
       "automerge": true
