@@ -1,0 +1,11 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Désactive le pin de digest pour les workflows réutilisables de captive-platform. Ces workflows sont référencés par @main dans les repos d'app ; Renovate ne doit pas les convertir en digest (qui changerait à chaque commit de la plateforme).",
+  "packageRules": [
+    {
+      "matchManagers": ["github-actions"],
+      "matchPackageNames": ["Captive-Studio/captive-platform"],
+      "pinDigests": false
+    }
+  ]
+}
