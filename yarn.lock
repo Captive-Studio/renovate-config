@@ -2600,7 +2600,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@smithy/credential-provider-imds@npm:^4.2.14":
+"@smithy/credential-provider-imds@npm:^4.2.14, @smithy/credential-provider-imds@npm:^4.3.5":
   version: 4.3.6
   resolution: "@smithy/credential-provider-imds@npm:4.3.6"
   dependencies:
@@ -2608,17 +2608,6 @@ __metadata:
     "@smithy/types": "npm:^4.14.2"
     tslib: "npm:^2.6.2"
   checksum: 10/fce5edf0ea29ba90cb7d72509952654e346e99fc6dc7aa3f67fb0b4dfae96edb60210e0053bd379b5b2b129890d399ab453294b062012674d2270c3566bae4e4
-  languageName: node
-  linkType: hard
-
-"@smithy/credential-provider-imds@npm:^4.3.5":
-  version: 4.3.5
-  resolution: "@smithy/credential-provider-imds@npm:4.3.5"
-  dependencies:
-    "@smithy/core": "npm:^3.24.5"
-    "@smithy/types": "npm:^4.14.2"
-    tslib: "npm:^2.6.2"
-  checksum: 10/b083b9288e49be13bddf3fee2bf289e921bbdee68b19189120e7a1aee70fe2e562e100fcd67b9a4a5b9cd139b27a279495cd83ecb2d10729cb30a76b253fed86
   languageName: node
   linkType: hard
 
@@ -6005,9 +5994,9 @@ __metadata:
   linkType: hard
 
 "json-alexander@npm:^0.1.13":
-  version: 0.1.13
-  resolution: "json-alexander@npm:0.1.13"
-  checksum: 10/609e47dbdfa49af2f9613dd8cca909949ebd3dc14b4ff5a39a1081b936b472db97a44b6e174af2eb575ad25f1a8edeea5cc78e3e4e3728df443f399912866d05
+  version: 0.1.14
+  resolution: "json-alexander@npm:0.1.14"
+  checksum: 10/c0561345887d65a511d5d0a001ee5f664d0f5750f982eacc15c2da4e1d8f0f91af2d73ab2138412b99d85ce479e9fdbe7c316f108f39936c51590efaec4f4b5c
   languageName: node
   linkType: hard
 
