@@ -8,6 +8,7 @@
     "github>Captive-Studio/renovate-config//preset/groupCaptiveSdkMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupFlipperMonorepo",
     "github>Captive-Studio/renovate-config//preset/groupIonicMonorepo",
+    "github>Captive-Studio/renovate-config//preset/groupImageProcessing",
     "github>Captive-Studio/renovate-config//preset/groupRails",
     "github>Captive-Studio/renovate-config//preset/groupRailsJs",
     "github>Captive-Studio/renovate-config//preset/groupRswagMonorepo",
