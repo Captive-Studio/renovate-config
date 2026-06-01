@@ -51,7 +51,8 @@
         "json-stringify-pretty-compact",
         "react-syntax-highlighter",
         "react-select",
-        "@lottiefiles/dotlottie-react"
+        "@lottiefiles/dotlottie-react",
+        "swiper"
       ]
     },
     {
