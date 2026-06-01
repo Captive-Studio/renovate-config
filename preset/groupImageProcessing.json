@@ -1,0 +1,13 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "description": "Autorise les mises à jour majeures du gem image_processing",
+  "packageRules": [
+    {
+      "matchManagers": ["bundler"],
+      "matchPackageNames": ["image_processing"],
+      "matchUpdateTypes": ["major"],
+      "automerge": true,
+      "dependencyDashboardApproval": false
+    }
+  ]
+}
