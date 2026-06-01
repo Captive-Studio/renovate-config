@@ -1,13 +1,17 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
-  "description": "Autorise les mises à jour majeures du gem image_processing",
+  "description": "Groupe image_processing et ruby-vips ensemble, car ruby-vips est devenu une dépendance soft à partir de image_processing v2",
   "packageRules": [
     {
+      "groupName": "[Ruby] image_processing & ruby-vips",
       "matchManagers": ["bundler"],
-      "matchPackageNames": ["image_processing"],
+      "matchPackageNames": ["image_processing", "ruby-vips"],
       "matchUpdateTypes": ["major"],
-      "automerge": true,
-      "dependencyDashboardApproval": false
+      "automerge": false,
+      "dependencyDashboardApproval": false,
+      "prBodyNotes": [
+        "⚠️ À partir de `image_processing` v2, `ruby-vips` est requis dans le Gemfile (dépendance soft). Si `ruby-vips` n'est pas encore présent, ajoutez-le manuellement : `gem 'ruby-vips'`."
+      ]
     }
   ]
 }
