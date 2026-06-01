@@ -976,7 +976,7 @@ __metadata:
     markdown-magic-subpackage-list: "npm:1.1.2"
     npm-run-all2: "npm:9.0.1"
     prettier: "npm:3.8.3"
-    renovate: "npm:43.204.1"
+    renovate: "npm:43.205.2"
     vitest: "npm:4.1.7"
   languageName: unknown
   linkType: soft
@@ -6316,7 +6316,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"linkify-it@npm:^5.0.0":
+"linkify-it@npm:^5.0.1":
   version: 5.0.1
   resolution: "linkify-it@npm:5.0.1"
   dependencies:
@@ -6424,19 +6424,19 @@ __metadata:
   languageName: node
   linkType: hard
 
-"markdown-it@npm:14.1.1":
-  version: 14.1.1
-  resolution: "markdown-it@npm:14.1.1"
+"markdown-it@npm:14.2.0":
+  version: 14.2.0
+  resolution: "markdown-it@npm:14.2.0"
   dependencies:
     argparse: "npm:^2.0.1"
     entities: "npm:^4.4.0"
-    linkify-it: "npm:^5.0.0"
+    linkify-it: "npm:^5.0.1"
     mdurl: "npm:^2.0.0"
     punycode.js: "npm:^2.3.1"
     uc.micro: "npm:^2.1.0"
   bin:
     markdown-it: bin/markdown-it.mjs
-  checksum: 10/088822c8aa9346ba4af6a205f6ee0f4baae55e3314f040dc5c28c897d57d0f979840c71872b3582a6a6e572d8c851c54e323c82f4559011dfa2e96224fc20fc2
+  checksum: 10/f5cdb7ca9c8115114137201590b2697ee6ca69d2d4701a0313696629d5de4022525eedcad31800263c70f04dfba0a8eae835b6aa84b65e94ae32d63d04e66211
   languageName: node
   linkType: hard
 
@@ -7955,9 +7955,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"renovate@npm:43.204.1":
-  version: 43.204.1
-  resolution: "renovate@npm:43.204.1"
+"renovate@npm:43.205.2":
+  version: 43.205.2
+  resolution: "renovate@npm:43.205.2"
   dependencies:
     "@aws-sdk/client-codecommit": "npm:3.1036.0"
     "@aws-sdk/client-ec2": "npm:3.1036.0"
@@ -8040,7 +8040,7 @@ __metadata:
     klona: "npm:2.0.6"
     lru-cache: "npm:11.5.0"
     luxon: "npm:3.7.2"
-    markdown-it: "npm:14.1.1"
+    markdown-it: "npm:14.2.0"
     markdown-table: "npm:3.0.4"
     minimatch: "npm:10.2.5"
     moo: "npm:0.5.3"
@@ -8086,7 +8086,7 @@ __metadata:
   bin:
     renovate: dist/renovate.js
     renovate-config-validator: dist/config-validator.js
-  checksum: 10/8a2fb53045f1ab899a45cf6fed3c94983df543a00b963eec7f1aa1aef032e9020a46d4ed1f0663656156c4757fff9c6fde0d0fbe0383de422aea2621159587bb
+  checksum: 10/52851dfda77eee6e38512492632af79d82b7e7d5e7abfcc0718a30ff979ad1173b058f88ac5bf48ddff7a2fffb357b40c25cc953aba1e5cd886ec093904ea683
   languageName: node
   linkType: hard
 
