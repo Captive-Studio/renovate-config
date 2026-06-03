@@ -69,7 +69,7 @@
     "markdown-magic-subpackage-list": "1.1.2",
     "npm-run-all2": "9.0.1",
     "prettier": "3.8.3",
-    "renovate": "43.205.2",
+    "renovate": "43.205.3",
     "vitest": "4.1.7"
   },
   "packageManager": "yarn@4.15.0",
