@@ -12,11 +12,14 @@
     {
       "description": "Automerge des packages de confiance, y compris en majeure",
       "matchManagers": ["npm"],
-      "matchDepTypes": ["devDependencies"],
-      "matchPackageNames": ["lint-staged"],
-      "automerge": true
+      "automerge": true,
+      "matchPackageNames": [
+        "lint-staged",
+        "uuid"
+      ]
     },
     {
+      "description": "Automerge des packages de confiance, sauf en majeure",
       "matchUpdateTypes": ["minor", "patch"],
       "automerge": true,
       "matchPackageNames": [
