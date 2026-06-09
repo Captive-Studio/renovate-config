@@ -25,6 +25,14 @@
       "matchCurrentVersion": "/^7\\./",
       "allowedVersions": ">=8.0.0 <9.0.0",
       "automerge": true
+    },
+    {
+      "description": "Automerge solid_cable en major pour 3.x → 4.x uniquement (pas de changement cassant hors drop Ruby 3.1)",
+      "matchManagers": ["bundler"],
+      "matchPackageNames": ["solid_cable"],
+      "matchCurrentVersion": "/^3\\./",
+      "allowedVersions": ">=4.0.0 <5.0.0",
+      "automerge": true
     }
   ]
 }
