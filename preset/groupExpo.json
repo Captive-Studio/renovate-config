@@ -32,6 +32,12 @@
       ]
     },
     {
+      "matchPackageNames": ["expo"],
+      "prBodyNotes": [
+        "⚠️ Vous pouvez clore cette PR. La mise à jour de Expo Go est une mise à jour facturable (au même titre que les mises à jour de Rails)"
+      ]
+    },
+    {
       "description": "Ne pas mettre à jour les deps verrouillées par Expo",
       "matchPackageNames": [
         "@react-native-community/netinfo",
